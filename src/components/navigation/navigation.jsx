@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../img/logo/logo-osoc-color.svg';
+import Logo from '../../assets/img/logo/logo-osoc-color.svg';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {

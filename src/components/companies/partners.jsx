@@ -1,11 +1,11 @@
 import React from 'react';
-import ArteveldeLogo from '../../img/partners-svg/artevelde-logo.svg';
-import BecentralLogo from '../../img/partners-svg/becentral-logo.svg';
-import BrusselMobilityLogo from '../../img/partners-svg/brussels-mobility-logo.svg';
-import STIBLogo from '../../img/partners-svg/brussels-mivb-stib-logo.svg';
-import CompasLogo from '../../img/partners-svg/compas-logo.svg';
-import CronosLogo from '../../img/partners-svg/cronos-groep-logo.svg';
-import MIWMLogo from '../../img/partners-svg/ministry-infrastructure-water-management-logo.svg';
+import ArteveldeLogo from '../../assets/img/partners-svg/artevelde-logo.svg';
+import BecentralLogo from '../../assets/img/partners-svg/becentral-logo.svg';
+import BrusselMobilityLogo from '../../assets/img/partners-svg/brussels-mobility-logo.svg';
+import STIBLogo from '../../assets/img/partners-svg/brussels-mivb-stib-logo.svg';
+import CompasLogo from '../../assets/img/partners-svg/compas-logo.svg';
+import CronosLogo from '../../assets/img/partners-svg/cronos-groep-logo.svg';
+import MIWMLogo from '../../assets/img/partners-svg/ministry-infrastructure-water-management-logo.svg';
 
 const Partners = () => {
   return (

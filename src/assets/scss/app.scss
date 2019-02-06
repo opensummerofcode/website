@@ -1,34 +1,34 @@
 @charset 'utf-8';
 
-@import 'settings';
-@import 'settings-play';
+@import '_settings.scss';
+@import '_settings-play.scss';
 
-@import 'color-helpers';
-@import 'borders';
-@import 'buttons';
-@import 'footer';
-@import 'grid';
-@import 'helpers';
-@import 'input';
-@import 'tabs';
-@import 'typography';
-@import 'shame';
+@import '_color-helpers.scss';
+@import '_borders.scss';
+@import '_buttons.scss';
+@import '_footer.scss';
+@import '_grid.scss';
+@import '_helpers.scss';
+@import '_input.scss';
+@import '_tabs.scss';
+@import '_typography.scss';
+@import '_shame.scss';
 
-@import 'header';
+@import '_header.scss';
 
-@import 'template-landing';
-@import 'template-detail';
+@import '_template-landing.scss';
+@import '_template-detail.scss';
 
-@import 'c-brag';
-@import 'c-partners';
-@import 'c-previous-editions';
-@import 'c-what';
-@import 'headshots';
+@import '_c-brag.scss';
+@import '_c-partners.scss';
+@import '_c-previous-editions.scss';
+@import '_c-what.scss';
+@import '_headshots.scss';
 
-@import 'projects';
+@import '_projects.scss';
 
-@import 'foundation';
-@import 'motion-ui';
+@import '~foundation-sites/scss/foundation';
+@import '~motion-ui/src/motion-ui';
 
 @include foundation-global-styles;
 // @include foundation-grid;

@@ -1,7 +1,7 @@
 import 'react-app-polyfill/ie9';
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import './app.css';
+import './assets/scss/app.scss';
 import App from './components/app/App';
 import * as serviceWorker from './serviceWorker';
 
