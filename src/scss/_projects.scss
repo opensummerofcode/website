@@ -1,0 +1,68 @@
+.project-github {
+  font-size: 1.5rem !important;
+}
+
+.flex-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.crest {
+  position: relative;
+  left: -0.5rem;
+  margin: 0 1rem 1rem 0;
+  max-height: 9rem;
+  display: block;
+}
+
+.project-section {
+  border-bottom: 1px solid $lighter-gray;
+}
+
+.partner-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: center;
+
+  a img {
+    opacity: 0.8;
+    filter: grayscale(100%);
+    transition: all 300ms;
+  }
+
+  a:hover img {
+    opacity: 1;
+    filter: none;
+  }
+
+  a {
+    display: block;
+    margin-top: 1rem;
+    color: $black;
+
+    &:hover {
+      color: $red;
+    }
+  }
+
+  img {
+    height: 5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .partner-section {
+    flex-direction: column !important;
+
+    .cell {
+      width: 90% !important;
+
+      &:not(:last-child) {
+        margin-bottom: 3em;
+      }
+    }
+  }
+}
