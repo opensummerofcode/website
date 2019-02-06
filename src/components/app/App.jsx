@@ -10,7 +10,6 @@ function App() {
     <Router>
       <React.Fragment>
         <Navigation />
-
         <Route exact path="/" render={() => <Home />} />
         <Partners />
         <Footer />
