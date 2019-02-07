@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import TextLogo from './Logo/text-logo';
 import ImgLogo from './Logo/img-logo';
+import Tab from '../ui/tab';
 
 const Navigation = () => {
   return (
@@ -35,44 +36,19 @@ const Navigation = () => {
             <div className="top-bar-right">
               <ul className="menu vertical large-horizontal">
                 <li>
-                  <Link
-                    to="/"
-                    className="button link lowercase u-margin--right"
-                  >
-                    Home
-                  </Link>
+                  <Tab to="/">Home</Tab>
                 </li>
                 <li>
-                  <Link
-                    to="/practical"
-                    className="button link lowercase u-margin--right"
-                  >
-                    Practical
-                  </Link>
+                  <Tab to="/practical">Practical</Tab>
                 </li>
                 <li>
-                  <Link
-                    to="/students"
-                    className="button link lowercase u-margin--right"
-                  >
-                    Students
-                  </Link>
+                  <Tab to="/students">Students</Tab>
                 </li>
                 <li>
-                  <Link
-                    to="/companies"
-                    className="button link lowercase u-margin--right"
-                  >
-                    Companies
-                  </Link>
+                  <Tab to="/companies">Companies</Tab>
                 </li>
                 <li>
-                  <Link
-                    to="/coaches"
-                    className="button link lowercase u-margin--right"
-                  >
-                    Coaches
-                  </Link>
+                  <Tab to="/coaches">Coaches</Tab>
                 </li>
                 {/*<!--<li><a href="2018.html" className="button link lowercase u-margin--right">2018</a></li>-->*/}
                 <li>

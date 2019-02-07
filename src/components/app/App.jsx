@@ -5,6 +5,9 @@ import 'foundation-sites';
 import MainLayout from '../layouts/main';
 import PublicRoute from '../public-route';
 import Home from '../home';
+import Practical from '../practical';
+import Students from '../students';
+import Coaches from '../coaches';
 
 class App extends React.Component {
   componentDidMount() {
@@ -13,7 +16,24 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <PublicRoute layout={MainLayout} component={Home} />
+        <React.Fragment>
+          <PublicRoute exact path="/" layout={MainLayout} component={Home} />
+          <PublicRoute
+            path="/practical"
+            layout={MainLayout}
+            component={Practical}
+          />
+          <PublicRoute
+            path="/students"
+            layout={MainLayout}
+            component={Students}
+          />
+          <PublicRoute
+            path="/coaches"
+            layout={MainLayout}
+            component={Coaches}
+          />
+        </React.Fragment>
       </Router>
     );
   }
