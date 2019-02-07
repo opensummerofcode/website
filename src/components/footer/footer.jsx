@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ButtonGroup from '../ui/buttons';
 import W2011 from '../../assets/img/previous-editions/2011W.svg';
 import W2012 from '../../assets/img/previous-editions/2012W.svg';
 import W2013 from '../../assets/img/previous-editions/2013W.svg';
@@ -28,7 +29,7 @@ const Footer = () => {
               noValidate="novalidate"
             >
               <div id="mc_embed_signup_scroll">
-                <div className="button-group">
+                <ButtonGroup>
                   <input
                     type="email"
                     className="form-control u-margin-none"
@@ -45,7 +46,7 @@ const Footer = () => {
                     name="subscribe"
                     id="mc-embedded-subscribe"
                   />
-                </div>
+                </ButtonGroup>
                 <div id="mce-responses" className="clear">
                   <div
                     className="response"

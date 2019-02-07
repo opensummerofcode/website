@@ -1,11 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Navigation from '../navigation/navigation';
-import Home from '../home/home-container';
-import Footer from '../footer/footer';
-import Partners from '../companies/partners';
+import { BrowserRouter as Router } from 'react-router-dom';
 import $ from 'jquery';
 import 'foundation-sites';
+import MainLayout from '../layouts/main';
+import PublicRoute from '../public-route';
+import Home from '../home';
 
 class App extends React.Component {
   componentDidMount() {
@@ -14,12 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <React.Fragment>
-          <Navigation />
-          <Route exact path="/" render={() => <Home />} />
-          <Partners />
-          <Footer />
-        </React.Fragment>
+        <PublicRoute layout={MainLayout} component={Home} />
       </Router>
     );
   }
