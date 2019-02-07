@@ -6,7 +6,7 @@ const PublicRoute = ({ layout: Layout, component: Component, ...rest }) => {
   return (
     <Route
       {...rest}
-      render={routeProps => <Content component={Component} {...rest} />}
+      render={routeProps => <Content component={Component} {...routeProps} />}
     />
   );
 };
