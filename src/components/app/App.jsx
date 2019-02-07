@@ -4,18 +4,25 @@ import Navigation from '../navigation/navigation';
 import Home from '../home/home-container';
 import Footer from '../footer/footer';
 import Partners from '../companies/partners';
+import $ from 'jquery';
+import 'foundation-sites';
 
-function App() {
-  return (
-    <Router>
-      <React.Fragment>
-        <Navigation />
-        <Route exact path="/" render={() => <Home />} />
-        <Partners />
-        <Footer />
-      </React.Fragment>
-    </Router>
-  );
+class App extends React.Component {
+  componentDidMount() {
+    $(document).foundation();
+  }
+  render() {
+    return (
+      <Router>
+        <React.Fragment>
+          <Navigation />
+          <Route exact path="/" render={() => <Home />} />
+          <Partners />
+          <Footer />
+        </React.Fragment>
+      </Router>
+    );
+  }
 }
 
 export default App;
