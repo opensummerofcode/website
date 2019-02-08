@@ -1,0 +1,188 @@
+[
+  {
+    "name": "arteveldehogeschool",
+    "url": "https://www.arteveldehogeschool.be/",
+    "logo": { "path": "partners-svg/artevelde-logo.svg", "alt": "" }
+  },
+  {
+    "name": "becentral",
+    "url": "https://www.becentral.org/",
+    "logo": { "path": "partners-svg/becentral-logo.svg", "alt": "" }
+  },
+  {
+    "name": "stib-mivb",
+    "url": "http://www.stib-mivb.be/",
+    "logo": {
+      "path": "partners-svg/brussels-mobility-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "mobilite-mobiliteit",
+    "url": "https://mobilite-mobiliteit.brussels/",
+    "logo": {
+      "path": "partners-svg/brussels-mivb-stib-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "compasbreda",
+    "url": "http://www.compasbreda.nl/",
+    "logo": {
+      "path": "partners-svg/compas-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "cronos-groep",
+    "url": "https://cronos-groep.be/",
+    "logo": {
+      "path": "partners-svg/cronos-groep-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "ministry-of-infrastructure-and-water-management",
+    "url": "https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management",
+    "logo": {
+      "path": "partners-svg/ministry-infrastructure-water-management-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "belgiantrain",
+    "url": "https://www.belgiantrain.be/",
+    "logo": {
+      "path": "partners-svg/nmbs-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "oasis",
+    "url": "https://oasis.team/",
+    "logo": {
+      "path": "partners-svg/oasis-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "openknowledge",
+    "url": "https://www.openknowledge.be/",
+    "logo": {
+      "path": "partners-svg/okbe-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "openthebox",
+    "url": "https://openthebox.be/",
+    "logo": {
+      "path": "partners-svg/openthebox-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "packed",
+    "url": "https://packed.be/",
+    "logo": {
+      "path": "partners-svg/packed-vzw.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "poolstok",
+    "url": "https://www.poolstok.be/",
+    "logo": {
+      "path": "partners-svg/poolstok-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "prisma",
+    "url": "https://prisma.care/",
+    "logo": {
+      "path": "partners-svg/prisma-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "sciensano",
+    "url": "https://www.sciensano.be/",
+    "logo": {
+      "path": "partners-svg/sciensano-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "emodnet",
+    "url": "http://www.emodnet.eu/",
+    "logo": {
+      "path": "partners-svg/emodnet-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "thelearninghub",
+    "url": "http://www.thelearninghub.be/",
+    "logo": {
+      "path": "partners-svg/thelearninghub-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "vdab",
+    "url": "https://www.vdab.be/",
+    "logo": {
+      "path": "partners-svg/vdab-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "cogni",
+    "url": "https://www.cogni.zone/",
+    "logo": {
+      "path": "partners-svg/cognizone-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "vlaanderen",
+    "url": "https://www.vlaanderen.be/",
+    "logo": {
+      "path": "partners-svg/vlaanderen-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "vliz",
+    "url": "http://www.vliz.be/",
+    "logo": {
+      "path": "partners-svg/vliz-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "west-vlaanderen",
+    "url": "https://www.west-vlaanderen.be/",
+    "logo": {
+      "path": "partners-svg/west-vlaanderen.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "imec-int",
+    "url": "https://www.imec-int.com/",
+    "logo": {
+      "path": "partners-svg/imec-logo.svg",
+      "alt": ""
+    }
+  },
+  {
+    "name": "european-commission",
+    "url": "https://ec.europa.eu/commission/",
+    "logo": {
+      "path": "partners-svg/european-commission-logo.svg",
+      "alt": ""
+    }
+  }
+]
