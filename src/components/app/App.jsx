@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navigation from '../navigation/navigation';
 import Home from '../home/home-container';
 import Footer from '../footer/footer';
-import Partners from '../companies/partners';
+import Partners from '../companies/Partners';
 import $ from 'jquery';
 import 'foundation-sites';
 

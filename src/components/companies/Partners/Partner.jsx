@@ -1,5 +1,5 @@
 import React from 'react';
-import ExternalLink from '../../ui/external-link';
+import ExternalLink from '../../ui/ExternalLink';
 
 const Partner = ({ partner, className = '' }) => {
   const { logo, name, url } = partner;
