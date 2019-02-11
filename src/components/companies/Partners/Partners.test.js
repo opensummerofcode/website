@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Partners from './partners';
+import Partners from '.';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

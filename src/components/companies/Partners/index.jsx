@@ -1,6 +1,6 @@
 import React from 'react';
 import partnersdata from '../../../assets/files/partners.json';
-import Partner from './partner';
+import Partner from './Partner';
 
 const Partners = () => {
   return (
