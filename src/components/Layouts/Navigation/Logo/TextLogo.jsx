@@ -1,5 +1,5 @@
 import React from 'react';
-import TextItem from './logo-item';
+import TextItem from './TextLogoItem';
 
 const TextLogo = ({ text }) => {
   let content = text.split(' ');

@@ -1,13 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import $ from 'jquery';
 import 'foundation-sites';
-import MainLayout from '../layouts/main';
-import PublicRoute from '../public-route';
-import Home from '../home';
-import Practical from '../practical';
-import Students from '../students';
-import Coaches from '../coaches';
+import MainLayout from '../Layouts/Main';
+import PublicRoute from '../PublicRoute';
+import Home from '../Home';
+import Practical from '../Practical';
+import Students from '../Students';
+import Coaches from '../Coaches';
 
 class App extends React.Component {
   componentDidMount() {
@@ -16,8 +16,8 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <React.Fragment>
-          <PublicRoute exact path="/" layout={MainLayout} component={Home} />
+        <Switch>
+          <PublicRoute layout={MainLayout} component={Home} />
           <PublicRoute
             path="/practical"
             layout={MainLayout}
@@ -33,7 +33,7 @@ class App extends React.Component {
             layout={MainLayout}
             component={Coaches}
           />
-        </React.Fragment>
+        </Switch>
       </Router>
     );
   }

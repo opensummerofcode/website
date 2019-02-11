@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Navigation from './navigation';
+import Navigation from './Navigation';
 
 describe('navigation', () => {
   it('renders without crashing', () => {

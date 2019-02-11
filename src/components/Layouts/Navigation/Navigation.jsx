@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import TextLogo from './Logo/text-logo';
-import ImgLogo from './Logo/img-logo';
-import Tab from '../ui/tab';
+import TextLogo from './Logo/TextLogo';
+import ImgLogo from './Logo/ImgLogo';
+import Tab from '../../UI/Tab';
 
 const Navigation = () => {
   return (

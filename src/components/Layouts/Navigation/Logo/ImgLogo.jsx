@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../../../assets/img/logo/logo-osoc-color.svg';
-import Img from '../../ui/img';
+import Logo from '../../../../assets/img/logo/logo-osoc-color.svg';
+import Img from '../../../UI/Img';
 
 const ImgLogo = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import OsocDescription from './osoc-description';
-import HomeStatistics from './home-statistics';
-import HomeHeader from './home-header';
+import OsocDescription from './OsocDescription';
+import Braggings from './Braggings';
+import HomeHeader from './HomeHeader';
 
 class HomeContainer extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class HomeContainer extends React.Component {
       <React.Fragment>
         <HomeHeader />
         <OsocDescription />
-        <HomeStatistics />
+        <Braggings />
       </React.Fragment>
     );
   }
