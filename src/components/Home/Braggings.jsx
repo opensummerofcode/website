@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomeStatistics = () => {
+const Braggings = () => {
   return (
     <div className="grid-x c-brag">
       {/*<!-- bragging -->*/}
@@ -86,4 +86,4 @@ const HomeStatistics = () => {
   );
 };
 
-export default HomeStatistics;
+export default Braggings;

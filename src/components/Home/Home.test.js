@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HomePage from './home-container';
+import HomePage from './index';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 it('renders without crashing', () => {
