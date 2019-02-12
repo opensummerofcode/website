@@ -1,0 +1,36 @@
+{
+  "2018": [
+    {
+      "name": "",
+      "description": "",
+      "logo": {
+        "path": "",
+        "url": ""
+      },
+      "team": {
+        "students": {},
+        "coaches": {}
+      },
+      "repository": {
+        "name": "",
+        "url": ""
+      },
+      "linkedProjects": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ],
+      "partners": [
+        {
+          "name": "",
+          "url": "",
+          "logo": {
+            "path": "",
+            "alt": ""
+          }
+        }
+      ]
+    }
+  ]
+}
