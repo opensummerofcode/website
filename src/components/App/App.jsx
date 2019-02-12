@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import $ from 'jquery';
 import 'foundation-sites';
 import MainLayout from '../Layouts/Main';
+import LayoutWithoutPartners from '../Layouts/Alternatives/LayoutWithoutPartners';
 import PublicRoute from '../PublicRoute';
 import Home from '../Home';
 import Practical from '../Practical';
@@ -19,7 +20,7 @@ class App extends React.Component {
       <Router>
         <Switch>
           <PublicRoute exact path="/" layout={MainLayout} component={Home} />
-          <PublicRoute path="/practical" layout={MainLayout} component={Practical} />
+          <PublicRoute path="/practical" layout={LayoutWithoutPartners} component={Practical} />
           <PublicRoute path="/students" layout={MainLayout} component={Students} />
           <PublicRoute path="/coaches" layout={MainLayout} component={Coaches} />
         </Switch>
