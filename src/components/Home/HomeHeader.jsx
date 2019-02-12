@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import HeroLink from './HeroLink';
 
 const HomeHeader = () => {
   return (
@@ -24,21 +24,9 @@ const HomeHeader = () => {
       {/* <!-- links --> */}
       <div className="hero-themes">
         <div className="grid-x grid-padding-x grid-x--equal-height">
-          <div className="small-12 medium-4 large-4 cell">
-            <h2 className="h3">
-              <Link to="/students">students</Link>
-            </h2>
-          </div>
-          <div className="small-12 medium-4 large-4 cell">
-            <h2 className="h3">
-              <Link to="/companies">companies</Link>
-            </h2>
-          </div>
-          <div className="small-12 medium-4 large-4 cell">
-            <h2 className="h3">
-              <Link to="/coaches">coaches</Link>
-            </h2>
-          </div>
+          <HeroLink to="/students" name="students" />
+          <HeroLink to="/companies" name="companies" />
+          <HeroLink to="/coaches" name="coaches" />
         </div>
       </div>
     </React.Fragment>
