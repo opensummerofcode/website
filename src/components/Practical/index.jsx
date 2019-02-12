@@ -1,7 +1,25 @@
 import React from 'react';
+/* import { Link } from 'react-router-dom';
+import ExternalLink from '../UI/ExternalLink'; */
 
 const Practical = () => {
-  return <h1>Practical</h1>;
+  return (
+    <React.Fragment>
+      {/* <!-- header --> */}
+      <header className="hero-detail u-padding-x-large--tb">
+        <div className="grid-x grid-padding-x">
+          <div className="medium-4 medium-offset-0 large-4 cell">
+            <h1 className="hero-head">Frequently asked questions</h1>
+          </div>
+
+          <div className="medium-6 medium-offset-0 large-3 cell large-offset-1">
+            <p className="hero-text">There&apos;s no such thing as a dumb&nbsp;question.</p>
+            <div className="osoc-float-element-o-small" />
+          </div>
+        </div>
+      </header>
+    </React.Fragment>
+  );
 };
 
 export default Practical;
