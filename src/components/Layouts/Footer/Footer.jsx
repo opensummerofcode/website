@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ButtonGroup from '../../UI/Buttons';
+import ExternalLink from '../../UI/ExternalLink';
 import W2011 from '../../../assets/img/previous-editions/2011W.svg';
 import W2012 from '../../../assets/img/previous-editions/2012W.svg';
 import W2013 from '../../../assets/img/previous-editions/2013W.svg';
@@ -84,13 +85,9 @@ const Footer = () => {
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
                 <li>
-                  <a
-                    href="https://www.eventbrite.co.uk/e/demo-day-osoc18-registration-46709558547?ref=estw"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
+                  <ExternalLink href="https://www.eventbrite.co.uk/e/demo-day-osoc18-registration-46709558547?ref=estw">
                     Demo&nbsp;day
-                  </a>
+                  </ExternalLink>
                 </li>
                 <li>
                   <Link to="practical">Practical</Link>
@@ -107,9 +104,7 @@ const Footer = () => {
                   <a href="mailto:dries@openknowledge.be">Contact</a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/osocode" target="_blank" rel="noopener noreferrer">
-                    Twitter
-                  </a>
+                  <ExternalLink href="https://twitter.com/osocode">Twitter</ExternalLink>
                 </li>
               </ul>
             </div>
@@ -159,21 +154,15 @@ const Footer = () => {
         <div className="small-12 large-5 large-offset-1 cell">
           <p>
             Powered by{' '}
-            <a href="https://www.openknowledge.be/" target="_blank" rel="noopener noreferrer">
-              Open Knowledge Belgium
-            </a>{' '}
+            <ExternalLink href="https://www.openknowledge.be/">Open Knowledge Belgium</ExternalLink>{' '}
             |{' '}
-            <a href="https://github.com/oSoc18/website" target="_blank" rel="noopener noreferrer">
+            <ExternalLink href="https://github.com/oSoc18/website">
               Source code freely available on GitHub
-            </a>{' '}
+            </ExternalLink>{' '}
             |{' '}
-            <a
-              href="https://github.com/oSoc18/website/blob/master/CONTRIBUTORS.md"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <ExternalLink href="https://github.com/oSoc18/website/blob/master/CONTRIBUTORS.md">
               Contributors
-            </a>
+            </ExternalLink>
           </p>
         </div>
       </div>

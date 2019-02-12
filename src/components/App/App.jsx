@@ -18,7 +18,7 @@ class App extends React.Component {
     return (
       <Router>
         <Switch>
-          <PublicRoute layout={MainLayout} component={Home} />
+          <PublicRoute exact path="/" layout={MainLayout} component={Home} />
           <PublicRoute path="/practical" layout={MainLayout} component={Practical} />
           <PublicRoute path="/students" layout={MainLayout} component={Students} />
           <PublicRoute path="/coaches" layout={MainLayout} component={Coaches} />
