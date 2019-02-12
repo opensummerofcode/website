@@ -8,8 +8,15 @@
         "url": ""
       },
       "team": {
-        "students": {},
-        "coaches": {}
+        "students": [
+          {
+            "firstname": "",
+            "lastname": "",
+            "picture": { "path": "", "alt": "" },
+            "socials": []
+          }
+        ],
+        "coaches": [{}]
       },
       "repository": {
         "name": "",
