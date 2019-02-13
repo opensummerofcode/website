@@ -79,7 +79,7 @@ const Where = () => {
         <div className="small-10 medium-6 large-5 cell">
           <p>
             We compensate all your public transports costs. However, you are free to come by car or
-            book yourself a fancy hotel, but we don't reimburse those things.
+            book yourself a fancy hotel, but we don&apos;t reimburse those things.
           </p>
         </div>
       </div>

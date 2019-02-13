@@ -86,8 +86,8 @@ const Partnerships = () => {
                 team once a week to receive pitched progress updates and give feedback.
               </p>
               <p>
-                In those feedback sessions you'll provide feedback to make sure the students are
-                going in the right direction (on development, design, product management, ...).
+                In those feedback sessions you&apos;ll provide feedback to make sure the students
+                are going in the right direction (on development, design, product management, ...).
               </p>
               <p>
                 Preferrably, we have a single point of contact that can make the decisions that need

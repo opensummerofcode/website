@@ -7,6 +7,7 @@ import When from './When';
 import Where from './Where';
 import StudentApplications from './StudentApplications';
 import Partnerships from './Partnerships';
+import Coaching from './Coaching';
 
 const Practical = () => {
   return (
@@ -19,6 +20,7 @@ const Practical = () => {
         <Where />
         <StudentApplications />
         <Partnerships />
+        <Coaching />
       </div>
 
       <div className="u-padding-medium--tb bs--darken-light text-center">
