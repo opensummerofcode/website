@@ -85,15 +85,13 @@ const StudentApplication = () => {
             </h4>
             <div className="c-faq__item__answer">
               <p>
-                <p>
-                  Sorry, applications are closed as of now. Thank you for your massive interest! You
-                  can always apply again next year as a student &mdash; or even as a coach. You're
-                  also welcome to join us during the{' '}
-                  <ExternalLink href="https://t.co/EhoiMCJRnT">demo day</ExternalLink> &mdash; which
-                  will take place Thursday, 26 June this year. And keep an eye on our{' '}
-                  <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to
-                  see what we&apos;re up to!
-                </p>
+                Sorry, applications are closed as of now. Thank you for your massive interest! You
+                can always apply again next year as a student &mdash; or even as a coach.
+                You&apos;re also welcome to join us during the{' '}
+                <ExternalLink href="https://t.co/EhoiMCJRnT">demo day</ExternalLink> &mdash; which
+                will take place Thursday, 26 June this year. And keep an eye on our{' '}
+                <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to
+                see what we&apos;re up to!
               </p>
               {/* <!-- <p>In May we go over all the applications and match the right students with the right projects. After that, we’ll let you know whether you’re in or not.</p> --> */}
               {/* <!-- <p><a href="https://goo.gl/forms/KkRSdUxs19hVv2H62" title="Click here to apply as a student">Apply here</a>.</p> --> */}
@@ -119,7 +117,7 @@ const StudentApplication = () => {
 
         <div className="cell small-11 medium-8 large-6">
           <div className="c-faq__item">
-            <h4 className="c-faq__item__question">What if I can't join osoc?</h4>
+            <h4 className="c-faq__item__question">What if I can&apos;t join osoc?</h4>
             <div className="c-faq__item__answer">
               <p>
                 That&apos;s too bad! You can always apply again next year as a student &mdash; or
@@ -140,8 +138,8 @@ const StudentApplication = () => {
             </h4>
             <div className="c-faq__item__answer">
               <p>
-                Don't worry, you can always apply again next year as a student &mdash; or even as a
-                coach. Just keep working on yourself and your resumé. We will review your
+                Don&apos;t worry, you can always apply again next year as a student &mdash; or even
+                as a coach. Just keep working on yourself and your resumé. We will review your
                 application like it&apos;s the first time you applied. Don&apos;t forget to visit us
                 during the <ExternalLink href="https://t.co/EhoiMCJRnT">demo day</ExternalLink> ;-).
               </p>
