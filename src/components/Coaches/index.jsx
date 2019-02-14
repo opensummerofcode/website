@@ -1,7 +1,12 @@
 import React from 'react';
+import Header from './Header';
 
 const Coaches = () => {
-  return <h1>Coaches</h1>;
+  return (
+    <React.Fragment>
+      <Header />
+    </React.Fragment>
+  );
 };
 
 export default Coaches;
