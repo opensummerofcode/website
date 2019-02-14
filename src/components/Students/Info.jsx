@@ -56,8 +56,8 @@ const Info = () => {
                 height: '100%'
               }}
               frameBorder="0"
-              webkitallowfullscreen
-              mozallowfullscreen
+              webkitallowfullscreen="true"
+              mozallowfullscreen="true"
               allowFullScreen
               title="TODO"
             />
