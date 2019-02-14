@@ -1,7 +1,12 @@
 import React from 'react';
+import Header from './Header';
 
 const Companies = () => {
-  return <h1>Companies</h1>;
+  return (
+    <React.Fragment>
+      <Header />
+    </React.Fragment>
+  );
 };
 
 export default Companies;
