@@ -59,16 +59,13 @@ const Info = () => {
         </div>
         {/* <!--<div class="medium-8 large-6 cell">
         <img src="img/pictures/osoc16-coaches-happy.jpg" class="u-margin--b" alt="Image of students working out">
-        <p><small>Michael, a really happy coach at open summer of code 2016</small></p>
-    </div> --> */}
+        <p><small>Michael, a really happy coach at open summer of code 2016</small></p></div> --> */}
         {/* <!--<div class="medium-8 large-6 cell">
         <img src="img/pictures/osoc16-coaches-pieter.jpg" class="u-margin--b" alt="Image of students working out">
-        <p><small>Pieter, coach &amp; founding father speaking to the crowds</small></p>
-</div> --> */}
+        <p><small>Pieter, coach &amp; founding father speaking to the crowds</small></p></div> --> */}
         {/* <!-- <div class="medium-8 large-6 cell">
         <img src="img/pictures/osoc16-coaches-sitting.jpg" class="u-margin--b" alt="Image of students working out">
-        <p><small>Brainstorming hard for Leuven Leest at open summer of code 2016</small></p>
-</div> --> */}
+        <p><small>Brainstorming hard for Leuven Leest at open summer of code 2016</small></p></div> --> */}
         <div className="medium-8 large-5 large-offset-1 cell">
           <p>
             Open summer of code will mobilise the next generation to build your open source project
@@ -89,8 +86,7 @@ const Info = () => {
           {/* <!--<p class="u-margin-large--tb">
           <a class="button" href="mailto:dries@openknowledge.be?subject=Regarding osoc Partnership" title="Start a partnership with open summer of code">Mail us to apply</a>
           <a href="https://www.eventbrite.co.uk/e/demo-day-osoc18-registration-46709558547?ref=estw" target="_blank" class="button">Come to the Demo Day</a>
-          <a class="button link" href="2018.html">View this year's projects</a>
-</p> --> */}
+          <a class="button link" href="2018.html">View this year's projects</a></p> --> */}
         </div>
       </div>
     </React.Fragment>

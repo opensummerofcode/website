@@ -4,6 +4,7 @@ import $ from 'jquery';
 import 'foundation-sites';
 import MainLayout from '../Layouts/Main';
 import LayoutWithProjects from '../Layouts/Alternatives/LayoutWithProjects';
+import LayoutWithProjectsAndPartners from '../Layouts/Alternatives/LayoutWithProjectsAndPartners';
 import PublicRoute from '../PublicRoute';
 import Home from '../Home';
 import Practical from '../Practical';
@@ -23,8 +24,12 @@ class App extends React.Component {
           <PublicRoute exact path="/" layout={MainLayout} component={Home} />
           <PublicRoute path="/practical" layout={MainLayout} component={Practical} />
           <PublicRoute path="/students" layout={MainLayout} component={Students} />
-          <PublicRoute path="/coaches" layout={MainLayout} component={Coaches} />
-          <PublicRoute path="/companies" layout={LayoutWithProjects} component={Companies} />
+          <PublicRoute
+            path="/companies"
+            layout={LayoutWithProjectsAndPartners}
+            component={Companies}
+          />
+          <PublicRoute path="/coaches" layout={LayoutWithProjects} component={Coaches} />
         </Switch>
       </Router>
     );
