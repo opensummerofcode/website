@@ -3,7 +3,6 @@ import React from 'react';
 const Braggings = () => {
   return (
     <div className="grid-x c-brag">
-      {/* <!-- bragging --> */}
       <div className="small-6 medium-4 large-auto cell">
         <div className="grid-x c-brag__component">
           <div className="small-12 medium-12 cell c-brag__component__label">For over</div>

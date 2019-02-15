@@ -5,7 +5,6 @@ import ExternalLink from '../UI/ExternalLink';
 const Info = () => {
   return (
     <React.Fragment>
-      {/* <!-- info coaches --> */}
       <div className="grid-x grid-padding-x u-margin-large--tb align-middle">
         <div className="medium-8 large-5 cell">
           <p className="hero-text u-margin-large--b">
@@ -42,7 +41,6 @@ const Info = () => {
         </div>
       </div>
 
-      {/* <!-- info coaches --> */}
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="medium-8 large-6 cell">
           <img
