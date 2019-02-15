@@ -1,5 +1,5 @@
 import React from 'react';
-import partnersdata from '../../../assets/files/partners.json';
+import partnersdata from '../../../assets/data/partners.json';
 import Partner from './Partner';
 
 const Partners = () => {
