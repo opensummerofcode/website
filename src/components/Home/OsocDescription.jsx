@@ -3,7 +3,6 @@ import React from 'react';
 const OsocDescription = () => {
   return (
     <div className="grid-x align-middle c-what">
-      {/* <!-- what is it --> */}
       <div className="small-12 large-5 cell">
         <div className="u-margin">
           <p className="intro-text">

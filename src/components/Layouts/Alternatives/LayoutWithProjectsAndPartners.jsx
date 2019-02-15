@@ -2,19 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Navigation from '../../Common/Navigation';
 import Footer from '../../Common/Footer';
+import FeaturedProjects from '../../Projects/FeaturedProjects';
+import Partners from '../../Companies/Partners';
 
-const LayoutWithoutPartners = ({ component: Component }) => {
+const LayoutWithProjectsAndPartners = ({ component: Component }) => {
   return (
     <React.Fragment>
       <Navigation />
       <Component />
+      <FeaturedProjects />
+      <Partners />
       <Footer />
     </React.Fragment>
   );
 };
 
-LayoutWithoutPartners.propTypes = {
+LayoutWithProjectsAndPartners.propTypes = {
   component: PropTypes.func.isRequired
 };
 
-export default LayoutWithoutPartners;
+export default LayoutWithProjectsAndPartners;
