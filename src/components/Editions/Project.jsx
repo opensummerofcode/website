@@ -7,12 +7,12 @@ const Project = ({ name, hook, logo }) => {
   const { path, alt } = logo;
   return (
     <div className="small-6 medium-6 large-4 cell c-projects-project">
-      <Link href={`/${to}`} target="_blank" className="c-projects-image">
+      <Link to={`/project/${to}`} target="_blank" className="c-projects-image">
         <img src={path} alt={alt} />
       </Link>
       <div className="c-projects-content">
         <h2 className="h5">
-          <Link href={`/${to}`} target="_blank">
+          <Link to={`/project/${to}`} target="_blank">
             {name}
           </Link>
         </h2>
