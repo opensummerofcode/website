@@ -5,7 +5,6 @@ import ExternalLink from '../UI/ExternalLink';
 const Testimonials = () => {
   return (
     <React.Fragment>
-      {/* <!-- projects --> */}
       <div className="grid-x u-padding-x-large--tb grid-padding-x c-projects-old bg-lighter-gray align-center text-center">
         <div className="small-12 cell">
           <p>Some proof of how awesome our projects can get...</p>
@@ -45,7 +44,9 @@ const Testimonials = () => {
               maxWidth: '658px',
               padding: 0,
               width: '99.375%',
+              // eslint-disable-next-line
               width: '-webkit-calc(100% - 2px)',
+              // eslint-disable-next-line
               width: 'calc(100% - 2px)'
             }}
           >
