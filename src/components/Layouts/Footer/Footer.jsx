@@ -43,7 +43,7 @@ const Footer = () => {
                   <input
                     type="submit"
                     className="button dark"
-                    value="Mail"
+                    defaultValue="Mail"
                     name="subscribe"
                     id="mc-embedded-subscribe"
                   />
@@ -58,7 +58,7 @@ const Footer = () => {
                     type="text"
                     name="b_16c22b5f724fd6ef8c78c79fc_4ec3a3c20a"
                     tabIndex="-1"
-                    value=""
+                    defaultValue=""
                   />
                 </div>
               </div>
