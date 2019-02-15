@@ -4,6 +4,7 @@ import StudentsHeader from './StudentsHeader';
 import CoachesHeader from './CoachesHeader';
 import ProjectsGallery from './ProjectsGallery';
 import StudentsGallery from './StudentsGallery';
+import CoachesGallery from './CoachesGallerry';
 
 const YearEdition = () => {
   return (
@@ -13,6 +14,7 @@ const YearEdition = () => {
       <StudentsHeader />
       <StudentsGallery />
       <CoachesHeader />
+      <CoachesGallery />
     </React.Fragment>
   );
 };
