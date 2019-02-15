@@ -11,6 +11,7 @@ import Practical from '../Practical';
 import Students from '../Students';
 import Companies from '../Companies';
 import Coaches from '../Coaches';
+import Y2018 from '../Editions/index';
 
 class App extends React.Component {
   componentDidMount() {
@@ -30,6 +31,7 @@ class App extends React.Component {
             component={Companies}
           />
           <PublicRoute path="/coaches" layout={LayoutWithProjects} component={Coaches} />
+          <PublicRoute path="/2018" layout={MainLayout} component={Y2018} />
         </Switch>
       </Router>
     );
