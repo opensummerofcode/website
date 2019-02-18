@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Navigation from '../Navigation/Navigation';
 import Footer from '../Footer/Footer';
 
-const LayoutWithoutPartners = ({ component: Component }) => {
+const LayoutWithoutPartners = ({ component: Component, ...rest }) => {
   return (
     <React.Fragment>
       <Navigation />
-      <Component />
+      <Component {...rest} />
       <Footer />
     </React.Fragment>
   );
