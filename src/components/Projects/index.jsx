@@ -13,7 +13,7 @@ const Project = () => {
       {/* <!-- call to action --> */}
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="small-12 cell text-center">
-          <a className="button success u-margin-large--t" href="2018.html">
+          <a className="button success u-margin-large--t" href="/2018">
             View other projects
           </a>
         </div>
