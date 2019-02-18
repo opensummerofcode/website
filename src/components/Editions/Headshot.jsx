@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ExternalLink from '../UI/ExternalLink';
 
 const HeadShot = ({ data, social, picture }) => {
-  const { firstName, lastName } = data;
+  const { firstName, lastName, status } = data;
   const { twitter, linkedin, github } = social;
   const { path, alt } = picture;
   return (
@@ -13,6 +13,7 @@ const HeadShot = ({ data, social, picture }) => {
         {firstName}
         <br /> {lastName}
       </h2>
+      {status && <p>{status}</p>}
       <div className="student-social">
         {twitter && (
           <ExternalLink href={twitter}>
@@ -41,7 +42,8 @@ HeadShot.defaultProps = {
 HeadShot.propTypes = {
   data: PropTypes.shape({
     firstName: PropTypes.string,
-    lastName: PropTypes.string
+    lastName: PropTypes.string,
+    status: PropTypes.string
   }).isRequired,
   social: PropTypes.shape({
     twitter: PropTypes.string,
