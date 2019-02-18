@@ -1,5 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import Header from './Header';
 import Team from './Team';
 import Partners from './Partners';
@@ -13,9 +14,9 @@ const Project = () => {
       {/* <!-- call to action --> */}
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="small-12 cell text-center">
-          <a className="button success u-margin-large--t" href="/2018">
+          <Link className="button success u-margin-large--t" to="/2018">
             View other projects
-          </a>
+          </Link>
         </div>
       </div>
     </React.Fragment>
