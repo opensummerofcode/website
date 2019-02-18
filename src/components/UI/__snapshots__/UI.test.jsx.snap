@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExternalLink renders correctly 1`] = `
+<a
+  href="https://2018.summerofcode.be/"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  osoc2018
+</a>
+`;
