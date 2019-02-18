@@ -2,12 +2,14 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import Header from './Header';
 import Team from './Team';
+import Partners from './Partners';
 
 const Project = () => {
   return (
     <React.Fragment>
       <Header />
       <Team />
+      <Partners />
     </React.Fragment>
   );
 };
