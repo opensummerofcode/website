@@ -21,6 +21,14 @@ describe('ExternalLink', () => {
     expect(ELShallow.prop('href')).toEqual('https://2018.summerofcode.be/');
   });
 
+  it('has target _blank', () => {
+    expect(ELShallow.prop('target')).toEqual('_blank');
+  });
+
+  it('has rel equal to noopener noreferrer', () => {
+    expect(ELShallow.prop('rel')).toEqual('noopener noreferrer');
+  });
+
   it('renders children', () => {
     expect(ELShallow.text()).toEqual('osoc2018');
   });
