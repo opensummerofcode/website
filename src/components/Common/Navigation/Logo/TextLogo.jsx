@@ -7,7 +7,7 @@ const TextLogo = ({ text }) => {
   return (
     <div className="logo logo--animated title-bar-title">
       {content.map(word => (
-        <TextItem word={word} />
+        <TextItem key={word} word={word} />
       ))}
     </div>
   );

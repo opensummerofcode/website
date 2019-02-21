@@ -8,25 +8,24 @@ const Header = () => {
           <h1 className="hero-head">
             Osoc
             <br />
-            for companies
+            for students
           </h1>
         </div>
-
         <div className="medium-6 medium-offset-0 large-5 cell large-offset-1">
           <p className="hero-text">
-            startups
+            developers
             <br />
-            non-profits
+            designers
             <br />
-            governments
+            communication&nbsp;managers
             <br />
-            agencies
+            business&nbsp;analysts
             <br />
-            services
+            data scientists
             <br />
-            &amp; other companies
+            &amp; other digital skills
           </p>
-          <div className="osoc-float-element-o" />
+          <div className="osoc-float-element-c" />
         </div>
       </div>
     </header>
