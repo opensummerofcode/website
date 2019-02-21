@@ -5,6 +5,7 @@ import 'foundation-sites';
 import MainLayout from '../Layouts/Main';
 import LayoutWithProjects from '../Layouts/Alternatives/LayoutWithProjects';
 import LayoutWithProjectsAndPartners from '../Layouts/Alternatives/LayoutWithProjectsAndPartners';
+import LayoutWithoutPartners from '../Layouts/Alternatives/LayoutWithoutPartners';
 import PublicRoute from '../PublicRoute';
 import Home from '../Home';
 import Practical from '../Practical';
@@ -12,6 +13,7 @@ import Students from '../Students';
 import Companies from '../Companies';
 import Coaches from '../Coaches';
 import Y2018 from '../Editions/index';
+import Project from '../Projects';
 
 class App extends React.Component {
   componentDidMount() {
@@ -32,6 +34,7 @@ class App extends React.Component {
           />
           <PublicRoute path="/coaches" layout={LayoutWithProjects} component={Coaches} />
           <PublicRoute path="/2018" layout={MainLayout} component={Y2018} />
+          <PublicRoute path="/project/:name" layout={LayoutWithoutPartners} component={Project} />
         </Switch>
       </Router>
     );
