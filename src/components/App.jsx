@@ -56,12 +56,7 @@ class App extends React.Component {
             sub={LayoutWithPartners}
             component={Y2018}
           />
-          <PublicRoute
-            path="/project/:name"
-            layout={MainWebsiteLayout}
-            sub={LayoutWithPartners}
-            component={Project}
-          />
+          <PublicRoute path="/project/:name" layout={MainWebsiteLayout} component={Project} />
         </Switch>
       </Router>
     );
