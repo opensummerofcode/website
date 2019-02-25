@@ -40,12 +40,28 @@ class App extends React.Component {
           />
           <PublicRoute
             path="/companies"
-            layout={LayoutWithProjectsAndPartners}
+            layout={MainWebsiteLayout}
+            sub={LayoutWithProjectsAndPartners}
             component={Companies}
           />
-          <PublicRoute path="/coaches" layout={LayoutWithProjects} component={Coaches} />
-          <PublicRoute path="/2018" layout={MainWebsiteLayout} component={Y2018} />
-          <PublicRoute path="/project/:name" layout={MainWebsiteLayout} component={Project} />
+          <PublicRoute
+            path="/coaches"
+            layout={MainWebsiteLayout}
+            sub={LayoutWithProjects}
+            component={Coaches}
+          />
+          <PublicRoute
+            path="/2018"
+            layout={MainWebsiteLayout}
+            sub={LayoutWithPartners}
+            component={Y2018}
+          />
+          <PublicRoute
+            path="/project/:name"
+            layout={MainWebsiteLayout}
+            sub={LayoutWithPartners}
+            component={Project}
+          />
         </Switch>
       </Router>
     );
