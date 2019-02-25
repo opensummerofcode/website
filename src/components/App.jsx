@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import $ from 'jquery';
 import 'foundation-sites';
-import MainLayout from './Layouts/Main/MainWebsite';
-import LayoutWithoutPartners from './Layouts/Sub/LayoutWithPartners';
+import MainWebsiteLayout from './Layouts/Main/MainWebsite';
+import LayoutWithPartners from './Layouts/Sub/LayoutWithPartners';
 import LayoutWithProjects from './Layouts/Sub/LayoutWithProjects';
 import LayoutWithProjectsAndPartners from './Layouts/Sub/LayoutWithProjectsAndPartners';
 import PublicRoute from './PublicRoute';
@@ -24,17 +24,28 @@ class App extends React.Component {
     return (
       <Router>
         <Switch>
-          <PublicRoute exact path="/" layout={MainLayout} component={Home} />
-          <PublicRoute path="/practical" layout={MainLayout} component={Practical} />
-          <PublicRoute path="/students" layout={MainLayout} component={Students} />
+          <PublicRoute
+            exact
+            path="/"
+            layout={MainWebsiteLayout}
+            sub={LayoutWithPartners}
+            component={Home}
+          />
+          <PublicRoute path="/practical" layout={MainWebsiteLayout} component={Practical} />
+          <PublicRoute
+            path="/students"
+            layout={MainWebsiteLayout}
+            sub={LayoutWithPartners}
+            component={Students}
+          />
           <PublicRoute
             path="/companies"
             layout={LayoutWithProjectsAndPartners}
             component={Companies}
           />
           <PublicRoute path="/coaches" layout={LayoutWithProjects} component={Coaches} />
-          <PublicRoute path="/2018" layout={MainLayout} component={Y2018} />
-          <PublicRoute path="/project/:name" layout={LayoutWithoutPartners} component={Project} />
+          <PublicRoute path="/2018" layout={MainWebsiteLayout} component={Y2018} />
+          <PublicRoute path="/project/:name" layout={MainWebsiteLayout} component={Project} />
         </Switch>
       </Router>
     );
