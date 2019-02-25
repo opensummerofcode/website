@@ -14,6 +14,7 @@ import Companies from './Companies';
 import Coaches from './Coaches';
 import Project from './Projects';
 import Y2018 from './Editions/index';
+import ScrollToTop from '../ScrollToTop';
 
 class App extends React.Component {
   componentDidMount() {
@@ -23,19 +24,21 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Switch>
-          <PublicRoute exact path="/" layout={MainLayout} component={Home} />
-          <PublicRoute path="/practical" layout={MainLayout} component={Practical} />
-          <PublicRoute path="/students" layout={MainLayout} component={Students} />
-          <PublicRoute
-            path="/companies"
-            layout={LayoutWithProjectsAndPartners}
-            component={Companies}
-          />
-          <PublicRoute path="/coaches" layout={LayoutWithProjects} component={Coaches} />
-          <PublicRoute path="/2018" layout={MainLayout} component={Y2018} />
-          <PublicRoute path="/project/:name" layout={LayoutWithoutPartners} component={Project} />
-        </Switch>
+        <ScrollToTop>
+          <Switch>
+            <PublicRoute exact path="/" layout={MainLayout} component={Home} />
+            <PublicRoute path="/practical" layout={MainLayout} component={Practical} />
+            <PublicRoute path="/students" layout={MainLayout} component={Students} />
+            <PublicRoute
+              path="/companies"
+              layout={LayoutWithProjectsAndPartners}
+              component={Companies}
+            />
+            <PublicRoute path="/coaches" layout={LayoutWithProjects} component={Coaches} />
+            <PublicRoute path="/2018" layout={MainLayout} component={Y2018} />
+            <PublicRoute path="/project/:name" layout={LayoutWithoutPartners} component={Project} />
+          </Switch>
+        </ScrollToTop>
       </Router>
     );
   }
