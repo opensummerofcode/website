@@ -14,9 +14,13 @@ const MainWebsite = ({ sub: SubLayout, component: Component }) => {
   );
 };
 
+MainWebsite.defaultProps = {
+  sub: undefined
+};
+
 MainWebsite.propTypes = {
   component: PropTypes.func.isRequired,
-  sub: PropTypes.func.isRequired
+  sub: PropTypes.func
 };
 
 export default MainWebsite;
