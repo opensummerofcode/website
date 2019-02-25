@@ -32,12 +32,7 @@ class App extends React.Component {
             component={Home}
           />
           <PublicRoute path="/practical" layout={MainWebsiteLayout} component={Practical} />
-          <PublicRoute
-            path="/students"
-            layout={MainWebsiteLayout}
-            sub={LayoutWithPartners}
-            component={Students}
-          />
+          <PublicRoute path="/students" layout={MainWebsiteLayout} component={Students} />
           <PublicRoute
             path="/companies"
             layout={MainWebsiteLayout}
