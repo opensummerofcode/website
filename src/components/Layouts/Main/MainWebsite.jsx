@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import Navigation from '../../Common/Navigation';
 import Footer from '../../Common/Footer';
 
-const MainWebsite = ({ sub: SubLayout, component: Component }) => {
+const MainWebsite = ({ sub: SubLayout, component: Component, ...rest }) => {
   const Content = SubLayout || Component;
   return (
     <React.Fragment>
       <Navigation />
-      <Content component={Component} />
+      <Content component={Component} {...rest} />
       <Footer />
     </React.Fragment>
   );

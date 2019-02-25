@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import $ from 'jquery';
 import 'foundation-sites';
 import MainLayout from './Layouts/Main/MainWebsite';
-import LayoutWithoutPartners from './Layouts/Sub/LayoutWithoutPartners';
+import LayoutWithoutPartners from './Layouts/Sub/LayoutWithPartners';
 import LayoutWithProjects from './Layouts/Sub/LayoutWithProjects';
 import LayoutWithProjectsAndPartners from './Layouts/Sub/LayoutWithProjectsAndPartners';
 import PublicRoute from './PublicRoute';
