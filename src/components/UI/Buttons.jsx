@@ -12,7 +12,7 @@ ButtonGroup.propTypes = {
 };
 
 const ButtonLink = ({ className, children, isExternal = false, ...rest }) => {
-  const classNames = ['button', className].join(' ');
+  const classNames = className ? ['button', className].join(' ') : 'button';
   const MyLink = isExternal ? ExternalLink : Link;
   return (
     <MyLink className={classNames} {...rest}>
