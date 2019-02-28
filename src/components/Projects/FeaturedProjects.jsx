@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ExternalLink from '../UI/ExternalLink';
+import YearEditionCall from '../Common/CallToActions';
 
 const FeaturedProjects = () => {
   return (
@@ -65,11 +65,7 @@ const FeaturedProjects = () => {
           </div>
         </div>
 
-        <div className="small-12 medium-7 large-4 cell c-projects-old__project align-center text-center">
-          <Link className="button" to="/2018">
-            View this year&apos;s edition
-          </Link>
-        </div>
+        <YearEditionCall className="small-12 medium-7 large-4 cell c-projects-old__project align-center text-center" />
       </div>
     </div>
   );
