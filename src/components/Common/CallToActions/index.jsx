@@ -1,10 +1,11 @@
 import React from 'react';
 import { ButtonLink } from '../../UI/Buttons';
 
-const YearEditionCall = () => {
+const YearEditionCall = ({ className, ...rest }) => {
+  const classNames = ['small-12 cell', className].join(' ');
   return (
-    <div className="small-12 cell">
-      <ButtonLink className="u-margin-large--t" to="/2018">
+    <div className={classNames}>
+      <ButtonLink className="u-margin-large--t" to="/2018" {...rest}>
         View this year&apos;s edition
       </ButtonLink>
     </div>

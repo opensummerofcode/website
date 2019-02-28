@@ -65,7 +65,7 @@ const FeaturedProjects = () => {
           </div>
         </div>
 
-        <YearEditionCall className="small-12 medium-7 large-4 cell c-projects-old__project align-center text-center" />
+        <YearEditionCall className="medium-7 large-4 c-projects-old__project align-center text-center" />
       </div>
     </div>
   );
