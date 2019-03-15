@@ -8,6 +8,7 @@ import PracticalHeader from './PracticalHeader';
 // import StudentApplications from './StudentApplications';
 // import Partnerships from './Partnerships';
 // import Coaching from './Coaching';
+import Faqs from './faqs';
 
 const Practical = () => {
   return (
@@ -22,7 +23,7 @@ const Practical = () => {
         <Partnerships />
         <Coaching />
       </div> */}
-
+      <Faqs />
       <div className="u-padding-medium--tb bs--darken-light text-center">
         <h6>Couldn&apos;t find what you were looking for?</h6>
         <a
