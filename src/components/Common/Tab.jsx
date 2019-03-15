@@ -2,20 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Tab = ({ activeTab, label, onClick, style, className }) => {
+  function onclickTab() {
+    onClick(label);
+  }
+
   let classNames = className;
   if (activeTab === label) {
     classNames = `${className} is-active`;
   }
   const stl = { ...style, cursor: 'pointer' };
   return (
-    <li onClick={onClick} onKeyDown={onClick} className={classNames} style={stl} role="tab">
+    <li onClick={onclickTab} onKeyDown={onclickTab} className={classNames} style={stl} role="tab">
       {label}
     </li>
   );
 };
 
 Tab.defaultProps = {
-  style: '',
+  style: {},
   className: ''
 };
 

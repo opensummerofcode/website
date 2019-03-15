@@ -4,7 +4,7 @@ import Tab from './Tab';
 
 // src: https://alligator.io/react/tabs-component/
 
-class Faqs extends React.Component {
+class Tabs extends React.Component {
   static propTypes = {
     children: PropTypes.instanceOf(Array).isRequired,
     contentClass: PropTypes.string.isRequired,
@@ -53,7 +53,7 @@ class Faqs extends React.Component {
         <div className={contentClass}>
           {children.map(child => {
             if (child.props.label !== activeTab) return undefined;
-            return child.props.children;
+            return child;
           })}
         </div>
       </div>
@@ -61,4 +61,4 @@ class Faqs extends React.Component {
   }
 }
 
-export default Faqs;
+export default Tabs;
