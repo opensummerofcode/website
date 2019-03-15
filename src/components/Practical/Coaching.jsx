@@ -3,7 +3,7 @@ import ExternalLink from '../UI/ExternalLink';
 
 const Coaching = () => {
   return (
-    <div className="tabs-panel" id="coaching">
+    <div className="tabs-panel">
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="cell small-11 medium-8 large-6">
           <div className="c-faq__item">

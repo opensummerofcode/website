@@ -2,7 +2,7 @@ import React from 'react';
 
 const When = () => {
   return (
-    <div className="tabs-panel is-active" id="when">
+    <div className="tabs-panel is-active">
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="small-12 cell">
           <h3 className="h5">
