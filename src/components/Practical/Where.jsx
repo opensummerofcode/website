@@ -2,7 +2,7 @@ import React from 'react';
 
 const Where = () => {
   return (
-    <div className="tabs-panel">
+    <div>
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="small-12 medium-6 large-5 cell">
           <h3 className="h5">

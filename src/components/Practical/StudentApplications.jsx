@@ -3,7 +3,7 @@ import ExternalLink from '../UI/ExternalLink';
 
 const StudentApplication = () => {
   return (
-    <div className="tabs-panel">
+    <div>
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="cell small-11 medium-8 large-6">
           <div className="c-faq__item">
