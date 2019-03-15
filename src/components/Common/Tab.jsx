@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Tab = ({ activeTab, label, onClick, style, className }) => {
-  function onclickTab() {
+  function onclickTab(e) {
+    e.preventDefault();
     onClick(label);
   }
 
@@ -13,7 +14,9 @@ const Tab = ({ activeTab, label, onClick, style, className }) => {
   const stl = { ...style, cursor: 'pointer' };
   return (
     <li onClick={onclickTab} onKeyDown={onclickTab} className={classNames} style={stl} role="tab">
-      {label}
+      <h2>
+        <a href={`#${label}`}>{label}</a>
+      </h2>
     </li>
   );
 };
