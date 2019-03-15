@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
-import $ from 'jquery';
+// import $ from 'jquery';
 import 'foundation-sites';
 import MainLayout from './Layouts/Main';
 import LayoutWithoutPartners from './Layouts/Alternatives/LayoutWithoutPartners';
@@ -17,7 +17,7 @@ import Y2018 from './Editions/index';
 
 class App extends React.Component {
   componentDidMount() {
-    $(document).foundation();
+    // $(document).foundation();
   }
 
   render() {
