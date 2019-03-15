@@ -2,18 +2,18 @@ import React from 'react';
 /* import { Link } from 'react-router-dom';
 import ExternalLink from '../UI/ExternalLink'; */
 import PracticalHeader from './PracticalHeader';
-import PracticalTabs from './PracticalTabs';
-import When from './When';
-import Where from './Where';
-import StudentApplications from './StudentApplications';
-import Partnerships from './Partnerships';
-import Coaching from './Coaching';
+// import PracticalTabs from './PracticalTabs';
+// import When from './When';
+// import Where from './Where';
+// import StudentApplications from './StudentApplications';
+// import Partnerships from './Partnerships';
+// import Coaching from './Coaching';
 
 const Practical = () => {
   return (
     <React.Fragment>
       <PracticalHeader />
-      <PracticalTabs />
+      {/* <PracticalTabs />
 
       <div className="tabs-content c-faq-answers" data-tabs-content="example-tabs">
         <When />
@@ -21,7 +21,7 @@ const Practical = () => {
         <StudentApplications />
         <Partnerships />
         <Coaching />
-      </div>
+      </div> */}
 
       <div className="u-padding-medium--tb bs--darken-light text-center">
         <h6>Couldn&apos;t find what you were looking for?</h6>
