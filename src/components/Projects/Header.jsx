@@ -1,5 +1,5 @@
 import React from 'react';
-import ExternalLink from '../UI/ExternalLink';
+import { ButtonLink } from '../UI/Buttons';
 
 const Header = () => {
   return (
@@ -30,9 +30,13 @@ const Header = () => {
             <strong>related to the Road Completion project</strong>.
           </p>
           <p>
-            <ExternalLink className="button success" href="https://github.com/oSoc18/bike4brussels">
+            <ButtonLink
+              className="success"
+              isExternal
+              href="https://github.com/oSoc18/bike4brussels"
+            >
               Contribute on Github
-            </ExternalLink>
+            </ButtonLink>
           </p>
         </div>
       </div>
