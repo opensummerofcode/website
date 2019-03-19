@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ButtonGroup from '../UI/Buttons';
+import { ButtonGroup } from '../UI/Buttons';
 import ExternalLink from '../UI/ExternalLink';
 import W2011 from '../../assets/img/previous-editions/2011W.svg';
 import W2012 from '../../assets/img/previous-editions/2012W.svg';

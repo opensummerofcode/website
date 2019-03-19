@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import YearEditionCall from '../Common/CallToActions';
 import ExternalLink from '../UI/ExternalLink';
 
 const Testimonials = () => {
@@ -168,11 +168,7 @@ const Testimonials = () => {
             <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />
           </div>
         </div>
-        <div className="small-12 cell">
-          <Link className="button u-margin-large--t" to="/2018">
-            View this year&apos;s edition
-          </Link>
-        </div>
+        <YearEditionCall />
       </div>
     </React.Fragment>
   );

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
+import { ButtonLink } from '../../UI/Buttons';
 
 const Navigation = () => {
   return (
@@ -53,10 +54,10 @@ const Navigation = () => {
                 {/* <!--<li><a href="2018.html" className="button link lowercase u-margin--right">2018</a></li>--> */}
                 <li>
                   {/* <!-- <a href="2018.summerofcode.be" target="_blank" className="button">View 2018 showcase</a> --> */}
-                  <Link to="/2018" target="_blank" className="button">
+                  <ButtonLink to="/2018" target="_blank">
                     Discover all oSoc18 projects
                     <span className="button__info" />
-                  </Link>
+                  </ButtonLink>
                 </li>
               </ul>
             </div>
