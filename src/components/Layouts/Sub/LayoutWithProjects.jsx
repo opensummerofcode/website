@@ -1,16 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Navigation from '../../Common/Navigation';
-import Footer from '../../Common/Footer';
 import FeaturedProjects from '../../Projects/FeaturedProjects';
 
-const LayoutWithProjects = ({ component: Component }) => {
+const LayoutWithProjects = ({ component: Component, ...rest }) => {
   return (
     <React.Fragment>
-      <Navigation />
-      <Component />
+      <Component {...rest} />
       <FeaturedProjects />
-      <Footer />
     </React.Fragment>
   );
 };

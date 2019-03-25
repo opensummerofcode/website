@@ -1,9 +1,23 @@
 import React from 'react';
-import Logo from '../../../../assets/img/logo/logo-osoc-color.svg';
+import PropTypes from 'prop-types';
 import Img from '../../../UI/Img';
 
-const ImgLogo = () => {
-  return <Img src={Logo} alt="open summer of code logo, very abstract, fun, but professional" />;
+const ImgLogo = ({ handleLoad }) => {
+  return (
+    <Img
+      onLoad={handleLoad}
+      src="/img/logo/logo-osoc-color.svg"
+      alt="open summer of code logo, very abstract, fun, but professional"
+    />
+  );
+};
+
+ImgLogo.defaultProps = {
+  handleLoad: null
+};
+
+ImgLogo.propTypes = {
+  handleLoad: PropTypes.func
 };
 
 export default ImgLogo;
