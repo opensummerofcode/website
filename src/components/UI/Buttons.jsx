@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import Link from 'next/link';
 import ExternalLink from './ExternalLink';
 
 const ButtonGroup = ({ children }) => {
@@ -11,7 +11,7 @@ ButtonGroup.propTypes = {
   children: PropTypes.node.isRequired
 };
 
-const ButtonLink = ({ className, children, isExternal = false, ...rest }) => {
+const ButtonLink = ({ className, children, isExternal, ...rest }) => {
   const classNames = className ? ['button', className].join(' ') : 'button';
   const MyLink = isExternal ? ExternalLink : Link;
   return (
@@ -19,6 +19,17 @@ const ButtonLink = ({ className, children, isExternal = false, ...rest }) => {
       {children}
     </MyLink>
   );
+};
+
+ButtonLink.defaultProps = {
+  className: '',
+  isExternal: false
+};
+
+ButtonLink.propTypes = {
+  className: PropTypes.string,
+  children: PropTypes.node.isRequired,
+  isExternal: PropTypes.bool
 };
 
 export { ButtonLink, ButtonGroup };

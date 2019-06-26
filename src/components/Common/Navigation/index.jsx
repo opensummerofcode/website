@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import Foundation from 'foundation-sites';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
@@ -153,7 +153,7 @@ class Navigation extends React.Component {
                   {/* <!--<li><a href="2018.html" className="button link lowercase u-margin--right">2018</a></li>--> */}
                   <li>
                     {/* <!-- <a href="2018.summerofcode.be" target="_blank" className="button">View 2018 showcase</a> --> */}
-                    <Link to="/2018" target="_blank" className="button">
+                    <Link href="/2018" target="_blank" className="button">
                       Discover all oSoc18 projects
                       <span className="button__info" />
                     </Link>

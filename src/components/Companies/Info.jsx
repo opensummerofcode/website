@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import ExternalLink from '../UI/ExternalLink';
 
 const Info = () => {
@@ -72,7 +72,7 @@ const Info = () => {
             expand your network or support students &mdash; we can help you out.
           </p>
           <p>
-            <Link to="/practical">Visit our FAQ</Link> if you have any questions, or send us{' '}
+            <Link href="/practical">Visit our FAQ</Link> if you have any questions, or send us{' '}
             <a
               href="mailto:dries@openknowledge.be?subject=Regarding osoc18 Partnership"
               title="Partnership at osoc18"

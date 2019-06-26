@@ -1,5 +1,5 @@
 import React from 'react';
-/* import { Link } from 'react-router-dom';
+/* import Link from 'next/link';
 import ExternalLink from '../UI/ExternalLink'; */
 import PracticalHeader from './PracticalHeader';
 // import PracticalTabs from './PracticalTabs';

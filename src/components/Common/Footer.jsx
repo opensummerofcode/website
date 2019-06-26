@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ButtonGroup } from '../UI/Buttons';
 import ExternalLink from '../UI/ExternalLink';
 import W2011 from '../../assets/img/previous-editions/2011W.svg';
@@ -72,13 +72,13 @@ const Footer = () => {
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
                 <li>
-                  <Link to="students">Students</Link>
+                  <Link href="students">Students</Link>
                 </li>
                 <li>
-                  <Link to="companies">Companies</Link>
+                  <Link href="companies">Companies</Link>
                 </li>
                 <li>
-                  <Link to="coaches">Coaches</Link>
+                  <Link href="coaches">Coaches</Link>
                 </li>
               </ul>
             </div>
@@ -90,10 +90,10 @@ const Footer = () => {
                   </ExternalLink>
                 </li>
                 <li>
-                  <Link to="practical">Practical</Link>
+                  <Link href="practical">Practical</Link>
                 </li>
                 <li>
-                  <Link to="2018">2018</Link>
+                  <Link href="2018">2018</Link>
                 </li>
               </ul>
             </div>

@@ -24,9 +24,9 @@ const HomeHeader = () => {
       {/* <!-- links --> */}
       <div className="hero-themes">
         <div className="grid-x grid-padding-x grid-x--equal-height">
-          <HeroLink to="/students" name="students" />
-          <HeroLink to="/companies" name="companies" />
-          <HeroLink to="/coaches" name="coaches" />
+          <HeroLink href="/students" name="students" />
+          <HeroLink href="/companies" name="companies" />
+          <HeroLink href="/coaches" name="coaches" />
         </div>
       </div>
     </React.Fragment>
