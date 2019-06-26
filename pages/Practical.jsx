@@ -1,14 +1,14 @@
 import React from 'react';
 /* import Link from 'next/link';
 import ExternalLink from '../UI/ExternalLink'; */
-import PracticalHeader from './PracticalHeader';
+import PracticalHeader from '../components/Practical/PracticalHeader';
 // import PracticalTabs from './PracticalTabs';
-import When from './When';
-import Where from './Where';
-import StudentApplications from './StudentApplications';
-import Partnerships from './Partnerships';
-import Coaching from './Coaching';
-import Tabs from '../Common/Tabs';
+import When from '../components/Practical/When';
+import Where from '../components/Practical/Where';
+import StudentApplications from '../components/Practical/StudentApplications';
+import Partnerships from '../components/Practical/Partnerships';
+import Coaching from '../components/Practical/Coaching';
+import Tabs from '../components/Common/Tabs';
 
 const Practical = () => {
   return (

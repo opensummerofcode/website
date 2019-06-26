@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './Header';
-import Info from './Info';
+import Header from '../components/Companies/Header';
+import Info from '../components/Companies/Info';
 
 const Companies = () => {
   return (
-    <React.Fragment>
+    <>
       <Header />
       <Info />
-    </React.Fragment>
+    </>
   );
 };
 

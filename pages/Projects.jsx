@@ -1,9 +1,9 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import { ButtonLink } from '../UI/Buttons';
-import Header from './Header';
-import Team from './Team';
-import Partners from './Partners';
+import { ButtonLink } from '../components/UI/Buttons';
+import Header from '../components/Projects/Header';
+import Team from '../components/Projects/Team';
+import Partners from '../components/Projects/Partners';
 
 const Project = () => {
   return (
