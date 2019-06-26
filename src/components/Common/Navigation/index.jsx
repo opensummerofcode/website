@@ -126,19 +126,29 @@ class Navigation extends React.Component {
               <div className="top-bar-right">
                 <ul className="menu vertical large-horizontal">
                   <li>
-                    <Tab to="/">Home</Tab>
+                    <Tab onClick={this.handleToggle} to="/">
+                      Home
+                    </Tab>
                   </li>
                   <li>
-                    <Tab to="/practical">Practical</Tab>
+                    <Tab onClick={this.handleToggle} to="/practical">
+                      Practical
+                    </Tab>
                   </li>
                   <li>
-                    <Tab to="/students">Students</Tab>
+                    <Tab onClick={this.handleToggle} to="/students">
+                      Students
+                    </Tab>
                   </li>
                   <li>
-                    <Tab to="/companies">Companies</Tab>
+                    <Tab onClick={this.handleToggle} to="/companies">
+                      Companies
+                    </Tab>
                   </li>
                   <li>
-                    <Tab to="/coaches">Coaches</Tab>
+                    <Tab onClick={this.handleToggle} to="/coaches">
+                      Coaches
+                    </Tab>
                   </li>
                   {/* <!--<li><a href="2018.html" className="button link lowercase u-margin--right">2018</a></li>--> */}
                   <li>
