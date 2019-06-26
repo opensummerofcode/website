@@ -2,9 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Tab = ({ activeTab, label, onClick, style, className }) => {
-  function onclickTab(e) {
-    e.preventDefault();
+  function handleClick() {
     onClick(label);
+  }
+
+  function handleKeyDown(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      onClick(label);
+    }
   }
 
   let classNames = className;
@@ -13,9 +19,17 @@ const Tab = ({ activeTab, label, onClick, style, className }) => {
   }
   const stl = { ...style, cursor: 'pointer' };
   return (
-    <li onClick={onclickTab} onKeyDown={onclickTab} className={classNames} style={stl} role="tab">
+    <li
+      onClick={handleClick}
+      onKeyDown={handleKeyDown}
+      className={classNames}
+      style={stl}
+      role="tab"
+    >
       <h2>
-        <a href={`#${label}`}>{label}</a>
+        <a tabIndex="0" href={`#${label}`}>
+          {label}
+        </a>
       </h2>
     </li>
   );
