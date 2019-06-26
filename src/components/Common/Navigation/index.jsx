@@ -73,8 +73,8 @@ class Navigation extends React.Component {
   };
 
   handleToggle = () => {
-    const { display } = this.state;
-    this.setState({ display: display ? '' : 'none' }, this.calc);
+    const { display, canStick } = this.state;
+    if (!canStick) this.setState({ display: display ? '' : 'none' }, this.calc);
   };
 
   render() {
