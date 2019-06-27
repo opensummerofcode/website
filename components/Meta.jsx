@@ -1,7 +1,5 @@
 import Head from 'next/head';
 
-import '../assets/scss/app.scss';
-
 const Meta = () => (
   <Head>
     <meta charSet="utf-8" />
@@ -16,7 +14,7 @@ const Meta = () => (
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
     />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="/manifest.json" />
     <title>open Summer of code 2019</title>
   </Head>
 );
