@@ -1,16 +1,15 @@
 import React from 'react';
+import Layout from '../components/Layouts/Main';
 import Header from '../components/Students/Header';
 import Info from '../components/Students/Info';
 import Testimonials from '../components/Students/Testimonials';
 
-const Students = () => {
-  return (
-    <React.Fragment>
-      <Header />
-      <Info />
-      <Testimonials />
-    </React.Fragment>
-  );
-};
+const Students = () => (
+  <Layout>
+    <Header />
+    <Info />
+    <Testimonials />
+  </Layout>
+);
 
 export default Students;
