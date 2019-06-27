@@ -72,13 +72,19 @@ const Footer = () => {
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
                 <li>
-                  <Link href="students">Students</Link>
+                  <Link href="students">
+                    <a>Students</a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="companies">Companies</Link>
+                  <Link href="companies">
+                    <a>Companies</a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="coaches">Coaches</Link>
+                  <Link href="coaches">
+                    <a>Coaches</a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -90,10 +96,14 @@ const Footer = () => {
                   </ExternalLink>
                 </li>
                 <li>
-                  <Link href="practical">Practical</Link>
+                  <Link href="practical">
+                    <a>Practical</a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="2018">2018</Link>
+                  <Link href="2018">
+                    <a>2018</a>
+                  </Link>
                 </li>
               </ul>
             </div>

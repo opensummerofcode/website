@@ -21,6 +21,7 @@ class Navigation extends React.Component {
   componentDidMount() {
     dynamic(async () => {
       Foundation = await import('foundation-sites');
+      console.log(Foundation);
       this.setState({
         canStick: !!Foundation.MediaQuery.atLeast('large'),
         display: Foundation.MediaQuery.atLeast('large') ? '' : 'none',
@@ -129,8 +130,8 @@ class Navigation extends React.Component {
               }}
             >
               <div className="top-bar-left show-for-large">
-                <Link className="logo" to="/" data-hide-for="medium">
-                  <a>
+                <Link href="/">
+                  <a className="logo" data-hide-for="medium">
                     <ImgLogo handleLoad={this.handleLoad} />
                   </a>
                 </Link>
@@ -138,35 +139,35 @@ class Navigation extends React.Component {
               <div className="top-bar-right">
                 <ul className="menu vertical large-horizontal">
                   <li>
-                    <Tab onClick={this.handleToggle} to="/">
+                    <Tab onClick={this.handleToggle} href="/">
                       Home
                     </Tab>
                   </li>
                   <li>
-                    <Tab onClick={this.handleToggle} to="/practical">
+                    <Tab onClick={this.handleToggle} href="/practical">
                       Practical
                     </Tab>
                   </li>
                   <li>
-                    <Tab onClick={this.handleToggle} to="/students">
+                    <Tab onClick={this.handleToggle} href="/students">
                       Students
                     </Tab>
                   </li>
                   <li>
-                    <Tab onClick={this.handleToggle} to="/companies">
+                    <Tab onClick={this.handleToggle} href="/companies">
                       Companies
                     </Tab>
                   </li>
                   <li>
-                    <Tab onClick={this.handleToggle} to="/coaches">
+                    <Tab onClick={this.handleToggle} href="/coaches">
                       Coaches
                     </Tab>
                   </li>
                   {/* <!--<li><a href="2018.html" className="button link lowercase u-margin--right">2018</a></li>--> */}
                   <li>
                     {/* <!-- <a href="2018.summerofcode.be" target="_blank" className="button">View 2018 showcase</a> --> */}
-                    <Link href="/2018" target="_blank" className="button">
-                      <a>
+                    <Link href="/2018">
+                      <a target="_blank" className="button">
                         Discover all oSoc18 projects
                         <span className="button__info" />
                       </a>

@@ -72,7 +72,10 @@ const Info = () => {
             expand your network or support students &mdash; we can help you out.
           </p>
           <p>
-            <Link href="/practical">Visit our FAQ</Link> if you have any questions, or send us{' '}
+            <Link href="/practical">
+              <a>Visit our FAQ</a>
+            </Link>
+            if you have any questions, or send us{' '}
             <a
               href="mailto:dries@openknowledge.be?subject=Regarding osoc18 Partnership"
               title="Partnership at osoc18"

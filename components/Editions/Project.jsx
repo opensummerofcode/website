@@ -8,12 +8,14 @@ const Project = ({ name, hook, logo }) => {
   return (
     <div className="small-6 medium-6 large-4 cell c-projects-project">
       <Link href={`/project/${to}`} target="_blank" className="c-projects-image">
-        <img src={path} alt={alt} />
+        <a>
+          <img src={path} alt={alt} />
+        </a>
       </Link>
       <div className="c-projects-content">
         <h2 className="h5">
           <Link href={`/project/${to}`} target="_blank">
-            {name}
+            <a>{name}</a>
           </Link>
         </h2>
         <p>{hook}</p>

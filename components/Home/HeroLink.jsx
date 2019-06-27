@@ -6,7 +6,9 @@ const HeroLink = ({ href, name }) => {
   return (
     <div className="small-12 medium-4 large-4 cell">
       <h2 className="h3">
-        <Link href={href}>{name}</Link>
+        <Link href={href}>
+          <a>{name}</a>
+        </Link>
       </h2>
     </div>
   );
