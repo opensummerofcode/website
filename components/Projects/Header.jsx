@@ -6,7 +6,7 @@ const Header = () => {
     <header className="hero-detail u-padding-x-large--tb">
       <div className="grid-x grid-padding-x small-offset-1 medium-offset-0">
         <div className="small-10 medium-3 medium-offset-0 large-4 cell u-margin-medium--b">
-          <img className="crest" src="/img/projects/bike4brussels.png" alt="" />
+          <img className="crest" src="/static/img/projects/bike4brussels.png" alt="" />
           <h1 className="hero-head project-title">
             Bike 4<br />
             Brussels

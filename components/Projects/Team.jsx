@@ -19,7 +19,7 @@ const Team = () => {
               github: ''
             }}
             picture={{
-              path: '/img/headshots/daniëlle_terras.jpg',
+              path: '/static/img/headshots/daniëlle_terras.jpg',
               alt: 'Picture of Daniëlle Terras'
             }}
           />
@@ -31,7 +31,7 @@ const Team = () => {
               github: 'https://github.com/Fizz55'
             }}
             picture={{
-              path: '/img/headshots/kristof_neyt.jpg',
+              path: '/static/img/headshots/kristof_neyt.jpg',
               alt: 'Picture of Kristof Neyt'
             }}
           />
@@ -44,7 +44,7 @@ const Team = () => {
               github: 'https://github.com/r0b93y'
             }}
             picture={{
-              path: '/img/headshots/robert_heyse.jpg',
+              path: '/static/img/headshots/robert_heyse.jpg',
               alt: 'Picture of Robert Heyse'
             }}
           />
@@ -57,7 +57,7 @@ const Team = () => {
               github: ''
             }}
             picture={{
-              path: '/img/headshots/ben_abelshausen.jpg',
+              path: '/static/img/headshots/ben_abelshausen.jpg',
               alt: 'Picture of Ben Abelshausen'
             }}
           />
@@ -69,7 +69,7 @@ const Team = () => {
               github: 'https://github.com/jbelien'
             }}
             picture={{
-              path: '/img/headshots/jonathan_belien.jpg',
+              path: '/static/img/headshots/jonathan_belien.jpg',
               alt: 'Picture of Jonathan Beliën'
             }}
           />

@@ -31,7 +31,7 @@ const Info = () => {
         </div>
         <div className="medium-8 large-6 cell large-offset-1">
           <img
-            src="img/pictures/osoc17-2.jpg"
+            src="/static/img/pictures/osoc17-2.jpg"
             className="u-margin--b"
             alt="A coach and his students tackling a problem"
           />
@@ -48,7 +48,7 @@ const Info = () => {
       {/* <!-- info companies --> */}
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="medium-8 large-6 cell">
-          <img src="img/pictures/osoc17-3.jpg" className="u-margin--b" alt="Students working out" />
+          <img src="/static/img/pictures/osoc17-3.jpg" className="u-margin--b" alt="Students working out" />
           <p>
             <small>
               Open summer of code 2017 &mdash; making sure our students get some exercise to tackle

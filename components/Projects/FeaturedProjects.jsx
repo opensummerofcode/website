@@ -8,7 +8,7 @@ const FeaturedProjects = () => {
       <div className="grid-x grid-padding-x align-center">
         <div className="small-6 medium-6 large-3 cell c-projects-project">
           <ExternalLink href="https://github.com/oSoc18/bike4brussels" className="c-projects-image">
-            <img src="img/projects/bike4brussels.png" alt="Logo of project Bike4Brussels" />
+            <img src="/static/img/projects/bike4brussels.png" alt="Logo of project Bike4Brussels" />
           </ExternalLink>
           <div className="c-projects-content">
             <h2 className="h5">
@@ -22,7 +22,7 @@ const FeaturedProjects = () => {
 
         <div className="small-6 medium-6 large-3 cell c-projects-project">
           <ExternalLink href="https://github.com/oSoc18/bitsoftrust" className="c-projects-image">
-            <img src="img/projects/bitsoftrust.png" alt="Logo of project Bits of Trust" />
+            <img src="/static/img/projects/bitsoftrust.png" alt="Logo of project Bits of Trust" />
           </ExternalLink>
           <div className="c-projects-content">
             <h2 className="h5">
@@ -39,7 +39,7 @@ const FeaturedProjects = () => {
 
         <div className="small-6 medium-6 large-3 cell c-projects-project">
           <ExternalLink href="https://github.com/oSoc18/fris" className="c-projects-image">
-            <img src="img/projects/fris.png" alt="Logo of project FRIS" />
+            <img src="/static/img/projects/fris.png" alt="Logo of project FRIS" />
           </ExternalLink>
           <div className="c-projects-content">
             <h2 className="h5">
@@ -51,7 +51,7 @@ const FeaturedProjects = () => {
 
         <div className="small-6 medium-6 large-3 cell c-projects-project">
           <ExternalLink href="https://github.com/oSoc18/gentlestudent" className="c-projects-image">
-            <img src="img/projects/gentlestudent.png" alt="Logo of project Gentlestudent" />
+            <img src="/static/img/projects/gentlestudent.png" alt="Logo of project Gentlestudent" />
           </ExternalLink>
           <div className="c-projects-content">
             <h2 className="h5">

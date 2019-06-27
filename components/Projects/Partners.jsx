@@ -14,7 +14,7 @@ const Partners = () => {
         <div className="grid-x grid-padding-x u-margin-large--b partner-section">
           <div className="small-6 medium-4 large-3 cell">
             <ExternalLink href="https://bike.brussels/" className="vertical-align-container">
-              <img src="/img/partners-svg/bike-brussels.svg" alt="" />
+              <img src="/static/img/partners-svg/bike-brussels.svg" alt="" />
             </ExternalLink>
             <h3 className="h6">
               <ExternalLink href="https://bike.brussels/" className="vertical-align-container">
@@ -27,7 +27,7 @@ const Partners = () => {
               href="http://be.brussels/about-the-region/brussels-regional-public-service?set_language=en"
               className="vertical-align-container"
             >
-              <img src="/img/partners/dark/brussels.png" alt="" />
+              <img src="/static/img/partners/dark/brussels.png" alt="" />
             </ExternalLink>
             <h3 className="h6">
               <ExternalLink
@@ -43,7 +43,7 @@ const Partners = () => {
               href="https://www.openstreetmap.org/"
               className="vertical-align-container"
             >
-              <img src="/img/partners-svg/osm.svg" alt="" />
+              <img src="/static/img/partners-svg/osm.svg" alt="" />
             </ExternalLink>
             <h3 className="h6">
               <ExternalLink

@@ -21,7 +21,6 @@ class Navigation extends React.Component {
   componentDidMount() {
     dynamic(async () => {
       Foundation = await import('foundation-sites');
-      console.log(Foundation);
       this.setState({
         canStick: !!Foundation.MediaQuery.atLeast('large'),
         display: Foundation.MediaQuery.atLeast('large') ? '' : 'none',

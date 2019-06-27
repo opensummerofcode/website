@@ -6,6 +6,7 @@ import CoachesHeader from '../components/Editions/CoachesHeader';
 import ProjectsGallery from '../components/Editions/ProjectsGallery';
 import StudentsGallery from '../components/Editions/StudentsGallery';
 import CoachesGallery from '../components/Editions/CoachesGallerry';
+import Partners from '../components/Companies/Partners';
 
 const YearEdition = () => (
   <Layout>
@@ -15,6 +16,7 @@ const YearEdition = () => (
     <StudentsGallery />
     <CoachesHeader />
     <CoachesGallery />
+    <Partners />
   </Layout>
 );
 

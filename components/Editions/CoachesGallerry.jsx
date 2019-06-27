@@ -13,7 +13,7 @@ const CoachesGallery = () => {
           github: 'https://github.com/Driesvanransbeeck"'
         }}
         picture={{
-          path: 'img/headshots/dries_van_ransbeeck.jpg',
+          path: '/static/static/img/headshots/dries_van_ransbeeck.jpg',
           alt: 'Picture of Dries Van Ransbeeck'
         }}
       />
@@ -24,12 +24,12 @@ const CoachesGallery = () => {
           linkedin: 'https://www.linkedin.com/in/pcolpaert/',
           github: 'https://github.com/pietercolpaert'
         }}
-        picture={{ path: 'img/headshots/pieter_colpaert.jpg', alt: 'Picture of Pieter Colpaert' }}
+        picture={{ path: '/static/img/headshots/pieter_colpaert.jpg', alt: 'Picture of Pieter Colpaert' }}
       />
       <Headshot
         data={{ firstName: 'Andrews', lastName: 'Leruth' }}
         social={{ twitter: '', linkedin: '', github: 'https://github.com/HispanicMojitos' }}
-        picture={{ path: 'img/headshots/andrews_leruth.jpg', alt: 'Picture of Andrews Leruth' }}
+        picture={{ path: '/static/img/headshots/andrews_leruth.jpg', alt: 'Picture of Andrews Leruth' }}
       />
       <Headshot
         data={{ firstName: 'Bert', lastName: 'Jehoul' }}
@@ -38,7 +38,7 @@ const CoachesGallery = () => {
           linkedin: 'https://www.linkedin.com/in/bertjehoul/',
           github: 'https://github.com/jeborsel'
         }}
-        picture={{ path: 'img/headshots/bert_jehoul.jpg', alt: 'Picture of Bert Jehoul' }}
+        picture={{ path: '/static/img/headshots/bert_jehoul.jpg', alt: 'Picture of Bert Jehoul' }}
       />
       <Headshot
         data={{ firstName: 'Eveline', lastName: 'Vlassenroot' }}
@@ -48,7 +48,7 @@ const CoachesGallery = () => {
           github: ''
         }}
         picture={{
-          path: 'img/headshots/eveline_vlassenroot.jpg',
+          path: '/static/img/headshots/eveline_vlassenroot.jpg',
           alt: 'Picture of Eveline Vlassenroot'
         }}
       />
@@ -60,7 +60,7 @@ const CoachesGallery = () => {
           github: 'https://github.com/RutgerBevers'
         }}
         picture={{
-          path: 'img/headshots/rutger_bevers.jpg',
+          path: '/static/img/headshots/rutger_bevers.jpg',
           alt: 'Picture of Rutger Bevers'
         }}
       />
@@ -71,7 +71,7 @@ const CoachesGallery = () => {
           linkedin: 'https://www.linkedin.com/in/frederikvincx/',
           github: 'https://github.com/fritsbits'
         }}
-        picture={{ path: 'img/headshots/frederik_vincx.jpg', alt: 'Picture of Frederik Vincx"' }}
+        picture={{ path: '/static/img/headshots/frederik_vincx.jpg', alt: 'Picture of Frederik Vincx"' }}
       />
       <Headshot
         data={{ firstName: 'Pieter', lastName: 'Vander Vennet' }}
@@ -80,7 +80,7 @@ const CoachesGallery = () => {
           linkedin: '',
           github: ''
         }}
-        picture={{ path: 'img/headshots/friso_leder.jpg', alt: 'Picture of Pieter Vander Vennet' }}
+        picture={{ path: '/static/img/headshots/friso_leder.jpg', alt: 'Picture of Pieter Vander Vennet' }}
       />
       <Headshot
         data={{ firstName: 'Brecht', lastName: 'Van de Vyvere' }}
@@ -90,7 +90,7 @@ const CoachesGallery = () => {
           github: 'https://github.com/brechtvdv'
         }}
         picture={{
-          path: 'img/headshots/brecht_van_de_vyvere.jpg',
+          path: '/static/img/headshots/brecht_van_de_vyvere.jpg',
           alt: 'Picture of Brecht Van de Vyvere'
         }}
       />
@@ -101,7 +101,7 @@ const CoachesGallery = () => {
           linkedin: 'https://www.linkedin.com/in/nielsv',
           github: 'https://github.com/nvdk'
         }}
-        picture={{ path: 'img/headshots/ben_abelshausen.jpg', alt: 'Picture of Niels Vandekeybus' }}
+        picture={{ path: '/static/img/headshots/ben_abelshausen.jpg', alt: 'Picture of Niels Vandekeybus' }}
       />
     </Gallery>
   );
