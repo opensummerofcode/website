@@ -1,9 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import Foundation from 'foundation-sites';
+import dynamic from 'next/dynamic';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
+
+let Foundation;
 
 class Navigation extends React.Component {
   sticky = 'sticky is-at-top';
@@ -11,12 +13,20 @@ class Navigation extends React.Component {
   state = {
     isSticky: false,
     height: 0,
-    canStick: !!Foundation.MediaQuery.atLeast('large'),
-    display: Foundation.MediaQuery.atLeast('large') ? '' : 'none',
-    className: Foundation.MediaQuery.atLeast('large') ? this.sticky : ''
+    canStick: null,
+    display: null,
+    className: null
   };
 
   componentDidMount() {
+    dynamic(async () => {
+      Foundation = await import('foundation-sites');
+      this.setState({
+        canStick: !!Foundation.MediaQuery.atLeast('large'),
+        display: Foundation.MediaQuery.atLeast('large') ? '' : 'none',
+        className: Foundation.MediaQuery.atLeast('large') ? this.sticky : ''
+      });
+    });
     window.addEventListener('scroll', this.handleScroll);
     window.addEventListener('resize', this.handleResize);
   }
@@ -120,7 +130,9 @@ class Navigation extends React.Component {
             >
               <div className="top-bar-left show-for-large">
                 <Link className="logo" to="/" data-hide-for="medium">
-                  <ImgLogo handleLoad={this.handleLoad} />
+                  <a>
+                    <ImgLogo handleLoad={this.handleLoad} />
+                  </a>
                 </Link>
               </div>
               <div className="top-bar-right">
@@ -154,8 +166,10 @@ class Navigation extends React.Component {
                   <li>
                     {/* <!-- <a href="2018.summerofcode.be" target="_blank" className="button">View 2018 showcase</a> --> */}
                     <Link href="/2018" target="_blank" className="button">
-                      Discover all oSoc18 projects
-                      <span className="button__info" />
+                      <a>
+                        Discover all oSoc18 projects
+                        <span className="button__info" />
+                      </a>
                     </Link>
                   </li>
                 </ul>
