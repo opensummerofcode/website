@@ -1,10 +1,9 @@
-import React from 'react';
 import Link from 'next/link';
 import ExternalLink from '../UI/ExternalLink';
 
 const Info = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="medium-8 large-5 cell">
           <p className="hero-text u-margin-large--b">
@@ -89,7 +88,7 @@ const Info = () => {
           <p>P.S. Omg, it&apos;s paid...</p>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Braggings = () => {
   return (
     <div className="grid-x c-brag">

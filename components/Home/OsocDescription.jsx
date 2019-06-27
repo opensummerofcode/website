@@ -1,5 +1,3 @@
-import React from 'react';
-
 const OsocDescription = () => {
   return (
     <div className="grid-x align-middle c-what">

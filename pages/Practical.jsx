@@ -1,4 +1,3 @@
-import React from 'react';
 /* import Link from 'next/link';
 import ExternalLink from '../UI/ExternalLink'; */
 import Layout from '../components/Layouts/Main';

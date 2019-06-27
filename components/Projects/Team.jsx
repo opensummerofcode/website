@@ -1,4 +1,3 @@
-import React from 'react';
 import Headshot from '../Editions/Headshot';
 
 const Team = () => {

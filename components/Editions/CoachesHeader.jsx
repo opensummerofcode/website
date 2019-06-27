@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CoachesHeader = () => {
   return (
     <header className="hero-detail u-padding-x-large--tb border-top-medium-gray">

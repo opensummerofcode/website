@@ -1,4 +1,3 @@
-import React from 'react';
 import Headshot from './Headshot';
 import Gallery from './Gallery';
 

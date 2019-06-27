@@ -1,4 +1,3 @@
-import React from 'react';
 import { ButtonLink } from '../UI/Buttons';
 
 const Header = () => {

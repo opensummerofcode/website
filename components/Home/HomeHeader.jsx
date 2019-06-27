@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroLink from './HeroLink';
 
 const HomeHeader = () => {

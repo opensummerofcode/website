@@ -1,4 +1,3 @@
-import React from 'react';
 import ExternalLink from '../UI/ExternalLink';
 import YearEditionCall from '../Common/CallToActions';
 

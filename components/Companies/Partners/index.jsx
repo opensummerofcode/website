@@ -1,4 +1,3 @@
-import React from 'react';
 import partnersdata from '../../../assets/data/partners.json';
 import Partner from './Partner';
 

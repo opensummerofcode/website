@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import { ButtonGroup } from '../UI/Buttons';
 import ExternalLink from '../UI/ExternalLink';

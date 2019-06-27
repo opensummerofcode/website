@@ -1,10 +1,9 @@
-import React from 'react';
 import YearEditionCall from '../Common/CallToActions';
 import ExternalLink from '../UI/ExternalLink';
 
 const Testimonials = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="grid-x u-padding-x-large--tb grid-padding-x c-projects-old bg-lighter-gray align-center text-center">
         <div className="small-12 cell">
           <p>Some proof of how awesome our projects can get...</p>
@@ -170,7 +169,7 @@ const Testimonials = () => {
         </div>
         <YearEditionCall />
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

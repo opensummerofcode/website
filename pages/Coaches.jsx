@@ -1,4 +1,3 @@
-import React from 'react';
 import Layout from '../components/Layouts/Main';
 import Header from '../components/Coaches/Header';
 import Info from '../components/Coaches/Info';
