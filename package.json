@@ -18,7 +18,7 @@
     "react-dom": "^16.8.6"
   },
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
     "start": "cross-env NODE_ENV=production node server.js"
   },
