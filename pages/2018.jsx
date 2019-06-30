@@ -1,4 +1,3 @@
-import Layout from '../components/Layouts/Main';
 import ProjectsHeader from '../components/Editions/ProjectsHeader';
 import StudentsHeader from '../components/Editions/StudentsHeader';
 import CoachesHeader from '../components/Editions/CoachesHeader';
@@ -8,7 +7,7 @@ import CoachesGallery from '../components/Editions/CoachesGallerry';
 import Partners from '../components/Companies/Partners';
 
 const YearEdition = () => (
-  <Layout>
+  <>
     <ProjectsHeader />
     <ProjectsGallery />
     <StudentsHeader />
@@ -16,7 +15,7 @@ const YearEdition = () => (
     <CoachesHeader />
     <CoachesGallery />
     <Partners />
-  </Layout>
+  </>
 );
 
 export default YearEdition;

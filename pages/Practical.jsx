@@ -1,6 +1,5 @@
 /* import Link from 'next/link';
 import ExternalLink from '../UI/ExternalLink'; */
-import Layout from '../components/Layouts/Main';
 import PracticalHeader from '../components/Practical/PracticalHeader';
 // import PracticalTabs from './PracticalTabs';
 import When from '../components/Practical/When';
@@ -11,7 +10,7 @@ import Coaching from '../components/Practical/Coaching';
 import Tabs from '../components/Common/Tabs';
 
 const Practical = () => (
-  <Layout>
+  <>
     <PracticalHeader />
     {/* <PracticalTabs /> */}
 
@@ -37,7 +36,7 @@ const Practical = () => (
         Mail us your questions
       </a>
     </div>
-  </Layout>
+  </>
 );
 
 export default Practical;

@@ -1,12 +1,11 @@
 // import PropTypes from 'prop-types';
-import Layout from '../components/Layouts/Main';
 import { ButtonLink } from '../components/UI/Buttons';
 import Header from '../components/Projects/Header';
 import Team from '../components/Projects/Team';
 import Partners from '../components/Projects/Partners';
 
 const Project = () => (
-  <Layout>
+  <>
     <Header />
     <Team />
     <Partners />
@@ -18,7 +17,7 @@ const Project = () => (
         </ButtonLink>
       </div>
     </div>
-  </Layout>
+  </>
 );
 
 /* Project.propTypes = {
