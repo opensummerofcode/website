@@ -12,24 +12,19 @@ const Navigation = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [height, setHeight] = useState(0);
   const [canStick, setCanStick] = useState(null);
-  const [display, setDisplay] = useState(null);
+  const [display, setDisplay] = useState('none');
   const [className, setClassName] = useState('');
 
   const setSticky = () => {
-    if (isSticky) setClassName({ className: `${STICKY} is-stuck` });
+    if (isSticky) setClassName(`${STICKY} is-stuck`);
     else setClassName(`${STICKY} is-anchored`);
   };
 
   useEffect(setSticky, [isSticky]);
-  useEffect(() => {
-    console.log({ canStick });
-  }, [canStick]);
-
-  useEffect(() => {
-    setSticky();
-  }, [isSticky]);
 
   const calc = () => setHeight($nav.current.clientHeight);
+
+  useEffect(calc, [display]);
 
   const handleToggle = () => {
     if (canStick) return;
@@ -40,23 +35,23 @@ const Navigation = () => {
   const handleResize = () => {
     const isLarge = Foundation.MediaQuery.atLeast('large');
     if (display && isLarge) {
+      setSticky(true);
       setDisplay('');
       setCanStick(true);
-      calc();
     } else if (!display && !isLarge) {
       setDisplay('none');
       setCanStick(false);
       setHeight(0);
-      setClassName({ className: '' });
+      setClassName('');
     }
   };
 
   const handleScroll = () => {
-    console.log(canStick);
     if (!canStick) return;
     const position = window.pageYOffset;
-    if (!isSticky && position > 0) setIsSticky(true);
-    else if (isSticky && position === 0) setIsSticky(false);
+    if (!isSticky && position > 0) {
+      setIsSticky(true);
+    } else if (isSticky && position === 0) setIsSticky(false);
   };
 
   useEffect(() => {
@@ -65,18 +60,18 @@ const Navigation = () => {
       setCanStick(!!Foundation.MediaQuery.atLeast('large'));
       setDisplay(Foundation.MediaQuery.atLeast('large') ? '' : 'none');
       setClassName(Foundation.MediaQuery.atLeast('large') ? STICKY : '');
-      window.addEventListener('scroll', () => {
-        can
-        console.log(`scroll: ${canStick}`)
-      });
-      window.addEventListener('resize', handleResize);
     });
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  });
 
   return (
     <header>
@@ -102,7 +97,6 @@ const Navigation = () => {
           <div
             className={`${className} top-bar bs--darken-light`}
             id="nav-menu"
-            data-sticky
             data-options="marginTop:0;"
             ref={$nav}
             style={{
