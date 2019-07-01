@@ -1,184 +1,169 @@
+import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
-import dynamic from 'next/dynamic';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
 
 let Foundation;
+const Navigation = () => {
+  const STICKY = 'sticky is-at-top';
+  const $nav = useRef(null);
 
-class Navigation extends React.Component {
-  sticky = 'sticky is-at-top';
+  const [isSticky, setIsSticky] = useState(false);
+  const [height, setHeight] = useState(0);
+  const [canStick, setCanStick] = useState(null);
+  const [display, setDisplay] = useState(null);
+  const [className, setClassName] = useState('');
 
-  state = {
-    isSticky: false,
-    height: 0,
-    canStick: null,
-    display: null,
-    className: null
+  const setSticky = () => {
+    if (isSticky) setClassName({ className: `${STICKY} is-stuck` });
+    else setClassName(`${STICKY} is-anchored`);
   };
 
-  componentDidMount() {
-    dynamic(async () => {
-      Foundation = await import('foundation-sites');
-      this.setState({
-        canStick: !!Foundation.MediaQuery.atLeast('large'),
-        display: Foundation.MediaQuery.atLeast('large') ? '' : 'none',
-        className: Foundation.MediaQuery.atLeast('large') ? this.sticky : ''
-      });
-    });
-    window.addEventListener('scroll', this.handleScroll);
-    window.addEventListener('resize', this.handleResize);
-  }
+  useEffect(setSticky, [isSticky]);
+  useEffect(() => {
+    console.log({ canStick });
+  }, [canStick]);
 
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-    window.removeEventListener('resize', this.handleResize);
-  }
+  useEffect(() => {
+    setSticky();
+  }, [isSticky]);
 
-  handleLoad = () => {
-    this.calc();
+  const calc = () => setHeight($nav.current.clientHeight);
+
+  const handleToggle = () => {
+    if (canStick) return;
+    setDisplay(display ? '' : 'none');
+    calc();
   };
 
-  handleResize = () => {
-    const { display } = this.state;
+  const handleResize = () => {
     const isLarge = Foundation.MediaQuery.atLeast('large');
     if (display && isLarge) {
-      this.setState({ display: '', canStick: true }, () => {
-        this.calc();
-        this.setSticky();
-      });
+      setDisplay('');
+      setCanStick(true);
+      calc();
     } else if (!display && !isLarge) {
-      this.setState({ display: 'none', canStick: false, height: 0 }, this.removeSticky);
+      setDisplay('none');
+      setCanStick(false);
+      setHeight(0);
+      setClassName({ className: '' });
     }
   };
 
-  calc = () => {
-    const height = this.element.clientHeight;
-    this.setState({ height });
-  };
-
-  setSticky = () => {
-    const { isSticky } = this.state;
-    if (isSticky) {
-      this.setState({ className: `${this.sticky} is-stuck` });
-    } else {
-      this.setState({ className: `${this.sticky} is-anchored` });
-    }
-  };
-
-  removeSticky = () => {
-    this.setState({ className: '' });
-  };
-
-  handleScroll = () => {
-    if (!this.state.canStick) return;
+  const handleScroll = () => {
+    console.log(canStick);
+    if (!canStick) return;
     const position = window.pageYOffset;
-    const { isSticky } = this.state;
-    if (!isSticky && position > 0) {
-      this.setState({ isSticky: true }, this.setSticky);
-    } else if (isSticky && position === 0) {
-      this.setState({ isSticky: false }, this.setSticky);
-    }
+    if (!isSticky && position > 0) setIsSticky(true);
+    else if (isSticky && position === 0) setIsSticky(false);
   };
 
-  handleToggle = () => {
-    const { display, canStick } = this.state;
-    if (!canStick) this.setState({ display: display ? '' : 'none' }, this.calc);
-  };
+  useEffect(() => {
+    import('foundation-sites').then(Mod => {
+      Foundation = Mod;
+      setCanStick(!!Foundation.MediaQuery.atLeast('large'));
+      setDisplay(Foundation.MediaQuery.atLeast('large') ? '' : 'none');
+      setClassName(Foundation.MediaQuery.atLeast('large') ? STICKY : '');
+      window.addEventListener('scroll', () => {
+        can
+        console.log(`scroll: ${canStick}`)
+      });
+      window.addEventListener('resize', handleResize);
+    });
 
-  render() {
-    return (
-      <header>
-        {/* <!-- topbar --> */}
-        <nav>
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return (
+    <header>
+      <nav>
+        <div
+          className="title-bar hide-for-large"
+          data-responsive-toggle="nav-menu"
+          data-hide-for="large"
+        >
           <div
-            className="title-bar hide-for-large"
-            data-responsive-toggle="nav-menu"
-            data-hide-for="large"
+            data-toggle="nav-menu"
+            onClick={handleToggle}
+            role="button"
+            tabIndex="0"
+            onKeyPress={handleToggle}
           >
-            <div
-              data-toggle="nav-menu"
-              onClick={this.handleToggle}
-              role="button"
-              tabIndex="0"
-              onKeyPress={this.handleToggle}
-            >
-              <button className="menu-icon" type="button" />
-              <TextLogo text="open summer of code" />
+            <button className="menu-icon" type="button" />
+            <TextLogo text="open summer of code" />
+          </div>
+        </div>
+
+        <div className="sticky-container" data-sticky-container style={{ height }}>
+          <div
+            className={`${className} top-bar bs--darken-light`}
+            id="nav-menu"
+            data-sticky
+            data-options="marginTop:0;"
+            ref={$nav}
+            style={{
+              width: '100%',
+              display,
+              marginTop: '0px',
+              bottom: 'auto',
+              top: 0
+            }}
+          >
+            <div className="top-bar-left show-for-large">
+              <Link href="/">
+                <a className="logo" data-hide-for="medium">
+                  <ImgLogo handleLoad={calc} />
+                </a>
+              </Link>
+            </div>
+            <div className="top-bar-right">
+              <ul className="menu vertical large-horizontal">
+                <li>
+                  <Tab onClick={handleToggle} href="/">
+                    Home
+                  </Tab>
+                </li>
+                <li>
+                  <Tab onClick={handleToggle} href="/practical">
+                    Practical
+                  </Tab>
+                </li>
+                <li>
+                  <Tab onClick={handleToggle} href="/students">
+                    Students
+                  </Tab>
+                </li>
+                <li>
+                  <Tab onClick={handleToggle} href="/companies">
+                    Companies
+                  </Tab>
+                </li>
+                <li>
+                  <Tab onClick={handleToggle} href="/coaches">
+                    Coaches
+                  </Tab>
+                </li>
+                {/* <!--<li><a href="2018.html" className="button link lowercase u-margin--right">2018</a></li>--> */}
+                <li>
+                  {/* <!-- <a href="2018.summerofcode.be" target="_blank" className="button">View 2018 showcase</a> --> */}
+                  <Link href="/2018">
+                    <a target="_blank" className="button">
+                      Discover all oSoc18 projects
+                      <span className="button__info" />
+                    </a>
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
-
-          <div
-            className="sticky-container"
-            data-sticky-container
-            style={{ height: this.state.height }}
-          >
-            <div
-              className={`${this.state.className} top-bar bs--darken-light`}
-              id="nav-menu"
-              data-sticky
-              data-options="marginTop:0;"
-              ref={element => (this.element = element)}
-              style={{
-                width: '100%',
-                display: this.state.display,
-                marginTop: '0px',
-                bottom: 'auto',
-                top: 0
-              }}
-            >
-              <div className="top-bar-left show-for-large">
-                <Link href="/">
-                  <a className="logo" data-hide-for="medium">
-                    <ImgLogo handleLoad={this.handleLoad} />
-                  </a>
-                </Link>
-              </div>
-              <div className="top-bar-right">
-                <ul className="menu vertical large-horizontal">
-                  <li>
-                    <Tab onClick={this.handleToggle} href="/">
-                      Home
-                    </Tab>
-                  </li>
-                  <li>
-                    <Tab onClick={this.handleToggle} href="/practical">
-                      Practical
-                    </Tab>
-                  </li>
-                  <li>
-                    <Tab onClick={this.handleToggle} href="/students">
-                      Students
-                    </Tab>
-                  </li>
-                  <li>
-                    <Tab onClick={this.handleToggle} href="/companies">
-                      Companies
-                    </Tab>
-                  </li>
-                  <li>
-                    <Tab onClick={this.handleToggle} href="/coaches">
-                      Coaches
-                    </Tab>
-                  </li>
-                  {/* <!--<li><a href="2018.html" className="button link lowercase u-margin--right">2018</a></li>--> */}
-                  <li>
-                    {/* <!-- <a href="2018.summerofcode.be" target="_blank" className="button">View 2018 showcase</a> --> */}
-                    <Link href="/2018">
-                      <a target="_blank" className="button">
-                        Discover all oSoc18 projects
-                        <span className="button__info" />
-                      </a>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
-    );
-  }
-}
+        </div>
+      </nav>
+    </header>
+  );
+};
 
 export default Navigation;
