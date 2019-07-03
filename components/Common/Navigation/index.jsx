@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
@@ -6,24 +6,24 @@ import Tab from '../../UI/Tab';
 
 const Navigation = () => {
   const query = 'screen and (min-width: 64em)';
-  const [display, setDisplay] = useState('');
-  const [large, isLarge] = useState(false);
+  const [display, setDisplay] = useState('none');
+  const [isLarge, setIsLarge] = useState(true);
 
   const handleResize = () => {
-    const matches = window.matchMedia(query).matches;
+    const { matches } = window.matchMedia(query);
     if (matches) {
-      isLarge(true);
+      setIsLarge(true);
       setDisplay('');
     } else if (!matches) {
-      isLarge(false);
+      setIsLarge(false);
       setDisplay('none');
     }
   };
 
   useEffect(() => {
-    const matches = window.matchMedia(query).matches;
+    const { matches } = window.matchMedia(query);
     setDisplay(matches ? '' : 'none');
-    isLarge(window.matchMedia(query).matches);
+    setIsLarge(window.matchMedia(query).matches);
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
@@ -31,12 +31,12 @@ const Navigation = () => {
   }, []);
 
   const handleToggle = () => {
-    if (large) return;
+    if (isLarge) return;
     setDisplay(display ? '' : 'none');
   };
 
   return (
-    <header style={{ position: large ? 'sticky' : 'relative', top: 0, zIndex: 5, bottom: 'auto' }}>
+    <header style={{ position: isLarge ? 'sticky' : 'relative', top: 0, zIndex: 5, bottom: 'auto' }}>
       <nav>
         <div
           className="title-bar hide-for-large"
@@ -57,9 +57,9 @@ const Navigation = () => {
 
         <div>
           <div
-            className={`top-bar bs--darken-light`}
+            className="top-bar bs--darken-light"
             id="nav-menu"
-            style={{ display: large ? '' : display }}
+            style={{ display: isLarge ? '' : display }}
           >
             <div className="top-bar-left show-for-large">
               <Link href="/">
