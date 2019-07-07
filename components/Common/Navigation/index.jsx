@@ -1,80 +1,33 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
 
-let Foundation;
 const Navigation = () => {
-  const STICKY = 'sticky is-at-top';
-  const $nav = useRef(null);
-
-  const [isSticky, setIsSticky] = useState(false);
-  const [height, setHeight] = useState(0);
-  const [canStick, setCanStick] = useState(null);
-  const [display, setDisplay] = useState('none');
-  const [className, setClassName] = useState('');
-
-  const setSticky = () => {
-    if (isSticky) setClassName(`${STICKY} is-stuck`);
-    else setClassName(`${STICKY} is-anchored`);
-  };
-
-  useEffect(setSticky, [isSticky]);
-
-  const calc = () => setHeight($nav.current.clientHeight);
-
-  useEffect(calc, [display]);
-
-  const handleToggle = () => {
-    if (canStick) return;
-    setDisplay(display ? '' : 'none');
-    calc();
-  };
-
-  const handleResize = () => {
-    const isLarge = Foundation.MediaQuery.atLeast('large');
-    if (display && isLarge) {
-      setSticky(true);
-      setDisplay('');
-      setCanStick(true);
-    } else if (!display && !isLarge) {
-      setDisplay('none');
-      setCanStick(false);
-      setHeight(0);
-      setClassName('');
-    }
-  };
+  const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
+  const [navClass, setNavClass] = useState('is-anchored');
 
   const handleScroll = () => {
-    if (!canStick) return;
-    const position = window.pageYOffset;
-    if (!isSticky && position > 0) {
-      setIsSticky(true);
-    } else if (isSticky && position === 0) setIsSticky(false);
+    if (window.pageYOffset >= 1) return setNavClass('is-stuck sticky');
+    return setNavClass('is-anchored');
   };
 
   useEffect(() => {
-    import('foundation-sites').then(Mod => {
-      Foundation = Mod;
-      setCanStick(!!Foundation.MediaQuery.atLeast('large'));
-      setDisplay(Foundation.MediaQuery.atLeast('large') ? '' : 'none');
-      setClassName(Foundation.MediaQuery.atLeast('large') ? STICKY : '');
-    });
-  }, []);
-
-  useEffect(() => {
+    handleScroll();
     window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', handleResize);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleResize);
     };
   });
 
+  const handleToggle = () => {
+    setMobileNavVisibility(!mobileNavIsVisible);
+  };
+
+  const navModifier = `${navClass} ${mobileNavIsVisible ? 'top-bar--visible' : 'top-bar--hidden'}`;
   return (
-    <header>
+    <header className="app-header">
       <nav>
         <div
           className="title-bar hide-for-large"
@@ -92,25 +45,12 @@ const Navigation = () => {
             <TextLogo text="open summer of code" />
           </div>
         </div>
-
-        <div className="sticky-container" data-sticky-container style={{ height }}>
-          <div
-            className={`${className} top-bar bs--darken-light`}
-            id="nav-menu"
-            data-options="marginTop:0;"
-            ref={$nav}
-            style={{
-              width: '100%',
-              display,
-              marginTop: '0px',
-              bottom: 'auto',
-              top: 0
-            }}
-          >
+        <div>
+          <div className={`top-bar bs--darken-light is-at-top ${navModifier}`} id="nav-menu">
             <div className="top-bar-left show-for-large">
               <Link href="/">
                 <a className="logo" data-hide-for="medium">
-                  <ImgLogo handleLoad={calc} />
+                  <ImgLogo />
                 </a>
               </Link>
             </div>
