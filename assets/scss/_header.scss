@@ -64,3 +64,27 @@ a.logo {
     padding-bottom: 0;
   }
 }
+
+.app-header {
+  display: flex;
+  top: 0;
+  z-index: 5;
+  position: relative;
+}
+
+.app-header > nav {
+  width: 100%;
+}
+
+.top-bar.top-bar--hidden {
+  display: none;
+}
+
+@media screen and (min-width: 64em) {
+  .app-header {
+    position: sticky;
+  }
+  .top-bar.top-bar--hidden {
+    display: flex;
+  }
+}

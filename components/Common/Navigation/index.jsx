@@ -5,38 +5,29 @@ import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
 
 const Navigation = () => {
-  const query = 'screen and (min-width: 64em)';
-  const [display, setDisplay] = useState('none');
-  const [isLarge, setIsLarge] = useState(true);
+  const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
+  const [navClass, setNavClass] = useState('is-anchored');
 
-  const handleResize = () => {
-    const { matches } = window.matchMedia(query);
-    if (matches) {
-      setIsLarge(true);
-      setDisplay('');
-    } else if (!matches) {
-      setIsLarge(false);
-      setDisplay('none');
-    }
+  const handleScroll = () => {
+    if (window.pageYOffset >= 1) return setNavClass('is-stuck sticky');
+    return setNavClass('is-anchored');
   };
 
   useEffect(() => {
-    const { matches } = window.matchMedia(query);
-    setDisplay(matches ? '' : 'none');
-    setIsLarge(window.matchMedia(query).matches);
-    window.addEventListener('resize', handleResize);
+    handleScroll();
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  });
 
   const handleToggle = () => {
-    if (isLarge) return;
-    setDisplay(display ? '' : 'none');
+    setMobileNavVisibility(!mobileNavIsVisible);
   };
 
+  const navModifier = `${navClass} ${mobileNavIsVisible ? 'top-bar--visible' : 'top-bar--hidden'}`;
   return (
-    <header style={{ position: isLarge ? 'sticky' : 'relative', top: 0, zIndex: 5, bottom: 'auto' }}>
+    <header className="app-header">
       <nav>
         <div
           className="title-bar hide-for-large"
@@ -54,13 +45,8 @@ const Navigation = () => {
             <TextLogo text="open summer of code" />
           </div>
         </div>
-
         <div>
-          <div
-            className="top-bar bs--darken-light"
-            id="nav-menu"
-            style={{ display: isLarge ? '' : display }}
-          >
+          <div className={`top-bar bs--darken-light is-at-top ${navModifier}`} id="nav-menu">
             <div className="top-bar-left show-for-large">
               <Link href="/">
                 <a className="logo" data-hide-for="medium">
