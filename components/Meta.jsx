@@ -3,8 +3,8 @@ import Head from 'next/head';
 const Meta = () => (
   <Head>
     <meta charSet="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="theme-color" content="#000000" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:300,400"
       rel="stylesheet"
@@ -15,6 +15,23 @@ const Meta = () => (
     />
     <link rel="manifest" href="static/manifest.json" />
     <title>open Summer of code 2019</title>
+    <meta name="description" content="Innovative open source projects, made by incredibly motivated students, coaches and organisations." />
+    <meta name="keywords" content="oSoc19, open, summer, code, Belgium" />
+    <meta name="author" content="oSoc19 team, Open Knowledge Belgium" />
+
+    {/* Socials */}
+    <meta property="og:title" content="open summer of code 2019" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://2019.summerofcode.be" />
+    <meta property="og:image" content="http://2019.summerofcode.be/static/img/socialmedia/socialmedia.png?4362984378" />
+    <meta property="og:description" content="Innovative open source projects, made by incredibly motivated students, coaches and organisations." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@osocode" />
+    <meta name="twitter:title" content="open summer of code 2019" />
+    <meta name="twitter:description" content="Innovative open source projects, made by incredibly motivated students, coaches and organisations." />
+    <meta name="twitter:image" content="http://2019.summerofcode.be/static/img/socialmedia/socialmedia.png?4362984378" />
+    <meta name="twitter:url" content="http://2019.summerofcode.be/" />
+
     {/* Favicons */}
     <link rel="shortcut icon" href="/static/favicon.ico" />
     <link
