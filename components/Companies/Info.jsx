@@ -10,7 +10,7 @@ const Info = () => {
             Any type of company is welcome grab the opportunity to have a group of talented students
             build your next innovative project.{' '}
             <a
-              href="mailto:info@osoc.be?subject=Regarding oSoc18 Partnership"
+              href="mailto:info@osoc.be?subject=Regarding oSoc Partnership"
               title="Start a partnership with open summer of code"
               className="link--strikethrough"
             >
@@ -22,10 +22,10 @@ const Info = () => {
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
             when applications open for 2019 &mdash; or{' '}
-            <ExternalLink href="https://www.eventbrite.co.uk/e/demo-day-osoc18-registration-46709558547?ref=estw">
+            <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/">
               join us on the Demo Day
             </ExternalLink>{' '}
-            on the 26th of July.
+            on the 25th of July.
           </p>
         </div>
         <div className="medium-8 large-6 cell large-offset-1">
@@ -80,8 +80,8 @@ const Info = () => {
             </Link>
             if you have any questions, or send us{' '}
             <a
-              href="mailto:info@osoc.be?subject=Regarding osoc18 Partnership"
-              title="Partnership at osoc18"
+              href="mailto:info@osoc.be?subject=Regarding oSoc Partnership"
+              title="Partnership at oSoc"
             >
               a message
             </a>
@@ -90,7 +90,7 @@ const Info = () => {
 
           {/* <!--<p class="u-margin-large--tb">
           <a class="button" href="mailto:info@osoc.be?subject=Regarding osoc Partnership" title="Start a partnership with open summer of code">Mail us to apply</a>
-          <a href="https://www.eventbrite.co.uk/e/demo-day-osoc18-registration-46709558547?ref=estw" target="_blank" class="button">Come to the Demo Day</a>
+          <a href="https://demodayosoc19.eventbrite.co.uk/" target="_blank" class="button">Come to the Demo Day</a>
           <a class="button link" href="2018.html">View this year's projects</a></p> --> */}
         </div>
       </div>

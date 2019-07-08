@@ -50,7 +50,7 @@ const StudentApplication = () => {
               projects in different fields such as mobility, education, health, sports and
               biodiversity. Check out{' '}
               <ExternalLink href="http://2018.summerofcode.be" target="_blank">
-                last year&quot;s edition
+                last year&apos;s edition
               </ExternalLink>{' '}
               to see what kind of projects have been built by osoc students at the latest edition.
             </p>
@@ -89,7 +89,7 @@ const StudentApplication = () => {
               <p>
                 Sorry, applications are closed as of now. Thank you for your massive interest! You
                 can always apply again next year as a student &mdash; or even as a coach.
-                You&quot;re also welcome to join us during the{' '}
+                You&apos;re also welcome to join us during the{' '}
                 <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/" target="_blank">
                   demo day
                 </ExternalLink>{' '}
@@ -97,7 +97,7 @@ const StudentApplication = () => {
                 <ExternalLink href="https://twitter.com/osocode" target="_blank">
                   Twitter account
                 </ExternalLink>{' '}
-                to see what we&quot;re up to!
+                to see what we&apos;re up to!
               </p>
               {/* <p><a href="https://osoc.typeform.com/to/HPSHZt" title="Click here to apply as a student">Apply here</a>.</p>
               <p>In May we go over all the applications and match the right students with the right projects. After that, we’ll let you know whether you've been selected.</p> */}
@@ -124,11 +124,11 @@ const StudentApplication = () => {
 
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
-          <h4 className="c-faq__item__question">What if I can&quot;t join osoc?</h4>
+          <h4 className="c-faq__item__question">What if I can&apos;t join osoc?</h4>
           <div className="c-faq__item__answer">
             <p>
-              That&quot;s too bad! You can always apply again next year as a student &mdash; or even
-              as a coach. You&quot;re also welcome to join us during the{' '}
+              That&apos;s too bad! You can always apply again next year as a student &mdash; or even
+              as a coach. You&apos;re also welcome to join us during the{' '}
               <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/" target="_blank">
                 demo day
               </ExternalLink>{' '}
@@ -136,7 +136,7 @@ const StudentApplication = () => {
               <ExternalLink href="https://twitter.com/osocode" target="_blank">
                 Twitter account
               </ExternalLink>{' '}
-              to see what we&quot;re up to!
+              to see what we&apos;re up to!
             </p>
           </div>
         </div>
@@ -145,13 +145,13 @@ const StudentApplication = () => {
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
           <h4 className="c-faq__item__question">
-            What if I didn&quot;t make it through the applications?
+            What if I didn&apos;t make it through the applications?
           </h4>
           <div className="c-faq__item__answer">
             <p>
-              Don&quot;t worry, you can always apply again next year as a student &mdash; or even as
+              Don&apos;t worry, you can always apply again next year as a student &mdash; or even as
               a coach. Just keep working on yourself and your resumé. We will review your
-              application like it&quot;s the first time you applied. Don&quot;t forget to visit us
+              application like it&apos;s the first time you applied. Don&apos;t forget to visit us
               during the{' '}
               <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/" target="_blank">
                 demo day
@@ -168,7 +168,7 @@ const StudentApplication = () => {
           <div className="c-faq__item__answer">
             <p>
               We compensate all your public transports costs. You are free to come by car or book
-              yourself a fancy hotel, but we don&quot;t reimburse those things.
+              yourself a fancy hotel, but we don&apos;t reimburse those things.
             </p>
           </div>
         </div>

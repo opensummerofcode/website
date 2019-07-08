@@ -11,8 +11,8 @@ const Info = () => {
             You don&apos;t have to be a teacher or a project manager to share your knowledge. Got
             something to share?{' '}
             <a
-              href="mailto:info@osoc.be?subject=Regarding oSoc18 Coaching"
-              title="Coach at oSoc18"
+              href="mailto:info@osoc.be?subject=Regarding oSoc Coaching"
+              title="Coach at oSoc"
               className="link--strikethrough"
             >
               Mail&nbsp;us
@@ -23,10 +23,10 @@ const Info = () => {
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
             when applications open for 2019 &mdash; or{' '}
-            <ExternalLink href="https://www.eventbrite.co.uk/e/demo-day-osoc18-registration-46709558547?ref=estw">
+            <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/" target="_blank">
               join us on the Demo Day
             </ExternalLink>{' '}
-            on the 26th of July.
+            on the 25th of July.
           </p>
         </div>
         <div className="medium-8 large-6 cell large-offset-1">
@@ -76,10 +76,7 @@ const Info = () => {
               <a>Visit our FAQ</a>
             </Link>
             to learn more, or send us{' '}
-            <a
-              href="mailto:info@osoc.be?subject=Regarding osoc18 Coaching"
-              title="Coach at osoc18"
-            >
+            <a href="mailto:info@osoc.be?subject=Regarding oSoc Coaching" title="Coach at oSoc">
               a message
             </a>
             .

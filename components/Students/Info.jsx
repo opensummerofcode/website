@@ -21,10 +21,10 @@ const Info = () => {
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
             when applications open for 2019 &mdash; or{' '}
-            <ExternalLink href="https://www.eventbrite.co.uk/e/demo-day-osoc18-registration-46709558547?ref=estw">
+            <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/">
               join us on the Demo Day
             </ExternalLink>{' '}
-            on the 26th of July.
+            on the 25th of July.
           </p>
         </div>
 
@@ -77,10 +77,7 @@ const Info = () => {
               <a>Visit our FAQ</a>
             </Link>
             to learn more, or send us{' '}
-            <a
-              href="mailto:info@osoc.be?subject=Regarding osoc18 student"
-              title="Student at osoc18"
-            >
+            <a href="mailto:info@osoc.be?subject=Regarding oSoc" title="Student at oSoc">
               a message
             </a>
             .
