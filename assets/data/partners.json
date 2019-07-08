@@ -1,194 +1,110 @@
 [
   {
-    "name": "arteveldehogeschool",
-    "url": "https://www.arteveldehogeschool.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/artevelde-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "becentral",
-    "url": "https://www.becentral.org/",
-    "logo": {
-      "path": "/static/img/partners-svg/becentral-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "stib-mivb",
-    "url": "http://www.stib-mivb.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/brussels-mobility-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "mobilite-mobiliteit",
-    "url": "https://mobilite-mobiliteit.brussels/",
-    "logo": {
-      "path": "/static/img/partners-svg/brussels-mivb-stib-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "compasbreda",
-    "url": "http://www.compasbreda.nl/",
-    "logo": {
-      "path": "/static/img/partners-svg/compas-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "cronos-groep",
-    "url": "https://cronos-groep.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/cronos-groep-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "ministry-of-infrastructure-and-water-management",
-    "url": "https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management",
-    "logo": {
-      "path": "/static/img/partners-svg/ministry-infrastructure-water-management-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "belgiantrain",
-    "url": "https://www.belgiantrain.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/nmbs-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "oasis",
-    "url": "https://oasis.team/",
-    "logo": {
-      "path": "/static/img/partners-svg/oasis-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "openknowledge",
+    "id": "openknowledgebe",
+    "semantic-name": "Open Knowledge Belgium",
     "url": "https://www.openknowledge.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/okbe-logo.svg",
-      "alt": ""
-    }
+    "logo": "/static/img/partners-svg/okbe.svg"
   },
   {
-    "name": "openthebox",
-    "url": "https://openthebox.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/openthebox-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "packed",
-    "url": "https://packed.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/packed-vzw.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "poolstok",
-    "url": "https://www.poolstok.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/poolstok-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "prisma",
-    "url": "https://prisma.care/",
-    "logo": {
-      "path": "/static/img/partners-svg/prisma-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "sciensano",
-    "url": "https://www.sciensano.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/sciensano-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "emodnet",
-    "url": "http://www.emodnet.eu/",
-    "logo": {
-      "path": "/static/img/partners-svg/emodnet-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "thelearninghub",
-    "url": "http://www.thelearninghub.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/thelearninghub-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "vdab",
-    "url": "https://www.vdab.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/vdab-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "cogni",
-    "url": "https://www.cogni.zone/",
-    "logo": {
-      "path": "/static/img/partners-svg/cognizone-logo.svg",
-      "alt": ""
-    }
-  },
-  {
-    "name": "vlaanderen",
+    "id": "informatie-vlaanderen",
+    "semantic-name": "Informatie Vlaanderen",
     "url": "https://www.vlaanderen.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/vlaanderen-logo.svg",
-      "alt": ""
-    }
+    "logo": "/static/img/partners-svg/vlaanderen-logo.svg"
   },
   {
-    "name": "vliz",
-    "url": "http://www.vliz.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/vliz-logo.svg",
-      "alt": ""
-    }
+    "id": "nmbs-sncb",
+    "semantic-name": "NMBS/SNCB",
+    "url": "https://www.belgiantrain.be/",
+    "logo": "/static/img/partners-svg/nmbs-logo.svg"
   },
   {
-    "name": "west-vlaanderen",
-    "url": "https://www.west-vlaanderen.be/",
-    "logo": {
-      "path": "/static/img/partners-svg/west-vlaanderen.svg",
-      "alt": ""
-    }
+    "id": "engie",
+    "semantic-name": "Engie",
+    "url": "https://www.engie-electrabel.be/",
+    "logo": "/static/img/partners-svg/engie.svg"
   },
   {
-    "name": "imec-int",
-    "url": "https://www.imec-int.com/",
-    "logo": {
-      "path": "/static/img/partners-svg/imec-logo.svg",
-      "alt": ""
-    }
+    "id": "artevelde-hogeschool",
+    "semantic-name": "Artevelde Hogeschool",
+    "url": "https://www.arteveldehogeschool.be/",
+    "logo": "/static/img/partners-svg/artevelde-logo.svg"
   },
   {
-    "name": "european-commission",
-    "url": "https://ec.europa.eu/commission/",
-    "logo": {
-      "path": "/static/img/partners-svg/european-commission-logo.svg",
-      "alt": ""
-    }
+    "id": "brussels-mobility",
+    "semantic-name": "Brussels Mobility",
+    "url": "https://mobilite-mobiliteit.brussels/",
+    "logo": "/static/img/partners-svg/brussels-mobility-logo.svg"
+  },
+  {
+    "id": "fris",
+    "semantic-name": "FRIS",
+    "url": "https://researchportal.be/",
+    "logo": "/static/img/partners-svg/fris.svg"
+  },
+  {
+    "id": "open-planner-team",
+    "semantic-name": "Open Planner Team",
+    "url": "https://openplanner.team/",
+    "logo": "/static/img/partners-svg/open-planner-team.svg"
+  },
+  {
+    "id": "packed-vzw",
+    "semantic-name": "Packed vzw.",
+    "url": "https://www.packed.be/",
+    "logo": "/static/img/partners-svg/packed-vzw.svg"
+  },
+  {
+    "id": "erfgoed-zuidwest",
+    "semantic-name": "Erfgoed Zuidwest",
+    "url": "http://www.erfgoedzuidwest.be/",
+    "logo": "/static/img/partners-svg/intercommunale-zuidwest.svg"
+  },
+  {
+    "id": "city-of-bruges",
+    "semantic-name": "City of Bruges",
+    "url": "https://www.brugge.be/",
+    "logo": "/static/img/partners-svg/brugge.svg"
+  },
+  {
+    "id": "idlab",
+    "semantic-name": "IDLab",
+    "url": "http://idlab.technology/",
+    "logo": "/static/img/partners-svg/idlab.svg"
+  },
+  {
+    "id": "innoviris-brussels",
+    "semantic-name": "Innoviris Brussels",
+    "url": "https://innoviris.brussels/",
+    "logo": "/static/img/partners-svg/innoviris.svg"
+  },
+  {
+    "id": "bosa",
+    "semantic-name": "BOSA",
+    "url": "https://2019.summerofcode.be/img/partners-svg/bosa.svg",
+    "logo": "/static/img/partners-svg/bosa.svg"
+  },
+  {
+    "id": "tmaas",
+    "semantic-name": "TMaaS",
+    "url": "https://drive.tmaas.eu/",
+    "logo": "/static/img/partners-svg/tmaas.svg"
+  },
+  {
+    "id": "hackyourfuture-belgium",
+    "semantic-name": "HackYourFuture Belgium",
+    "url": "https://hackyourfuture.be/",
+    "logo": "/static/img/partners-svg/hackyourfuture.svg"
+  },
+  {
+    "id": "infrabel",
+    "semantic-name": "Infrabel",
+    "url": "https://www.infrabel.be/",
+    "logo": "/static/img/partners-svg/infrabel.svg"
+  },
+  {
+    "id": "miwm",
+    "semantic-name": "Dutch Ministry of Infrastructure and Water Management",
+    "url": "https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management",
+    "logo": "/static/img/partners-svg/miwm.svg"
   }
 ]
