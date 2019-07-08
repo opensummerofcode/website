@@ -8,7 +8,7 @@ const Coaches = () => (
     <Header />
     <Info />
     <Testimonials />
-    <FeaturedProjects />
+    <FeaturedProjects divider="bg-lighter-gray" />
   </>
 );
 
