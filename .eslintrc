@@ -1,32 +1,84 @@
 {
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
   "parser": "babel-eslint",
   "env": {
     "browser": true,
     "jest": true
   },
   "rules": {
-    "prettier/prettier": ["error"],
-    "comma-dangle": ["error", "never"],
+    "prettier/prettier": [
+      "error"
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
     "no-underscore-dangle": 0,
     "no-console": "warn",
-    "no-unused-expressions": ["error", {"allowTernary": true}],
-    "no-return-assign": [2, "except-parens"],
-    "no-param-reassign": ["error", { "props": false }],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowTernary": true
+      }
+    ],
+    "no-return-assign": [
+      2,
+      "except-parens"
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
     "react/destructuring-assignment": 0,
     "import/named": 0,
     "react/jsx-one-expression-per-line": 0,
-    "jsx-a11y/label-has-associated-control": [ "error", {
-      "required": {
-        "some": [ "nesting", "id"  ]
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "some": [
+            "nesting",
+            "id"
+          ]
+        }
       }
-    }],
-    "jsx-a11y/label-has-for": [ "error", {
-      "required": {
-        "some": [ "nesting", "id"  ]
+    ],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "required": {
+          "some": [
+            "nesting",
+            "id"
+          ]
+        }
       }
-    }]
+    ],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": [
+          "Link"
+        ],
+        "specialLink": [
+          "hrefLeft",
+          "hrefRight"
+        ],
+        "aspects": [
+          "invalidHref",
+          "preferButton"
+        ]
+      }
+    ],
+    "react/react-in-jsx-scope": 0
   },
   "settings": {
     "react": {
