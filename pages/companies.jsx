@@ -7,7 +7,7 @@ const Companies = () => (
   <>
     <Header />
     <Info />
-    <FeaturedProjects />
+    <FeaturedProjects divider="border-top-light-gray" />
     <Partners />
   </>
 );

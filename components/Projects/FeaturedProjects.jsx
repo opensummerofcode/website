@@ -1,9 +1,9 @@
 import ExternalLink from '../UI/ExternalLink';
 import YearEditionCall from '../Common/CallToActions';
 
-const FeaturedProjects = () => {
+const FeaturedProjects = ({ divider }) => {
   return (
-    <div className="u-padding-x-large--tb c-projects-old border-top-light-gray">
+    <div className={`u-padding-x-large--tb c-projects-old ${divider}`}>
       <div className="grid-x grid-padding-x align-center">
         <div className="small-6 medium-6 large-3 cell c-projects-project">
           <ExternalLink href="https://github.com/oSoc18/bike4brussels" className="c-projects-image">
