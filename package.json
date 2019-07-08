@@ -20,6 +20,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "npm run build && next export",
     "start": "cross-env NODE_ENV=production node server.js"
   },
   "husky": {
