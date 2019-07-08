@@ -77,7 +77,7 @@ const Info = () => {
           <p>
             <Link href="/practical">
               <a>Visit our FAQ</a>
-            </Link>
+            </Link>{' '}
             if you have any questions, or send us{' '}
             <a
               href="mailto:info@osoc.be?subject=Regarding oSoc Partnership"
