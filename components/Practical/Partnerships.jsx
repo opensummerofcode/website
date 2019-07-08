@@ -31,7 +31,7 @@ const Partnerships = () => {
                 <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to
                 see what we&apos;re up to.
               </p>
-              {/* <!-- <p>To arrange a meeting and discuss the collaboration in detail, send an email to <a href="mailto:dries@openknowledge.be">dries@openknowledge.be</a>. </p> --> */}
+              {/* <!-- <p>To arrange a meeting and discuss the collaboration in detail, send an email to <a href="mailto:info@osoc.be">info@osoc.be</a>. </p> --> */}
               {/* <!-- <p>Cost and team size is arranged beforehand.</p> --> */}
             </div>
           </div>

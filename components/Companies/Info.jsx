@@ -10,7 +10,7 @@ const Info = () => {
             Any type of company is welcome grab the opportunity to have a group of talented students
             build your next innovative project.{' '}
             <a
-              href="mailto:dries@openknowledge.be?subject=Regarding oSoc18 Partnership"
+              href="mailto:info@osoc.be?subject=Regarding oSoc18 Partnership"
               title="Start a partnership with open summer of code"
               className="link--strikethrough"
             >
@@ -47,7 +47,11 @@ const Info = () => {
       {/* <!-- info companies --> */}
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="medium-8 large-6 cell">
-          <img src="/static/img/pictures/osoc17-3.jpg" className="u-margin--b" alt="Students working out" />
+          <img
+            src="/static/img/pictures/osoc17-3.jpg"
+            className="u-margin--b"
+            alt="Students working out"
+          />
           <p>
             <small>
               Open summer of code 2017 &mdash; making sure our students get some exercise to tackle
@@ -76,7 +80,7 @@ const Info = () => {
             </Link>
             if you have any questions, or send us{' '}
             <a
-              href="mailto:dries@openknowledge.be?subject=Regarding osoc18 Partnership"
+              href="mailto:info@osoc.be?subject=Regarding osoc18 Partnership"
               title="Partnership at osoc18"
             >
               a message
@@ -85,7 +89,7 @@ const Info = () => {
           </p>
 
           {/* <!--<p class="u-margin-large--tb">
-          <a class="button" href="mailto:dries@openknowledge.be?subject=Regarding osoc Partnership" title="Start a partnership with open summer of code">Mail us to apply</a>
+          <a class="button" href="mailto:info@osoc.be?subject=Regarding osoc Partnership" title="Start a partnership with open summer of code">Mail us to apply</a>
           <a href="https://www.eventbrite.co.uk/e/demo-day-osoc18-registration-46709558547?ref=estw" target="_blank" class="button">Come to the Demo Day</a>
           <a class="button link" href="2018.html">View this year's projects</a></p> --> */}
         </div>

@@ -41,7 +41,7 @@ const Coaching = () => {
           <div className="c-faq__item">
             <h4 className="c-faq__item__question">How can I apply?</h4>
             <div className="c-faq__item__answer">
-              {/* <!-- <p>You can apply here (link to application) or by sending an email with your motivation and CV to <a href="mailto:dries@openknowledge.be">dries@openknowledge.be</a></p> --> */}
+              {/* <!-- <p>You can apply here (link to application) or by sending an email with your motivation and CV to <a href="mailto:info@osoc.be">info@osoc.be</a></p> --> */}
 
               <p>
                 Unfortunately, applications are closed right now. But you&apos;re welcome to join us

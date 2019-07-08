@@ -111,7 +111,7 @@ const Footer = () => {
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
                 <li>
-                  <a href="mailto:dries@openknowledge.be">Contact</a>
+                  <a href="mailto:info@osoc.be">Contact</a>
                 </li>
                 <li>
                   <ExternalLink href="https://twitter.com/osocode">Twitter</ExternalLink>

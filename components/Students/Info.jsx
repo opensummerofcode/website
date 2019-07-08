@@ -78,7 +78,7 @@ const Info = () => {
             </Link>
             to learn more, or send us{' '}
             <a
-              href="mailto:dries@openknowledge.be?subject=Regarding osoc18 student"
+              href="mailto:info@osoc.be?subject=Regarding osoc18 student"
               title="Student at osoc18"
             >
               a message

@@ -11,7 +11,7 @@ const Info = () => {
             You don&apos;t have to be a teacher or a project manager to share your knowledge. Got
             something to share?{' '}
             <a
-              href="mailto:dries@openknowledge.be?subject=Regarding oSoc18 Coaching"
+              href="mailto:info@osoc.be?subject=Regarding oSoc18 Coaching"
               title="Coach at oSoc18"
               className="link--strikethrough"
             >
@@ -77,7 +77,7 @@ const Info = () => {
             </Link>
             to learn more, or send us{' '}
             <a
-              href="mailto:dries@openknowledge.be?subject=Regarding osoc18 Coaching"
+              href="mailto:info@osoc.be?subject=Regarding osoc18 Coaching"
               title="Coach at osoc18"
             >
               a message
@@ -86,7 +86,7 @@ const Info = () => {
           </p>
 
           {/* <!--         <p class="u-margin-large--tb">
-          <a class="button" href="mailto:dries@openknowledge.be?subject=Regarding osoc Coaching" title="Coach at open summer of code">Mail us to apply</a>
+          <a class="button" href="mailto:info@osoc.be?subject=Regarding osoc Coaching" title="Coach at open summer of code">Mail us to apply</a>
         </p> --> */}
         </div>
       </div>
