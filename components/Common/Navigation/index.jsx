@@ -3,6 +3,7 @@ import Link from 'next/link';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
+import ExternalLink from '../../UI/ExternalLink';
 
 const Navigation = () => {
   const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
@@ -84,12 +85,21 @@ const Navigation = () => {
                 {/* <!--<li><a href="2018.html" className="button link lowercase u-margin--right">2018</a></li>--> */}
                 <li>
                   {/* <!-- <a href="2018.summerofcode.be" target="_blank" className="button">View 2018 showcase</a> --> */}
-                  <Link href="/2018">
-                    <a target="_blank" className="button">
-                      Discover all oSoc18 projects
-                      <span className="button__info" />
-                    </a>
-                  </Link>
+                  <ExternalLink
+                    href="https://demodayosoc19.eventbrite.co.uk"
+                    target="_blank"
+                    class="button"
+                  >
+                    Come to the demo day! <span className="button__info">25 July 2019</span>
+                  </ExternalLink>
+                  {/*
+                    <Link href="/2018">
+                        <a target="_blank" className="button">
+                          Discover all oSoc18 projects
+                          <span className="button__info" />
+                        </a>
+                      </Link>
+                    */}
                 </li>
               </ul>
             </div>
