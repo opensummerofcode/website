@@ -88,7 +88,7 @@ const Navigation = () => {
                   <ExternalLink
                     href="https://demodayosoc19.eventbrite.co.uk"
                     target="_blank"
-                    class="button"
+                    className="button"
                   >
                     Come to the demo day! <span className="button__info">25 July 2019</span>
                   </ExternalLink>
