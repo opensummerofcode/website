@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import Head from 'next/head';
 import { ButtonLink } from '../components/UI/Buttons';
 import Header from '../components/Projects/Header';
 import Team from '../components/Projects/Team';
@@ -6,6 +6,9 @@ import Partners from '../components/Projects/Partners';
 
 const Project = () => (
   <>
+    <Head>
+      <title>Projects | open Summer of Code</title>
+    </Head>
     <Header />
     <Team />
     <Partners />

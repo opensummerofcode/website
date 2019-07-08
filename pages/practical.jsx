@@ -1,5 +1,6 @@
 /* import Link from 'next/link';
 import ExternalLink from '../UI/ExternalLink'; */
+import Head from 'next/head';
 import PracticalHeader from '../components/Practical/PracticalHeader';
 // import PracticalTabs from './PracticalTabs';
 import When from '../components/Practical/When';
@@ -11,6 +12,9 @@ import Tabs from '../components/Common/Tabs';
 
 const Practical = () => (
   <>
+    <Head>
+      <title>Practical | open Summer of Code</title>
+    </Head>
     <PracticalHeader />
     {/* <PracticalTabs /> */}
 
