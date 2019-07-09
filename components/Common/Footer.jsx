@@ -72,17 +72,17 @@ const Footer = () => {
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
                 <li>
-                  <Link href="students">
+                  <Link href="/students">
                     <a>Students</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="companies">
+                  <Link href="/companies">
                     <a>Companies</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="coaches">
+                  <Link href="/coaches">
                     <a>Coaches</a>
                   </Link>
                 </li>
@@ -96,12 +96,12 @@ const Footer = () => {
                   </ExternalLink>
                 </li>
                 <li>
-                  <Link href="practical">
+                  <Link href="/practical">
                     <a>Practical</a>
                   </Link>
                 </li>
                 <li>
-                  <ExternalLink href="2018" target="_blank">
+                  <ExternalLink href="https://2018.summerofcode.be/2018.html" target="_blank">
                     2018
                   </ExternalLink>
                 </li>
