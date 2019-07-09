@@ -30,7 +30,7 @@ const Info = () => {
 
         <div className="medium-8 large-6 cell large-offset-1">
           <img
-            src="img/pictures/osoc17-1.jpg"
+            src="/static/img/pictures/osoc17-1.jpg"
             className="u-margin--b"
             alt="Students getting freaky with it"
           />
