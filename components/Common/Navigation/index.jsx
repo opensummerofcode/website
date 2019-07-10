@@ -10,6 +10,7 @@ const Navigation = () => {
   const [navClass, setNavClass] = useState('is-anchored');
 
   const handleScroll = () => {
+    if (window.innerWidth >= 1024) return null;
     if (window.pageYOffset >= 1) return setNavClass('is-stuck sticky');
     return setNavClass('is-anchored');
   };
