@@ -5,7 +5,7 @@ const StudentApplication = () => {
     <div className="grid-x grid-padding-x u-margin-large--tb">
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
-          <h4 className="c-faq__item__question">Why should I participate in osoc? </h4>
+          <h4 className="c-faq__item__question">Why should I participate in oSoc? </h4>
           <div className="c-faq__item__answer">
             <p>
               There are multiple reasons to participate. First of all, you can improve your skills
@@ -14,7 +14,7 @@ const StudentApplication = () => {
               network. Thirdly, you’ll surely make some new friends too.
             </p>
             <p>
-              Sounds awesome, no? And we didn’t even get to the best part yet: osoc is completely
+              Sounds awesome, no? And we didn’t even get to the best part yet: oSoc is completely
               free. Even better, you are getting paid! This programme could replace your summer job.
               Enhancing your skills, making new friends and cashing in some money too? Sounds like a
               good plan, right?
@@ -25,7 +25,7 @@ const StudentApplication = () => {
 
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
-          <h4 className="c-faq__item__question">What will I be doing during osoc?</h4>
+          <h4 className="c-faq__item__question">What will I be doing during oSoc?</h4>
           <div className="c-faq__item__answer">
             <p>
               All students will work in teams on different open innovation projects provided by
@@ -41,18 +41,18 @@ const StudentApplication = () => {
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
           <h4 className="c-faq__item__question">
-            What kind of project can I expect to work on at osoc?
+            What kind of project can I expect to work on at oSoc?
           </h4>
           <div className="c-faq__item__answer">
             <p>
-              All projects at osoc are being built open source and aim to create real-world impact.
+              All projects at oSoc are being built open source and aim to create real-world impact.
               Over the last few years, students have got the opportunity to work on open innovation
               projects in different fields such as mobility, education, health, sports and
               biodiversity. Check out{' '}
               <ExternalLink href="http://2018.summerofcode.be" target="_blank">
                 last year&apos;s edition
               </ExternalLink>{' '}
-              to see what kind of projects have been built by osoc students at the latest edition.
+              to see what kind of projects have been built by oSoc students at the latest edition.
             </p>
           </div>
         </div>
@@ -60,7 +60,7 @@ const StudentApplication = () => {
 
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
-          <h4 className="c-faq__item__question">Can I participate in osoc?</h4>
+          <h4 className="c-faq__item__question">Can I participate in oSoc?</h4>
           <div className="c-faq__item__answer">
             <p>Yes, if you meet the following requirements.</p>
             <ul>
@@ -74,7 +74,7 @@ const StudentApplication = () => {
               </li>
               <li>Thirdly, you should be able to express yourself in English.</li>
             </ul>
-            <p>Do you meet these requirements? Congratulations, you could be an osoc student!</p>
+            <p>Do you meet these requirements? Congratulations, you could be an oSoc student!</p>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@ const StudentApplication = () => {
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
           <h4 className="c-faq__item__question">
-            How do I apply for osoc? When will I know whether I can participate?{' '}
+            How do I apply for oSoc? When will I know whether I can participate?{' '}
           </h4>
           <div className="c-faq__item__answer">
             <p>
@@ -112,9 +112,9 @@ const StudentApplication = () => {
           <div className="c-faq__item__answer">
             <p>
               In order to apply you need to submit a letter of motivation, explaining why you would
-              like to join the movement and what you will bring to the table to make osoc great.
+              like to join the movement and what you will bring to the table to make oSoc great.
               Make sure to include your portfolio or some examples of your work as well. Based on
-              your motivation, portfolio and your CV, a group of experienced osoc volunteers will
+              your motivation, portfolio and your CV, a group of experienced oSoc volunteers will
               match your unique set of skills and experiences with partner’s desired student
               profiles.
             </p>
@@ -124,7 +124,7 @@ const StudentApplication = () => {
 
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
-          <h4 className="c-faq__item__question">What if I can&apos;t join osoc?</h4>
+          <h4 className="c-faq__item__question">What if I can&apos;t join oSoc?</h4>
           <div className="c-faq__item__answer">
             <p>
               That&apos;s too bad! You can always apply again next year as a student &mdash; or even

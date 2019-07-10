@@ -6,10 +6,10 @@ const Coaching = () => {
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="cell small-11 medium-8 large-6">
           <div className="c-faq__item">
-            <h4 className="c-faq__item__question">Why should I participate in osoc?</h4>
+            <h4 className="c-faq__item__question">Why should I participate in oSoc?</h4>
             <div className="c-faq__item__answer">
               <p>
-                As coach at osoc, you will make a real difference in a sector you care about. By
+                As coach at oSoc, you will make a real difference in a sector you care about. By
                 guiding talented students you will not only practice your project coordination,
                 supervision and team management skills but also develop an actual product for a real
                 client, thus expanding your network across a multitude of open sectors. The next
@@ -21,14 +21,14 @@ const Coaching = () => {
 
         <div className="cell small-11 medium-8 large-6">
           <div className="c-faq__item">
-            <h4 className="c-faq__item__question">What will I be doing during osoc?</h4>
+            <h4 className="c-faq__item__question">What will I be doing during oSoc?</h4>
             <div className="c-faq__item__answer">
               <p>
                 As coach you will be guiding a team of students through the project development
                 process. That includes discussions with your project partner to establish a clear
                 vision of the specific open innovation project. You will endorse the desired student
                 roles (web development, design, business or communication) essential to turning the
-                partners idea into real-world products and services. At osoc you will outline a plan
+                partners idea into real-world products and services. At oSoc you will outline a plan
                 for action with your team and facilitate students&apos; progress throughout the
                 one-month project. In the end, your team will present the finished product to the
                 partnering organisation and the wide public.
