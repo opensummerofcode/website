@@ -19,11 +19,9 @@ Partner.defaultProps = {
 
 Partner.propTypes = {
   partner: PropTypes.shape({
-    logo: PropTypes.shape({
-      path: PropTypes.string.isRequired,
-      alt: PropTypes.string
-    }),
-    name: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    semanticName: PropTypes.string.isRequired,
+    logo: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired
   }).isRequired,
   className: PropTypes.string
