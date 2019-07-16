@@ -4,12 +4,12 @@ import Partner from './Partner';
 const Partners = () => {
   const renderPartnerSection = partners => {
     const $cells = partners.map(partner => (
-      <div key={partner.id} className="small-4 medium-auto cell">
+      <div className="small-4 medium-auto cell">
         <Partner partner={partner} />
       </div>
     ));
     return (
-      <div className="small-12 cell">
+      <div key={partners} className="small-12 cell">
         <div className="grid-x align-center align-middle">{$cells}</div>
       </div>
     );
@@ -24,7 +24,6 @@ const Partners = () => {
   }, []);
 
   const $partners = partnerChunks.map(renderPartnerSection);
-  console.log($partners);
   return <div className="grid-x c-partners align-center">{$partners}</div>;
 };
 

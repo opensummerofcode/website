@@ -11,7 +11,7 @@ const Navigation = () => {
 
   const handleScroll = () => {
     if (window.innerWidth >= 1024) return null;
-    if (window.pageYOffset >= 1) return setNavClass('is-stuck sticky');
+    if (window.pageYOffset > 0) return setNavClass('is-stuck');
     return setNavClass('is-anchored');
   };
 
@@ -27,7 +27,7 @@ const Navigation = () => {
     setMobileNavVisibility(!mobileNavIsVisible);
   };
 
-  const navModifier = `${navClass} ${mobileNavIsVisible ? 'top-bar--visible' : 'top-bar--hidden'}`;
+  const navModifier = `${mobileNavIsVisible ? 'top-bar--visible' : 'top-bar--hidden'}`;
   return (
     <header className="app-header">
       <nav>
@@ -47,8 +47,14 @@ const Navigation = () => {
             <TextLogo text="open summer of code" />
           </div>
         </div>
-        <div>
-          <div className={`top-bar bs--darken-light is-at-top ${navModifier}`} id="nav-menu">
+        <div
+          className={`sticky-container ${mobileNavIsVisible ? 'nav-menu-wrapper--shown' : ''}`}
+          data-sticky-container=""
+        >
+          <div
+            className={`top-bar bs--darken-light sticky ${navModifier} is-at-top ${navClass}`}
+            id="nav-menu"
+          >
             <div className="top-bar-left show-for-large">
               <Link href="/">
                 <a className="logo" data-hide-for="medium">
