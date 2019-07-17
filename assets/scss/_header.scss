@@ -87,6 +87,9 @@ a.logo {
   .app-header {
     position: sticky;
   }
+  .nav-menu-wrapper--shown {
+    height: 87px;
+  }
   .top-bar.top-bar--hidden {
     display: flex;
   }
