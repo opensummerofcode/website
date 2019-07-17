@@ -4,12 +4,12 @@ import Partner from './Partner';
 const Partners = () => {
   const renderPartnerSection = partners => {
     const $cells = partners.map(partner => (
-      <div className="small-4 medium-auto cell">
+      <div key={partner.id} className="small-4 medium-auto cell">
         <Partner partner={partner} />
       </div>
     ));
     return (
-      <div key={partners} className="small-12 cell">
+      <div key={JSON.stringify(partners)} className="small-12 cell">
         <div className="grid-x align-center align-middle">{$cells}</div>
       </div>
     );

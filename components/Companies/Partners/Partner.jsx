@@ -6,7 +6,7 @@ const Partner = ({ partner, className }) => {
   const classNames = ['small-3 medium-2 cell', className].join(' ');
   return (
     <div className={classNames}>
-      <ExternalLink href={url} className="vertical-align-container">
+      <ExternalLink href={url} className="c-partners__link vertical-align-container">
         <img src={logo} alt={`Logo of ${semanticName}`} />
       </ExternalLink>
     </div>
