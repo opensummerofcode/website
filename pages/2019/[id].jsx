@@ -28,10 +28,4 @@ const Project = () => {
   );
 };
 
-Project.getInitialProps = async ({ query }) => {
-  return {
-    id: query.id
-  };
-};
-
 export default Project;

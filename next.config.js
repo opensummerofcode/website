@@ -9,8 +9,8 @@ module.exports = withSass(
       const pages = projects.reduce(
         (acc, project) =>
           Object.assign({}, acc, {
-            [`/project/${project.id}`]: {
-              page: '/project',
+            [`/2019/${project.id}`]: {
+              page: `/2019`,
               query: { id: project.id }
             }
           }),
