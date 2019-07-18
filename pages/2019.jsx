@@ -10,7 +10,7 @@ import Partners from '../components/Companies/Partners';
 const YearEdition = () => (
   <>
     <Head>
-      <title>2018 projects | open Summer of Code</title>
+      <title>2019 projects | open Summer of Code</title>
     </Head>
     <ProjectsHeader />
     <ProjectsGallery />

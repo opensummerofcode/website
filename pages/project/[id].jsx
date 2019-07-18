@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 import Header from '../../components/Projects/Header';
 import Team from '../../components/Projects/Team';
 import Partners from '../../components/Projects/Partners';
@@ -17,6 +18,9 @@ const Project = () => {
   const partners = project.partners.map(p => allPartners.find(partner => p === partner.id));
   return (
     <>
+      <Head>
+        <title>{project.name} | open Summer of Code</title>
+      </Head>
       <Header project={project} />
       <Team students={students} coaches={coaches} />
       <Partners partners={partners} />
