@@ -10,9 +10,24 @@ i.fas {
 .headshot-detail {
   margin-bottom: 2.6rem;
 
-  img {
-    border-radius: 50%;
+  .headshot-detail__wrapper {
+    width: 100%;
+    position: relative;
+    padding-bottom: 100%;
     margin-bottom: 1rem;
+    img {
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .headshot-detail__name {
+    height: 4rem;
   }
 
   .student-social {

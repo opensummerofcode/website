@@ -16,7 +16,7 @@ const When = () => {
               style={{ 'border-width': 0 }}
               width="100%"
               height="800"
-              frameVorder="0"
+              frameBorder="0"
               scrolling="no"
             />
           </div>
