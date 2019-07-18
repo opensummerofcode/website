@@ -6,14 +6,14 @@ const Project = ({ project }) => {
   return (
     <div className="small-6 medium-6 large-4 cell c-projects-project">
       <Link href="/2019/[id]" as={`/2019/${id}`}>
-        <a target="_blank" className="c-projects-image">
+        <a className="c-projects-image">
           <img src={logo} alt={`Crest of the ${name} project`} />
         </a>
       </Link>
       <div className="c-projects-content">
         <h2 className="h5">
           <Link href="/2019/[id]" as={`/2019/${id}`}>
-            <a target="_blank">{name}</a>
+            <a>{name}</a>
           </Link>
         </h2>
         <p>{description}</p>
