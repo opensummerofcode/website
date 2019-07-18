@@ -210,7 +210,7 @@
     "id": "horison",
     "name": "Horison",
     "description": "Creating open data to communicate reachability information to provide quick prototyping for developers.",
-    "logo": "/static/img/projects/horison.png",
+    "logo": "/static/img/projects/horison.png ",
     "team": {
       "students": ["tim_baccaert", "bert_schoovaerts", "tinaël_devresse"],
       "coaches": ["julian_rojas", "tim_van_hee", "pieter_colpaert", "harm_delva"]
