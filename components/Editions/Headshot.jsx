@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import ExternalLink from '../UI/ExternalLink';
 
-const HeadShot = ({ data, socials, picture, roleShown }) => {
+const HeadShot = ({ data, socials, picture, roleShown, smallSocials }) => {
   const { name, isCoach } = data;
   const { twitter, linkedin, github, behance } = socials;
 
@@ -14,22 +14,22 @@ const HeadShot = ({ data, socials, picture, roleShown }) => {
       {roleShown && (isCoach ? <p>Coach</p> : <p>Student</p>)}
       <div className="student-social">
         {twitter && (
-          <ExternalLink href={twitter}>
+          <ExternalLink href={twitter} className={smallSocials ? 'social--smaller' : ''}>
             <i className="fa fa-twitter" />
           </ExternalLink>
         )}
         {linkedin && (
-          <ExternalLink href={linkedin}>
+          <ExternalLink href={linkedin} className={smallSocials ? 'social--smaller' : ''}>
             <i className="fa fa-linkedin" />
           </ExternalLink>
         )}
         {github && (
-          <ExternalLink href={github}>
+          <ExternalLink href={github} className={smallSocials ? 'social--smaller' : ''}>
             <i className="fa fa-github" />
           </ExternalLink>
         )}
         {behance && (
-          <ExternalLink href={behance}>
+          <ExternalLink href={behance} className={smallSocials ? 'social--smaller' : ''}>
             <i className="fa fa-behance" />
           </ExternalLink>
         )}
@@ -40,7 +40,8 @@ const HeadShot = ({ data, socials, picture, roleShown }) => {
 
 HeadShot.defaultProps = {
   socials: {},
-  roleShown: true
+  roleShown: true,
+  smallSocials: false
 };
 
 HeadShot.propTypes = {
