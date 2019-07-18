@@ -1,6 +1,22 @@
+import PropTypes from 'prop-types';
 import ExternalLink from '../UI/ExternalLink';
 
-const Partners = () => {
+const Partners = ({ partners }) => {
+  // eslint-disable-next-line react/prop-types
+  const renderPartner = ({ id, name, url, logo }) => (
+    <div key={id} className="small-6 medium-4 large-3 cell">
+      <ExternalLink href={url} className="vertical-align-container">
+        <img src={logo} alt={`Logo of ${name}`} />
+      </ExternalLink>
+      <h3 className="h6">
+        <ExternalLink href={url} className="vertical-align-container">
+          {name}
+        </ExternalLink>
+      </h3>
+    </div>
+  );
+
+  const $partners = partners.map(renderPartner);
   return (
     <div className="grid-x grid-padding-x u-margin-large--tb partner-section project-section">
       <div className="small-10 small-offset-1 medium-3 medium-offset-0 large-3 cell text-left">
@@ -10,53 +26,21 @@ const Partners = () => {
       </div>
 
       <div className="small-10 small-offset-1 medium-9 medium-offset-0 large-9 cell">
-        <div className="grid-x grid-padding-x u-margin-large--b partner-section">
-          <div className="small-6 medium-4 large-3 cell">
-            <ExternalLink href="https://bike.brussels/" className="vertical-align-container">
-              <img src="/static/img/partners-svg/bike-brussels.svg" alt="" />
-            </ExternalLink>
-            <h3 className="h6">
-              <ExternalLink href="https://bike.brussels/" className="vertical-align-container">
-                Bike for Brussels
-              </ExternalLink>
-            </h3>
-          </div>
-          <div className="small-6 medium-4 large-3 cell">
-            <ExternalLink
-              href="http://be.brussels/about-the-region/brussels-regional-public-service?set_language=en"
-              className="vertical-align-container"
-            >
-              <img src="/static/img/partners/dark/brussels.png" alt="" />
-            </ExternalLink>
-            <h3 className="h6">
-              <ExternalLink
-                href="http://be.brussels/about-the-region/brussels-regional-public-service?set_language=en"
-                className="vertical-align-container"
-              >
-                Brussels Regional Public Services
-              </ExternalLink>
-            </h3>
-          </div>
-          <div className="small-6 medium-4 large-3 cell end">
-            <ExternalLink
-              href="https://www.openstreetmap.org/"
-              className="vertical-align-container"
-            >
-              <img src="/static/img/partners-svg/osm.svg" alt="" />
-            </ExternalLink>
-            <h3 className="h6">
-              <ExternalLink
-                href="https://www.openstreetmap.org/"
-                className="vertical-align-container"
-              >
-                OpenStreetMap Belgium
-              </ExternalLink>
-            </h3>
-          </div>
-        </div>
+        <div className="grid-x grid-padding-x u-margin-large--b partner-section">{$partners}</div>
       </div>
     </div>
   );
+};
+
+Partners.propTypes = {
+  partners: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      url: PropTypes.string.isRequired,
+      logo: PropTypes.string.isRequired
+    })
+  ).isRequired
 };
 
 export default Partners;
