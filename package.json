@@ -20,7 +20,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "npm run build && next export",
+    "export": "npm run build && next export && npm run postExport",
+    "postExport": "cp _redirects ./out/_redirects",
     "start": "cross-env NODE_ENV=production node server.js"
   },
   "husky": {
