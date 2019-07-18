@@ -277,8 +277,8 @@
     "partners": ["brussels-mobility"]
   },
   {
-    "id": "tmaas",
-    "name": "TMaaS feedback app",
+    "id": "road-report",
+    "name": "Road Report",
     "description": "A mobile-friendly website and an app that pedestrians and cyclists can use to report road incidents on their route, which will be integrated into the TMaaS framework as an additional traffic events data set.",
     "logo": "/static/img/projects/road-report.svg",
     "team": {
