@@ -5,10 +5,13 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from './config/config.module';
 import { ConfigService } from './config/config.service';
+import { StudentModule } from './student/student.module';
 
 @Module({
   imports: [
-    GraphQLModule.forRoot({}),
+    GraphQLModule.forRoot({
+      autoSchemaFile: 'schema.gql',
+    }),
     MongooseModule.forRootAsync({
       imports: [ConfigModule],
       useFactory: async (config: ConfigService) => ({
@@ -20,6 +23,7 @@ import { ConfigService } from './config/config.service';
       }),
       inject: [ConfigService],
     }),
+    StudentModule,
   ],
   controllers: [AppController],
   providers: [AppService],
