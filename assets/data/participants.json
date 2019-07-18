@@ -8,7 +8,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Kilian Fastenakels",
@@ -74,7 +75,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Jolan Huyvaert",
@@ -118,7 +120,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Tim Van Hee",
@@ -129,7 +132,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Hervé Tendayi",
@@ -184,7 +188,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Francois Halin",
@@ -195,7 +200,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Charles Koutcheme",
@@ -239,7 +245,8 @@
             "linkedin": "https://www.linkedin.com/in/julianrojas87/",
             "behance": null,
             "github": "https://github.com/julianrojas87"
-        }
+        },
+        "coach": true
     },
     {
         "name": "Pieter Colpaert",
@@ -250,7 +257,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Tim Baccaert",
@@ -294,7 +302,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Laura Van Heck",
@@ -393,7 +402,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Thomas Duvivier",
@@ -404,7 +414,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Bruce Boelens",
@@ -459,7 +470,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Michiel Leyman",
@@ -470,7 +482,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Jens Coopman",
@@ -536,7 +549,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Andrews Leruth",
@@ -558,17 +572,6 @@
             "linkedin": "https://www.linkedin.com/in/amber-swevers-258366171/",
             "behance": null,
             "github": "https://github.com/aswevers"
-        }
-    },
-    {
-        "name": "Alexandra Sakhaeva",
-        "id": "alexandra_sakhaeva",
-        "mugshot": "/static/img/participants/alexandra_sakhaeva.jpg",
-        "socials": {
-            "twitter": null,
-            "linkedin": null,
-            "behance": null,
-            "github": null
         }
     },
     {
@@ -602,7 +605,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Olivia Fontes de Mello",
@@ -624,7 +628,8 @@
             "linkedin": "https://www.linkedin.com/in/bertjehoul/",
             "behance": null,
             "github": "https://github.com/jeborsel"
-        }
+        },
+        "coach": true
     },
     {
         "name": "Bram De Coninck",
@@ -671,9 +676,9 @@
         }
     },
     {
-        "name": "Ghambir Sushil",
-        "id": "ghambir_sushil",
-        "mugshot": "/static/img/participants/ghambir_sushil.jpg",
+        "name": "Sushil Ghambir",
+        "id": "sushil_ghambir",
+        "mugshot": "/static/img/participants/sushil_ghambir.jpg",
         "socials": {
             "twitter": "https://twitter.com/sushil_ghambir",
             "linkedin": "https://www.linkedin.com/in/sushil-ghambir/",
@@ -682,9 +687,9 @@
         }
     },
     {
-        "name": "Guillaume Servais ",
-        "id": "guillaume_servais_",
-        "mugshot": "/static/img/participants/guillaume_servais_.jpg",
+        "name": "Guillaume Servais",
+        "id": "guillaume_servais",
+        "mugshot": "/static/img/participants/guillaume_servais.jpg",
         "socials": {
             "twitter": null,
             "linkedin": "https://www.linkedin.com/in/guillaume-servais-50ba37184/",
@@ -712,7 +717,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Danielle Terras",
@@ -789,7 +795,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Florent Collin",
@@ -866,7 +873,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Lotte Goyens",
@@ -965,7 +973,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Evan Cole",
@@ -976,7 +985,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Maité Cluydts",
@@ -987,7 +997,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Clément Janssens",
@@ -1108,7 +1119,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Bram Bleys",
@@ -1152,7 +1164,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Pieter-Jan Vandenberghe",
@@ -1174,7 +1187,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Astrid Steenackers",
@@ -1185,7 +1199,8 @@
             "linkedin": null,
             "behance": null,
             "github": null
-        }
+        },
+        "coach": true
     },
     {
         "name": "Jonathan Beliën",
@@ -1196,6 +1211,7 @@
             "linkedin": "https://www.linkedin.com/in/jbelien/",
             "behance": null,
             "github": "https://github.com/jbelien"
-        }
+        },
+        "coach": true
     }
 ]

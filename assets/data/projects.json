@@ -6,7 +6,7 @@
     "logo": "/static/img/projects/best-addresses.svg",
     "team": {
       "students": ["theo_dedeken", "josse_van_delm", "lotte_goyens"],
-      "coaches": ["bart_hanssens", "bert_jehoul", "jonathan_belien"]
+      "coaches": ["bart_hanssens", "bert_jehoul", "jonathan_beliën"]
     },
     "repository": "https://github.com/oSoc19/best",
     "website": null,
@@ -97,7 +97,7 @@
     "logo": "/static/img/projects/voices-to-emotions.svg",
     "team": {
       "students": ["laura_van_heck", "thibaut_capuano", "ruben_wambacq", "jasper_de_moor"],
-      "coaches": ["ruter_bevers"]
+      "coaches": ["rutger_bevers"]
     },
     "repository": "https://github.com/oSoc19/voices-to-emotions",
     "website": null,
@@ -186,8 +186,8 @@
     "description": "A tool for making personalized configuration files for route planning.",
     "logo": "/static/img/projects/configuroute.png",
     "team": {
-      "students": ["charles_koutcheme", "margot-verbeke", "wouter_vandendriessche"],
-      "coaches": ["julian_rojas", "pieter_colpaert", "harm_devla", "tim_van_hee", "francois_halin"]
+      "students": ["charles_koutcheme", "margot_verbeke", "wouter_vandendriessche"],
+      "coaches": ["julian_rojas", "pieter_colpaert", "harm_delva", "tim_van_hee", "francois_halin"]
     },
     "repository": "https://github.com/oSoc19/configuroute",
     "website": null,
@@ -236,7 +236,7 @@
     },
     "repository": null,
     "website": null,
-    "partners": []
+    "partners": ["hackyourfuture-belgium"]
   },
   {
     "id": "osoc-international",
@@ -270,7 +270,7 @@
         "joren_'s_jongers",
         "david_adegnon"
       ],
-      "coaches": ["jonathan_belien", "eva_jacobs"]
+      "coaches": ["jonathan_beliën", "eva_jacobs"]
     },
     "repository": "https://github.com/oSoc19/cycling-up-frontend",
     "website": null,
@@ -295,7 +295,12 @@
     "description": "A visual editor for data constraints.",
     "logo": "/static/img/projects/unshacled.svg",
     "team": {
-      "students": ["femke_bruckmann", "tijl_de_blander", "pieter-jan_vandenberghe", "david_adgnon"],
+      "students": [
+        "femke_bruckmann",
+        "tijl_de_blander",
+        "pieter-jan_vandenberghe",
+        "david_adegnon"
+      ],
       "coaches": ["bart_lens", "felix_ruiz_de_arcaute"]
     },
     "repository": "https://github.com/oSoc19/unshacled",
