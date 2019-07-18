@@ -57,7 +57,7 @@
     "id": "erfgoed-zuidwest",
     "name": "Erfgoed Zuidwest",
     "url": "http://www.erfgoedzuidwest.be/",
-    "logo": "/static/img/partners-svg/intercommunale-zuidwest.svg"
+    "logo": "/static/img/partners/intercommunale-zuidwest.png"
   },
   {
     "id": "city-of-bruges",
@@ -69,7 +69,7 @@
     "id": "idlab",
     "name": "IDLab",
     "url": "http://idlab.technology/",
-    "logo": "/static/img/partners-svg/idlab.svg"
+    "logo": "/static/img/partners/idlab.png"
   },
   {
     "id": "innoviris-brussels",
