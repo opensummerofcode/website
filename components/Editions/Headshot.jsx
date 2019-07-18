@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import ExternalLink from '../UI/ExternalLink';
 
-const HeadShot = ({ data, socials, picture }) => {
+const HeadShot = ({ data, socials, picture, roleShown }) => {
   const { name, isCoach } = data;
   const { twitter, linkedin, github, behance } = socials;
 
@@ -11,7 +11,7 @@ const HeadShot = ({ data, socials, picture }) => {
         <img src={picture} alt={name} />
       </div>
       <h2 className="h4 headshot-detail__name">{name}</h2>
-      {isCoach ? <p>Coach</p> : <p>Student</p>}
+      {roleShown && (isCoach ? <p>Coach</p> : <p>Student</p>)}
       <div className="student-social">
         {twitter && (
           <ExternalLink href={twitter}>
@@ -30,7 +30,7 @@ const HeadShot = ({ data, socials, picture }) => {
         )}
         {behance && (
           <ExternalLink href={behance}>
-            <i className="fa fa-github" />
+            <i className="fa fa-behance" />
           </ExternalLink>
         )}
       </div>
@@ -39,7 +39,8 @@ const HeadShot = ({ data, socials, picture }) => {
 };
 
 HeadShot.defaultProps = {
-  socials: {}
+  socials: {},
+  roleShown: true
 };
 
 HeadShot.propTypes = {
@@ -53,7 +54,8 @@ HeadShot.propTypes = {
     github: PropTypes.string,
     behance: PropTypes.string
   }),
-  picture: PropTypes.string.isRequired
+  picture: PropTypes.string.isRequired,
+  roleShown: PropTypes.bool
 };
 
 export default HeadShot;
