@@ -1,5 +1,4 @@
 import App, { Container } from 'next/app';
-import Meta from '../components/Meta';
 import Navigation from '../components/Common/Navigation';
 import Footer from '../components/Common/Footer';
 
@@ -21,7 +20,6 @@ class MyApp extends App {
 
     return (
       <Container>
-        <Meta />
         <Navigation />
         <Component {...pageProps} />
         <Footer />
