@@ -111,6 +111,7 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="‪#FFFFFF" />
           <meta name="msapplication-TileImage" content="mstile-144x144.png" />
           <meta name="theme-color" content="‪#FFFFFF" />
+          <script src="/static/css-flash-fix.js" />
         </Head>
         <body>
           <Main />
