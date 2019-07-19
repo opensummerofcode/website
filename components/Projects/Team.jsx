@@ -7,7 +7,6 @@ const Team = ({ students, coaches }) => {
       data={{ name: person.name, isCoach }}
       socials={person.socials}
       picture={person.mugshot}
-      smallSocials
     />
   );
   const $students = students.map(c => renderMugshot(c, false));

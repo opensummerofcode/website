@@ -14,7 +14,11 @@ const CoachesGallery = () => {
   );
 
   const $coaches = participants.filter(p => p.coach).map(renderStudent);
-  return <Gallery className="headshot-gallery">{$coaches}</Gallery>;
+  return (
+    <Gallery className="headshot-gallery" modifier="align-center">
+      {$coaches}
+    </Gallery>
+  );
 };
 
 export default CoachesGallery;

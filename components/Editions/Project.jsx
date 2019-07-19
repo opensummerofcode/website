@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Project = ({ project }) => {
   const { name, description, logo, id } = project;
   return (
-    <div className="small-6 medium-6 large-4 cell c-projects-project">
+    <div className="small-12 medium-6 large-4 cell c-projects-project">
       <Link href="/2019/[project]" as={`/2019/${id}`}>
         <a className="c-projects-image">
           <img src={logo} alt={`Crest of the ${name} project`} />

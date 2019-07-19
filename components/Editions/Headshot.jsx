@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 import ExternalLink from '../UI/ExternalLink';
 
-const HeadShot = ({ data, socials, picture, roleShown, smallSocials }) => {
+const HeadShot = ({ data, socials, picture, roleShown }) => {
   const { name, isCoach } = data;
   const { twitter, linkedin, github, behance } = socials;
 
   return (
-    <article className="small-6 medium-4 large-3 cell headshot-detail">
+    <article className="small-10 medium-4 large-3 cell headshot-detail">
       <div className="headshot-detail__wrapper">
         <img src={picture} alt={name} />
       </div>
@@ -14,22 +14,22 @@ const HeadShot = ({ data, socials, picture, roleShown, smallSocials }) => {
       {roleShown && (isCoach ? <p>Coach</p> : <p>Student</p>)}
       <div className="student-social">
         {twitter && (
-          <ExternalLink href={twitter} className={smallSocials ? 'social--smaller' : ''}>
+          <ExternalLink href={twitter}>
             <i className="fa fa-twitter" />
           </ExternalLink>
         )}
         {linkedin && (
-          <ExternalLink href={linkedin} className={smallSocials ? 'social--smaller' : ''}>
+          <ExternalLink href={linkedin}>
             <i className="fa fa-linkedin" />
           </ExternalLink>
         )}
         {github && (
-          <ExternalLink href={github} className={smallSocials ? 'social--smaller' : ''}>
+          <ExternalLink href={github}>
             <i className="fa fa-github" />
           </ExternalLink>
         )}
         {behance && (
-          <ExternalLink href={behance} className={smallSocials ? 'social--smaller' : ''}>
+          <ExternalLink href={behance}>
             <i className="fa fa-behance" />
           </ExternalLink>
         )}
@@ -40,8 +40,7 @@ const HeadShot = ({ data, socials, picture, roleShown, smallSocials }) => {
 
 HeadShot.defaultProps = {
   socials: {},
-  roleShown: true,
-  smallSocials: false
+  roleShown: true
 };
 
 HeadShot.propTypes = {

@@ -5,6 +5,9 @@ i.fas {
 
 .headshot-gallery {
   text-align: center;
+  @include breakpoint(small only) {
+    justify-content: center;
+  }
 }
 
 .headshot-detail {
@@ -28,6 +31,8 @@ i.fas {
 
   .headshot-detail__name {
     height: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .student-social {
@@ -85,6 +90,20 @@ i.fas {
       height: 1.8rem;
       i {
         font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .student-social {
+    a {
+      width: 1.9rem;
+      padding: 0.2rem 0.2rem;
+      height: 1.9rem;
+      text-align: center;
+      i {
+        font-size: 1.2rem;
       }
     }
   }
