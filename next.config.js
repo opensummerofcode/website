@@ -17,6 +17,7 @@ module.exports = withSass(
       }, {});
       return {
         '/': { page: '/' },
+        '/2019': { page: '/2019' },
         ...projectPages
       };
     }
