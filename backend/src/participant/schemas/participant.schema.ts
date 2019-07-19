@@ -1,8 +1,8 @@
 import * as mongoose from 'mongoose';
 
 export const ParticipantSchema = new mongoose.Schema({
-  firstname: String,
-  lastname: String,
+  firstName: String,
+  lastName: String,
   picture: String,
   status: {
     type: String,
