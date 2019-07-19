@@ -20,9 +20,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "npm run build && next export && npm run postExport",
-    "postExport": "cp _redirects ./out/_redirects",
-    "start": "cross-env NODE_ENV=production next start"
+    "export": "npm run build && next export && npm run post-export",
+    "post-export": "cp _redirects ./out/_redirects",
+    "start": "cross-env NODE_ENV=production next start",
+    "analyze": "cross-env BUNDLE_ANALYZE=both next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
   },
   "husky": {
     "hooks": {
