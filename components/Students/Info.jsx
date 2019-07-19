@@ -60,7 +60,6 @@ const Info = () => {
               title="TODO"
             />
           </div>
-          <script src="https://player.vimeo.com/api/player.js" />
           <p>
             <small>The 2016 aftermovie; see us building, pitching &amp; cruising!</small>
           </p>

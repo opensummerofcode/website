@@ -23,7 +23,6 @@ const Testimonials = () => {
             July 27, 2017
           </a>
         </blockquote>
-        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />
       </div>
     </div>
   );

@@ -25,7 +25,6 @@ const Testimonials = () => {
                 October 26, 2017
               </a>
             </blockquote>{' '}
-            <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />
           </div>
         </div>
         <div className="small-12 large-4 cell">
@@ -134,7 +133,6 @@ const Testimonials = () => {
               </p>
             </div>
           </blockquote>{' '}
-          <script async defer src="//www.instagram.com/embed.js" />
         </div>
         <div className="small-12 large-4 cell">
           <div style={{ marginTop: '-10px', position: 'relative' }}>
@@ -164,7 +162,6 @@ const Testimonials = () => {
                 March 12, 2018
               </a>
             </blockquote>{' '}
-            <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />
           </div>
         </div>
         <YearEditionCall />
