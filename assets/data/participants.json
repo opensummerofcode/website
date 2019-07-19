@@ -1,4 +1,16 @@
 [
+      {
+        "name": "Maité Cluydts",
+        "id": "maité_cluydts",
+        "mugshot": "/static/img/participants/maité_cluydts.jpg",
+        "socials": {
+            "twitter": null,
+            "linkedin": null,
+            "behance": null,
+            "github": null
+        },
+        "coach": true
+    },
     {
         "name": "Michael Vanderpoorten",
         "id": "michael_vanderpoorten",
@@ -134,6 +146,18 @@
             "github": null
         },
         "coach": true
+    },
+    {
+      "name": "Miet Claes",
+      "id": "miet_claes",
+      "mugshot": "/static/img/participants/miet_claes.jpg",
+      "socials": {
+          "twitter": null,
+          "linkedin": null,
+          "behance": null,
+          "github": null
+      },
+      "coach": true
     },
     {
         "name": "Hervé Tendayi",
@@ -989,18 +1013,6 @@
         "coach": true
     },
     {
-        "name": "Maité Cluydts",
-        "id": "maité_cluydts",
-        "mugshot": "/static/img/participants/maité_cluydts.jpg",
-        "socials": {
-            "twitter": null,
-            "linkedin": null,
-            "behance": null,
-            "github": null
-        },
-        "coach": true
-    },
-    {
         "name": "Clément Janssens",
         "id": "clément_janssens",
         "mugshot": "/static/img/participants/clément_janssens.jpg",
@@ -1109,18 +1121,6 @@
             "behance": null,
             "github": null
         }
-    },
-    {
-        "name": "Miet Claes",
-        "id": "miet_claes",
-        "mugshot": "/static/img/participants/miet_claes.jpg",
-        "socials": {
-            "twitter": null,
-            "linkedin": null,
-            "behance": null,
-            "github": null
-        },
-        "coach": true
     },
     {
         "name": "Bram Bleys",
