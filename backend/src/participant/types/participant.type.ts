@@ -1,5 +1,5 @@
 import { Field, ObjectType, ID } from 'type-graphql';
-import { SocialMedia } from './social-media-type';
+import { SocialMedia } from './social.media.type';
 
 @ObjectType()
 export class Participant {

@@ -1,5 +1,5 @@
 import { InputType, Field } from 'type-graphql';
-import { SocialMediaInput } from './social-media-input';
+import { SocialMediaInput } from './social.media.input';
 
 @InputType()
 export class NewParticipantInput {

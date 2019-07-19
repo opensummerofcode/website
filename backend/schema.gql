@@ -3,6 +3,39 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Mutation {
+  addParticipant(input: NewParticipantInput!): Participant!
+}
+
+input NewParticipantInput {
+  firstName: String!
+  lastName: String!
+  picture: String
+
+  """Participant status (e.g. Student, Coach, etc.). Default = Student"""
+  status: String
+  socials: [SocialMediaInput!]
+}
+
+type Participant {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  picture: String
+  status: String!
+  socials: [SocialMedia!]
+}
+
 type Query {
   hello: String!
+}
+
+type SocialMedia {
+  url: String!
+  platform: String
+}
+
+input SocialMediaInput {
+  url: String!
+  platform: String
 }
