@@ -10,7 +10,7 @@ type Mutation {
 input NewParticipantInput {
   firstName: String!
   lastName: String!
-  picture: String
+  picture: Upload
 
   """Participant status (e.g. Student, Coach, etc.). Default = Student"""
   status: String
@@ -39,3 +39,6 @@ input SocialMediaInput {
   url: String!
   platform: String
 }
+
+"""The `Upload` scalar type represents a file upload."""
+scalar Upload

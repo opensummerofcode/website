@@ -1,4 +1,5 @@
 import { InputType, Field } from 'type-graphql';
+import { GraphQLUpload } from 'graphql-upload';
 import { SocialMediaInput } from './social.media.input';
 
 @InputType()
@@ -9,8 +10,8 @@ export class NewParticipantInput {
   @Field()
   lastName: string;
 
-  @Field({ nullable: true })
-  picture?: string;
+  @Field(type => GraphQLUpload, { nullable: true })
+  picture?: any;
 
   @Field({
     nullable: true,

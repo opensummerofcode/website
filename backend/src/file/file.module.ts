@@ -5,5 +5,6 @@ import { ConfigModule } from '../config/config.module';
 @Module({
   imports: [ConfigModule],
   providers: [FileService],
+  exports: [FileService],
 })
 export class FileModule {}
