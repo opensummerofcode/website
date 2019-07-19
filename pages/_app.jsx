@@ -1,5 +1,7 @@
 import App, { Container } from 'next/app';
 import Head from 'next/head';
+import { withRouter } from 'next/router';
+import PageTransition from '../components/UI/PageTransition';
 import Navigation from '../components/Common/Navigation';
 import Footer from '../components/Common/Footer';
 
@@ -17,7 +19,11 @@ class MyApp extends App {
   }
 
   render() {
-    const { Component, pageProps } = this.props;
+    const {
+      Component,
+      pageProps,
+      router: { pathname }
+    } = this.props;
 
     return (
       <Container>
@@ -25,11 +31,13 @@ class MyApp extends App {
           <title>open Summer of code 2019</title>
         </Head>
         <Navigation />
-        <Component {...pageProps} />
+        <PageTransition location={pathname}>
+          <Component {...pageProps} />
+        </PageTransition>
         <Footer />
       </Container>
     );
   }
 }
 
-export default MyApp;
+export default withRouter(MyApp);
