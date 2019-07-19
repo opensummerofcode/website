@@ -6,14 +6,14 @@ import projects from '../../assets/data/projects.json';
 const FeaturedProjects = ({ divider }) => {
   const renderProject = ({ name, description, logo, id }) => (
     <div key={id} className="small-6 medium-6 large-3 cell c-projects-project">
-      <Link href={`/2019/${id}`}>
+      <Link href="/2019/[id]" as={`/2019/${id}`}>
         <a className="c-projects-image">
           <img src={logo} alt="Logo of project Bike4Brussels" />
         </a>
       </Link>
       <div className="c-projects-content">
         <h2 className="h5">
-          <Link href={`/2019/${id}`}>
+          <Link href="/2019/[id]" as={`/2019/${id}`}>
             <a>{name}</a>
           </Link>
         </h2>
