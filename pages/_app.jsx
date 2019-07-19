@@ -31,9 +31,8 @@ class MyApp extends App {
           <title>open Summer of code 2019</title>
         </Head>
         <Navigation />
-        <PageTransition location={pathname}>
-          <Component {...pageProps} />
-        </PageTransition>
+        {/* <PageTransition location={pathname}></PageTransition> */}
+        <Component {...pageProps} />
         <Footer />
       </Container>
     );
