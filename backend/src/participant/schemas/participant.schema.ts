@@ -4,6 +4,10 @@ export const ParticipantSchema = new mongoose.Schema({
   firstname: String,
   lastname: String,
   picture: String,
+  status: {
+    type: String,
+    default: 'Student',
+  },
   socials: [
     {
       url: String,

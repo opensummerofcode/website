@@ -15,6 +15,9 @@ export class Participant {
   @Field({ nullable: true })
   picture?: string;
 
+  @Field()
+  status: string;
+
   @Field(type => [SocialMedia], { nullable: true })
   socials?: SocialMedia[];
 }
