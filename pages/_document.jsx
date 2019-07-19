@@ -22,7 +22,6 @@ class MyDocument extends Document {
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
           />
           <link rel="manifest" href="static/manifest.json" />
-          <title>open Summer of code 2019</title>
           <meta
             name="description"
             content="Innovative open source projects, made by incredibly motivated students, coaches and organisations."
