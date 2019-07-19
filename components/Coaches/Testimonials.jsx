@@ -1,4 +1,3 @@
-
 const Testimonials = () => {
   return (
     <div className="grid-x grid-padding-x u-padding-large--tb align-center border-top-light-gray text-center">
