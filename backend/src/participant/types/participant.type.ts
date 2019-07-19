@@ -1,8 +1,8 @@
 import { Field, ObjectType, ID } from 'type-graphql';
-import { StudentSocial } from './social-media-type';
+import { SocialMedia } from './social-media-type';
 
 @ObjectType()
-export class Student {
+export class Participant {
   @Field(type => ID)
   id: string;
 
@@ -15,6 +15,6 @@ export class Student {
   @Field({ nullable: true })
   picture?: string;
 
-  @Field(type => [StudentSocial], { nullable: true })
-  socials?: StudentSocial[];
+  @Field(type => [SocialMedia], { nullable: true })
+  socials?: SocialMedia[];
 }

@@ -1,7 +1,7 @@
 import { Field, ObjectType } from 'type-graphql';
 
 @ObjectType()
-export class StudentSocial {
+export class SocialMedia {
   @Field()
   url: string;
 

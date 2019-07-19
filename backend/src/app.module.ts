@@ -5,7 +5,7 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from './config/config.module';
 import { ConfigService } from './config/config.service';
-import { StudentModule } from './student/student.module';
+import { StudentModule } from './participant/participant.module';
 
 @Module({
   imports: [
