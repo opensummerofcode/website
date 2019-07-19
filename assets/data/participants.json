@@ -502,10 +502,10 @@
         "id": "michiel_leyman",
         "mugshot": "/static/img/participants/michiel_leyman.jpg",
         "socials": {
-            "twitter": null,
-            "linkedin": null,
+            "twitter": "https://twitter.com/michielleyman",
+            "linkedin": "https://www.linkedin.com/in/michiel-leyman/",
             "behance": null,
-            "github": null
+            "github": "https://github.com/MichielLeyman"
         },
         "coach": true
     },
