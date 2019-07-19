@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Header from '../../components/Projects/Header';
 import Team from '../../components/Projects/Team';
@@ -7,10 +6,8 @@ import allProjects from '../../assets/data/projects.json';
 import allParticipants from '../../assets/data/participants.json';
 import allPartners from '../../assets/data/partners.json';
 
-const Project = () => {
-  const router = useRouter();
-  const projectId = router.query.id;
-  const project = allProjects.find(p => p.id === projectId);
+const Project = ({ id }) => {
+  const project = allProjects.find(p => p.id === id);
   const students = project.team.students.map(student =>
     allParticipants.find(p => p.id === student)
   );
@@ -26,6 +23,11 @@ const Project = () => {
       <Partners partners={partners} />
     </>
   );
+};
+
+Project.getInitialProps = ctx => {
+  const { project } = ctx.query;
+  return { id: project };
 };
 
 export default Project;
