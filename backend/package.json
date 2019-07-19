@@ -28,6 +28,7 @@
     "@types/dotenv": "^6.1.1",
     "@types/mongoose": "^5.5.8",
     "apollo-server-express": "^2.7.0",
+    "cloudinary": "^1.14.0",
     "dotenv": "^8.0.0",
     "graphql": "^14.4.2",
     "graphql-tools": "^4.0.5",

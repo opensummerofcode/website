@@ -6,6 +6,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from './config/config.module';
 import { ConfigService } from './config/config.service';
 import { StudentModule } from './participant/participant.module';
+import { FileModule } from './file/file.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { StudentModule } from './participant/participant.module';
       inject: [ConfigService],
     }),
     StudentModule,
+    FileModule,
   ],
   controllers: [AppController],
   providers: [AppService],
