@@ -44,7 +44,13 @@
     "description": "The main goal of the project is to monitor data about traffic, road maintenance and logistics in an accessible way.",
     "logo": "/static/img/projects/datamonitor.svg",
     "team": {
-      "students": ["ryan_byloos", "hektor_misplon", "florent_collin"],
+      "students": [
+        "ryan_byloos",
+        "hektor_misplon",
+        "florent_collin",
+        "yasin_yer",
+        "ismaila_abdoulahi_adamou"
+      ],
       "coaches": ["felix_ruiz_de_arcaute", "xavier_bertels"]
     },
     "repository": "https://github.com/oSoc19/data-monitor",
@@ -173,7 +179,7 @@
     "description": "Mapping historical geodata with Open Historical Map to preserve our memories.",
     "logo": "/static/img/projects/open-heritage-map.svg",
     "team": {
-      "students": ["louis_heeren", "siu_mei_soan", "richez_antoine", "pierre_van_houtryve"],
+      "students": ["louis_heeren", "siu_mei_soan", "antoine_richez", "pierre_van_houtryve"],
       "coaches": ["pieter_vander_vennet", "hannes_d'hulster"]
     },
     "repository": "https://github.com/oSoc19/Open-Yesterday-SlippyMap",

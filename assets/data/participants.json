@@ -1056,9 +1056,9 @@
         }
     },
     {
-        "name": "Richez Antoine",
-        "id": "richez_antoine",
-        "mugshot": "/static/img/participants/richez_antoine.jpg",
+        "name": "Antoine Richez",
+        "id": "antoine_richez",
+        "mugshot": "/static/img/participants/antoine_richez.jpg",
         "socials": {
             "twitter": "https://twitter.com/antoine_richez",
             "linkedin": "https://be.linkedin.com/in/antoine-richez-1864b8166",
