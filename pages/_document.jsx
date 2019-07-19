@@ -59,7 +59,7 @@ class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="57x57"
-            href="/static/static/favicons/apple-touch-icon-57x57.png"
+            href="/static/favicons/apple-touch-icon-57x57.png"
           />
           <link
             rel="apple-touch-icon"
@@ -111,7 +111,6 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="‪#FFFFFF" />
           <meta name="msapplication-TileImage" content="mstile-144x144.png" />
           <meta name="theme-color" content="‪#FFFFFF" />
-          <script src="/static/css-flash-fix.js" />
         </Head>
         <body>
           <Main />
