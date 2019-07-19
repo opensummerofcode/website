@@ -9,7 +9,12 @@ export class ParticipantService {
     @InjectModel('Participant')
     private readonly participantModel: Model<IParticipant>,
   ) {}
+
   async create(input: any): Promise<IParticipant> {
     return this.participantModel.create(input);
+  }
+
+  async findAll(): Promise<IParticipant[]> {
+    return this.participantModel.find();
   }
 }

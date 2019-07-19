@@ -27,7 +27,7 @@ type Participant {
 }
 
 type Query {
-  hello: String!
+  participants: [Participant!]
 }
 
 type SocialMedia {

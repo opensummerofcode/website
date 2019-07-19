@@ -7,9 +7,9 @@ import { ParticipantService } from './participant.service';
 @Resolver('Participant')
 export class ParticipantResolver {
   constructor(private readonly participantService: ParticipantService) {}
-  @Query(returns => String)
-  hello() {
-    return 'Hi man!';
+  @Query(returns => [Participant], { nullable: true })
+  participants() {
+    return this.participantService.findAll();
   }
 
   @Mutation(returns => Participant)
