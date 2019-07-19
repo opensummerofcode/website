@@ -145,7 +145,8 @@
     },
     "repository": "https://github.com/oSoc19/gentlestudent-web",
     "website": null,
-    "partners": ["artevelde-hogeschool"]
+    "partners": ["artevelde-hogeschool"],
+    "featured": true
   },
   {
     "id": "influencair",
@@ -210,7 +211,8 @@
     },
     "repository": "https://github.com/oSoc19/opt-hopper-frontend",
     "website": null,
-    "partners": ["open-planner-team"]
+    "partners": ["open-planner-team"],
+    "featured": true
   },
   {
     "id": "horison",
@@ -261,7 +263,8 @@
     },
     "repository": null,
     "website": null,
-    "partners": ["openknowledgebe"]
+    "partners": ["openknowledgebe"],
+    "featured": true
   },
   {
     "id": "cycling-up",
@@ -280,7 +283,8 @@
     },
     "repository": "https://github.com/oSoc19/cycling-up-frontend",
     "website": null,
-    "partners": ["brussels-mobility"]
+    "partners": ["brussels-mobility"],
+    "featured": true
   },
   {
     "id": "road-report",
