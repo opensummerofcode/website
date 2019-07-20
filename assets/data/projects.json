@@ -18,7 +18,7 @@
     "description": "To present the budget data of the Belgian federal government in a more accessible and open way.",
     "logo": "/static/img/projects/bebudget.svg",
     "team": {
-      "students": ["emmy_bruynseels", "akvile_kovalcikaite"],
+      "students": ["emmy_bruynseels", "akvile_kovalcikaite", "bram_bleys", "lotte_goyens"],
       "coaches": ["bert_jehoul", "thomas_duvivier"]
     },
     "repository": "https://github.com/oSoc19/bebudget",
@@ -139,7 +139,8 @@
         "bram_de_coninck",
         "freek_de_sagher",
         "maxime_van_driessche",
-        "mahmoudi_hamza"
+        "mahmoudi_hamza",
+        "maxim_de_geyter"
       ],
       "coaches": ["bert_jehoul"]
     },
