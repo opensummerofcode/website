@@ -26,8 +26,16 @@ type Participant {
   socials: [SocialMedia!]
 }
 
+type Partner {
+  id: ID!
+  name: String!
+  url: String!
+  logo: String!
+}
+
 type Query {
   participants: [Participant!]
+  partners: [Partner!]
 }
 
 type SocialMedia {
