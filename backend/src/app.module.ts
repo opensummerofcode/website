@@ -7,6 +7,7 @@ import { ConfigModule } from './config/config.module';
 import { ConfigService } from './config/config.service';
 import { StudentModule } from './participant/participant.module';
 import { FileModule } from './file/file.module';
+import { PartnerModule } from './partner/partner.module';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { FileModule } from './file/file.module';
     }),
     StudentModule,
     FileModule,
+    PartnerModule,
   ],
   controllers: [AppController],
   providers: [AppService],
