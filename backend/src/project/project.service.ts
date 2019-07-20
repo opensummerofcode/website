@@ -25,4 +25,15 @@ export class ProjectService {
     const file = logo && (await this.fileService.store(await logo, 'projects'));
     return file && file.secure_url;
   }
+
+  async update({ projectId, update }): Promise<IProject> {
+    const logo = await this.saveLogo(update.logo);
+    return this.projectModel.findByIdAndUpdate(
+      projectId,
+      Object.assign(update, logo && { logo }),
+      {
+        new: true,
+      },
+    );
+  }
 }

@@ -7,6 +7,7 @@ type Mutation {
   addParticipant(input: NewParticipantInput!): Participant!
   addPartner(input: NewPartnerInput!): Partner!
   addProject(input: NewProjectInput!): Project!
+  updateProject(input: UpdateProjectInput!, projectId: String!): Project!
 }
 
 input NewParticipantInput {
@@ -77,6 +78,15 @@ type SocialMedia {
 input SocialMediaInput {
   url: String!
   platform: String
+}
+
+input UpdateProjectInput {
+  name: String
+  description: String
+  catchphrase: String
+  logo: Upload
+  repository: String
+  website: String
 }
 
 """The `Upload` scalar type represents a file upload."""
