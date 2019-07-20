@@ -1,7 +1,7 @@
 import { Document } from 'mongoose';
 
 export interface IProject extends Document {
-  readonly id?: string;
+  readonly id: string;
   readonly name: string;
   readonly description?: string;
   readonly catchphrase?: string;

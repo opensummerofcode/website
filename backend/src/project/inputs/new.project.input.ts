@@ -1,4 +1,5 @@
 import { Field, InputType } from 'type-graphql';
+import { GraphQLUpload } from 'apollo-server-core';
 
 @InputType()
 export class NewProjectInput {
@@ -11,8 +12,8 @@ export class NewProjectInput {
   @Field({ nullable: true })
   catchphrase?: string;
 
-  @Field({ nullable: true })
-  logo?: string;
+  @Field(type => GraphQLUpload, { nullable: true })
+  logo?: any;
 
   @Field({ nullable: true })
   repository?: string;

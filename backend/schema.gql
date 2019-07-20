@@ -6,6 +6,7 @@
 type Mutation {
   addParticipant(input: NewParticipantInput!): Participant!
   addPartner(input: NewPartnerInput!): Partner!
+  addProject(input: NewProjectInput!): Project!
 }
 
 input NewParticipantInput {
@@ -24,6 +25,15 @@ input NewPartnerInput {
   logo: Upload!
 }
 
+input NewProjectInput {
+  name: String!
+  description: String
+  catchphrase: String
+  logo: Upload
+  repository: String
+  website: String
+}
+
 type Participant {
   id: ID!
   firstName: String!
@@ -40,9 +50,23 @@ type Partner {
   logo: String!
 }
 
+type Project {
+  id: String!
+  name: String!
+  description: String
+  catchphrase: String
+  logo: String
+  repository: String
+  website: String
+  partners: [Partner!]
+  team: [Participant!]
+  linkedTo: [Project!]
+}
+
 type Query {
   participants: [Participant!]
   partners: [Partner!]
+  projects: [Project!]
 }
 
 type SocialMedia {
