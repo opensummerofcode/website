@@ -390,9 +390,9 @@
     "mugshot": "/static/img/participants/john_de_wasseige.jpg",
     "socials": {
       "twitter": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/jdewasseige/",
       "behance": null,
-      "github": null
+      "github": "https://github.com/jdewasseige"
     }
   },
   {
@@ -893,10 +893,10 @@
     "id": "bart_hanssens",
     "mugshot": "/static/img/participants/bart_hanssens.jpg",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
+      "twitter": "https://twitter.com/BartHanssens",
+      "linkedin": "https://www.linkedin.com/in/barthanssens",
       "behance": null,
-      "github": null
+      "github": "https://github.com/barthanssens"
     },
     "coach": true
   },
