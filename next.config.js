@@ -18,6 +18,11 @@ module.exports = withSass(
       return {
         '/': { page: '/' },
         '/2019': { page: '/2019' },
+        '/coaches': { page: '/coaches' },
+        '/companies': { page: '/companies' },
+        '/practical': { page: '/practical' },
+        '/projects': { page: '/projects' },
+        '/students': { page: '/students' },
         ...projectPages
       };
     }
