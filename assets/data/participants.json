@@ -694,9 +694,9 @@
     "mugshot": "/static/img/participants/marie_devos.jpg",
     "socials": {
       "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
+      "linkedin": "https://www.linkedin.com/in/marie-devos-521371168/",
+      "behance": "https://www.behance.net/mariedevos",
+      "github": "https://github.com/mariedevos"
     }
   },
   {
