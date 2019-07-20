@@ -367,10 +367,10 @@
         "id": "jasper_de_moor",
         "mugshot": "/static/img/participants/jasper_de_moor.jpg",
         "socials": {
-            "twitter": null,
-            "linkedin": null,
+            "twitter": "https://twitter.com/JasperDeMoor",
+            "linkedin": "https://www.linkedin.com/in/jasperdm/",
             "behance": null,
-            "github": null
+            "github": "https://github.com/DeMoorJasper"
         }
     },
     {
