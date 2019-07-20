@@ -14,4 +14,10 @@ export class PartnerService {
   async findAll(): Promise<IPartner[]> {
     return this.partnerModel.find();
   }
+
+  async create(input): Promise<IPartner> {
+    const file = await this.fileService.store(await input.logo, 'partners');
+    input.logo = file.secure_url;
+    return this.partnerModel.create(input);
+  }
 }

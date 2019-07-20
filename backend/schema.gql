@@ -5,6 +5,7 @@
 
 type Mutation {
   addParticipant(input: NewParticipantInput!): Participant!
+  addPartner(input: NewPartnerInput!): Partner!
 }
 
 input NewParticipantInput {
@@ -15,6 +16,12 @@ input NewParticipantInput {
   """Participant status (e.g. Student, Coach, etc.). Default = Student"""
   status: String
   socials: [SocialMediaInput!]
+}
+
+input NewPartnerInput {
+  name: String!
+  url: String!
+  logo: Upload!
 }
 
 type Participant {
