@@ -8,6 +8,8 @@ import Footer from '../components/Common/Footer';
 import '../assets/scss/app.scss';
 
 class MyApp extends App {
+  state = { ready: false };
+
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
 
@@ -18,22 +20,25 @@ class MyApp extends App {
     return { pageProps };
   }
 
+  componentDidMount() {
+    this.setState({ ready: true });
+  }
+
   render() {
-    const {
-      Component,
-      pageProps,
-      router: { pathname }
-    } = this.props;
+    const { ready } = this.state;
+    const { Component, pageProps } = this.props;
 
     return (
       <Container>
         <Head>
           <title>open Summer of code 2019</title>
         </Head>
-        <Navigation />
-        {/* <PageTransition location={pathname}></PageTransition> */}
-        <Component {...pageProps} />
-        <Footer />
+        <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
+          <Navigation />
+          {/* <PageTransition location={pathname}></PageTransition> */}
+          <Component {...pageProps} />
+          <Footer />
+        </div>
       </Container>
     );
   }
