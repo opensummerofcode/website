@@ -356,10 +356,10 @@
     "id": "ruben_wambacq",
     "mugshot": "/static/img/participants/ruben_wambacq.jpg",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
+      "twitter": "https://twitter.com/RWambacq",
+      "linkedin": "https://www.linkedin.com/in/ruben-wambacq-7a5442170/",
       "behance": null,
-      "github": null
+      "github": "https://github.com/rwambacq"
     }
   },
   {
