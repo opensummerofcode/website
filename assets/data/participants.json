@@ -569,8 +569,8 @@
     "id": "xavier_bertels",
     "mugshot": "/static/img/participants/xavier_bertels.jpg",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
+      "twitter": "https://twitter.com/xavez",
+      "linkedin": "https://www.linkedin.com/in/xavierbertels",
       "behance": null,
       "github": null
     },
