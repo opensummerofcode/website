@@ -464,14 +464,14 @@
     }
   },
   {
-    "name": "Gracien Lofandjola",
+    "name": "Gracien Lofandjola Danzima",
     "id": "gracien_lofandjola",
     "mugshot": "/static/img/participants/gracien_lofandjola.jpg",
     "socials": {
       "twitter": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/gracien-lofandjola-danzima",
       "behance": null,
-      "github": null
+      "github": "https://github.com/GracienLofa"
     }
   },
   {
