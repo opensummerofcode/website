@@ -152,10 +152,10 @@
     "id": "miet_claes",
     "mugshot": "/static/img/participants/miet_claes.jpg",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
+      "twitter": "https://twitter.com/choisissez",
+      "linkedin": "https://www.linkedin.com/in/mietcls",
       "behance": null,
-      "github": null
+      "github": "https://github.com/mietcls"
     },
     "coach": true
   },
@@ -569,8 +569,8 @@
     "id": "xavier_bertels",
     "mugshot": "/static/img/participants/xavier_bertels.jpg",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
+      "twitter": "https://twitter.com/xavez",
+      "linkedin": "https://www.linkedin.com/in/xavierbertels",
       "behance": null,
       "github": null
     },
