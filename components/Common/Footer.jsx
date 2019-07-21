@@ -101,9 +101,9 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <ExternalLink href="https://2018.summerofcode.be/2018.html" target="_blank">
-                    2018
-                  </ExternalLink>
+                  <Link href="/2019">
+                    <a>2019</a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -171,11 +171,11 @@ const Footer = () => {
             Powered by{' '}
             <ExternalLink href="https://www.openknowledge.be/">Open Knowledge Belgium</ExternalLink>{' '}
             |{' '}
-            <ExternalLink href="https://github.com/oSoc18/website">
+            <ExternalLink href="https://github.com/opensummerofcode/edition-webapp">
               Source code freely available on GitHub
             </ExternalLink>{' '}
             |{' '}
-            <ExternalLink href="https://github.com/oSoc18/website/blob/master/CONTRIBUTORS.md">
+            <ExternalLink href="https://github.com/opensummerofcode/edition-webapp/blob/master/CONTRIBUTORS.md">
               Contributors
             </ExternalLink>
           </p>
