@@ -21,7 +21,6 @@ module.exports = withSass(
         '/coaches': { page: '/coaches' },
         '/companies': { page: '/companies' },
         '/practical': { page: '/practical' },
-        '/projects': { page: '/projects' },
         '/students': { page: '/students' },
         ...projectPages
       };
