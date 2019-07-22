@@ -39,4 +39,14 @@ export class PartnerService {
 
     return partner.save();
   }
+
+  async delete(id: string): Promise<IPartner> {
+    const partner = await this.partnerModel
+      .findByIdAndDelete(id)
+      .orFail(new Error('Partner not found!'));
+
+    await this.fileService.delete(partner.logoPublicId);
+
+    return partner;
+  }
 }

@@ -30,4 +30,9 @@ export class PartnerResolver {
   ): Promise<Partner> {
     return this.partnerService.update(id, input);
   }
+
+  @Mutation(returns => Partner)
+  deletePartner(@Args('id') id: string): Promise<Partner> {
+    return this.partnerService.delete(id);
+  }
 }
