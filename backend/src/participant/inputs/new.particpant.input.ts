@@ -13,12 +13,12 @@ export class NewParticipantInput {
   @Field(type => GraphQLUpload, { nullable: true })
   picture?: any;
 
-  @Field({
+  @Field(type => [String], {
     nullable: true,
     description:
-      'Participant status (e.g. Student, Coach, etc.). Default = Student',
+      'Participant status (e.g. student, coach, etc.). Default = student',
   })
-  status?: string;
+  status?: string[];
 
   @Field(type => [SocialMediaInput], { nullable: true })
   socials?: SocialMediaInput[];

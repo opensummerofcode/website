@@ -4,14 +4,21 @@ export const ParticipantSchema = new mongoose.Schema({
   firstName: String,
   lastName: String,
   picture: String,
-  status: {
-    type: String,
-    default: 'Student',
-  },
-  socials: [
+  picturePublicId: String,
+  status: [
     {
-      url: String,
-      platform: String,
+      type: String,
+      enum: ['student', 'coach', 'ambassador'],
+      default: 'student',
     },
   ],
+  socials: {
+    twitter: String,
+    facebook: String,
+    instagram: String,
+    github: String,
+    youtube: String,
+    behance: String,
+    linkedin: String,
+  },
 });

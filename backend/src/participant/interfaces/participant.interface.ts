@@ -5,6 +5,6 @@ export interface IParticipant extends Document {
   readonly firstName: string;
   readonly lastName: string;
   readonly picture: string;
-  readonly status: string;
+  readonly status: string[];
   readonly socials: [];
 }
