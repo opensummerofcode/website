@@ -1139,9 +1139,9 @@
     "mugshot": "/static/img/participants/maxim_de_geyter.jpg",
     "socials": {
       "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
+      "linkedin": "https://www.linkedin.com/in/maximdegeyter/",
+      "behance": "https://www.behance.net/maximdegeyter",
+      "github": "https://github.com/maximdegeyter"
     }
   },
   {
