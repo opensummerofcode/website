@@ -96,4 +96,8 @@ export class ProjectService {
   ): Promise<IProject> {
     return this.pop(projectId, participantId, 'team');
   }
+
+  removePartner(projectId: string, partnerId: string): Promise<IProject> {
+    return this.pop(projectId, partnerId, 'partners');
+  }
 }

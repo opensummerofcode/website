@@ -58,6 +58,14 @@ export class ProjectResolver {
   }
 
   @Mutation(returns => Project)
+  removePartnerFromProject(
+    @Args('projectId') projectId: string,
+    @Args('partnerId') partnerId: string,
+  ): Promise<Project> {
+    return this.projectService.removePartner(projectId, partnerId);
+  }
+
+  @Mutation(returns => Project)
   bind(
     @Args('projectId1') projectId1: string,
     @Args('projectId2') projectId2: string,
