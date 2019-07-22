@@ -15,6 +15,10 @@ export class ProjectService {
     return this.projectModel.find();
   }
 
+  async findOne(projectId: string): Promise<IProject> {
+    return this.projectModel.findById(projectId);
+  }
+
   async create(input): Promise<IProject> {
     const logo = await this.saveLogo(input.logo);
     return this.projectModel.create(Object.assign(input, logo));

@@ -20,6 +20,11 @@ export class ProjectResolver {
     return this.projectService.findAll();
   }
 
+  @Query(returns => Project, { nullable: true })
+  project(@Args('id') id: string): Promise<Project> {
+    return this.projectService.findOne(id);
+  }
+
   @Mutation(returns => Project)
   addProject(@Args('input') input: NewProjectInput): Promise<Project> {
     return this.projectService.create(input);

@@ -75,6 +75,7 @@ type Query {
   participants: [Participant!]
   partners: [Partner!]
   projects: [Project!]
+  project(id: String!): Project
 }
 
 type SocialMedia {
