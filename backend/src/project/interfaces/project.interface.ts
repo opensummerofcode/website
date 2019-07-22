@@ -6,6 +6,7 @@ export interface IProject extends Document {
   readonly description?: string;
   readonly catchphrase?: string;
   readonly logo?: string;
+  readonly logoPublicId: string;
   readonly repository?: string;
   readonly website?: string;
   readonly partners?: any;

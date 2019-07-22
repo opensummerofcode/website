@@ -81,6 +81,11 @@ export class ProjectResolver {
     return this.projectService.unbind(projectId1, projectId2);
   }
 
+  @Mutation(returns => Project, { nullable: true })
+  async deleteProject(@Args('projectId') projectId: string): Promise<Project> {
+    return this.projectService.delete(projectId);
+  }
+
   @ResolveProperty()
   linkedTo(@Parent() project) {
     return this.projectService.bonds(project);

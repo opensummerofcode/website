@@ -14,6 +14,7 @@ type Mutation {
   removePartnerFromProject(partnerId: String!, projectId: String!): Project!
   bind(projectId2: String!, projectId1: String!): Project!
   unbind(projectId2: String!, projectId1: String!): Project!
+  deleteProject(projectId: String!): Project
 }
 
 input NewParticipantInput {

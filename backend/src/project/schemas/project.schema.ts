@@ -6,6 +6,7 @@ export const ProjectSchema = new mongoose.Schema({
   description: String,
   catchphrase: String,
   logo: String,
+  logoPublicId: String,
   repository: String,
   website: String,
   partners: [{ type: ObjectId, ref: 'Partner' }],

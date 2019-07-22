@@ -17,13 +17,12 @@ export class ProjectService {
 
   async create(input): Promise<IProject> {
     const logo = await this.saveLogo(input.logo);
-    input.logo = logo;
-    return this.projectModel.create(input);
+    return this.projectModel.create(Object.assign(input, logo));
   }
 
-  private async saveLogo(logo): Promise<string> {
+  private async saveLogo(logo): Promise<object> {
     const file = logo && (await this.fileService.store(await logo, 'projects'));
-    return file && file.secure_url;
+    return file && { logo: file.secure_url, logoPublicId: file.public_id };
   }
 
   private async populate(project: IProject, field: string) {
@@ -51,7 +50,7 @@ export class ProjectService {
     const logo = await this.saveLogo(update.logo);
     return this.projectModel.findByIdAndUpdate(
       projectId,
-      Object.assign(update, logo && { logo }),
+      Object.assign(update, logo && logo),
       {
         new: true,
       },
@@ -99,5 +98,21 @@ export class ProjectService {
 
   removePartner(projectId: string, partnerId: string): Promise<IProject> {
     return this.pop(projectId, partnerId, 'partners');
+  }
+
+  async delete(projectId: string): Promise<IProject> {
+    const project = await this.projectModel
+      .findByIdAndDelete(projectId)
+      .orFail(() => new Error('Project not found'));
+
+    project.linkedTo.forEach(async link => {
+      await this.pop(link, projectId, 'linkedTo');
+    });
+
+    if (project.logoPublicId) {
+      await this.fileService.delete(project.logoPublicId, 'projects');
+    }
+
+    return project;
   }
 }
