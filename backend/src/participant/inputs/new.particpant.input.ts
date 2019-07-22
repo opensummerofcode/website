@@ -20,6 +20,6 @@ export class NewParticipantInput {
   })
   status?: string[];
 
-  @Field(type => [SocialMediaInput], { nullable: true })
-  socials?: SocialMediaInput[];
+  @Field(type => SocialMediaInput, { nullable: true })
+  socials?: SocialMediaInput;
 }

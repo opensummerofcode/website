@@ -7,6 +7,7 @@ type Mutation {
   addParticipant(input: NewParticipantInput!): Participant!
   addPartner(input: NewPartnerInput!): Partner!
   updatePartner(input: UpdatePartnerInput!, id: String!): Partner!
+  deletePartner(id: String!): Partner!
   addProject(input: NewProjectInput!): Project!
   updateProject(input: UpdateProjectInput!, projectId: String!): Project!
   addParticipantToProject(participantId: String!, projectId: String!): Project!
@@ -23,9 +24,9 @@ input NewParticipantInput {
   lastName: String!
   picture: Upload
 
-  """Participant status (e.g. Student, Coach, etc.). Default = Student"""
-  status: String
-  socials: [SocialMediaInput!]
+  """Participant status (e.g. student, coach, etc.). Default = student"""
+  status: [String!]
+  socials: SocialMediaInput
 }
 
 input NewPartnerInput {
@@ -48,8 +49,8 @@ type Participant {
   firstName: String!
   lastName: String!
   picture: String
-  status: String!
-  socials: [SocialMedia!]
+  status: [String!]!
+  socials: SocialMedia
 }
 
 type Partner {
@@ -74,6 +75,7 @@ type Project {
 
 type Query {
   participants: [Participant!]
+  participant(id: String!): Participant
   partners: [Partner!]
   partner(id: String!): Partner
   projects: [Project!]
@@ -81,13 +83,23 @@ type Query {
 }
 
 type SocialMedia {
-  url: String!
-  platform: String
+  twitter: String
+  facebook: String
+  instagram: String
+  github: String
+  youtube: String
+  behance: String
+  linkedin: String
 }
 
 input SocialMediaInput {
-  url: String!
-  platform: String
+  twitter: String
+  facebook: String
+  instagram: String
+  github: String
+  youtube: String
+  behance: String
+  linkedin: String
 }
 
 input UpdatePartnerInput {

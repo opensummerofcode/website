@@ -18,6 +18,6 @@ export class Participant {
   @Field(type => [String])
   status: string[];
 
-  @Field(type => [SocialMedia], { nullable: true })
-  socials?: SocialMedia[];
+  @Field(type => SocialMedia, { nullable: true })
+  socials?: SocialMedia;
 }
