@@ -74,6 +74,7 @@ type Project {
 type Query {
   participants: [Participant!]
   partners: [Partner!]
+  partner(id: String!): Partner
   projects: [Project!]
   project(id: String!): Project
 }
