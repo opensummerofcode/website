@@ -42,6 +42,14 @@ export class ProjectResolver {
   }
 
   @Mutation(returns => Project)
+  removeParticipantFromProject(
+    @Args('projectId') projectId: string,
+    @Args('participantId') participantId: string,
+  ): Promise<Project> {
+    return this.projectService.removeParticipant(projectId, participantId);
+  }
+
+  @Mutation(returns => Project)
   addPartnerToProject(
     @Args('projectId') projectId: string,
     @Args('partnerId') partnerId: string,

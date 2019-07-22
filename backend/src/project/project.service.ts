@@ -89,4 +89,11 @@ export class ProjectService {
     await this.pop(projectId2, projectId1, field);
     return this.pop(projectId1, projectId2, field);
   }
+
+  removeParticipant(
+    projectId: string,
+    participantId: string,
+  ): Promise<IProject> {
+    return this.pop(projectId, participantId, 'team');
+  }
 }
