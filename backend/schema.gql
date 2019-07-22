@@ -6,6 +6,7 @@
 type Mutation {
   addParticipant(input: NewParticipantInput!): Participant!
   addPartner(input: NewPartnerInput!): Partner!
+  updatePartner(input: UpdatePartnerInput!, id: String!): Partner!
   addProject(input: NewProjectInput!): Project!
   updateProject(input: UpdateProjectInput!, projectId: String!): Project!
   addParticipantToProject(participantId: String!, projectId: String!): Project!
@@ -87,6 +88,12 @@ type SocialMedia {
 input SocialMediaInput {
   url: String!
   platform: String
+}
+
+input UpdatePartnerInput {
+  name: String
+  url: String
+  logo: Upload
 }
 
 input UpdateProjectInput {

@@ -114,7 +114,7 @@ export class ProjectService {
     });
 
     if (project.logoPublicId) {
-      await this.fileService.delete(project.logoPublicId, 'projects');
+      await this.fileService.delete(project.logoPublicId);
     }
 
     return project;

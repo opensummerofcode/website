@@ -25,4 +25,18 @@ export class PartnerService {
     input.logoPublicId = file.public_id;
     return this.partnerModel.create(input);
   }
+
+  async update(id: string, input): Promise<IPartner> {
+    let partner = await this.partnerModel.findById(id);
+    if (input.logo) {
+      await this.fileService.delete(partner.logoPublicId);
+      const file = await this.fileService.store(await input.logo, 'partners');
+      input.logo = file.secure_url;
+      input.logoPublicId = file.public_id;
+    }
+
+    partner = Object.assign(partner, input);
+
+    return partner.save();
+  }
 }

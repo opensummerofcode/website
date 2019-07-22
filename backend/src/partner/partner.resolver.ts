@@ -2,6 +2,7 @@ import { Resolver, Query, Mutation, Args } from '@nestjs/graphql';
 import { Partner } from './types/partner.type';
 import { PartnerService } from './partner.service';
 import { NewPartnerInput } from './inputs/partner.input';
+import { UpdatePartnerInput } from './inputs/update.partner.input';
 
 @Resolver('Partner')
 export class PartnerResolver {
@@ -20,5 +21,13 @@ export class PartnerResolver {
   @Mutation(returns => Partner)
   addPartner(@Args('input') input: NewPartnerInput): Promise<Partner> {
     return this.partnerService.create(input);
+  }
+
+  @Mutation(returns => Partner)
+  updatePartner(
+    @Args('id') id: string,
+    @Args('input') input: UpdatePartnerInput,
+  ): Promise<Partner> {
+    return this.partnerService.update(id, input);
   }
 }
