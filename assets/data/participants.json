@@ -816,9 +816,9 @@
     "mugshot": "/static/img/participants/felix_ruiz_de_arcaute.jpg",
     "socials": {
       "twitter": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/felix-ruiz-de-arcaute/",
       "behance": null,
-      "github": null
+      "github": "https://github.com/cecemel/"
     },
     "coach": true
   },
