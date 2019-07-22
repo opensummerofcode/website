@@ -83,10 +83,10 @@
     "id": "toon_nelissen",
     "mugshot": "/static/img/participants/toon_nelissen.jpg",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
+      "twitter": "https://twitter.com/ToonNelissen",
+      "linkedin": "https://www.linkedin.com/in/toonnelissen/",
       "behance": null,
-      "github": null
+      "github": "https://github.com/cinezaster"
     },
     "coach": true
   },
