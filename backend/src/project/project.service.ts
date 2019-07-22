@@ -39,6 +39,14 @@ export class ProjectService {
     return this.update({ projectId, update: { $push: { [field]: element } } });
   }
 
+  private async pop(
+    projectId: string,
+    element: string,
+    field: string,
+  ): Promise<IProject> {
+    return this.update({ projectId, update: { $pull: { [field]: element } } });
+  }
+
   async update({ projectId, update }): Promise<IProject> {
     const logo = await this.saveLogo(update.logo);
     return this.projectModel.findByIdAndUpdate(
@@ -74,5 +82,11 @@ export class ProjectService {
 
   team(project: IProject) {
     return this.populate(project, 'team');
+  }
+
+  async unbind(projectId1: string, projectId2: string): Promise<IProject> {
+    const field = 'linkedTo';
+    await this.pop(projectId2, projectId1, field);
+    return this.pop(projectId1, projectId2, field);
   }
 }

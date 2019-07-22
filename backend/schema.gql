@@ -11,6 +11,7 @@ type Mutation {
   addParticipantToProject(participantId: String!, projectId: String!): Project!
   addPartnerToProject(partnerId: String!, projectId: String!): Project!
   bind(projectId2: String!, projectId1: String!): Project!
+  unbind(projectId2: String!, projectId1: String!): Project!
 }
 
 input NewParticipantInput {

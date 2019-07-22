@@ -57,6 +57,14 @@ export class ProjectResolver {
     return this.projectService.bind(projectId1, projectId2);
   }
 
+  @Mutation(returns => Project)
+  unbind(
+    @Args('projectId1') projectId1: string,
+    @Args('projectId2') projectId2: string,
+  ): Promise<Project> {
+    return this.projectService.unbind(projectId1, projectId2);
+  }
+
   @ResolveProperty()
   linkedTo(@Parent() project) {
     return this.projectService.bonds(project);
