@@ -16,7 +16,7 @@
     "id": "bebudget",
     "name": "BeBudget",
     "description": "To present the budget data of the Belgian federal government in a more accessible and open way.",
-    "logo": "/static/img/projects/bebudget.svg",
+    "logo": "/static/img/projects/bebudget.png",
     "team": {
       "students": ["emmy_bruynseels", "akvile_kovalcikaite", "bram_bleys", "lotte_goyens"],
       "coaches": ["bert_jehoul", "thomas_duvivier"]
@@ -184,7 +184,7 @@
       "students": ["louis_heeren", "siu_mei_soan", "antoine_richez", "pierre_van_houtryve"],
       "coaches": ["pieter_vander_vennet", "hannes_d'hulster"]
     },
-    "repository": "https://github.com/oSoc19/Open-Yesterday-SlippyMap",
+    "repository": "https://github.com/oSoc19/Open-Yesterday-iD-Editor",
     "website": null,
     "partners": ["erfgoed-zuidwest", "packed-vzw"]
   },
