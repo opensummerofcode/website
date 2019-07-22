@@ -24,4 +24,8 @@ export class ParticipantService {
   async findAll(): Promise<IParticipant[]> {
     return this.participantModel.find();
   }
+
+  async findOne(id: string): Promise<IParticipant> {
+    return this.participantModel.findOne(id);
+  }
 }

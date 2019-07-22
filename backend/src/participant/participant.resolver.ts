@@ -12,6 +12,11 @@ export class ParticipantResolver {
     return this.participantService.findAll();
   }
 
+  @Query(returns => Participant, { nullable: true })
+  participant(@Args('id') id: string): Promise<Participant> {
+    return this.participantService.findOne(id);
+  }
+
   @Mutation(returns => Participant)
   async addParticipant(
     @Args('input') input: NewParticipantInput,
