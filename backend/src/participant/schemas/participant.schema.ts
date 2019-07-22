@@ -5,13 +5,11 @@ export const ParticipantSchema = new mongoose.Schema({
   lastName: String,
   picture: String,
   picturePublicId: String,
-  status: [
-    {
-      type: String,
-      enum: ['student', 'coach', 'ambassador'],
-      default: 'student',
-    },
-  ],
+  status: {
+    type: [String],
+    enum: ['student', 'coach', 'ambassador'],
+    default: ['student'],
+  },
   socials: {
     twitter: String,
     facebook: String,
