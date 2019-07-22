@@ -5,4 +5,5 @@ export interface IPartner extends Document {
   readonly name: string;
   readonly url: string;
   readonly logo: string;
+  readonly logoPublicId: string;
 }
