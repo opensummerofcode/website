@@ -16,7 +16,10 @@ export class ParticipantService {
     const { picture } = input;
     if (picture) {
       const file = await this.fileService.store(await picture, 'participants');
-      input.picture = file.secure_url;
+      input = Object.assign(
+        { picture: file.secure_url, picturePublicId: file.public_id },
+        input,
+      );
     }
     return this.participantModel.create(input);
   }
@@ -27,5 +30,28 @@ export class ParticipantService {
 
   async findOne(id: string): Promise<IParticipant> {
     return this.participantModel.findOne(id);
+  }
+
+  async update(id: string, input): Promise<IParticipant> {
+    const participant = await this.participantModel
+      .findById(id)
+      .orFail(new Error('No participant found'));
+
+    if (input.picture) {
+      await this.fileService.delete(participant.picturePublicId);
+      const file = await this.fileService.store(
+        await input.logo,
+        'participants',
+      );
+      input = Object.assign({
+        logo: file.secure_url,
+        logoPublicId: file.public_id,
+        input,
+      });
+    }
+
+    Object.assign(participant, input);
+
+    return participant.save();
   }
 }
