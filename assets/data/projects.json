@@ -15,7 +15,7 @@
   {
     "id": "bebudget",
     "name": "BeBudget",
-    "description": "To present the budget data of the Belgian federal government in a more accessible and open way.",
+    "description": "Representing Belgian government spending data in a more accessible and open way.",
     "logo": "/static/img/projects/bebudget.png",
     "team": {
       "students": ["emmy_bruynseels", "akvile_kovalcikaite", "bram_bleys", "lotte_goyens"],
