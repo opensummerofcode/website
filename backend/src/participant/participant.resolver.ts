@@ -32,4 +32,14 @@ export class ParticipantResolver {
   ): Promise<Participant> {
     return this.participantService.update(id, input);
   }
+
+  @Mutation(returns => Participant)
+  async addStatus(@Args('id') id: string, @Args('status') status: string) {
+    return this.participantService.addStatus(id, status);
+  }
+
+  @Mutation(returns => Participant)
+  async removeStatus(@Args('id') id: string, @Args('status') status: string) {
+    return this.participantService.removeStatus(id, status);
+  }
 }

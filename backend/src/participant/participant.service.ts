@@ -12,6 +12,18 @@ export class ParticipantService {
     private readonly fileService: FileService,
   ) {}
 
+  async addStatus(id: string, status: string): Promise<IParticipant> {
+    const participant = await this.participantModel.findById(id);
+    participant.status.push(status);
+    return participant.save();
+  }
+
+  async removeStatus(id: string, status: string): Promise<IParticipant> {
+    const participant = await this.participantModel.findById(id);
+    participant.status.pull(status);
+    return participant.save();
+  }
+
   async create(input: any): Promise<IParticipant> {
     const { picture } = input;
     if (picture) {
