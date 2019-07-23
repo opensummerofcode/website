@@ -4,6 +4,7 @@ import { Participant } from './types/participant.type';
 import { NewParticipantInput } from './inputs/new.particpant.input';
 import { ParticipantService } from './participant.service';
 import { UpdateParticipantInput } from './inputs/update.participant.input';
+import { SocialMediaInput } from './inputs/social.media.input';
 
 @Resolver('Participant')
 export class ParticipantResolver {
@@ -41,5 +42,13 @@ export class ParticipantResolver {
   @Mutation(returns => Participant)
   async removeStatus(@Args('id') id: string, @Args('status') status: string) {
     return this.participantService.removeStatus(id, status);
+  }
+
+  @Mutation(returns => Participant)
+  async updateSocials(
+    @Args('id') id: string,
+    @Args('socials') socials: SocialMediaInput,
+  ) {
+    return this.participantService.updateSocials(id, socials);
   }
 }

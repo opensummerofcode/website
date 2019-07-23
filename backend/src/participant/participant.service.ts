@@ -24,6 +24,12 @@ export class ParticipantService {
     return participant.save();
   }
 
+  async updateSocials(id: string, socials): Promise<IParticipant> {
+    const participant = await this.participantModel.findById(id);
+    participant.socials = { ...participant.socials, ...socials };
+    return participant;
+  }
+
   async create(input: any): Promise<IParticipant> {
     const { picture } = input;
     if (picture) {

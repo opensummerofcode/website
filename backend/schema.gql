@@ -8,6 +8,7 @@ type Mutation {
   updateParticipant(input: UpdateParticipantInput!, id: String!): Participant!
   addStatus(status: String!, id: String!): Participant!
   removeStatus(status: String!, id: String!): Participant!
+  updateSocials(socials: SocialMediaInput!, id: String!): Participant!
   addPartner(input: NewPartnerInput!): Partner!
   updatePartner(input: UpdatePartnerInput!, id: String!): Partner!
   deletePartner(id: String!): Partner!

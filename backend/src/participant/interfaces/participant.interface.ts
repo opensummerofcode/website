@@ -8,5 +8,5 @@ export interface IParticipant extends Document {
   readonly picture: string;
   readonly picturePublicId: string;
   readonly status: mongoose.Types.Array<string>;
-  readonly socials: object;
+  socials: object;
 }
