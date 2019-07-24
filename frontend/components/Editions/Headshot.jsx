@@ -40,7 +40,8 @@ const HeadShot = ({ data, socials, picture, roleShown }) => {
 
 HeadShot.defaultProps = {
   socials: {},
-  roleShown: true
+  roleShown: true,
+  picture: '/static/img/logo/logo-osoc-color.svg'
 };
 
 HeadShot.propTypes = {
@@ -54,7 +55,7 @@ HeadShot.propTypes = {
     github: PropTypes.string,
     behance: PropTypes.string
   }),
-  picture: PropTypes.string.isRequired,
+  picture: PropTypes.string,
   roleShown: PropTypes.bool
 };
 
