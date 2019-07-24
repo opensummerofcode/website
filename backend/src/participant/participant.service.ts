@@ -61,11 +61,11 @@ export class ParticipantService {
         await input.picture,
         'participants',
       );
-      input = Object.assign({
+      input = {
+        ...input,
         picture: file.secure_url,
         picturePublicId: file.public_id,
-        input,
-      });
+      };
     }
 
     Object.assign(participant, input);
