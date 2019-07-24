@@ -5,7 +5,7 @@
     "mugshot": "/static/img/participants/maité_cluydts.jpg",
     "socials": {
       "twitter": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/mcluydts/",
       "behance": null,
       "github": null
     },
@@ -949,10 +949,10 @@
     "id": "ibrahim_dogrusoz",
     "mugshot": "/static/img/participants/ibrahim_dogrusoz.jpg",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
+      "twitter": "https://twitter.com/IbrahimDogrusoz",
+      "linkedin": "https://www.linkedin.com/in/ibrahim-dogrusoz",
       "behance": null,
-      "github": null
+      "github": "https://github.com/idogrusoz"
     }
   },
   {
@@ -961,9 +961,9 @@
     "mugshot": "/static/img/participants/steve_bitomagira.jpg",
     "socials": {
       "twitter": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/steve-junior-bitomagira-86512b153/",
       "behance": null,
-      "github": null
+      "github": "https://github.com/bitomagira"
     }
   },
   {
@@ -985,7 +985,7 @@
       "twitter": null,
       "linkedin": null,
       "behance": null,
-      "github": null
+      "github": "https://github.com/waelslaam"
     }
   },
   {
@@ -994,7 +994,7 @@
     "mugshot": "/static/img/participants/luis_akakpo.jpg",
     "socials": {
       "twitter": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/luisakakpo/",
       "behance": null,
       "github": null
     },
