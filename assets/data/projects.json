@@ -218,14 +218,14 @@
   {
     "id": "horison",
     "name": "Horison",
-    "description": "Creating open data to communicate reachability information to provide quick prototyping for developers.",
+    "description": "Helping small groups of people find suitable places to meet up at.",
     "logo": "/static/img/projects/horison.png ",
     "team": {
       "students": ["tim_baccaert", "bert_schoovaerts", "tinaël_devresse"],
       "coaches": ["julian_rojas", "tim_van_hee", "pieter_colpaert", "harm_delva"]
     },
     "repository": "https://github.com/oSoc19/opt-horison",
-    "website": null,
+    "website": "https://horison-map.be",
     "partners": ["open-planner-team"]
   },
   {
