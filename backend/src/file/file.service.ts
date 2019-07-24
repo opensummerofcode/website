@@ -39,13 +39,16 @@ export class FileService {
   }
 
   delete(publicId: string): Promise<any> {
-    return new Promise((resolve, reject) => {
-      cloudinary.uploader.destroy(publicId, (err, res) => {
-        if (res && res.result === 'ok') {
-          return resolve(res);
-        }
-        return reject(new Error(JSON.stringify(err || res)));
-      });
-    });
+    return (
+      publicId &&
+      new Promise((resolve, reject) => {
+        cloudinary.uploader.destroy(publicId, (err, res) => {
+          if (res && res.result === 'ok') {
+            return resolve(res);
+          }
+          return reject(new Error(JSON.stringify(err || res)));
+        });
+      })
+    );
   }
 }

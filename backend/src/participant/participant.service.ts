@@ -58,12 +58,12 @@ export class ParticipantService {
     if (input.picture) {
       await this.fileService.delete(participant.picturePublicId);
       const file = await this.fileService.store(
-        await input.logo,
+        await input.picture,
         'participants',
       );
       input = Object.assign({
-        logo: file.secure_url,
-        logoPublicId: file.public_id,
+        picture: file.secure_url,
+        picturePublicId: file.public_id,
         input,
       });
     }
