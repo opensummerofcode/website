@@ -1,3 +1,6 @@
+import 'cross-fetch/polyfill';
+import { GraphQLProvider } from 'graphql-react';
+import { withGraphQLApp } from 'next-graphql-react';
 import App, { Container } from 'next/app';
 import Head from 'next/head';
 import { withRouter } from 'next/router';
@@ -26,22 +29,24 @@ class MyApp extends App {
 
   render() {
     const { ready } = this.state;
-    const { Component, pageProps } = this.props;
+    const { Component, pageProps, graphql } = this.props;
 
     return (
       <Container>
-        <Head>
-          <title>open Summer of code 2019</title>
-        </Head>
-        <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
-          <Navigation />
-          {/* <PageTransition location={pathname}></PageTransition> */}
-          <Component {...pageProps} />
-          <Footer />
-        </div>
+        <GraphQLProvider graphql={graphql}>
+          <Head>
+            <title>open Summer of code 2019</title>
+          </Head>
+          <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
+            <Navigation />
+            {/* <PageTransition location={pathname}></PageTransition> */}
+            <Component {...pageProps} />
+            <Footer />
+          </div>
+        </GraphQLProvider>
       </Container>
     );
   }
 }
 
-export default withRouter(MyApp);
+export default withGraphQLApp(withRouter(MyApp));
