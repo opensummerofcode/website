@@ -1,11 +1,15 @@
 import App, { Container } from 'next/app';
-import Meta from '../components/Meta';
+import Head from 'next/head';
+import { withRouter } from 'next/router';
+import PageTransition from '../components/UI/PageTransition';
 import Navigation from '../components/Common/Navigation';
 import Footer from '../components/Common/Footer';
 
 import '../assets/scss/app.scss';
 
 class MyApp extends App {
+  state = { ready: false };
+
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
 
@@ -16,18 +20,28 @@ class MyApp extends App {
     return { pageProps };
   }
 
+  componentDidMount() {
+    this.setState({ ready: true });
+  }
+
   render() {
+    const { ready } = this.state;
     const { Component, pageProps } = this.props;
 
     return (
       <Container>
-        <Meta />
-        <Navigation />
-        <Component {...pageProps} />
-        <Footer />
+        <Head>
+          <title>open Summer of code 2019</title>
+        </Head>
+        <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
+          <Navigation />
+          {/* <PageTransition location={pathname}></PageTransition> */}
+          <Component {...pageProps} />
+          <Footer />
+        </div>
       </Container>
     );
   }
 }
 
-export default MyApp;
+export default withRouter(MyApp);

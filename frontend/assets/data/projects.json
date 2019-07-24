@@ -1,43 +1,321 @@
-{
-  "2018": [
-    {
-      "name": "",
-      "description": "",
-      "logo": {
-        "path": "",
-        "url": ""
-      },
-      "team": {
-        "students": [
-          {
-            "firstname": "",
-            "lastname": "",
-            "picture": { "path": "", "alt": "" },
-            "socials": []
-          }
-        ],
-        "coaches": [{}]
-      },
-      "repository": {
-        "name": "",
-        "url": ""
-      },
-      "linkedProjects": [
-        {
-          "name": "",
-          "url": ""
-        }
+[
+  {
+    "id": "best",
+    "name": "Best Addresses",
+    "description": "BeST-Add (Belgian Streets & Addresses) are available as open data in XML. With this project we would like to make this dataset more accessible to the general public, convert it to other formats and promote the use of it.",
+    "logo": "/static/img/projects/best-addresses.svg",
+    "team": {
+      "students": ["theo_dedeken", "josse_van_delm", "lotte_goyens"],
+      "coaches": ["bart_hanssens", "bert_jehoul", "jonathan_beliën"]
+    },
+    "repository": "https://github.com/oSoc19/best",
+    "website": null,
+    "partners": ["bosa"]
+  },
+  {
+    "id": "bebudget",
+    "name": "BeBudget",
+    "description": "Representing Belgian government spending data in a more accessible and open way.",
+    "logo": "/static/img/projects/bebudget.png",
+    "team": {
+      "students": ["emmy_bruynseels", "akvile_kovalcikaite", "bram_bleys", "lotte_goyens"],
+      "coaches": ["bert_jehoul", "thomas_duvivier"]
+    },
+    "repository": "https://github.com/oSoc19/bebudget",
+    "website": null,
+    "partners": ["bosa"]
+  },
+  {
+    "id": "explorer",
+    "name": "Explorer",
+    "description": "An interface for tourists to learn more on Bruges artworks while getting at the same time insight on their preferences.",
+    "logo": "/static/img/projects/explorer.svg",
+    "team": {
+      "students": ["marie_devos", "sushil_ghambir", "guillaume_servais", "tuong_vy_erika_nguyen"],
+      "coaches": ["hannes_d'hulster", "pieter_vander_vennet"]
+    },
+    "repository": "https://github.com/oSoc19/explorer-app",
+    "website": null,
+    "partners": ["city-of-bruges", "packed-vzw"]
+  },
+  {
+    "id": "data-monitor",
+    "name": "Data Monitor",
+    "description": "The main goal of the project is to monitor data about traffic, road maintenance and logistics in an accessible way.",
+    "logo": "/static/img/projects/datamonitor.svg",
+    "team": {
+      "students": [
+        "ryan_byloos",
+        "hektor_misplon",
+        "florent_collin",
+        "yasin_yer",
+        "ismaila_abdoulahi_adamou"
       ],
-      "partners": [
-        {
-          "name": "",
-          "url": "",
-          "logo": {
-            "path": "",
-            "alt": ""
-          }
-        }
-      ]
-    }
-  ]
-}
+      "coaches": ["felix_ruiz_de_arcaute", "xavier_bertels"]
+    },
+    "repository": "https://github.com/oSoc19/data-monitor",
+    "website": null,
+    "partners": ["miwm"]
+  },
+  {
+    "id": "switch",
+    "name": "Switch",
+    "description": "Making the younger generation aware of their energy consumption in a fun way.",
+    "logo": "/static/img/projects/switch.svg",
+    "team": {
+      "students": ["andrews_leruth", "amber_swevers", "alexis_lecocq", "nawang_tendar"],
+      "coaches": ["xavier_bertels", "eva_jacobs"]
+    },
+    "repository": "https://github.com/oSoc19/engie-switch",
+    "website": null,
+    "partners": ["engie"]
+  },
+  {
+    "id": "insight-the-boxx",
+    "name": "Insight the Boxx",
+    "description": "Gathering insight from energy consumption data.",
+    "logo": "/static/img/projects/insight-the-boxx.png",
+    "team": {
+      "students": ["jodi_de_loof", "john_de_wasseige", "claudia_negrila", "bao_truong"],
+      "coaches": ["thomas_duvivier", "wouter_wouters"]
+    },
+    "repository": "https://github.com/oSoc19/engie-dataoverload-frontend",
+    "website": null,
+    "partners": ["engie"]
+  },
+  {
+    "id": "engie-hub",
+    "name": "Engie Hub",
+    "description": "Bringing local communities together to harvest and share sustainable energy.",
+    "logo": "/static/img/projects/engie-hub.svg",
+    "team": {
+      "students": ["bruce_boelens", "inti_valderas_caro", "gracien_lofandjola", "astrid_wielockx"],
+      "coaches": ["niels_dewelde"]
+    },
+    "repository": "https://github.com/oSoc19/engie-hub",
+    "website": null,
+    "partners": ["engie"]
+  },
+  {
+    "id": "voices-to-emotions",
+    "name": "Voices to Emotions",
+    "description": "Exploring sentiment analysis for customer support calls to improve quality of service for callers and service agents.",
+    "logo": "/static/img/projects/voices-to-emotions.svg",
+    "team": {
+      "students": ["laura_van_heck", "thibaut_capuano", "ruben_wambacq", "jasper_de_moor"],
+      "coaches": ["rutger_bevers"]
+    },
+    "repository": "https://github.com/oSoc19/voices-to-emotions",
+    "website": null,
+    "partners": ["engie"]
+  },
+  {
+    "id": "fris",
+    "name": "FRIS",
+    "description": "An improvement upon the current search function and charts for the Flemish research portal.",
+    "logo": "/static/img/projects/fris.png",
+    "team": {
+      "students": [
+        "kilian_fastenakels",
+        "christopher_denis",
+        "emiel_declercq",
+        "manuelle_ndamtang",
+        "mahmoudi_hamza"
+      ],
+      "coaches": ["michael_vanderpoorten", "toon_nelissen"]
+    },
+    "repository": "https://github.com/oSoc19/fris",
+    "website": null,
+    "partners": ["fris"]
+  },
+  {
+    "id": "gentlestudent",
+    "name": "Gentlestudent",
+    "description": "Gentlestudent is a mobile web application where students can experience learning opportunities that are offered by organisations or students themselves. And so differentiate them from other students.",
+    "logo": "/static/img/projects/gentlestudent.svg",
+    "team": {
+      "students": [
+        "olivia_fontes_de_mello",
+        "bram_de_coninck",
+        "freek_de_sagher",
+        "maxime_van_driessche",
+        "mahmoudi_hamza",
+        "maxim_de_geyter"
+      ],
+      "coaches": ["bert_jehoul"]
+    },
+    "repository": "https://github.com/oSoc19/gentlestudent-web",
+    "website": null,
+    "partners": ["artevelde-hogeschool"],
+    "featured": true
+  },
+  {
+    "id": "influencair",
+    "name": "Influencair",
+    "description": "Create an interactive and animated data story that explains the complexity of air quality in Brussels.",
+    "logo": "/static/img/projects/influencair.svg",
+    "team": {
+      "students": ["jolan_huyvaert", "rachelle_wijsen", "teodora_popordanoska"],
+      "coaches": ["toon_nelissen", "leenke_de_donder"]
+    },
+    "repository": "https://github.com/oSoc19/influencair",
+    "website": null,
+    "partners": ["innoviris-brussels"]
+  },
+  {
+    "id": "reliability-score",
+    "name": "Reliability Score",
+    "description": "Helping people catch their train by predicting delays.",
+    "logo": "/static/img/projects/reliability-score.png",
+    "team": {
+      "students": ["clément_janssens", "dylan_van_assche", "sam_van_der_kris"],
+      "coaches": ["rutger_bevers", "pieter_colpaert"]
+    },
+    "repository": "https://github.com/oSoc19/reliability-score-frontend",
+    "website": null,
+    "partners": ["infrabel"]
+  },
+  {
+    "id": "open-heritage-map",
+    "name": "Open Heritage Map",
+    "description": "Mapping historical geodata with Open Historical Map to preserve our memories.",
+    "logo": "/static/img/projects/open-heritage-map.svg",
+    "team": {
+      "students": ["louis_heeren", "siu_mei_soan", "antoine_richez", "pierre_van_houtryve"],
+      "coaches": ["pieter_vander_vennet", "hannes_d'hulster"]
+    },
+    "repository": "https://github.com/oSoc19/Open-Yesterday-iD-Editor",
+    "website": null,
+    "partners": ["erfgoed-zuidwest", "packed-vzw"]
+  },
+  {
+    "id": "configuroute",
+    "name": "ConfiguRoute",
+    "description": "A tool for making personalized configuration files for route planning.",
+    "logo": "/static/img/projects/configuroute.png",
+    "team": {
+      "students": ["charles_koutcheme", "margot_verbeke", "wouter_vandendriessche"],
+      "coaches": ["julian_rojas", "pieter_colpaert", "harm_delva", "tim_van_hee", "francois_halin"]
+    },
+    "repository": "https://github.com/oSoc19/configuroute",
+    "website": null,
+    "partners": ["open-planner-team"]
+  },
+  {
+    "id": "hopper",
+    "name": "Hopper",
+    "description": "Providing tailor made commute paths for (future) e-bike owners to stimulate the shift towards more sustainable mobility.",
+    "logo": "/static/img/projects/hopper.png",
+    "team": {
+      "students": ["hervé_tendayi", "dieter_de_schrijver", "gulsen_guler", "kristof_neyt"],
+      "coaches": ["francois_halin", "tim_van_hee", "pieter_vander_vennet", "harm_delva"]
+    },
+    "repository": "https://github.com/oSoc19/opt-hopper-frontend",
+    "website": null,
+    "partners": ["open-planner-team"],
+    "featured": true
+  },
+  {
+    "id": "horison",
+    "name": "Horison",
+    "description": "Creating open data to communicate reachability information to provide quick prototyping for developers.",
+    "logo": "/static/img/projects/horison.png ",
+    "team": {
+      "students": ["tim_baccaert", "bert_schoovaerts", "tinaël_devresse"],
+      "coaches": ["julian_rojas", "tim_van_hee", "pieter_colpaert", "harm_delva"]
+    },
+    "repository": "https://github.com/oSoc19/opt-horison",
+    "website": null,
+    "partners": ["open-planner-team"]
+  },
+  {
+    "id": "open-recognition",
+    "name": "Open Recognition",
+    "description": "Add recognition to someone else's profile.",
+    "logo": "/static/img/projects/focus.svg",
+    "team": {
+      "students": [
+        "hanim_kapusuz",
+        "ibrahim_dogrusoz",
+        "steve_bitomagira",
+        "tamar_asashvili",
+        "wael_fato"
+      ],
+      "coaches": ["luis_akakpo", "evan_cole", "maité_cluydts"]
+    },
+    "repository": null,
+    "website": null,
+    "partners": ["hackyourfuture-belgium"]
+  },
+  {
+    "id": "osoc-international",
+    "name": "oSoc international",
+    "description": "oSoc is going international! We are opening up oSoc even more by providing others with the tools to set up their own edition anywhere!",
+    "logo": "/static/img/projects/osoc-international.svg",
+    "team": {
+      "students": [
+        "alexander_vandoren",
+        "ismaila_abdoulahi_adamou",
+        "belén_laya_asensio",
+        "astrid_sercu",
+        "jens_coopman"
+      ],
+      "coaches": ["michiel_leyman", "niels_dewelde"]
+    },
+    "repository": null,
+    "website": null,
+    "partners": ["openknowledgebe"],
+    "featured": true
+  },
+  {
+    "id": "cycling-up",
+    "name": "Cycling Up",
+    "description": "Dashboard to evaluate the quality of bicycle infrastructure in Brussels.",
+    "logo": "/static/img/projects/cycling-up.svg",
+    "team": {
+      "students": [
+        "danielle_terras",
+        "cécile_diana",
+        "chloë_devriese",
+        "joren_'s_jongers",
+        "david_adegnon"
+      ],
+      "coaches": ["jonathan_beliën", "eva_jacobs"]
+    },
+    "repository": "https://github.com/oSoc19/cycling-up-frontend",
+    "website": null,
+    "partners": ["brussels-mobility"],
+    "featured": true
+  },
+  {
+    "id": "road-report",
+    "name": "Road Report",
+    "description": "A mobile-friendly website and an app that pedestrians and cyclists can use to report road incidents on their route, which will be integrated into the TMaaS framework as an additional traffic events data set.",
+    "logo": "/static/img/projects/road-report.svg",
+    "team": {
+      "students": ["jan_temmerman", "elena_sánchez", "martin_leroy"],
+      "coaches": ["wouter_wouters", "miet_claes"]
+    },
+    "repository": "https://github.com/oSoc19/RoadReport",
+    "website": null,
+    "partners": ["tmaas"]
+  },
+  {
+    "id": "unshacled",
+    "name": "UnSHACLed",
+    "description": "A visual editor for data constraints.",
+    "logo": "/static/img/projects/unshacled.png",
+    "team": {
+      "students": [
+        "femke_bruckmann",
+        "tijl_de_blander",
+        "pieter-jan_vandenberghe",
+        "david_adegnon"
+      ],
+      "coaches": ["bart_lens", "felix_ruiz_de_arcaute"]
+    },
+    "repository": "https://github.com/oSoc19/unshacled",
+    "website": null,
+    "partners": ["idlab"]
+  }
+]

@@ -1,4 +1,3 @@
-
 const Testimonials = () => {
   return (
     <div className="grid-x grid-padding-x u-padding-large--tb align-center border-top-light-gray text-center">
@@ -24,7 +23,6 @@ const Testimonials = () => {
             July 27, 2017
           </a>
         </blockquote>
-        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />
       </div>
     </div>
   );

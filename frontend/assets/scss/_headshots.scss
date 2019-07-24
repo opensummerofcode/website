@@ -5,14 +5,34 @@ i.fas {
 
 .headshot-gallery {
   text-align: center;
+  @include breakpoint(small only) {
+    justify-content: center;
+  }
 }
 
 .headshot-detail {
   margin-bottom: 2.6rem;
 
-  img {
-    border-radius: 50%;
+  .headshot-detail__wrapper {
+    width: 100%;
+    position: relative;
+    padding-bottom: 100%;
     margin-bottom: 1rem;
+    img {
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .headshot-detail__name {
+    height: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .student-social {
@@ -30,7 +50,7 @@ i.fas {
     height: 2.5rem;
     text-decoration: none;
     display: block;
-    margin-right: 1rem;
+    margin-right: 0.6rem;
     &:last-of-type {
       margin-right: 0;
     }
@@ -61,6 +81,30 @@ i.fas {
     &:hover {
       background-color: $yellow;
       color: $white;
+    }
+
+    &.social--smaller {
+      width: 1.8rem;
+      padding: 0.2rem 0.2rem;
+      text-align: center;
+      height: 1.8rem;
+      i {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .student-social {
+    a {
+      width: 1.9rem;
+      padding: 0.2rem 0.2rem;
+      height: 1.9rem;
+      text-align: center;
+      i {
+        font-size: 1.2rem;
+      }
     }
   }
 }

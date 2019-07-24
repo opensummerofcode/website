@@ -30,7 +30,6 @@ const OsocDescription = () => {
             allowFullScreen
           />
         </div>
-        <script src="https://player.vimeo.com/api/player.js" />
         {/* <!-- <a className="button fancy u-margin-large--t" href="projects.html">View last year's projects</a> --> */}
       </div>
     </div>

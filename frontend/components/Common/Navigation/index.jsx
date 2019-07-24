@@ -89,6 +89,11 @@ const Navigation = () => {
                     Coaches
                   </Tab>
                 </li>
+                <li>
+                  <Tab onClick={handleToggle} href="/2019">
+                    2019
+                  </Tab>
+                </li>
                 {/* <!--<li><a href="2018.html" className="button link lowercase u-margin--right">2018</a></li>--> */}
                 <li>
                   {/* <!-- <a href="2018.summerofcode.be" target="_blank" className="button">View 2018 showcase</a> --> */}

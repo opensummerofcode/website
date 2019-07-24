@@ -1,34 +1,32 @@
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 
-const Project = ({ name, hook, logo }) => {
-  const to = name.toLowerCase().replace(' ', '');
-  const { path, alt } = logo;
+const Project = ({ project }) => {
+  const { name, description, logo, id } = project;
   return (
-    <div className="small-6 medium-6 large-4 cell c-projects-project">
-      <Link href={`/project/${to}`}>
-        <a target="_blank" className="c-projects-image">
-          <img src={path} alt={alt} />
+    <div className="small-12 medium-6 large-4 cell c-projects-project">
+      <Link href="/2019/[project]" as={`/2019/${id}`}>
+        <a className="c-projects-image">
+          <img src={logo} alt={`Crest of the ${name} project`} />
         </a>
       </Link>
       <div className="c-projects-content">
         <h2 className="h5">
-          <Link href={`/project/${to}`}>
-            <a target="_blank">{name}</a>
+          <Link href="/2019/[project]" as={`/2019/${id}`}>
+            <a>{name}</a>
           </Link>
         </h2>
-        <p>{hook}</p>
+        <p>{description}</p>
       </div>
     </div>
   );
 };
 
 Project.propTypes = {
-  name: PropTypes.string.isRequired,
-  hook: PropTypes.string.isRequired,
-  logo: PropTypes.shape({
-    path: PropTypes.string.isRequired,
-    alt: PropTypes.string.isRequired
+  project: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    logo: PropTypes.string.isRequired
   }).isRequired
 };
 
