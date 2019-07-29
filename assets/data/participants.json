@@ -1028,10 +1028,10 @@
     "id": "dylan_van_assche",
     "mugshot": "/static/img/participants/dylan_van_assche.jpg",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
+      "twitter": "https://twitter.com/DylanVanAssche",
+      "linkedin": "https://www.linkedin.com/in/dylanvanassche",
       "behance": null,
-      "github": null
+      "github": "https://github.com/dylanvanassche"
     }
   },
   {
