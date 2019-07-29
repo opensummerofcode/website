@@ -604,9 +604,9 @@
     "mugshot": "/static/img/participants/alexis_lecocq.jpg",
     "socials": {
       "twitter": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/lecocqalexis",
       "behance": null,
-      "github": null
+      "github": "https://github.com/axtux"
     }
   },
   {
