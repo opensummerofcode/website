@@ -111,7 +111,7 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="‪#FFFFFF" />
           <meta name="msapplication-TileImage" content="mstile-144x144.png" />
           <meta name="theme-color" content="‪#FFFFFF" />
-          <script src="array-find.js" />
+          <script src="/static/polyfills/array-find.js" type="application/javascript" />
           <script src="https://player.vimeo.com/api/player.js" />
         </Head>
         <body>
