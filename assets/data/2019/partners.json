@@ -3,108 +3,108 @@
     "id": "openknowledgebe",
     "name": "Open Knowledge Belgium",
     "url": "https://www.openknowledge.be/",
-    "logo": "/static/img/partners-svg/okbe-logo.svg"
+    "logo": "/public/img/partners-svg/okbe-logo.svg"
   },
   {
     "id": "informatie-vlaanderen",
     "name": "Informatie Vlaanderen",
     "url": "https://www.vlaanderen.be/",
-    "logo": "/static/img/partners-svg/vlaanderen-logo.svg"
+    "logo": "/public/img/partners-svg/vlaanderen-logo.svg"
   },
   {
     "id": "nmbs-sncb",
     "name": "NMBS/SNCB",
     "url": "https://www.belgiantrain.be/",
-    "logo": "/static/img/partners-svg/nmbs-logo.svg"
+    "logo": "/public/img/partners-svg/nmbs-logo.svg"
   },
   {
     "id": "engie",
     "name": "Engie",
     "url": "https://www.engie-electrabel.be/",
-    "logo": "/static/img/partners-svg/engie.svg"
+    "logo": "/public/img/partners-svg/engie.svg"
   },
   {
     "id": "artevelde-hogeschool",
     "name": "Artevelde Hogeschool",
     "url": "https://www.arteveldehogeschool.be/",
-    "logo": "/static/img/partners-svg/artevelde-logo.svg"
+    "logo": "/public/img/partners-svg/artevelde-logo.svg"
   },
   {
     "id": "brussels-mobility",
     "name": "Brussels Mobility",
     "url": "https://mobilite-mobiliteit.brussels/",
-    "logo": "/static/img/partners-svg/brussels-mobility-logo.svg"
+    "logo": "/public/img/partners-svg/brussels-mobility-logo.svg"
   },
   {
     "id": "fris",
     "name": "FRIS",
     "url": "https://researchportal.be/",
-    "logo": "/static/img/partners-svg/fris.svg"
+    "logo": "/public/img/partners-svg/fris.svg"
   },
   {
     "id": "open-planner-team",
     "name": "Open Planner Team",
     "url": "https://openplanner.team/",
-    "logo": "/static/img/partners-svg/open-planner-team.svg"
+    "logo": "/public/img/partners-svg/open-planner-team.svg"
   },
   {
     "id": "packed-vzw",
     "name": "Packed vzw.",
     "url": "https://www.packed.be/",
-    "logo": "/static/img/partners-svg/packed-vzw.svg"
+    "logo": "/public/img/partners-svg/packed-vzw.svg"
   },
   {
     "id": "erfgoed-zuidwest",
     "name": "Erfgoed Zuidwest",
     "url": "http://www.erfgoedzuidwest.be/",
-    "logo": "/static/img/partners/intercommunale-zuidwest.png"
+    "logo": "/public/img/partners/intercommunale-zuidwest.png"
   },
   {
     "id": "city-of-bruges",
     "name": "City of Bruges",
     "url": "https://www.brugge.be/",
-    "logo": "/static/img/partners-svg/brugge.svg"
+    "logo": "/public/img/partners-svg/brugge.svg"
   },
   {
     "id": "idlab",
     "name": "IDLab",
     "url": "http://idlab.technology/",
-    "logo": "/static/img/partners/idlab.png"
+    "logo": "/public/img/partners/idlab.png"
   },
   {
     "id": "innoviris-brussels",
     "name": "Innoviris Brussels",
     "url": "https://innoviris.brussels/",
-    "logo": "/static/img/partners-svg/innoviris.svg"
+    "logo": "/public/img/partners-svg/innoviris.svg"
   },
   {
     "id": "bosa",
     "name": "BOSA",
     "url": "https://bosa.belgium.be/",
-    "logo": "/static/img/partners-svg/bosa.svg"
+    "logo": "/public/img/partners-svg/bosa.svg"
   },
   {
     "id": "tmaas",
     "name": "TMaaS",
     "url": "https://drive.tmaas.eu/",
-    "logo": "/static/img/partners-svg/tmaas.svg"
+    "logo": "/public/img/partners-svg/tmaas.svg"
   },
   {
     "id": "hackyourfuture-belgium",
     "name": "HackYourFuture Belgium",
     "url": "https://hackyourfuture.be/",
-    "logo": "/static/img/partners-svg/hackyourfuture.svg"
+    "logo": "/public/img/partners-svg/hackyourfuture.svg"
   },
   {
     "id": "infrabel",
     "name": "Infrabel",
     "url": "https://www.infrabel.be/",
-    "logo": "/static/img/partners-svg/infrabel.svg"
+    "logo": "/public/img/partners-svg/infrabel.svg"
   },
   {
     "id": "miwm",
     "name": "Dutch Ministry of Infrastructure and Water Management",
     "url": "https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management",
-    "logo": "/static/img/partners-svg/miwm.svg"
+    "logo": "/public/img/partners-svg/miwm.svg"
   }
 ]

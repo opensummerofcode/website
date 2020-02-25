@@ -1,7 +1,7 @@
 const withSass = require('@zeit/next-sass');
 const withImages = require('next-images');
 
-const projects = require('./assets/data/projects.json');
+const projects = require('./assets/data/2019/projects.json');
 
 module.exports = withSass(
   withImages({

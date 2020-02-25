@@ -2,37 +2,37 @@
   "previous": {
     "2011": {
       "url": "http://2011.summerofcode.be",
-      "img": "/static/img/previous-editions/2011W.svg"
+      "img": "/public/img/previous-editions/2011W.svg"
     },
     "2012": {
       "url": "http://2012.summerofcode.be",
-      "img": "/static/img/previous-editions/2012W.svg"
+      "img": "/public/img/previous-editions/2012W.svg"
     },
     "2013": {
       "url": "http://2013.summerofcode.be",
-      "img": "/static/img/previous-editions/2013W.svg"
+      "img": "/public/img/previous-editions/2013W.svg"
     },
     "2014": {
       "url": "http://2014.summerofcode.be",
-      "img": "/static/img/previous-editions/2014W.svg"
+      "img": "/public/img/previous-editions/2014W.svg"
     },
     "2015": {
       "url": "http://2015.summerofcode.be",
-      "img": "/static/img/previous-editions/2015W.svg"
+      "img": "/public/img/previous-editions/2015W.svg"
     },
     "2016": {
       "url": "http://2016.summerofcode.be",
-      "img": "/static/img/previous-editions/2016W.svg"
+      "img": "/public/img/previous-editions/2016W.svg"
     },
     "2017": {
       "url": "http://2017.summerofcode.be",
-      "img": "/static/img/previous-editions/2017W.svg"
+      "img": "/public/img/previous-editions/2017W.svg"
     }
   },
   "following": {
     "2019": {
       "url": "http://2019.summerofcode.be",
-      "img": "/static/img/previous-editions/2014W.svg"
+      "img": "/public/img/previous-editions/2014W.svg"
     }
   }
 }

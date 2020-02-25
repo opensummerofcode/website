@@ -31,7 +31,7 @@ const Info = () => {
         </div>
         <div className="medium-8 large-6 cell large-offset-1">
           <img
-            src="/static/img/pictures/osoc16-coaches-student-happy.jpg"
+            src="/public/img/pictures/osoc16-coaches-student-happy.jpg"
             className="u-margin--b"
             alt="A happy coach and a happy student"
           />
@@ -44,7 +44,7 @@ const Info = () => {
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="medium-8 large-6 cell">
           <img
-            src="/static/img/pictures/osoc16-harry-roberts.jpg"
+            src="/public/img/pictures/osoc16-harry-roberts.jpg"
             className="u-margin--b"
             alt="Students working out"
           />

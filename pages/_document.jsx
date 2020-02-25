@@ -21,7 +21,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
           />
-          <link rel="manifest" href="static/manifest.json" />
+          <link rel="manifest" href="public/manifest.json" />
           <meta
             name="description"
             content="Innovative open source projects, made by incredibly motivated students, coaches and organisations."
@@ -35,7 +35,7 @@ class MyDocument extends Document {
           <meta property="og:url" content="http://2019.summerofcode.be" />
           <meta
             property="og:image"
-            content="http://2019.summerofcode.be/static/img/socialmedia/socialmedia.png?4362984378"
+            content="http://2019.summerofcode.be/public/img/socialmedia/socialmedia.png?4362984378"
           />
           <meta
             property="og:description"
@@ -50,68 +50,68 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:image"
-            content="http://2019.summerofcode.be/static/img/socialmedia/socialmedia.png?4362984378"
+            content="http://2019.summerofcode.be/public/img/socialmedia/socialmedia.png?4362984378"
           />
           <meta name="twitter:url" content="http://2019.summerofcode.be/" />
 
           {/* Favicons */}
-          <link rel="shortcut icon" href="/static/favicon.ico" />
+          <link rel="shortcut icon" href="/public/favicon.ico" />
           <link
             rel="apple-touch-icon"
             sizes="57x57"
-            href="/static/favicons/apple-touch-icon-57x57.png"
+            href="/public/favicons/apple-touch-icon-57x57.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="60x60"
-            href="/static/favicons/apple-touch-icon-60x60.png"
+            href="/public/favicons/apple-touch-icon-60x60.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="72x72"
-            href="/static/favicons/apple-touch-icon-72x72.png"
+            href="/public/favicons/apple-touch-icon-72x72.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="/static/favicons/apple-touch-icon-76x76.png"
+            href="/public/favicons/apple-touch-icon-76x76.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="114x114"
-            href="/static/favicons/apple-touch-icon-114x114.png"
+            href="/public/favicons/apple-touch-icon-114x114.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="120x120"
-            href="/static/favicons/apple-touch-icon-120x120.png"
+            href="/public/favicons/apple-touch-icon-120x120.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="144x144"
-            href="/static/favicons/apple-touch-icon-144x144.png"
+            href="/public/favicons/apple-touch-icon-144x144.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="152x152"
-            href="/static/favicons/apple-touch-icon-152x152.png"
+            href="/public/favicons/apple-touch-icon-152x152.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/static/favicons/apple-touch-icon-180x180.png"
+            href="/public/favicons/apple-touch-icon-180x180.png"
           />
           <link
             rel="icon"
             type="image/png"
-            href="/static/favicons/android-chrome-192x192.png"
+            href="/public/favicons/android-chrome-192x192.png"
             sizes="192x192"
           />
-          <link rel="manifest" href="/static/favicons/manifest.json" />
+          <link rel="manifest" href="/public/favicons/manifest.json" />
           <meta name="msapplication-TileColor" content="‪#FFFFFF" />
           <meta name="msapplication-TileImage" content="mstile-144x144.png" />
           <meta name="theme-color" content="‪#FFFFFF" />
-          <script src="/static/polyfills/array-find.js" type="application/javascript" />
+          <script src="/public/polyfills/array-find.js" type="application/javascript" />
           <script src="https://player.vimeo.com/api/player.js" />
         </Head>
         <body>

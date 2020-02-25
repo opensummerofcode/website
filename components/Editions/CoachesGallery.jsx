@@ -1,6 +1,6 @@
 import Gallery from './Gallery';
 import Headshot from './Headshot';
-import participants from '../../assets/data/participants.json';
+import participants from '../../assets/data/2019/participants.json';
 
 const CoachesGallery = () => {
   const renderStudent = coach => (

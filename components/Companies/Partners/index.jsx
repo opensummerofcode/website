@@ -1,4 +1,4 @@
-import partnersdata from '../../../assets/data/partners.json';
+import partnersdata from '../../../assets/data/2019/partners.json';
 import Partner from './Partner';
 
 const Partners = () => {
