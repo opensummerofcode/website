@@ -1,10 +1,10 @@
 import Head from 'next/head';
-import Header from '../../components/Projects/Header';
-import Team from '../../components/Projects/Team';
-import Partners from '../../components/Projects/Partners';
-import allProjects from '../../assets/data/2019/projects.json';
-import allParticipants from '../../assets/data/2019/participants.json';
-import allPartners from '../../assets/data/2019/partners.json';
+import Header from '../../../components/Projects/Header';
+import Team from '../../../components/Projects/Team';
+import Partners from '../../../components/Projects/Partners';
+import allProjects from '../../../assets/data/2019/projects.json';
+import allParticipants from '../../../assets/data/2019/participants.json';
+import allPartners from '../../../assets/data/2019/partners.json';
 
 const Project = ({ id }) => {
   const project = allProjects.find(p => p.id === id);

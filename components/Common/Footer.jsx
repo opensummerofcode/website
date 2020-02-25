@@ -46,6 +46,7 @@ const Footer = () => {
                     defaultValue="Mail"
                     name="subscribe"
                     id="mc-embedded-subscribe"
+                    value="Subscribe"
                   />
                 </ButtonGroup>
                 <div id="mce-responses" className="clear">

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Michiel Leyman",
+    "id": "michiel_leyman",
+    "mugshot": "/img/participants/michiel_leyman.jpg",
+    "socials": {
+      "twitter": "https://twitter.com/michielleyman",
+      "linkedin": "https://www.linkedin.com/in/michiel-leyman/",
+      "behance": null,
+      "github": "https://github.com/MichielLeyman"
+    },
+    "coach": true
+  }
+]
