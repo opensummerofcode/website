@@ -1,4 +1,4 @@
-import App, { Container } from 'next/app';
+import App from 'next/app';
 import Head from 'next/head';
 import { withRouter } from 'next/router';
 import PageTransition from '../components/UI/PageTransition';
@@ -29,7 +29,7 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
 
     return (
-      <Container>
+      <>
         <Head>
           <title>open Summer of code 2019</title>
         </Head>
@@ -39,7 +39,7 @@ class MyApp extends App {
           <Component {...pageProps} />
           <Footer />
         </div>
-      </Container>
+      </>
     );
   }
 }
