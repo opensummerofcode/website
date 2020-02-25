@@ -6,7 +6,7 @@ const ImgLogo = ({ handleLoad }) => {
   return (
     <Img
       onLoad={handleLoad}
-      src="/public/img/logo/logo-osoc-color.svg"
+      src="/img/logo/logo-osoc-color.svg"
       alt="open summer of code logo, very abstract, fun, but professional"
     />
   );

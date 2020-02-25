@@ -13,7 +13,7 @@ const When = () => {
             <iframe
               title="oSoc calendar"
               src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;hl=en_GB&amp;color=%23B1440E&amp;bgcolor=%23ffffff&amp;src=ugm4i2g7gmcis0e8f4410n6ab4%40group.calendar.google.com&amp;ctz=Europe%2FBrussels&dates=20190701%2F20190725"
-              style={{ 'border-width': 0 }}
+              style={{ borderWidth: 0 }}
               width="100%"
               height="800"
               frameBorder="0"

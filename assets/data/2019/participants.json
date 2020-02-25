@@ -2,7 +2,7 @@
   {
     "name": "Maité Cluydts",
     "id": "maité_cluydts",
-    "mugshot": "/public/img/participants/maité_cluydts.jpg",
+    "mugshot": "/img/participants/maité_cluydts.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/mcluydts/",
@@ -14,7 +14,7 @@
   {
     "name": "Michael Vanderpoorten",
     "id": "michael_vanderpoorten",
-    "mugshot": "/public/img/participants/michael_vanderpoorten.jpg",
+    "mugshot": "/img/participants/michael_vanderpoorten.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -26,7 +26,7 @@
   {
     "name": "Kilian Fastenakels",
     "id": "kilian_fastenakels",
-    "mugshot": "/public/img/participants/kilian_fastenakels.jpg",
+    "mugshot": "/img/participants/kilian_fastenakels.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/kilian-fastenakels-6574b8163/",
@@ -37,7 +37,7 @@
   {
     "name": "Christopher Denis",
     "id": "christopher_denis",
-    "mugshot": "/public/img/participants/christopher_denis.jpg",
+    "mugshot": "/img/participants/christopher_denis.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -48,7 +48,7 @@
   {
     "name": "Emiel Declercq",
     "id": "emiel_declercq",
-    "mugshot": "/public/img/participants/emiel_declercq.jpg",
+    "mugshot": "/img/participants/emiel_declercq.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -59,7 +59,7 @@
   {
     "name": "Manuelle Ndamtang",
     "id": "manuelle_ndamtang",
-    "mugshot": "/public/img/participants/manuelle_ndamtang.jpg",
+    "mugshot": "/img/participants/manuelle_ndamtang.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -70,7 +70,7 @@
   {
     "name": "Mahmoudi Hamza",
     "id": "mahmoudi_hamza",
-    "mugshot": "/public/img/participants/mahmoudi_hamza.jpg",
+    "mugshot": "/img/participants/mahmoudi_hamza.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/hamza-mahmoudi-959739150/",
@@ -81,7 +81,7 @@
   {
     "name": "Toon Nelissen",
     "id": "toon_nelissen",
-    "mugshot": "/public/img/participants/toon_nelissen.jpg",
+    "mugshot": "/img/participants/toon_nelissen.jpg",
     "socials": {
       "twitter": "https://twitter.com/ToonNelissen",
       "linkedin": "https://www.linkedin.com/in/toonnelissen/",
@@ -93,7 +93,7 @@
   {
     "name": "Jolan Huyvaert",
     "id": "jolan_huyvaert",
-    "mugshot": "/public/img/participants/jolan_huyvaert.jpg",
+    "mugshot": "/img/participants/jolan_huyvaert.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -104,7 +104,7 @@
   {
     "name": "Rachelle Wijsen",
     "id": "rachelle_wijsen",
-    "mugshot": "/public/img/participants/rachelle_wijsen.jpg",
+    "mugshot": "/img/participants/rachelle_wijsen.jpg",
     "socials": {
       "twitter": "https://twitter.com/ChelliePxl",
       "linkedin": "https://www.linkedin.com/in/rachelle-wijsen-347a64116/",
@@ -115,7 +115,7 @@
   {
     "name": "Teodora Popordanoska",
     "id": "teodora_popordanoska",
-    "mugshot": "/public/img/participants/teodora_popordanoska.jpg",
+    "mugshot": "/img/participants/teodora_popordanoska.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/teodora-popordanoska-28014017a/",
@@ -126,7 +126,7 @@
   {
     "name": "Leenke De Donder",
     "id": "leenke_de_donder",
-    "mugshot": "/public/img/participants/leenke_de_donder.jpg",
+    "mugshot": "/img/participants/leenke_de_donder.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -138,7 +138,7 @@
   {
     "name": "Tim Van Hee",
     "id": "tim_van_hee",
-    "mugshot": "/public/img/participants/tim_van_hee.jpg",
+    "mugshot": "/img/participants/tim_van_hee.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -150,7 +150,7 @@
   {
     "name": "Miet Claes",
     "id": "miet_claes",
-    "mugshot": "/public/img/participants/miet_claes.jpg",
+    "mugshot": "/img/participants/miet_claes.jpg",
     "socials": {
       "twitter": "https://twitter.com/choisissez",
       "linkedin": "https://www.linkedin.com/in/mietcls",
@@ -162,7 +162,7 @@
   {
     "name": "Hervé Tendayi",
     "id": "hervé_tendayi",
-    "mugshot": "/public/img/participants/hervé_tendayi.jpg",
+    "mugshot": "/img/participants/hervé_tendayi.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -173,7 +173,7 @@
   {
     "name": "Dieter De Schrijver",
     "id": "dieter_de_schrijver",
-    "mugshot": "/public/img/participants/dieter_de_schrijver.jpg",
+    "mugshot": "/img/participants/dieter_de_schrijver.jpg",
     "socials": {
       "twitter": "https://twitter.com/DieterSchrijver",
       "linkedin": "https://www.linkedin.com/in/dieter-de-schrijver-381481173/",
@@ -184,7 +184,7 @@
   {
     "name": "Gulsen Guler",
     "id": "gulsen_guler",
-    "mugshot": "/public/img/participants/gulsen_guler.jpg",
+    "mugshot": "/img/participants/gulsen_guler.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/gulsenguler/",
@@ -195,7 +195,7 @@
   {
     "name": "Kristof Neyt",
     "id": "kristof_neyt",
-    "mugshot": "/public/img/participants/kristof_neyt.jpg",
+    "mugshot": "/img/participants/kristof_neyt.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/kneyt",
@@ -206,7 +206,7 @@
   {
     "name": "Pieter Vander Vennet",
     "id": "pieter_vander_vennet",
-    "mugshot": "/public/img/participants/pieter_vander_vennet.jpg",
+    "mugshot": "/img/participants/pieter_vander_vennet.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -218,7 +218,7 @@
   {
     "name": "Francois Halin",
     "id": "francois_halin",
-    "mugshot": "/public/img/participants/francois_halin.jpg",
+    "mugshot": "/img/participants/francois_halin.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -230,7 +230,7 @@
   {
     "name": "Charles Koutcheme",
     "id": "charles_koutcheme",
-    "mugshot": "/public/img/participants/charles_koutcheme.jpg",
+    "mugshot": "/img/participants/charles_koutcheme.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/charles-koutcheme/",
@@ -241,7 +241,7 @@
   {
     "name": "Margot Verbeke",
     "id": "margot_verbeke",
-    "mugshot": "/public/img/participants/margot_verbeke.jpg",
+    "mugshot": "/img/participants/margot_verbeke.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/margot-verbeke-616b99128/",
@@ -252,7 +252,7 @@
   {
     "name": "Wouter Vandendriessche",
     "id": "wouter_vandendriessche",
-    "mugshot": "/public/img/participants/wouter_vandendriessche.jpg",
+    "mugshot": "/img/participants/wouter_vandendriessche.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -263,7 +263,7 @@
   {
     "name": "Julian Rojas",
     "id": "julian_rojas",
-    "mugshot": "/public/img/participants/julian_rojas.jpg",
+    "mugshot": "/img/participants/julian_rojas.jpg",
     "socials": {
       "twitter": "https://twitter.com/julianr1987",
       "linkedin": "https://www.linkedin.com/in/julianrojas87/",
@@ -275,7 +275,7 @@
   {
     "name": "Pieter Colpaert",
     "id": "pieter_colpaert",
-    "mugshot": "/public/img/participants/pieter_colpaert.jpg",
+    "mugshot": "/img/participants/pieter_colpaert.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -287,7 +287,7 @@
   {
     "name": "Tim Baccaert",
     "id": "tim_baccaert",
-    "mugshot": "/public/img/participants/tim_baccaert.jpg",
+    "mugshot": "/img/participants/tim_baccaert.jpg",
     "socials": {
       "twitter": "https://twitter.com/timutable",
       "linkedin": "https://www.linkedin.com/in/timbaccaert/",
@@ -298,7 +298,7 @@
   {
     "name": "Bert Schoovaerts",
     "id": "bert_schoovaerts",
-    "mugshot": "/public/img/participants/bert_schoovaerts.jpg",
+    "mugshot": "/img/participants/bert_schoovaerts.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/bert-schoovaerts-06bb51161/",
@@ -309,7 +309,7 @@
   {
     "name": "Tinaël Devresse",
     "id": "tinaël_devresse",
-    "mugshot": "/public/img/participants/tinaël_devresse.jpg",
+    "mugshot": "/img/participants/tinaël_devresse.jpg",
     "socials": {
       "twitter": "https://twitter.com/tinaeldvs",
       "linkedin": "https://linkedin.com/in/tinael-devresse",
@@ -320,7 +320,7 @@
   {
     "name": "Rutger Bevers",
     "id": "rutger_bevers",
-    "mugshot": "/public/img/participants/rutger_bevers.jpg",
+    "mugshot": "/img/participants/rutger_bevers.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -332,7 +332,7 @@
   {
     "name": "Laura Van Heck",
     "id": "laura_van_heck",
-    "mugshot": "/public/img/participants/laura_van_heck.jpg",
+    "mugshot": "/img/participants/laura_van_heck.jpg",
     "socials": {
       "twitter": "https://twitter.com/lauravanheck",
       "linkedin": "https://www.linkedin.com/in/lauravanheck/",
@@ -343,7 +343,7 @@
   {
     "name": "Thibaut Capuano",
     "id": "thibaut_capuano",
-    "mugshot": "/public/img/participants/thibaut_capuano.jpg",
+    "mugshot": "/img/participants/thibaut_capuano.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/thibaut-capuano/",
@@ -354,7 +354,7 @@
   {
     "name": "Ruben Wambacq",
     "id": "ruben_wambacq",
-    "mugshot": "/public/img/participants/ruben_wambacq.jpg",
+    "mugshot": "/img/participants/ruben_wambacq.jpg",
     "socials": {
       "twitter": "https://twitter.com/RWambacq",
       "linkedin": "https://www.linkedin.com/in/ruben-wambacq-7a5442170/",
@@ -365,7 +365,7 @@
   {
     "name": "Jasper De Moor",
     "id": "jasper_de_moor",
-    "mugshot": "/public/img/participants/jasper_de_moor.jpg",
+    "mugshot": "/img/participants/jasper_de_moor.jpg",
     "socials": {
       "twitter": "https://twitter.com/JasperDeMoor",
       "linkedin": "https://www.linkedin.com/in/jasperdm/",
@@ -376,7 +376,7 @@
   {
     "name": "Jodi De Loof",
     "id": "jodi_de_loof",
-    "mugshot": "/public/img/participants/jodi_de_loof.jpg",
+    "mugshot": "/img/participants/jodi_de_loof.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -387,7 +387,7 @@
   {
     "name": "John de Wasseige",
     "id": "john_de_wasseige",
-    "mugshot": "/public/img/participants/john_de_wasseige.jpg",
+    "mugshot": "/img/participants/john_de_wasseige.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/jdewasseige/",
@@ -398,7 +398,7 @@
   {
     "name": "Claudia Negrila",
     "id": "claudia_negrila",
-    "mugshot": "/public/img/participants/claudia_negrila.jpg",
+    "mugshot": "/img/participants/claudia_negrila.jpg",
     "socials": {
       "twitter": "https://twitter.com/TheClawMonster",
       "linkedin": "https://www.linkedin.com/in/claudia-negrila-86b956b7/",
@@ -409,7 +409,7 @@
   {
     "name": "Bao Truong",
     "id": "bao_truong",
-    "mugshot": "/public/img/participants/bao_truong.jpg",
+    "mugshot": "/img/participants/bao_truong.jpg",
     "socials": {
       "twitter": "https://twitter.com/BaoTruo32715422",
       "linkedin": "https://www.linkedin.com/in/bao-truong-8752a015b/",
@@ -420,7 +420,7 @@
   {
     "name": "Wouter Wouters",
     "id": "wouter_wouters",
-    "mugshot": "/public/img/participants/wouter_wouters.jpg",
+    "mugshot": "/img/participants/wouter_wouters.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -432,7 +432,7 @@
   {
     "name": "Thomas Duvivier",
     "id": "thomas_duvivier",
-    "mugshot": "/public/img/participants/thomas_duvivier.jpg",
+    "mugshot": "/img/participants/thomas_duvivier.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -444,7 +444,7 @@
   {
     "name": "Bruce Boelens",
     "id": "bruce_boelens",
-    "mugshot": "/public/img/participants/bruce_boelens.jpg",
+    "mugshot": "/img/participants/bruce_boelens.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/bruce-boelens/",
@@ -455,7 +455,7 @@
   {
     "name": "Inti Valderas Caro",
     "id": "inti_valderas_caro",
-    "mugshot": "/public/img/participants/inti_valderas_caro.jpg",
+    "mugshot": "/img/participants/inti_valderas_caro.jpg",
     "socials": {
       "twitter": "https://twitter.com/ValderasCaro",
       "linkedin": "https://linkedin.com/in/inti-valderas-caro",
@@ -466,7 +466,7 @@
   {
     "name": "Gracien Lofandjola Danzima",
     "id": "gracien_lofandjola",
-    "mugshot": "/public/img/participants/gracien_lofandjola.jpg",
+    "mugshot": "/img/participants/gracien_lofandjola.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/gracien-lofandjola-danzima",
@@ -477,7 +477,7 @@
   {
     "name": "Astrid Wielockx",
     "id": "astrid_wielockx",
-    "mugshot": "/public/img/participants/astrid_wielockx.jpg",
+    "mugshot": "/img/participants/astrid_wielockx.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/wielockxastrid/",
@@ -488,7 +488,7 @@
   {
     "name": "Niels Dewelde",
     "id": "niels_dewelde",
-    "mugshot": "/public/img/participants/niels_dewelde.jpg",
+    "mugshot": "/img/participants/niels_dewelde.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -500,7 +500,7 @@
   {
     "name": "Michiel Leyman",
     "id": "michiel_leyman",
-    "mugshot": "/public/img/participants/michiel_leyman.jpg",
+    "mugshot": "/img/participants/michiel_leyman.jpg",
     "socials": {
       "twitter": "https://twitter.com/michielleyman",
       "linkedin": "https://www.linkedin.com/in/michiel-leyman/",
@@ -512,7 +512,7 @@
   {
     "name": "Jens Coopman",
     "id": "jens_coopman",
-    "mugshot": "/public/img/participants/jens_coopman.jpg",
+    "mugshot": "/img/participants/jens_coopman.jpg",
     "socials": {
       "twitter": "https://twitter.com/Jens_TBB",
       "linkedin": "https://www.linkedin.com/in/jens-coopman-03356518a/",
@@ -523,7 +523,7 @@
   {
     "name": "Astrid Sercu",
     "id": "astrid_sercu",
-    "mugshot": "/public/img/participants/astrid_sercu.jpg",
+    "mugshot": "/img/participants/astrid_sercu.jpg",
     "socials": {
       "twitter": "https://twitter.com/astrserc",
       "linkedin": "https://www.linkedin.com/in/astrid-sercu-359813136/",
@@ -534,7 +534,7 @@
   {
     "name": "Ismaila Abdoulahi Adamou",
     "id": "ismaila_abdoulahi_adamou",
-    "mugshot": "/public/img/participants/ismaila_abdoulahi_adamou.jpg",
+    "mugshot": "/img/participants/ismaila_abdoulahi_adamou.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/ismaila-abdoulahi-035928166/",
@@ -545,7 +545,7 @@
   {
     "name": "Alexander Vandoren",
     "id": "alexander_vandoren",
-    "mugshot": "/public/img/participants/alexander_vandoren.jpg",
+    "mugshot": "/img/participants/alexander_vandoren.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/alexander-vandoren-370883129/",
@@ -556,7 +556,7 @@
   {
     "name": "Belén Laya Asensio",
     "id": "belén_laya_asensio",
-    "mugshot": "/public/img/participants/belén_laya_asensio.jpg",
+    "mugshot": "/img/participants/belén_laya_asensio.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/belenLA",
@@ -567,7 +567,7 @@
   {
     "name": "Xavier Bertels",
     "id": "xavier_bertels",
-    "mugshot": "/public/img/participants/xavier_bertels.jpg",
+    "mugshot": "/img/participants/xavier_bertels.jpg",
     "socials": {
       "twitter": "https://twitter.com/xavez",
       "linkedin": "https://www.linkedin.com/in/xavierbertels",
@@ -579,7 +579,7 @@
   {
     "name": "Andrews Leruth",
     "id": "andrews_leruth",
-    "mugshot": "/public/img/participants/andrews_leruth.jpg",
+    "mugshot": "/img/participants/andrews_leruth.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -590,7 +590,7 @@
   {
     "name": "Amber Swevers",
     "id": "amber_swevers",
-    "mugshot": "/public/img/participants/amber_swevers.jpg",
+    "mugshot": "/img/participants/amber_swevers.jpg",
     "socials": {
       "twitter": "https://twitter.com/AmberSwevers",
       "linkedin": "https://www.linkedin.com/in/amber-swevers-258366171/",
@@ -601,7 +601,7 @@
   {
     "name": "Alexis Lecocq",
     "id": "alexis_lecocq",
-    "mugshot": "/public/img/participants/alexis_lecocq.jpg",
+    "mugshot": "/img/participants/alexis_lecocq.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/lecocqalexis",
@@ -612,7 +612,7 @@
   {
     "name": "Nawang Tendar",
     "id": "nawang_tendar",
-    "mugshot": "/public/img/participants/nawang_tendar.jpg",
+    "mugshot": "/img/participants/nawang_tendar.jpg",
     "socials": {
       "twitter": "https://twitter.com/NawangTendar",
       "linkedin": "https://www.linkedin.com/in/nt23/",
@@ -623,7 +623,7 @@
   {
     "name": "Eva Jacobs",
     "id": "eva_jacobs",
-    "mugshot": "/public/img/participants/eva_jacobs.jpg",
+    "mugshot": "/img/participants/eva_jacobs.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -635,7 +635,7 @@
   {
     "name": "Olivia Fontes de Mello",
     "id": "olivia_fontes_de_mello",
-    "mugshot": "/public/img/participants/olivia_fontes_de_mello.jpg",
+    "mugshot": "/img/participants/olivia_fontes_de_mello.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/olivia-fontes-de-mello-483513151/",
@@ -646,7 +646,7 @@
   {
     "name": "Bert Jehoul",
     "id": "bert_jehoul",
-    "mugshot": "/public/img/participants/bert_jehoul.jpg",
+    "mugshot": "/img/participants/bert_jehoul.jpg",
     "socials": {
       "twitter": "https://twitter.com/jeborsel",
       "linkedin": "https://www.linkedin.com/in/bertjehoul/",
@@ -658,7 +658,7 @@
   {
     "name": "Bram De Coninck",
     "id": "bram_de_coninck",
-    "mugshot": "/public/img/participants/bram_de_coninck.jpg",
+    "mugshot": "/img/participants/bram_de_coninck.jpg",
     "socials": {
       "twitter": "https://twitter.com/BramDC3",
       "linkedin": "https://www.linkedin.com/in/bramdc/",
@@ -669,7 +669,7 @@
   {
     "name": "Freek De Sagher",
     "id": "freek_de_sagher",
-    "mugshot": "/public/img/participants/freek_de_sagher.jpg",
+    "mugshot": "/img/participants/freek_de_sagher.jpg",
     "socials": {
       "twitter": "https://twitter.com/FreekDS21",
       "linkedin": "https://www.linkedin.com/in/freek-de-sagher-114808185/",
@@ -680,7 +680,7 @@
   {
     "name": "Maxime Van Driessche",
     "id": "maxime_van_driessche",
-    "mugshot": "/public/img/participants/maxime_van_driessche.jpg",
+    "mugshot": "/img/participants/maxime_van_driessche.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/maximdegeyter/",
@@ -691,7 +691,7 @@
   {
     "name": "Marie Devos",
     "id": "marie_devos",
-    "mugshot": "/public/img/participants/marie_devos.jpg",
+    "mugshot": "/img/participants/marie_devos.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/marie-devos-521371168/",
@@ -702,7 +702,7 @@
   {
     "name": "Sushil Ghambir",
     "id": "sushil_ghambir",
-    "mugshot": "/public/img/participants/sushil_ghambir.jpg",
+    "mugshot": "/img/participants/sushil_ghambir.jpg",
     "socials": {
       "twitter": "https://twitter.com/sushil_ghambir",
       "linkedin": "https://www.linkedin.com/in/sushil-ghambir/",
@@ -713,7 +713,7 @@
   {
     "name": "Guillaume Servais",
     "id": "guillaume_servais",
-    "mugshot": "/public/img/participants/guillaume_servais.jpg",
+    "mugshot": "/img/participants/guillaume_servais.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/guillaume-servais-50ba37184/",
@@ -724,7 +724,7 @@
   {
     "name": "Tuong Vy Erika Nguyen",
     "id": "tuong_vy_erika_nguyen",
-    "mugshot": "/public/img/participants/tuong_vy_erika_nguyen.jpg",
+    "mugshot": "/img/participants/tuong_vy_erika_nguyen.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://linkedin.com/in/tuong-vy-erika/",
@@ -735,7 +735,7 @@
   {
     "name": "Hannes D'Hulster",
     "id": "hannes_d'hulster",
-    "mugshot": "/public/img/participants/hannes_d'hulster.jpg",
+    "mugshot": "/img/participants/hannes_d'hulster.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -747,7 +747,7 @@
   {
     "name": "Danielle Terras",
     "id": "danielle_terras",
-    "mugshot": "/public/img/participants/danielle_terras.jpg",
+    "mugshot": "/img/participants/danielle_terras.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -758,7 +758,7 @@
   {
     "name": "Cécile Diana",
     "id": "cécile_diana",
-    "mugshot": "/public/img/participants/cécile_diana.jpg",
+    "mugshot": "/img/participants/cécile_diana.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/cécile-diana-student-finance-gem",
@@ -769,7 +769,7 @@
   {
     "name": "Chloë Devriese",
     "id": "chloë_devriese",
-    "mugshot": "/public/img/participants/chloë_devriese.jpg",
+    "mugshot": "/img/participants/chloë_devriese.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -780,7 +780,7 @@
   {
     "name": "Joren 's Jongers",
     "id": "joren_'s_jongers",
-    "mugshot": "/public/img/participants/joren_'s_jongers.jpg",
+    "mugshot": "/img/participants/joren_'s_jongers.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -791,7 +791,7 @@
   {
     "name": "Ryan Byloos",
     "id": "ryan_byloos",
-    "mugshot": "/public/img/participants/ryan_byloos.jpg",
+    "mugshot": "/img/participants/ryan_byloos.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -802,7 +802,7 @@
   {
     "name": "Hektor Misplon",
     "id": "hektor_misplon",
-    "mugshot": "/public/img/participants/hektor_misplon.jpg",
+    "mugshot": "/img/participants/hektor_misplon.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -813,7 +813,7 @@
   {
     "name": "Felix Ruiz De Arcaute",
     "id": "felix_ruiz_de_arcaute",
-    "mugshot": "/public/img/participants/felix_ruiz_de_arcaute.jpg",
+    "mugshot": "/img/participants/felix_ruiz_de_arcaute.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/felix-ruiz-de-arcaute/",
@@ -825,7 +825,7 @@
   {
     "name": "Florent Collin",
     "id": "florent_collin",
-    "mugshot": "/public/img/participants/florent_collin.jpg",
+    "mugshot": "/img/participants/florent_collin.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/florent-collin-a67354185",
@@ -836,7 +836,7 @@
   {
     "name": "Femke Bruckmann",
     "id": "femke_bruckmann",
-    "mugshot": "/public/img/participants/femke_bruckmann.jpg",
+    "mugshot": "/img/participants/femke_bruckmann.jpg",
     "socials": {
       "twitter": "https://twitter.com/fbrckman",
       "linkedin": "https://www.linkedin.com/in/fbrckman/",
@@ -847,7 +847,7 @@
   {
     "name": "David Adegnon",
     "id": "david_adegnon",
-    "mugshot": "/public/img/participants/david_adegnon.jpg",
+    "mugshot": "/img/participants/david_adegnon.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -858,7 +858,7 @@
   {
     "name": "Tijl De Blander",
     "id": "tijl_de_blander",
-    "mugshot": "/public/img/participants/tijl_de_blander.jpg",
+    "mugshot": "/img/participants/tijl_de_blander.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -869,7 +869,7 @@
   {
     "name": "Theo Dedeken",
     "id": "theo_dedeken",
-    "mugshot": "/public/img/participants/theo_dedeken.jpg",
+    "mugshot": "/img/participants/theo_dedeken.jpg",
     "socials": {
       "twitter": "https://twitter.com/TheOZoneBE",
       "linkedin": "https://www.linkedin.com/in/theo-dedeken-920341147/",
@@ -880,7 +880,7 @@
   {
     "name": "Josse Van Delm",
     "id": "josse_van_delm",
-    "mugshot": "/public/img/participants/josse_van_delm.jpg",
+    "mugshot": "/img/participants/josse_van_delm.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://be.linkedin.com/in/jossevandelm",
@@ -891,7 +891,7 @@
   {
     "name": "Bart Hanssens",
     "id": "bart_hanssens",
-    "mugshot": "/public/img/participants/bart_hanssens.jpg",
+    "mugshot": "/img/participants/bart_hanssens.jpg",
     "socials": {
       "twitter": "https://twitter.com/BartHanssens",
       "linkedin": "https://www.linkedin.com/in/barthanssens",
@@ -903,7 +903,7 @@
   {
     "name": "Lotte Goyens",
     "id": "lotte_goyens",
-    "mugshot": "/public/img/participants/lotte_goyens.jpg",
+    "mugshot": "/img/participants/lotte_goyens.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -914,7 +914,7 @@
   {
     "name": "Emmy Bruynseels",
     "id": "emmy_bruynseels",
-    "mugshot": "/public/img/participants/emmy_bruynseels.jpg",
+    "mugshot": "/img/participants/emmy_bruynseels.jpg",
     "socials": {
       "twitter": "https://twitter.com/emmy_bruynseels",
       "linkedin": "https://www.linkedin.com/in/emmy-bruynseels/",
@@ -925,7 +925,7 @@
   {
     "name": "Akvile Kovalcikaite",
     "id": "akvile_kovalcikaite",
-    "mugshot": "/public/img/participants/akvile_kovalcikaite.jpg",
+    "mugshot": "/img/participants/akvile_kovalcikaite.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/akvil%C4%97-koval%C4%8Dikait%C4%97-2b59a7170/",
@@ -936,7 +936,7 @@
   {
     "name": "Hanim Kapusuz",
     "id": "hanim_kapusuz",
-    "mugshot": "/public/img/participants/hanim_kapusuz.jpg",
+    "mugshot": "/img/participants/hanim_kapusuz.jpg",
     "socials": {
       "twitter": "https://twitter.com/HanimK5",
       "linkedin": "https://www.linkedin.com/in/hanimk/",
@@ -947,7 +947,7 @@
   {
     "name": "Ibrahim Dogrusoz",
     "id": "ibrahim_dogrusoz",
-    "mugshot": "/public/img/participants/ibrahim_dogrusoz.jpg",
+    "mugshot": "/img/participants/ibrahim_dogrusoz.jpg",
     "socials": {
       "twitter": "https://twitter.com/IbrahimDogrusoz",
       "linkedin": "https://www.linkedin.com/in/ibrahim-dogrusoz",
@@ -958,7 +958,7 @@
   {
     "name": "Steve Bitomagira",
     "id": "steve_bitomagira",
-    "mugshot": "/public/img/participants/steve_bitomagira.jpg",
+    "mugshot": "/img/participants/steve_bitomagira.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/steve-junior-bitomagira-86512b153/",
@@ -969,7 +969,7 @@
   {
     "name": "Tamar Asashvili",
     "id": "tamar_asashvili",
-    "mugshot": "/public/img/participants/tamar_asashvili.jpg",
+    "mugshot": "/img/participants/tamar_asashvili.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -980,7 +980,7 @@
   {
     "name": "Wael Fato",
     "id": "wael_fato",
-    "mugshot": "/public/img/participants/wael_fato.jpg",
+    "mugshot": "/img/participants/wael_fato.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -991,7 +991,7 @@
   {
     "name": "Luis Akakpo",
     "id": "luis_akakpo",
-    "mugshot": "/public/img/participants/luis_akakpo.jpg",
+    "mugshot": "/img/participants/luis_akakpo.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/luisakakpo/",
@@ -1003,7 +1003,7 @@
   {
     "name": "Evan Cole",
     "id": "evan_cole",
-    "mugshot": "/public/img/participants/evan_cole.jpg",
+    "mugshot": "/img/participants/evan_cole.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1015,7 +1015,7 @@
   {
     "name": "Clément Janssens",
     "id": "clément_janssens",
-    "mugshot": "/public/img/participants/clément_janssens.jpg",
+    "mugshot": "/img/participants/clément_janssens.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1026,7 +1026,7 @@
   {
     "name": "Dylan Van Assche",
     "id": "dylan_van_assche",
-    "mugshot": "/public/img/participants/dylan_van_assche.jpg",
+    "mugshot": "/img/participants/dylan_van_assche.jpg",
     "socials": {
       "twitter": "https://twitter.com/DylanVanAssche",
       "linkedin": "https://www.linkedin.com/in/dylanvanassche",
@@ -1037,7 +1037,7 @@
   {
     "name": "Sam van der Kris",
     "id": "sam_van_der_kris",
-    "mugshot": "/public/img/participants/sam_van_der_kris.jpg",
+    "mugshot": "/img/participants/sam_van_der_kris.jpg",
     "socials": {
       "twitter": "https://twitter.com/samvdkris",
       "linkedin": "https://www.linkedin.com/in/sam-van-der-kris-041226168/",
@@ -1048,7 +1048,7 @@
   {
     "name": "Louis Heeren",
     "id": "louis_heeren",
-    "mugshot": "/public/img/participants/louis_heeren.jpg",
+    "mugshot": "/img/participants/louis_heeren.jpg",
     "socials": {
       "twitter": "https://twitter.com/Kortrijk_fan",
       "linkedin": "https://www.linkedin.com/in/louis-heeren/",
@@ -1059,7 +1059,7 @@
   {
     "name": "Siu Mei Soan",
     "id": "siu_mei_soan",
-    "mugshot": "/public/img/participants/siu_mei_soan.jpg",
+    "mugshot": "/img/participants/siu_mei_soan.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/siumeisoan",
@@ -1070,7 +1070,7 @@
   {
     "name": "Antoine Richez",
     "id": "antoine_richez",
-    "mugshot": "/public/img/participants/antoine_richez.jpg",
+    "mugshot": "/img/participants/antoine_richez.jpg",
     "socials": {
       "twitter": "https://twitter.com/antoine_richez",
       "linkedin": "https://be.linkedin.com/in/antoine-richez-1864b8166",
@@ -1081,7 +1081,7 @@
   {
     "name": "Pierre van Houtryve",
     "id": "pierre_van_houtryve",
-    "mugshot": "/public/img/participants/pierre_van_houtryve.jpg",
+    "mugshot": "/img/participants/pierre_van_houtryve.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/pierre-van-houtryve-532284168/",
@@ -1092,7 +1092,7 @@
   {
     "name": "Jan Temmerman",
     "id": "jan_temmerman",
-    "mugshot": "/public/img/participants/jan_temmerman.jpg",
+    "mugshot": "/img/participants/jan_temmerman.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1103,7 +1103,7 @@
   {
     "name": "Elena Sánchez",
     "id": "elena_sánchez",
-    "mugshot": "/public/img/participants/elena_sánchez.jpg",
+    "mugshot": "/img/participants/elena_sánchez.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1114,7 +1114,7 @@
   {
     "name": "Martin Leroy",
     "id": "martin_leroy",
-    "mugshot": "/public/img/participants/martin_leroy.jpg",
+    "mugshot": "/img/participants/martin_leroy.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1125,7 +1125,7 @@
   {
     "name": "Bram Bleys",
     "id": "bram_bleys",
-    "mugshot": "/public/img/participants/bram_bleys.jpg",
+    "mugshot": "/img/participants/bram_bleys.jpg",
     "socials": {
       "twitter": "https://twitter.com/bram_bleys",
       "linkedin": "https://www.linkedin.com/in/brambleys/",
@@ -1136,7 +1136,7 @@
   {
     "name": "Maxim De Geyter",
     "id": "maxim_de_geyter",
-    "mugshot": "/public/img/participants/maxim_de_geyter.jpg",
+    "mugshot": "/img/participants/maxim_de_geyter.jpg",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/maximdegeyter/",
@@ -1147,7 +1147,7 @@
   {
     "name": "Yasin Yer",
     "id": "yasin_yer",
-    "mugshot": "/public/img/participants/yasin_yer.jpg",
+    "mugshot": "/img/participants/yasin_yer.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1158,7 +1158,7 @@
   {
     "name": "Bart Lens",
     "id": "bart_lens",
-    "mugshot": "/public/img/participants/bart_lens.jpg",
+    "mugshot": "/img/participants/bart_lens.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1170,7 +1170,7 @@
   {
     "name": "Pieter-Jan Vandenberghe",
     "id": "pieter-jan_vandenberghe",
-    "mugshot": "/public/img/participants/pieter-jan_vandenberghe.jpg",
+    "mugshot": "/img/participants/pieter-jan_vandenberghe.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1181,7 +1181,7 @@
   {
     "name": "Harm Delva",
     "id": "harm_delva",
-    "mugshot": "/public/img/participants/harm_delva.jpg",
+    "mugshot": "/img/participants/harm_delva.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1193,7 +1193,7 @@
   {
     "name": "Astrid Steenackers",
     "id": "astrid_steenackers",
-    "mugshot": "/public/img/participants/astrid_steenackers.jpg",
+    "mugshot": "/img/participants/astrid_steenackers.jpg",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1205,7 +1205,7 @@
   {
     "name": "Jonathan Beliën",
     "id": "jonathan_beliën",
-    "mugshot": "/public/img/participants/jonathan_beliën.jpg",
+    "mugshot": "/img/participants/jonathan_beliën.jpg",
     "socials": {
       "twitter": "https://twitter.com/jbelien",
       "linkedin": "https://www.linkedin.com/in/jbelien/",

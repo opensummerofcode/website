@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { ButtonLink } from '../UI/Buttons';
 
-import projects from '../../assets/data/projects.json';
+import projects from '../../assets/data/2019/projects.json';
 
 const FeaturedProjects = ({ divider }) => {
   const renderProject = ({ name, description, logo, id }) => (

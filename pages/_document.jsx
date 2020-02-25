@@ -35,7 +35,7 @@ class MyDocument extends Document {
           <meta property="og:url" content="http://2019.summerofcode.be" />
           <meta
             property="og:image"
-            content="http://2019.summerofcode.be/public/img/socialmedia/socialmedia.png?4362984378"
+            content="http://2019.summerofcode.be/img/socialmedia/socialmedia.png?4362984378"
           />
           <meta
             property="og:description"
@@ -50,68 +50,52 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:image"
-            content="http://2019.summerofcode.be/public/img/socialmedia/socialmedia.png?4362984378"
+            content="http://2019.summerofcode.be/img/socialmedia/socialmedia.png?4362984378"
           />
           <meta name="twitter:url" content="http://2019.summerofcode.be/" />
 
           {/* Favicons */}
-          <link rel="shortcut icon" href="/public/favicon.ico" />
-          <link
-            rel="apple-touch-icon"
-            sizes="57x57"
-            href="/public/favicons/apple-touch-icon-57x57.png"
-          />
-          <link
-            rel="apple-touch-icon"
-            sizes="60x60"
-            href="/public/favicons/apple-touch-icon-60x60.png"
-          />
-          <link
-            rel="apple-touch-icon"
-            sizes="72x72"
-            href="/public/favicons/apple-touch-icon-72x72.png"
-          />
-          <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href="/public/favicons/apple-touch-icon-76x76.png"
-          />
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png" />
+          <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png" />
+          <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png" />
+          <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png" />
           <link
             rel="apple-touch-icon"
             sizes="114x114"
-            href="/public/favicons/apple-touch-icon-114x114.png"
+            href="/favicons/apple-touch-icon-114x114.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="120x120"
-            href="/public/favicons/apple-touch-icon-120x120.png"
+            href="/favicons/apple-touch-icon-120x120.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="144x144"
-            href="/public/favicons/apple-touch-icon-144x144.png"
+            href="/favicons/apple-touch-icon-144x144.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="152x152"
-            href="/public/favicons/apple-touch-icon-152x152.png"
+            href="/favicons/apple-touch-icon-152x152.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/public/favicons/apple-touch-icon-180x180.png"
+            href="/favicons/apple-touch-icon-180x180.png"
           />
           <link
             rel="icon"
             type="image/png"
-            href="/public/favicons/android-chrome-192x192.png"
+            href="/favicons/android-chrome-192x192.png"
             sizes="192x192"
           />
-          <link rel="manifest" href="/public/favicons/manifest.json" />
+          <link rel="manifest" href="/favicons/manifest.json" />
           <meta name="msapplication-TileColor" content="‪#FFFFFF" />
           <meta name="msapplication-TileImage" content="mstile-144x144.png" />
           <meta name="theme-color" content="‪#FFFFFF" />
-          <script src="/public/polyfills/array-find.js" type="application/javascript" />
+          <script src="/polyfills/array-find.js" type="application/javascript" />
           <script src="https://player.vimeo.com/api/player.js" />
         </Head>
         <body>
