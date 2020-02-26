@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import editions from '../../../assets/data/editions.json';
+import fetch from 'unfetch';
+import useSWR from 'swr';
 import ProjectsHeader from '../../../components/Editions/ProjectsHeader';
 import StudentsHeader from '../../../components/Editions/StudentsHeader';
 import CoachesHeader from '../../../components/Editions/CoachesHeader';
@@ -10,12 +11,18 @@ import StudentsGallery from '../../../components/Editions/StudentsGallery';
 import CoachesGallery from '../../../components/Editions/CoachesGallery';
 import Partners from '../../../components/Companies/Partners';
 
-const YearEdition = () => {
+const fetcher = url => fetch(url).then(r => r.json());
+
+const EditionOverview = ({ editions }) => {
   const router = useRouter();
   const year = parseInt(router.query.year, 0);
 
   const edition = editions.find(e => e.year === year);
   const editionExists = !!edition;
+
+  const { data: projects } = useSWR(() => `/editions/${year}/projects.json`, fetcher);
+  const { data: participants } = useSWR(() => `/editions/${year}/participants.json`, fetcher);
+  const { data: partners } = useSWR(() => `/editions/${year}/partners.json`, fetcher);
 
   useEffect(() => {
     if (edition.external) {
@@ -23,24 +30,27 @@ const YearEdition = () => {
     } else if (!editionExists) {
       router.push('/404');
     }
-  });
+  }, []);
 
-  console.log(edition, year);
-  if (!editionExists) return <></>;
+  if (!editionExists || !projects || !participants || !partners) return <></>;
+
+  const coaches = participants.filter(p => p.coach);
+  const students = participants.filter(p => !p.coach);
+
   return (
     <>
       <Head>
         <title>{year} projects | open Summer of Code</title>
       </Head>
       <ProjectsHeader />
-      <ProjectsGallery />
+      <ProjectsGallery projects={projects} />
       <StudentsHeader />
-      <StudentsGallery />
+      <StudentsGallery students={students} />
       <CoachesHeader />
-      <CoachesGallery />
-      <Partners />
+      <CoachesGallery coaches={coaches} />
+      <Partners partners={partners} />
     </>
   );
 };
 
-export default YearEdition;
+export default EditionOverview;

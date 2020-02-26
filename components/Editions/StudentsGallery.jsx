@@ -1,8 +1,8 @@
+import PropTypes from 'prop-types';
 import Headshot from './Headshot';
 import Gallery from './Gallery';
-import participants from '../../assets/data/2019/participants.json';
 
-const StudentsGallery = () => {
+const StudentsGallery = ({ students }) => {
   const renderStudent = student => (
     <Headshot
       key={student.id}
@@ -13,12 +13,16 @@ const StudentsGallery = () => {
     />
   );
 
-  const $students = participants.filter(p => !p.coach).map(renderStudent);
+  const $students = students.map(renderStudent);
   return (
     <Gallery className="headshot-gallery" modifier="align-center">
       {$students}
     </Gallery>
   );
+};
+
+StudentsGallery.propTypes = {
+  students: PropTypes.arrayOf(PropTypes.shape).isRequired
 };
 
 export default StudentsGallery;

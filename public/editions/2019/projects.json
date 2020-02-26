@@ -3,7 +3,7 @@
     "id": "best",
     "name": "Best Addresses",
     "description": "BeST-Add (Belgian Streets & Addresses) are available as open data in XML. With this project we would like to make this dataset more accessible to the general public, convert it to other formats and promote the use of it.",
-    "logo": "/img/projects/best-addresses.svg",
+    "logo": "/editions/2019/projects/best-addresses.svg",
     "team": {
       "students": ["theo_dedeken", "josse_van_delm", "lotte_goyens"],
       "coaches": ["bart_hanssens", "bert_jehoul", "jonathan_beliën"]
@@ -16,7 +16,7 @@
     "id": "bebudget",
     "name": "BeBudget",
     "description": "Representing Belgian government spending data in a more accessible and open way.",
-    "logo": "/img/projects/bebudget.png",
+    "logo": "/editions/2019/projects/bebudget.png",
     "team": {
       "students": ["emmy_bruynseels", "akvile_kovalcikaite", "bram_bleys", "lotte_goyens"],
       "coaches": ["bert_jehoul", "thomas_duvivier"]
@@ -29,7 +29,7 @@
     "id": "explorer",
     "name": "Explorer",
     "description": "An interface for tourists to learn more on Bruges artworks while getting at the same time insight on their preferences.",
-    "logo": "/img/projects/explorer.svg",
+    "logo": "/editions/2019/projects/explorer.svg",
     "team": {
       "students": ["marie_devos", "sushil_ghambir", "guillaume_servais", "tuong_vy_erika_nguyen"],
       "coaches": ["hannes_d'hulster", "pieter_vander_vennet"]
@@ -42,7 +42,7 @@
     "id": "data-monitor",
     "name": "Data Monitor",
     "description": "The main goal of the project is to monitor data about traffic, road maintenance and logistics in an accessible way.",
-    "logo": "/img/projects/datamonitor.svg",
+    "logo": "/editions/2019/projects/datamonitor.svg",
     "team": {
       "students": [
         "ryan_byloos",
@@ -61,7 +61,7 @@
     "id": "switch",
     "name": "Switch",
     "description": "Making the younger generation aware of their energy consumption in a fun way.",
-    "logo": "/img/projects/switch.svg",
+    "logo": "/editions/2019/projects/switch.svg",
     "team": {
       "students": ["andrews_leruth", "amber_swevers", "alexis_lecocq", "nawang_tendar"],
       "coaches": ["xavier_bertels", "eva_jacobs"]
@@ -74,7 +74,7 @@
     "id": "insight-the-boxx",
     "name": "Insight the Boxx",
     "description": "Gathering insight from energy consumption data.",
-    "logo": "/img/projects/insight-the-boxx.png",
+    "logo": "/editions/2019/projects/insight-the-boxx.png",
     "team": {
       "students": ["jodi_de_loof", "john_de_wasseige", "claudia_negrila", "bao_truong"],
       "coaches": ["thomas_duvivier", "wouter_wouters"]
@@ -87,7 +87,7 @@
     "id": "engie-hub",
     "name": "Engie Hub",
     "description": "Bringing local communities together to harvest and share sustainable energy.",
-    "logo": "/img/projects/engie-hub.svg",
+    "logo": "/editions/2019/projects/engie-hub.svg",
     "team": {
       "students": ["bruce_boelens", "inti_valderas_caro", "gracien_lofandjola", "astrid_wielockx"],
       "coaches": ["niels_dewelde"]
@@ -100,7 +100,7 @@
     "id": "voices-to-emotions",
     "name": "Voices to Emotions",
     "description": "Exploring sentiment analysis for customer support calls to improve quality of service for callers and service agents.",
-    "logo": "/img/projects/voices-to-emotions.svg",
+    "logo": "/editions/2019/projects/voices-to-emotions.svg",
     "team": {
       "students": ["laura_van_heck", "thibaut_capuano", "ruben_wambacq", "jasper_de_moor"],
       "coaches": ["rutger_bevers"]
@@ -113,7 +113,7 @@
     "id": "fris",
     "name": "FRIS",
     "description": "An improvement upon the current search function and charts for the Flemish research portal.",
-    "logo": "/img/projects/fris.png",
+    "logo": "/editions/2019/projects/fris.png",
     "team": {
       "students": [
         "kilian_fastenakels",
@@ -132,7 +132,7 @@
     "id": "gentlestudent",
     "name": "Gentlestudent",
     "description": "Gentlestudent is a mobile web application where students can experience learning opportunities that are offered by organisations or students themselves. And so differentiate them from other students.",
-    "logo": "/img/projects/gentlestudent.svg",
+    "logo": "/editions/2019/projects/gentlestudent.svg",
     "team": {
       "students": [
         "olivia_fontes_de_mello",
@@ -153,7 +153,7 @@
     "id": "influencair",
     "name": "Influencair",
     "description": "Create an interactive and animated data story that explains the complexity of air quality in Brussels.",
-    "logo": "/img/projects/influencair.svg",
+    "logo": "/editions/2019/projects/influencair.svg",
     "team": {
       "students": ["jolan_huyvaert", "rachelle_wijsen", "teodora_popordanoska"],
       "coaches": ["toon_nelissen", "leenke_de_donder"]
@@ -166,7 +166,7 @@
     "id": "reliability-score",
     "name": "Reliability Score",
     "description": "Helping people catch their train by predicting delays.",
-    "logo": "/img/projects/reliability-score.png",
+    "logo": "/editions/2019/projects/reliability-score.png",
     "team": {
       "students": ["clément_janssens", "dylan_van_assche", "sam_van_der_kris"],
       "coaches": ["rutger_bevers", "pieter_colpaert"]
@@ -179,7 +179,7 @@
     "id": "open-heritage-map",
     "name": "Open Heritage Map",
     "description": "Mapping historical geodata with Open Historical Map to preserve our memories.",
-    "logo": "/img/projects/open-heritage-map.svg",
+    "logo": "/editions/2019/projects/open-heritage-map.svg",
     "team": {
       "students": ["louis_heeren", "siu_mei_soan", "antoine_richez", "pierre_van_houtryve"],
       "coaches": ["pieter_vander_vennet", "hannes_d'hulster"]
@@ -192,7 +192,7 @@
     "id": "configuroute",
     "name": "ConfiguRoute",
     "description": "A tool for making personalized configuration files for route planning.",
-    "logo": "/img/projects/configuroute.png",
+    "logo": "/editions/2019/projects/configuroute.png",
     "team": {
       "students": ["charles_koutcheme", "margot_verbeke", "wouter_vandendriessche"],
       "coaches": ["julian_rojas", "pieter_colpaert", "harm_delva", "tim_van_hee", "francois_halin"]
@@ -205,7 +205,7 @@
     "id": "hopper",
     "name": "Hopper",
     "description": "Providing tailor made commute paths for (future) e-bike owners to stimulate the shift towards more sustainable mobility.",
-    "logo": "/img/projects/hopper.png",
+    "logo": "/editions/2019/projects/hopper.png",
     "team": {
       "students": ["hervé_tendayi", "dieter_de_schrijver", "gulsen_guler", "kristof_neyt"],
       "coaches": ["francois_halin", "tim_van_hee", "pieter_vander_vennet", "harm_delva"]
@@ -219,7 +219,7 @@
     "id": "horison",
     "name": "Horison",
     "description": "Helping small groups of people find suitable places to meet up at.",
-    "logo": "/img/projects/horison.png ",
+    "logo": "/editions/2019/projects/horison.png ",
     "team": {
       "students": ["tim_baccaert", "bert_schoovaerts", "tinaël_devresse"],
       "coaches": ["julian_rojas", "tim_van_hee", "pieter_colpaert", "harm_delva"]
@@ -232,7 +232,7 @@
     "id": "open-recognition",
     "name": "Open Recognition",
     "description": "Add recognition to someone else's profile.",
-    "logo": "/img/projects/focus.svg",
+    "logo": "/editions/2019/projects/focus.svg",
     "team": {
       "students": [
         "hanim_kapusuz",
@@ -251,7 +251,7 @@
     "id": "osoc-international",
     "name": "oSoc international",
     "description": "oSoc is going international! We are opening up oSoc even more by providing others with the tools to set up their own edition anywhere!",
-    "logo": "/img/projects/osoc-international.svg",
+    "logo": "/editions/2019/projects/osoc-international.svg",
     "team": {
       "students": [
         "alexander_vandoren",
@@ -271,7 +271,7 @@
     "id": "cycling-up",
     "name": "Cycling Up",
     "description": "Dashboard to evaluate the quality of bicycle infrastructure in Brussels.",
-    "logo": "/img/projects/cycling-up.svg",
+    "logo": "/editions/2019/projects/cycling-up.svg",
     "team": {
       "students": [
         "danielle_terras",
@@ -291,7 +291,7 @@
     "id": "road-report",
     "name": "Road Report",
     "description": "A mobile-friendly website and an app that pedestrians and cyclists can use to report road incidents on their route, which will be integrated into the TMaaS framework as an additional traffic events data set.",
-    "logo": "/img/projects/road-report.svg",
+    "logo": "/editions/2019/projects/road-report.svg",
     "team": {
       "students": ["jan_temmerman", "elena_sánchez", "martin_leroy"],
       "coaches": ["wouter_wouters", "miet_claes"]
@@ -304,7 +304,7 @@
     "id": "unshacled",
     "name": "UnSHACLed",
     "description": "A visual editor for data constraints.",
-    "logo": "/img/projects/unshacled.png",
+    "logo": "/editions/2019/projects/unshacled.png",
     "team": {
       "students": [
         "femke_bruckmann",

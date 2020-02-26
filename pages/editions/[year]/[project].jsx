@@ -1,13 +1,24 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import useSWR from 'swr';
 import Header from '../../../components/Projects/Header';
 import Team from '../../../components/Projects/Team';
 import Partners from '../../../components/Projects/Partners';
-import allProjects from '../../../assets/data/2019/projects.json';
-import allParticipants from '../../../assets/data/2019/participants.json';
-import allPartners from '../../../assets/data/2019/partners.json';
 
-const Project = ({ id }) => {
-  const project = allProjects.find(p => p.id === id);
+const Project = () => {
+  const { data: editionData } = useSWR('/editions/index.json');
+
+  console.log(editionData);
+
+  const allProjects = [];
+  const allParticipants = [];
+  const allPartners = [];
+
+  const router = useRouter();
+  const projectId = router.query.project;
+  const year = parseInt(router.query.year, 0);
+  const project = allProjects.find(p => p.id === projectId);
+
   const students = project.team.students.map(student =>
     allParticipants.find(p => p.id === student)
   );
@@ -23,11 +34,6 @@ const Project = ({ id }) => {
       <Partners partners={partners} />
     </>
   );
-};
-
-Project.getInitialProps = ctx => {
-  const { project } = ctx.query;
-  return { id: project };
 };
 
 export default Project;
