@@ -1,4 +1,4 @@
-import App from 'next/app';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { withRouter } from 'next/router';
 import PageTransition from '../components/UI/PageTransition';
@@ -7,41 +7,27 @@ import Footer from '../components/Common/Footer';
 
 import '../assets/scss/app.scss';
 
-class MyApp extends App {
-  state = { ready: false };
+const MyApp = ({ Component, pageProps }) => {
+  const [ready, setReady] = useState(false);
 
-  static async getInitialProps({ Component, ctx }) {
-    let pageProps = {};
+  // Ready state is to avoid flash of unstyled content
+  useEffect(() => {
+    setReady(true);
+  }, []);
 
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx);
-    }
-
-    return { pageProps };
-  }
-
-  componentDidMount() {
-    this.setState({ ready: true });
-  }
-
-  render() {
-    const { ready } = this.state;
-    const { Component, pageProps } = this.props;
-
-    return (
-      <>
-        <Head>
-          <title>open Summer of code 2019</title>
-        </Head>
-        <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
-          <Navigation />
-          {/* <PageTransition location={pathname}></PageTransition> */}
-          <Component {...pageProps} />
-          <Footer />
-        </div>
-      </>
-    );
-  }
-}
+  return (
+    <>
+      <Head>
+        <title>open Summer of code 2019</title>
+      </Head>
+      <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
+        <Navigation />
+        {/* <PageTransition location={pathname}></PageTransition> */}
+        <Component {...pageProps} />
+        <Footer />
+      </div>
+    </>
+  );
+};
 
 export default withRouter(MyApp);
