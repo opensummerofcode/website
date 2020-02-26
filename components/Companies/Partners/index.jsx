@@ -1,7 +1,13 @@
-import partnersdata from '../../../assets/data/2019/partners.json';
+import { useContext } from 'react';
+import useSWR from 'swr';
+import EditionContext from '../../../context/edition';
+import fetch from '../../../util/fetch';
+
 import Partner from './Partner';
 
 const Partners = () => {
+  const { current: currentEdition } = useContext(EditionContext);
+
   const renderPartnerSection = partners => {
     const $cells = partners.map(partner => (
       <div key={partner.id} className="small-4 medium-auto cell">
@@ -14,6 +20,11 @@ const Partners = () => {
       </div>
     );
   };
+  console.log(currentEdition);
+
+  const { data: partnersdata } = useSWR(`/editions/${currentEdition}/partners.json`, fetch);
+
+  if (!partnersdata) return <></>;
 
   let count = 0;
   const partnerChunks = partnersdata.reduce((collection, partner) => {

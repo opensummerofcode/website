@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { withRouter } from 'next/router';
 import useSWR from 'swr';
 import fetch from '../util/fetch';
+import EditionContext from '../context/edition';
 import PageTransition from '../components/UI/PageTransition';
 import Navigation from '../components/Common/Navigation';
 import Footer from '../components/Common/Footer';
@@ -16,21 +17,32 @@ const MyApp = ({ Component, pageProps }) => {
 
   // Ready state is also to avoid flash of unstyled content
   useEffect(() => {
-    if (editionData) setReady(true);
+    if (!editionData) return;
+    setReady(true);
   }, [editionData]);
 
+  const $head = (
+    <Head>
+      <title>open Summer of code 2019</title>
+    </Head>
+  );
+
+  if (!editionData) return $head;
+
+  const editionContext = {
+    editions: editionData,
+    current: editionData.find(e => e.current).year
+  };
   return (
-    <>
-      <Head>
-        <title>open Summer of code 2019</title>
-      </Head>
+    <EditionContext.Provider value={editionContext}>
+      {$head}
       <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
         <Navigation />
         {/* <PageTransition location={pathname}></PageTransition> */}
-        {editionData && <Component editions={editionData} {...pageProps} />}
+        <Component editions={editionData} {...pageProps} />
         <Footer />
       </div>
-    </>
+    </EditionContext.Provider>
   );
 };
 
