@@ -20,7 +20,6 @@ const Partners = () => {
       </div>
     );
   };
-  console.log(currentEdition);
 
   const { data: partnersdata } = useSWR(`/editions/${currentEdition}/partners.json`, fetch);
 
