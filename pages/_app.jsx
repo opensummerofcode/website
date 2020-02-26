@@ -1,20 +1,18 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { withRouter } from 'next/router';
-import fetch from 'unfetch';
 import useSWR from 'swr';
+import fetch from '../util/fetch';
 import PageTransition from '../components/UI/PageTransition';
 import Navigation from '../components/Common/Navigation';
 import Footer from '../components/Common/Footer';
 
 import '../assets/scss/app.scss';
 
-const fetcher = url => fetch(url).then(r => r.json());
-
 const MyApp = ({ Component, pageProps }) => {
   const [ready, setReady] = useState(false);
 
-  const { data: editionData } = useSWR('/editions/index.json', fetcher);
+  const { data: editionData } = useSWR('/editions/index.json', fetch);
 
   // Ready state is also to avoid flash of unstyled content
   useEffect(() => {

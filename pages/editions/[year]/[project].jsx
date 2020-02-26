@@ -1,23 +1,22 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import useSWR from 'swr';
+import fetch from '../../../util/fetch';
 import Header from '../../../components/Projects/Header';
 import Team from '../../../components/Projects/Team';
 import Partners from '../../../components/Projects/Partners';
 
 const Project = () => {
-  const { data: editionData } = useSWR('/editions/index.json');
-
-  console.log(editionData);
-
-  const allProjects = [];
-  const allParticipants = [];
-  const allPartners = [];
-
   const router = useRouter();
   const projectId = router.query.project;
   const year = parseInt(router.query.year, 0);
-  const project = allProjects.find(p => p.id === projectId);
+
+  const { data: projects } = useSWR(() => `/editions/${year}/projects.json`, fetch);
+  const { data: allParticipants } = useSWR(() => `/editions/${year}/participants.json`, fetch);
+  const { data: allPartners } = useSWR(() => `/editions/${year}/partners.json`, fetch);
+
+  if (!projects || !allParticipants || !allPartners) return <></>;
+  const project = projects.find(p => p.id === projectId);
 
   const students = project.team.students.map(student =>
     allParticipants.find(p => p.id === student)

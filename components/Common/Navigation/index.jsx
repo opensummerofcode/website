@@ -90,7 +90,7 @@ const Navigation = () => {
                   </Tab>
                 </li>
                 <li>
-                  <Tab onClick={handleToggle} href="/2019">
+                  <Tab onClick={handleToggle} href="/editions/2019">
                     2019
                   </Tab>
                 </li>

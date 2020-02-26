@@ -1,4 +1,3 @@
-
 const Header = () => {
   return (
     <header className="hero-detail u-padding-x-large--tb">
