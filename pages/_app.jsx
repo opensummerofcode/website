@@ -1,19 +1,25 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { withRouter } from 'next/router';
+import fetch from 'unfetch';
+import useSWR from 'swr';
 import PageTransition from '../components/UI/PageTransition';
 import Navigation from '../components/Common/Navigation';
 import Footer from '../components/Common/Footer';
 
 import '../assets/scss/app.scss';
 
+const fetcher = url => fetch(url).then(r => r.json());
+
 const MyApp = ({ Component, pageProps }) => {
   const [ready, setReady] = useState(false);
 
-  // Ready state is to avoid flash of unstyled content
+  const { data: editionData } = useSWR('/editions/index.json', fetcher);
+
+  // Ready state is also to avoid flash of unstyled content
   useEffect(() => {
-    setReady(true);
-  }, []);
+    if (editionData) setReady(true);
+  }, [editionData]);
 
   return (
     <>
@@ -23,7 +29,7 @@ const MyApp = ({ Component, pageProps }) => {
       <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
         <Navigation />
         {/* <PageTransition location={pathname}></PageTransition> */}
-        <Component {...pageProps} />
+        {editionData && <Component editions={editionData} {...pageProps} />}
         <Footer />
       </div>
     </>
