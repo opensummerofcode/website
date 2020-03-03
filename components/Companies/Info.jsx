@@ -11,20 +11,21 @@ const Info = () => {
             Any type of company is welcome grab the opportunity to have a group of talented students
             build your next innovative project.{' '}
             <a
-              href="mailto:info@osoc.be?subject=Regarding oSoc Partnership"
+              href="mailto:info@osoc.be?subject=Regarding osoc Partnership"
               title="Start a partnership with open summer of code"
-              className="link--strikethrough"
             >
+              {/* className="link--strikethrough" */}
               Mail us
             </a>
           </p>
-
+          {/*
           <p>
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
             when applications open for 2019 &mdash; or{' '}
-            <DemoDayLink>join us on the Demo Day</DemoDayLink> on the 25th of July.
+            <DemoDayLink>join us on the Demo Day</DemoDayLink> on the 30th of July.
           </p>
+          */}
         </div>
         <div className="medium-8 large-6 cell large-offset-1">
           <img

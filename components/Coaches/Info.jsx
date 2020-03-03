@@ -10,15 +10,12 @@ const Info = () => {
           <p className="hero-text u-margin-large--b">
             You don&apos;t have to be a teacher or a project manager to share your knowledge. Got
             something to share?{' '}
-            <a
-              href="mailto:info@osoc.be?subject=Regarding oSoc Coaching"
-              title="Coach at oSoc"
-              className="link--strikethrough"
-            >
+            <a href="mailto:info@osoc.be?subject=Regarding oSoc Coaching" title="Coach at oSoc">
+              {/* className="link--strikethrough" */}
               Mail&nbsp;us
             </a>
           </p>
-
+          {/*
           <p>
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
@@ -26,8 +23,9 @@ const Info = () => {
             <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/" target="_blank">
               join us on the Demo Day
             </ExternalLink>{' '}
-            on the 25th of July.
+            on the 30th of July.
           </p>
+          */}
         </div>
         <div className="medium-8 large-6 cell large-offset-1">
           <img

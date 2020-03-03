@@ -10,13 +10,15 @@ const Info = () => {
             Open summer of code is for anyone who brings motivation, enthusiasm and talent to the
             table. Don&apos;t be shy,{' '}
             <ExternalLink
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeRX7_Y0xkSxO33ZaNz4YARrLSaz4VPxgJXNufhhgLuug9GzA/viewform"
+              href="https://osoc.typeform.com/to/UhvzI4"
               title="Apply as a student for open summer of code"
-              className="link--strikethrough"
             >
+              {/* className="link--strikethrough" */}
               apply
             </ExternalLink>
+            !
           </p>
+          {/*
           <p>
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
@@ -26,6 +28,7 @@ const Info = () => {
             </ExternalLink>{' '}
             on the 25th of July.
           </p>
+          */}
         </div>
 
         <div className="medium-8 large-6 cell large-offset-1">
