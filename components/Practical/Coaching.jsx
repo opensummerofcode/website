@@ -41,9 +41,16 @@ const Coaching = () => {
           <div className="c-faq__item">
             <h4 className="c-faq__item__question">How can I apply?</h4>
             <div className="c-faq__item__answer">
-              {/* <!-- <p>You can apply here (link to application) or by sending an email with your motivation and CV to <a href="mailto:info@osoc.be">info@osoc.be</a></p> --> */}
-
               <p>
+                You can apply by{' '}
+                <ExternalLink href="https://osoc.typeform.com/to/br4N29">
+                  filling in the form
+                </ExternalLink>{' '}
+                or by sending an email with your motivation and CV to{' '}
+                <a href="mailto:info@osoc.be">info@osoc.be</a>
+              </p>
+              {/*
+                <p>
                 Unfortunately, applications are closed right now. But you&apos;re welcome to join us
                 during the <ExternalLink href="https://t.co/EhoiMCJRnT">demo day</ExternalLink>{' '}
                 &mdash; which will take place Thursday, 26 June this year. You can always apply next
@@ -51,6 +58,7 @@ const Coaching = () => {
                 <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to
                 see what we&apos;re up to.
               </p>
+              */}
             </div>
           </div>
         </div>

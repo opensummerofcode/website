@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import DemoDayLink from './DemoDayLink';
 import ExternalLink from '../UI/ExternalLink';
 
 const StudentApplication = () => {
@@ -49,9 +51,9 @@ const StudentApplication = () => {
               Over the last few years, students have got the opportunity to work on open innovation
               projects in different fields such as mobility, education, health, sports and
               biodiversity. Check out{' '}
-              <ExternalLink href="http://2018.summerofcode.be" target="_blank">
-                last year&apos;s edition
-              </ExternalLink>{' '}
+              <Link href="/editions/2019">
+                <a target="_blank">last year&apos;s edition</a>
+              </Link>{' '}
               to see what kind of projects have been built by oSoc students at the latest edition.
             </p>
           </div>
@@ -86,22 +88,30 @@ const StudentApplication = () => {
           </h4>
           <div className="c-faq__item__answer">
             <p>
-              <p>
-                Sorry, applications are closed as of now. Thank you for your massive interest! You
-                can always apply again next year as a student &mdash; or even as a coach.
-                You&apos;re also welcome to join us during the{' '}
-                <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/" target="_blank">
-                  demo day
-                </ExternalLink>{' '}
-                &mdash; which will take place Thursday, 25 July this year. And keep an eye on our{' '}
-                <ExternalLink href="https://twitter.com/osocode" target="_blank">
-                  Twitter account
-                </ExternalLink>{' '}
-                to see what we&apos;re up to!
-              </p>
-              {/* <p><a href="https://osoc.typeform.com/to/HPSHZt" title="Click here to apply as a student">Apply here</a>.</p>
-              <p>In May we go over all the applications and match the right students with the right projects. After that, we’ll let you know whether you've been selected.</p> */}
+              <a
+                href="https://osoc.typeform.com/to/HPSHZt"
+                title="Click here to apply as a student"
+              >
+                Apply here
+              </a>
+              .
             </p>
+            <p>
+              We will send you periodic updates on the status of your application. In May we go over
+              all the applications and match the right students with the right projects. You will
+              have a final answer by the end of May, but it can be sooner if you were selected in an
+              earlier round.
+            </p>
+            {/* <p>
+              Sorry, applications are closed as of now. Thank you for your massive interest! You can
+              always apply again next year as a student &mdash; or even as a coach. You&apos;re also
+              welcome to join us during the <DemoDayLink>demo day</DemoDayLink>. &mdash; which will
+              take place Thursday, 25 July this year. And keep an eye on our{' '}
+              <ExternalLink href="https://twitter.com/osocode" target="_blank">
+                Twitter account
+              </ExternalLink>{' '}
+              to see what we&apos;re up to!
+            </p> */}
           </div>
         </div>
       </div>
@@ -129,10 +139,9 @@ const StudentApplication = () => {
             <p>
               That&apos;s too bad! You can always apply again next year as a student &mdash; or even
               as a coach. You&apos;re also welcome to join us during the{' '}
-              <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/" target="_blank">
-                demo day
-              </ExternalLink>{' '}
-              &mdash; which will take place Thursday, 25 July this year. And keep an eye on our{' '}
+              {/* TODO: Make demo day date dynamic */}
+              <DemoDayLink>demo day</DemoDayLink>. &mdash; which will take place Thursday, July 30th
+              this year. And keep an eye on our{' '}
               <ExternalLink href="https://twitter.com/osocode" target="_blank">
                 Twitter account
               </ExternalLink>{' '}
@@ -152,11 +161,7 @@ const StudentApplication = () => {
               Don&apos;t worry, you can always apply again next year as a student &mdash; or even as
               a coach. Just keep working on yourself and your resumé. We will review your
               application like it&apos;s the first time you applied. Don&apos;t forget to visit us
-              during the{' '}
-              <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/" target="_blank">
-                demo day
-              </ExternalLink>{' '}
-              ;-).
+              during the <DemoDayLink>demo day</DemoDayLink>.
             </p>
           </div>
         </div>

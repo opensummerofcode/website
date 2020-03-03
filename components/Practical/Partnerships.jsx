@@ -1,4 +1,5 @@
 import ExternalLink from '../UI/ExternalLink';
+import DemoDayLink from './DemoDayLink';
 
 const Partnerships = () => {
   return (
@@ -23,16 +24,19 @@ const Partnerships = () => {
           <div className="c-faq__item">
             <h4 className="c-faq__item__question">How do I apply?</h4>
             <div className="c-faq__item__answer">
-              <p>
+              {/*
+                <p>
                 Unfortunately, applications are closed right now. But you&apos;re welcome to join us
-                during the <ExternalLink href="https://t.co/EhoiMCJRnT">Demo Day</ExternalLink> —
-                which will take place on Thursday 26 July this year. You can always apply next year
-                — so keep an eye on our{' '}
+                during the <DemoDayLink>Demo Day</DemoDayLink> — which will take place on Thursday
+                26 July this year. You can always apply next year — so keep an eye on our{' '}
                 <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to
                 see what we&apos;re up to.
               </p>
-              {/* <!-- <p>To arrange a meeting and discuss the collaboration in detail, send an email to <a href="mailto:info@osoc.be">info@osoc.be</a>. </p> --> */}
-              {/* <!-- <p>Cost and team size is arranged beforehand.</p> --> */}
+              */}
+              <p>
+                To arrange a meeting and discuss the collaboration in detail, send an email to{' '}
+                <a href="mailto:info@osoc.be">info@osoc.be</a>.{' '}
+              </p>
             </div>
           </div>
         </div>
@@ -104,18 +108,18 @@ const Partnerships = () => {
             </h4>
             <div className="c-faq__item__answer">
               <p>
-                &quot;Through the diverse set of participants&apos; skills and expertise at open
-                Summer of code, you can co-create an innovative digital solution for the challenges
-                your organisation faces. All while fostering the individual social impact of
-                engaging a diverse and talented group of students in a digital transformative
-                project as well as a broader societal impact of training a new generation on the
-                importance of open data use and open source coding in a sustainable way that
-                simultaneously generates economic value.{' '}
+                Through the diverse set of participants&apos; skills and expertise at open Summer of
+                code, you can co-create an innovative digital solution for the challenges your
+                organisation faces. All while fostering the individual social impact of engaging a
+                diverse and talented group of students in a digital transformative project as well
+                as a broader societal impact of training a new generation on the importance of open
+                data use and open source coding in a sustainable way that simultaneously generates
+                economic value.
               </p>
               <p>
                 Moreover, if you are searching for some top notch business, design or IT-students to
                 recruit, here’s your chance! If you like how members of your team (or others)
-                performed in this 4 week programme, you can decide to make the final call.&quot;
+                performed in this 4 week programme, you can decide to make the final call.
               </p>
             </div>
           </div>
@@ -129,10 +133,10 @@ const Partnerships = () => {
                 At the end of oSoc, your project will be published under a free and open-source
                 license, compatible with the{' '}
                 <ExternalLink href="https://opensource.org">Open Source Initiative</ExternalLink>{' '}
-                and will be showcased at the oSoc Demo Day, where students present the final product
-                to you and the broad public. You will receive access to all documents, research,
-                designs and code created at oSoc, so that you can share it within your own or with
-                other organisations.
+                and will be showcased at the oSoc <DemoDayLink>Demo Day</DemoDayLink>, where
+                students present the final product to you and the broad public. You will receive
+                access to all documents, research, designs and code created at oSoc, so that you can
+                share it within your own or with other organisations.
               </p>
             </div>
           </div>
