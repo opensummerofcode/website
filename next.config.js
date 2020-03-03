@@ -11,7 +11,7 @@ module.exports = withSass(
           ...pages,
           [`/editions/2019/${project.id}`]: {
             page: `/editions/[year]/[project]`,
-            query: { project: project.id }
+            query: { year: 2019, project: project.id }
           }
         };
       }, {});
