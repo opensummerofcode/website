@@ -10,14 +10,13 @@ module.exports = withSass(
         return {
           ...pages,
           [`/editions/2019/${project.id}`]: {
-            page: `/editions/[year]/[project]`,
-            query: { year: 2019, project: project.id }
+            page: `/editions/[year]/[project]`
           }
         };
       }, {});
       return {
         '/': { page: '/' },
-        '/editions/2019': { page: '/editions/2019' },
+        '/editions/2019': { page: '/editions/[year]' },
         '/coaches': { page: '/coaches' },
         '/companies': { page: '/companies' },
         '/practical': { page: '/practical' },
