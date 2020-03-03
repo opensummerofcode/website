@@ -10,7 +10,7 @@ module.exports = withSass(
         return {
           ...pages,
           [`/editions/2019/${project.id}`]: {
-            page: `/editions/2019/[project]`,
+            page: `/editions/[year]/[project]`,
             query: { project: project.id }
           }
         };
