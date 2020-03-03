@@ -77,6 +77,18 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 300px);
+}
+
 ::selection {
   background: rgba($warning-color, 0.8); /* WebKit/Blink Browsers */
 }

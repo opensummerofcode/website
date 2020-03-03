@@ -37,9 +37,11 @@ const MyApp = ({ Component, pageProps }) => {
     <EditionContext.Provider value={editionContext}>
       {$head}
       <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
-        <Navigation />
-        {/* <PageTransition location={pathname}></PageTransition> */}
-        <Component editions={editionData} {...pageProps} />
+        <div className="content-wrapper">
+          <Navigation />
+          {/* <PageTransition location={pathname}></PageTransition> */}
+          <Component editions={editionData} {...pageProps} />
+        </div>
         <Footer />
       </div>
     </EditionContext.Provider>
