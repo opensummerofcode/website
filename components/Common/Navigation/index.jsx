@@ -89,13 +89,15 @@ const Navigation = () => {
                     Coaches
                   </Tab>
                 </li>
-                {/*
                 <li>
-                  <Tab onClick={handleToggle} href="/editions/2019">
-                    2019
-                  </Tab>
+                  <ExternalLink
+                    href="https://osoc.typeform.com/to/UhvzI4"
+                    target="_blank"
+                    className="button"
+                  >
+                    Apply as a student
+                  </ExternalLink>
                 </li>
-                */}
                 {/*
                   <li>                  <ExternalLink
                     href="https://demodayosoc19.eventbrite.co.uk"
@@ -105,6 +107,7 @@ const Navigation = () => {
                     Come to the demo day! <span className="button__info">25 July 2019</span>
                   </ExternalLink></li>
                 */}
+                {/*
                 <li>
                   <Link href="/editions/2019">
                     <a className="button">
@@ -113,6 +116,7 @@ const Navigation = () => {
                     </a>
                   </Link>
                 </li>
+                */}
               </ul>
             </div>
           </div>
