@@ -1,12 +1,12 @@
 import { useContext } from 'react';
 import useSWR from 'swr';
-import EditionContext from '../../../context/edition';
+import MetaContext from '../../../context/meta';
 import fetch from '../../../util/fetch';
 
 import Partner from './Partner';
 
 const Partners = ({ partners }) => {
-  const { current: currentEdition } = useContext(EditionContext);
+  const { activeEdition } = useContext(MetaContext);
 
   const renderPartnerSection = partners => {
     const $cells = partners.map(partner => (
@@ -21,7 +21,7 @@ const Partners = ({ partners }) => {
     );
   };
 
-  const partnersdata = partners || useSWR(`/editions/${currentEdition}/partners.json`, fetch).data;
+  const partnersdata = partners || useSWR(`/editions/${activeEdition}/partners.json`, fetch).data;
 
   if (!partnersdata) return <></>;
 
