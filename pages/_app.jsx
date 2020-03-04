@@ -23,7 +23,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   const $head = (
     <Head>
-      <title>open Summer of code 2019</title>
+      <title>Open Summer of Code 2020</title>
     </Head>
   );
 

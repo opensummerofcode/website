@@ -126,42 +126,42 @@ const Footer = () => {
           <div className="grid-x c-previous-editions">
             <div className="small-3 medium-auto cell">
               <a href="http://2011.summerofcode.be">
-                <img src={W2011} alt="2011 oSoc logo" />
+                <img src={W2011} alt="2011 osoc logo" />
               </a>
             </div>
             <div className="small-3 medium-auto cell">
               <a href="http://2012.summerofcode.be">
-                <img src={W2012} alt="2012 oSoc logo" />
+                <img src={W2012} alt="2012 osoc logo" />
               </a>
             </div>
             <div className="small-3 medium-auto cell">
               <a href="http://2013.summerofcode.be">
-                <img src={W2013} alt="2013 oSoc logo" />
+                <img src={W2013} alt="2013 osoc logo" />
               </a>
             </div>
             <div className="small-3 medium-auto cell">
               <a href="http://2014.summerofcode.be">
-                <img src={W2014} alt="2014 oSoc logo" />
+                <img src={W2014} alt="2014 osoc logo" />
               </a>
             </div>
             <div className="small-3 medium-auto cell">
               <a href="http://2015.summerofcode.be">
-                <img src={W2015} alt="2015 oSoc logo" />
+                <img src={W2015} alt="2015 osoc logo" />
               </a>
             </div>
             <div className="small-3 medium-auto cell">
               <a href="http://2016.summerofcode.be">
-                <img src={W2016} alt="2016 oSoc logo" />
+                <img src={W2016} alt="2016 osoc logo" />
               </a>
             </div>
             <div className="small-3 medium-auto cell">
               <a href="http://2017.summerofcode.be">
-                <img src={W2017} alt="2017 oSoc logo" />
+                <img src={W2017} alt="2017 osoc logo" />
               </a>
             </div>
             <div className="small-3 medium-auto cell">
               <a href="http://2018.summerofcode.be">
-                <img src={W2018} alt="2018 oSoc logo" />
+                <img src={W2018} alt="2018 osoc logo" />
               </a>
             </div>
           </div>

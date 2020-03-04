@@ -34,8 +34,8 @@ const Practical = () => (
       <h6>Couldn&apos;t find what you were looking for?</h6>
       <a
         className="button secondary"
-        href="mailto:info@osoc.be?subject=Question regarding oSoc"
-        title="Question for oSoc"
+        href="mailto:info@osoc.be?subject=Question regarding osoc"
+        title="Question for osoc"
       >
         Mail us your questions
       </a>

@@ -111,7 +111,7 @@ const Navigation = () => {
                 <li>
                   <Link href="/editions/2019">
                     <a className="button">
-                      Discover all oSoc19 projects
+                      Discover all osoc19 projects
                       <span className="button__info" />
                     </a>
                   </Link>

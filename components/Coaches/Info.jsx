@@ -10,7 +10,7 @@ const Info = () => {
           <p className="hero-text u-margin-large--b">
             You don&apos;t have to be a teacher or a project manager to share your knowledge. Got
             something to share?{' '}
-            <a href="mailto:info@osoc.be?subject=Regarding oSoc Coaching" title="Coach at oSoc">
+            <a href="mailto:info@osoc.be?subject=Regarding osoc Coaching" title="Coach at osoc">
               {/* className="link--strikethrough" */}
               Mail&nbsp;us
             </a>
@@ -74,7 +74,7 @@ const Info = () => {
               <a>Visit our FAQ</a>
             </Link>{' '}
             to learn more, or send us{' '}
-            <a href="mailto:info@osoc.be?subject=Regarding oSoc Coaching" title="Coach at oSoc">
+            <a href="mailto:info@osoc.be?subject=Regarding osoc Coaching" title="Coach at osoc">
               a message
             </a>
             .

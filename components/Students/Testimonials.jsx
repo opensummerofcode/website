@@ -14,7 +14,7 @@ const Testimonials = () => {
             <blockquote className="twitter-tweet" data-lang="en">
               <p lang="en" dir="ltr">
                 <a href="https://twitter.com/hashtag/oSoc17?src=hash&amp;ref_src=twsrc%5Etfw">
-                  #oSoc17
+                  #osoc17
                 </a>{' '}
                 team in Bologna having a good time{' '}
                 <a href="https://twitter.com/openepic?ref_src=twsrc%5Etfw">@openepic</a>{' '}
@@ -89,7 +89,7 @@ const Testimonials = () => {
                     wordWrap: 'break-word'
                   }}
                 >
-                  Our Digipolis #oSoc17 students making final adjustments to their #iot installation
+                  Our Digipolis #osoc17 students making final adjustments to their #iot installation
                   that measures #waterbird #biodiversity. Yup you need a pedalo for that.
                 </ExternalLink>
               </p>{' '}
@@ -145,7 +145,7 @@ const Testimonials = () => {
                 </a>
                 ! Great presentation on his{' '}
                 <a href="https://twitter.com/hashtag/oSoc17?src=hash&amp;ref_src=twsrc%5Etfw">
-                  #oSoc17
+                  #osoc17
                 </a>
                 &#39;s cycling project. More:{' '}
                 <a href="https://t.co/IYuhno2ZBd">https://t.co/IYuhno2ZBd</a>{' '}

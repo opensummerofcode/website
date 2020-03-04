@@ -7,10 +7,10 @@ const Partnerships = () => {
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="cell small-11 medium-8 large-6">
           <div className="c-faq__item">
-            <h4 className="c-faq__item__question">Why should I participate in oSoc?</h4>
+            <h4 className="c-faq__item__question">Why should I participate in osoc?</h4>
             <div className="c-faq__item__answer">
               <p>
-                Participating in oSoc enables your organisation to bring your open innovation idea
+                Participating in osoc enables your organisation to bring your open innovation idea
                 or project to life while providing the next generation of web developers, designers,
                 communication specialists and project managers with a real challenge. In one month
                 the students will do their utter best to develop your idea into a real innovative
@@ -47,7 +47,7 @@ const Partnerships = () => {
             <div className="c-faq__item__answer">
               <p>
                 Your organisation will need to take some time to write a good briefing, and have
-                some people available for meetings and feedback sessions during oSoc. In some cases,
+                some people available for meetings and feedback sessions during osoc. In some cases,
                 questions will be asked via email.
               </p>
             </div>
@@ -66,7 +66,7 @@ const Partnerships = () => {
               <p>
                 In the briefing you will outline what kind of project your organisation envisions
                 and what features and functions your end-product shall contain. Based on your
-                layout, oSoc mobilises the student profiles required to make this vision come to
+                layout, osoc mobilises the student profiles required to make this vision come to
                 life.
               </p>
               <p>
@@ -84,7 +84,7 @@ const Partnerships = () => {
             <h4 className="c-faq__item__question">How do I provide feedback?</h4>
             <div className="c-faq__item__answer">
               <p>
-                At the beginning of oSoc, a representative of your organisation will present your
+                At the beginning of osoc, a representative of your organisation will present your
                 organisation and project briefing to the students. From then on you will meet your
                 team once a week to receive pitched progress updates and give feedback.
               </p>
@@ -130,12 +130,12 @@ const Partnerships = () => {
             <h4 className="c-faq__item__question">What will be done with the work afterwards?</h4>
             <div className="c-faq__item__answer">
               <p>
-                At the end of oSoc, your project will be published under a free and open-source
+                At the end of osoc, your project will be published under a free and open-source
                 license, compatible with the{' '}
                 <ExternalLink href="https://opensource.org">Open Source Initiative</ExternalLink>{' '}
-                and will be showcased at the oSoc <DemoDayLink>Demo Day</DemoDayLink>, where
+                and will be showcased at the osoc <DemoDayLink>Demo Day</DemoDayLink>, where
                 students present the final product to you and the broad public. You will receive
-                access to all documents, research, designs and code created at oSoc, so that you can
+                access to all documents, research, designs and code created at osoc, so that you can
                 share it within your own or with other organisations.
               </p>
             </div>
