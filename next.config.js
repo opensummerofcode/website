@@ -5,6 +5,9 @@ const projects = require('./public/editions/2019/projects.json');
 
 module.exports = withSass(
   withImages({
+    env: {
+      ENV: process.env.NODE_ENV
+    },
     exportPathMap() {
       const projectPages = projects.reduce((pages, project) => {
         return {
