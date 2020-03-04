@@ -5,7 +5,7 @@ import fetch from '../../../util/fetch';
 
 import Partner from './Partner';
 
-const Partners = () => {
+const Partners = ({ partners }) => {
   const { current: currentEdition } = useContext(EditionContext);
 
   const renderPartnerSection = partners => {
@@ -21,7 +21,7 @@ const Partners = () => {
     );
   };
 
-  const { data: partnersdata } = useSWR(`/editions/${currentEdition}/partners.json`, fetch);
+  const partnersdata = partners || useSWR(`/editions/${currentEdition}/partners.json`, fetch).data;
 
   if (!partnersdata) return <></>;
 
