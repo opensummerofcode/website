@@ -29,10 +29,12 @@ const MyApp = ({ Component, pageProps }) => {
 
   if (!editionData) return $head;
 
+  const activeEdition = editionData.find(e => e.active);
   const metaContext = {
     editions: editionData,
-    activeEdition: editionData.find(e => e.active).year,
-    showPreviousPartners: true
+    activeEdition: activeEdition.year,
+    showPreviousPartners: true,
+    previousEdition: editionData.find(e => e.nr === activeEdition.nr - 1)
   };
   return (
     <MetaContext.Provider value={metaContext}>
