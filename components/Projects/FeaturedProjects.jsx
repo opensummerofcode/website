@@ -3,23 +3,23 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import useSWR from 'swr';
 import fetch from '../../util/fetch';
-import EditionContext from '../../context/edition';
+import MetaContext from '../../context/meta';
 import { ButtonLink } from '../UI/Buttons';
 
 const FeaturedProjects = ({ divider }) => {
-  const { current: edition } = useContext(EditionContext);
+  const { activeEdition } = useContext(MetaContext);
 
   // eslint-disable-next-line react/prop-types
   const renderProject = ({ name, description, logo, id }) => (
     <div key={id} className="small-6 medium-6 large-3 cell c-projects-project">
-      <Link href="/editions/[year]/[project]" as={`/editions/${edition}/${id}`}>
+      <Link href="/editions/[year]/[project]" as={`/editions/${activeEdition}/${id}`}>
         <a className="c-projects-image">
           <img src={logo} alt="Logo of project Bike4Brussels" />
         </a>
       </Link>
       <div className="c-projects-content">
         <h2 className="h5">
-          <Link href="/editions/[year]/[project]" as={`/editions/${edition}/${id}`}>
+          <Link href="/editions/[year]/[project]" as={`/editions/${activeEdition}/${id}`}>
             <a>{name}</a>
           </Link>
         </h2>
@@ -28,7 +28,7 @@ const FeaturedProjects = ({ divider }) => {
     </div>
   );
 
-  const { data: projects } = useSWR(`/editions/${edition}/projects.json`, fetch);
+  const { data: projects } = useSWR(`/editions/${activeEdition}/projects.json`, fetch);
 
   if (!projects || projects.length === 0) return <></>;
 

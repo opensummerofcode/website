@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { withRouter } from 'next/router';
 import useSWR from 'swr';
 import fetch from '../util/fetch';
-import EditionContext from '../context/edition';
+import MetaContext from '../context/meta';
 import PageTransition from '../components/UI/PageTransition';
 import Navigation from '../components/Common/Navigation';
 import Footer from '../components/Common/Footer';
@@ -29,12 +29,15 @@ const MyApp = ({ Component, pageProps }) => {
 
   if (!editionData) return $head;
 
-  const editionContext = {
+  const activeEdition = editionData.find(e => e.active);
+  const metaContext = {
     editions: editionData,
-    current: editionData.find(e => e.current).year
+    activeEdition: activeEdition.year,
+    showPreviousPartners: true,
+    previousEdition: editionData.find(e => e.nr === activeEdition.nr - 1)
   };
   return (
-    <EditionContext.Provider value={editionContext}>
+    <MetaContext.Provider value={metaContext}>
       {$head}
       <div style={{ visibility: ready ? 'visible' : 'hidden' }}>
         <div className="content-wrapper">
@@ -44,7 +47,7 @@ const MyApp = ({ Component, pageProps }) => {
         </div>
         <Footer />
       </div>
-    </EditionContext.Provider>
+    </MetaContext.Provider>
   );
 };
 
