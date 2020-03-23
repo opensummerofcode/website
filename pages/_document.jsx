@@ -32,7 +32,7 @@ class MyDocument extends Document {
           {/* Socials */}
           <meta property="og:title" content="open summer of code 2020" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="http://summerofcode.be" />
+          <meta property="og:url" content="http://osoc.be" />
           <meta
             property="og:image"
             content="http://osoc.be/img/socialmedia/socialmedia.png?4362984378"
@@ -52,7 +52,7 @@ class MyDocument extends Document {
             name="twitter:image"
             content="http://osoc.be/img/socialmedia/socialmedia.png?4362984378"
           />
-          <meta name="twitter:url" content="http://summerofcode.be/" />
+          <meta name="twitter:url" content="http://osoc.be/" />
 
           {/* Favicons */}
           <link rel="shortcut icon" href="/favicon.ico" />

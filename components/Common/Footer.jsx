@@ -9,6 +9,7 @@ import W2015 from '../../assets/img/previous-editions/2015W.svg';
 import W2016 from '../../assets/img/previous-editions/2016W.svg';
 import W2017 from '../../assets/img/previous-editions/2017W.svg';
 import W2018 from '../../assets/img/previous-editions/2018W.svg';
+import W2019 from '../../assets/img/previous-editions/2019W.svg';
 
 const Footer = () => {
   return (
@@ -124,45 +125,52 @@ const Footer = () => {
         <div className="small-12 medium-12 large-6 cell">
           {/* <!-- previous edition --> */}
           <div className="grid-x c-previous-editions">
-            <div className="small-3 medium-auto cell">
+            <div className="small-2 medium-auto cell">
               <a href="http://2011.summerofcode.be">
                 <img src={W2011} alt="2011 osoc logo" />
               </a>
             </div>
-            <div className="small-3 medium-auto cell">
+            <div className="small-2 medium-auto cell">
               <a href="http://2012.summerofcode.be">
                 <img src={W2012} alt="2012 osoc logo" />
               </a>
             </div>
-            <div className="small-3 medium-auto cell">
+            <div className="small-2 medium-auto cell">
               <a href="http://2013.summerofcode.be">
                 <img src={W2013} alt="2013 osoc logo" />
               </a>
             </div>
-            <div className="small-3 medium-auto cell">
+            <div className="small-2 medium-auto cell">
               <a href="http://2014.summerofcode.be">
                 <img src={W2014} alt="2014 osoc logo" />
               </a>
             </div>
-            <div className="small-3 medium-auto cell">
+            <div className="small-2 medium-auto cell">
               <a href="http://2015.summerofcode.be">
                 <img src={W2015} alt="2015 osoc logo" />
               </a>
             </div>
-            <div className="small-3 medium-auto cell">
+            <div className="small-2 medium-auto cell">
               <a href="http://2016.summerofcode.be">
                 <img src={W2016} alt="2016 osoc logo" />
               </a>
             </div>
-            <div className="small-3 medium-auto cell">
+            <div className="small-2 medium-auto cell">
               <a href="http://2017.summerofcode.be">
                 <img src={W2017} alt="2017 osoc logo" />
               </a>
             </div>
-            <div className="small-3 medium-auto cell">
+            <div className="small-2 medium-auto cell">
               <a href="http://2018.summerofcode.be">
                 <img src={W2018} alt="2018 osoc logo" />
               </a>
+            </div>
+            <div className="small-2 medium-auto cell">
+              <Link href="/editions/2019">
+                <a>
+                  <img src={W2019} alt="2019 osoc logo" />
+                </a>
+              </Link>
             </div>
           </div>
         </div>

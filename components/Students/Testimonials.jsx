@@ -1,5 +1,5 @@
-import YearEditionCall from '../Common/CallToActions';
 import ExternalLink from '../UI/ExternalLink';
+import { ButtonLink } from '../UI/Buttons';
 
 const Testimonials = () => {
   return (
@@ -164,7 +164,11 @@ const Testimonials = () => {
             </blockquote>{' '}
           </div>
         </div>
-        <YearEditionCall />
+        <div className="small-12 cell">
+          <ButtonLink className="u-margin-large--t" href="/editions/2019">
+            View last year&apos;s edition
+          </ButtonLink>
+        </div>
       </div>
     </>
   );
