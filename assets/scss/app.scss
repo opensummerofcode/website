@@ -108,9 +108,10 @@ div#__next > div {
   right: 1rem;
   border-left: 4px solid rgb(16, 112, 202);
   font-size: 15px;
+  z-index: 100;
   .covid-notice__close {
     position: absolute;
-    z-index: 100;
+    z-index: 101;
     right: 5px;
     top: 5px;
     font-size: 20px;
@@ -128,5 +129,16 @@ div#__next > div {
     justify-content: center;
     margin-top: 8px;
     margin-right: 1rem;
+  }
+  @media screen and (max-width: 500px) {
+    right: calc(50% - 200px);
+  }
+  @media screen and (max-width: 400px) {
+    .covid-notice__info-icon {
+      display: none;
+    }
+    width: 300px;
+    right: calc(50% - 150px);
+    font-size: 14px;
   }
 }
