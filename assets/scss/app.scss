@@ -95,3 +95,38 @@ div#__next > div {
 ::-moz-selection {
   background: rgba($warning-color, 0.8); /* Gecko Browsers */
 }
+
+.covid-notice {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 400px;
+  background: #fff;
+  border-radius: 0.2rem;
+  padding: 20px;
+  bottom: 1rem;
+  right: 1rem;
+  border-left: 4px solid rgb(16, 112, 202);
+  font-size: 15px;
+  .covid-notice__close {
+    position: absolute;
+    z-index: 100;
+    right: 5px;
+    top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .covid-notice__info-icon {
+    background: rgb(16, 112, 202);
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-right: 1rem;
+  }
+}
