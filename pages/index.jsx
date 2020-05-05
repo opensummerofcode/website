@@ -34,12 +34,9 @@ const HomeContainer = () => {
             <i className="fa fa-info" />
           </div>
           <div>
-            This year&apos;s edition of Open Summer of Code is <strong>guaranteed</strong>, despite{' '}
-            <ExternalLink href="https://en.wikipedia.org/wiki/Coronavirus_disease_2019">
-              the COVID-19 pandemic
-            </ExternalLink>
-            . If social distancing measures are still required in July,{' '}
-            <ExternalLink href="https://twitter.com/osocode">#osoc20</ExternalLink> will be remote.
+            <ExternalLink href="https://twitter.com/osocode">#osoc20</ExternalLink> will be a fully
+            remote edition. If governmental measures allow, we might organise smaller team
+            gatherings, but remote work will be the norm.
           </div>
         </div>
       )}
