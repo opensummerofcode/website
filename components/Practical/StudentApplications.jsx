@@ -62,27 +62,6 @@ const StudentApplication = () => {
 
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
-          <h4 className="c-faq__item__question">Can I participate in osoc?</h4>
-          <div className="c-faq__item__answer">
-            <p>Yes, if you meet the following requirements.</p>
-            <ul>
-              <li>
-                First of all, you’re a student eligible to work under a student contract for 16 full
-                days (128 hours).
-              </li>
-              <li>
-                Secondly, you study or have experience in front- or back-end development, design
-                (UX, graphic), communication or business modelling.
-              </li>
-              <li>Thirdly, you should be able to express yourself in English.</li>
-            </ul>
-            <p>Do you meet these requirements? Congratulations, you could be an osoc student!</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="cell small-11 medium-8 large-6">
-        <div className="c-faq__item">
           <h4 className="c-faq__item__question">
             How do I apply for osoc? When will I know whether I can participate?{' '}
           </h4>
@@ -112,6 +91,62 @@ const StudentApplication = () => {
               </ExternalLink>{' '}
               to see what we&apos;re up to!
             </p> */}
+          </div>
+        </div>
+      </div>
+
+      <div className="cell small-11 medium-8 large-6">
+        <div className="c-faq__item">
+          <h4 className="c-faq__item__question">Can I participate in osoc?</h4>
+          <div className="c-faq__item__answer">
+            <p>
+              Yes, if you meet the following requirements.
+              <br />* For international students, check the next question
+            </p>
+            <ul>
+              <li>
+                First of all, you’re a student eligible to work under a student contract for 16 full
+                days (128 hours).
+              </li>
+              <li>
+                Secondly, you study or have experience in front- or back-end development, design
+                (UX, graphic), communication or business modelling.
+              </li>
+              <li>Thirdly, you should be able to express yourself in English.</li>
+            </ul>
+            <p>Do you meet these requirements? Congratulations, you could be an osoc student!</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="cell small-11 medium-8 large-6">
+        <div className="c-faq__item">
+          <h4 className="c-faq__item__question">
+            Can I participate if I am not a Belgian citizen?
+          </h4>
+          <div className="c-faq__item__answer">
+            <p>
+              Since osoc is remote this year, you don&apos;t necessarily have to be staying in
+              Belgium to apply for Open Summer of Code 2020, but you have to be allowed to work as a
+              student under the Belgian regulation.
+            </p>
+            <p>
+              Students from an EEA member state 2or from Switzerland are entitled to work in Belgium
+              throughout the year under the same terms as Belgian students. Countries in the EEA are
+              Austria, Belgium, Bulgaria, Croatia, Cyprus, the Czech Republic, Denmark, Estonia,
+              Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia,
+              Liechtenstein, Lithuania, Luxembourg, Malta, the Netherlands, Norway, Poland,
+              Portugal, Romania, Slovak Republic, Slovenia, Spain, Sweden and the United Kingdom.
+            </p>
+            <p>
+              Are you from a country that is not included in the above list? Then you may work in
+              Belgium if you:
+            </p>
+            <ul>
+              <li>are registered in education with full curriculum in Belgium</li>
+              <li>have a valid residence permit</li>
+            </ul>
+            <p>You must be able to work from 9 to 5 in the GMT+2 time zone.</p>
           </div>
         </div>
       </div>

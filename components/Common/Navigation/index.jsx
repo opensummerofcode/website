@@ -96,6 +96,7 @@ const Navigation = () => {
                     className="button"
                   >
                     Apply as a student
+                    <span className="button__info">before 22nd of May</span>
                   </ExternalLink>
                 </li>
                 {/*
