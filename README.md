@@ -1,5 +1,5 @@
-# open Summer of code 2019
+# open Summer of code
 
 Next generation web app of #oSoc.
 
-This repository will be further developed and improved upon during #oSoc19.
+This repository will be further developed and improved upon during #osoc20.
