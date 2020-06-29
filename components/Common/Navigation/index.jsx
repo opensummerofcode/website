@@ -89,7 +89,8 @@ const Navigation = () => {
                     Coaches
                   </Tab>
                 </li>
-                <li>
+                {/*
+                  <li>
                   <ExternalLink
                     href="https://osoc.typeform.com/to/UhvzI4"
                     target="_blank"
@@ -99,6 +100,7 @@ const Navigation = () => {
                     <span className="button__info">before 22nd of May</span>
                   </ExternalLink>
                 </li>
+                  */}
                 {/*
                   <li>                  <ExternalLink
                     href="https://demodayosoc19.eventbrite.co.uk"
