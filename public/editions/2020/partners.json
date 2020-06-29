@@ -36,6 +36,30 @@
     "logo": "/editions/2020/partners/infrabel.svg"
   },
   {
+    "id": "ngi",
+    "name": "Next Generation Internet",
+    "url": "https://www.ngi.eu/",
+    "logo": "/editions/2020/partners/ngi.svg"
+  },
+  {
+    "id": "cognizone",
+    "name": "Cognizone",
+    "url": "https://cogni.zone/",
+    "logo": "/editions/2020/partners/cognizone.svg"
+  },
+  {
+    "id": "erasmus+",
+    "name": "Erasmus+",
+    "url": "https://ec.europa.eu/programmes/erasmus-plus/",
+    "logo": "/editions/2020/partners/erasmus.svg"
+  },
+  {
+    "id": "bitoftrust",
+    "name": "BitOfTrust",
+    "url": "https://bitoftrust.io/",
+    "logo": "/editions/2020/partners/bitoftrust.svg"
+  },
+  {
     "id": "nmbs-sncb",
     "name": "NMBS/SNCB",
     "url": "https://www.belgiantrain.be/",
