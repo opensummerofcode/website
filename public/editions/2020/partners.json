@@ -4,5 +4,65 @@
     "name": "Open Knowledge Belgium",
     "url": "https://www.openknowledge.be/",
     "logo": "/editions/2020/partners/okbe-logo.svg"
+  },
+  {
+    "id": "brussels-mobility",
+    "name": "Brussels Mobility",
+    "url": "https://mobilite-mobiliteit.brussels/",
+    "logo": "/editions/2020/partners/brussels-mobility-logo.svg"
+  },
+  {
+    "id": "hackyourfuture-belgium",
+    "name": "HackYourFuture Belgium",
+    "url": "https://hackyourfuture.be/",
+    "logo": "/editions/2020/partners/hackyourfuture.svg"
+  },
+  {
+    "id": "idlab",
+    "name": "IDLab",
+    "url": "http://idlab.technology/",
+    "logo": "/editions/2020/partners/idlab.svg"
+  },
+  {
+    "id": "fris",
+    "name": "FRIS",
+    "url": "https://researchportal.be/",
+    "logo": "/editions/2020/partners/fris.svg"
+  },
+  {
+    "id": "infrabel",
+    "name": "Infrabel",
+    "url": "https://www.infrabel.be/",
+    "logo": "/editions/2020/partners/infrabel.svg"
+  },
+  {
+    "id": "nmbs-sncb",
+    "name": "NMBS/SNCB",
+    "url": "https://www.belgiantrain.be/",
+    "logo": "/editions/2020/partners/nmbs.svg"
+  },
+  {
+    "id": "vliz",
+    "name": "VLIZ",
+    "url": "https://www.vliz.be/",
+    "logo": "/editions/2020/partners/vliz.png"
+  },
+  {
+    "id": "brussels-smart-city",
+    "name": "Brussels Smart City",
+    "url": "https://smartcity.brussels/",
+    "logo": "/editions/2020/partners/brussels-smart-city.png"
+  },
+  {
+    "id": "abb",
+    "name": "Agentschap Binnenlands Bestuur",
+    "url": "https://binnenland.vlaanderen.be/",
+    "logo": "/editions/2020/partners/abb.svg"
+  },
+  {
+    "id": "imec",
+    "name": "IMEC",
+    "url": "https://binnenland.vlaanderen.be/",
+    "logo": "/editions/2020/partners/imec.png"
   }
 ]

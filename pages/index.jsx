@@ -9,12 +9,12 @@ import Partners from '../components/Companies/Partners';
 import ExternalLink from '../components/UI/ExternalLink';
 
 const HomeContainer = () => {
-  const { previousEdition, showPreviousPartners } = useContext(MetaContext);
+  const { previousEdition, showPreviousPartners, activeEdition } = useContext(MetaContext);
   const [infoNoticeShown, setInfoNoticeShown] = useState(true);
 
   const partners = showPreviousPartners
     ? useSWR(() => `/editions/${previousEdition.year}/partners.json`, fetch).data
-    : null;
+    : useSWR(() => `/editions/${activeEdition.year}/partners.json`, fetch).data;
 
   return (
     <>

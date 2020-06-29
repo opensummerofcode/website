@@ -33,7 +33,7 @@ const MyApp = ({ Component, pageProps }) => {
   const metaContext = {
     editions: editionData,
     activeEdition: activeEdition.year,
-    showPreviousPartners: true,
+    showPreviousPartners: false,
     previousEdition: editionData.find(e => e.nr === activeEdition.nr - 1)
   };
   return (
