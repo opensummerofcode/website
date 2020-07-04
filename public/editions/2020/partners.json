@@ -88,5 +88,11 @@
     "name": "IMEC",
     "url": "https://binnenland.vlaanderen.be/",
     "logo": "/editions/2020/partners/imec.png"
+  },
+  {
+    "id": "meemo",
+    "name": "Meemo",
+    "url": "https://meemoo.be",
+    "logo": "/editions/2020/partners/meemo.svg"
   }
 ]
