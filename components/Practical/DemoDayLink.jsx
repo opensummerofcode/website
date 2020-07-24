@@ -5,7 +5,7 @@ const demoDayLink = null;
 const DemoDayLink = ({ children: text }) => {
   if (!demoDayLink) return <>{text}</>;
   return (
-    <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/" target="_blank">
+    <ExternalLink href="https://demodayosoc20.eventbrite.co.uk/" target="_blank">
       {text}
     </ExternalLink>
   );

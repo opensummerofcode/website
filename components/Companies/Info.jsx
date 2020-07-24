@@ -89,7 +89,7 @@ const Info = () => {
 
           {/* <!--<p class="u-margin-large--tb">
           <a class="button" href="mailto:info@osoc.be?subject=Regarding osoc Partnership" title="Start a partnership with open summer of code">Mail us to apply</a>
-          <a href="https://demodayosoc19.eventbrite.co.uk/" target="_blank" class="button">Come to the Demo Day</a>
+          <a href="https://demodayosoc20.eventbrite.co.uk/" target="_blank" class="button">Come to the Demo Day</a>
           <a class="button link" href="2018.html">View this year's projects</a></p> --> */}
         </div>
       </div>
