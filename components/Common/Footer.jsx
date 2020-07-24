@@ -92,7 +92,7 @@ const Footer = () => {
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
                 <li>
-                  <ExternalLink href="https://demodayosoc19.eventbrite.co.uk/">
+                  <ExternalLink href="https://demodayosoc20.eventbrite.co.uk/">
                     Demo&nbsp;day
                   </ExternalLink>
                 </li>

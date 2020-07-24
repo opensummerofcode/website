@@ -103,7 +103,7 @@ const Navigation = () => {
                   */}
                 {/*
                   <li>                  <ExternalLink
-                    href="https://demodayosoc19.eventbrite.co.uk"
+                    href="https://demodayosoc20.eventbrite.co.uk"
                     target="_blank"
                     className="button"
                   >
