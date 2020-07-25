@@ -94,5 +94,17 @@
     "name": "Meemo",
     "url": "https://meemoo.be",
     "logo": "/editions/2020/partners/meemo.svg"
+  },
+  {
+    "id": "aiv",
+    "name": "Agentschap Informatie Vlaanderen",
+    "url": "https://overheid.vlaanderen.be/informatie-vlaanderen",
+    "logo": "/editions/2020/partners/aiv.png"
+  },
+  {
+    "id": "urban-brussels",
+    "name": "Urban Brussels",
+    "url": "http://urban.brussels/",
+    "logo": "/editions/2020/partners/urban-brussels.png"
   }
 ]

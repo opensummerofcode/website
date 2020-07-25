@@ -1,1 +1,236 @@
-[]
+[
+  {
+    "id": "osoc-team",
+    "name": "Osoc team",
+    "description": "Making sure communication flows smoothly at #osoc20",
+    "logo": "/editions/2020/projects/osoc.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20",
+    "website": null,
+    "partners": ["openknowledgebe"]
+  },
+  {
+    "id": "artiffact-control",
+    "name": "ArTIFFact Control",
+    "description": "ArTIFFact Control is a desktop application in which you can validate TIFF image files with information about cultural heritage collections.",
+    "logo": "/editions/2020/projects/artiffact-control.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/oSoc20/ArTIFFact-Control",
+    "website": null,
+    "partners": ["meemoo"]
+  },
+  {
+    "id": "bike-data",
+    "name": "Bike Data",
+    "description": "Aggregating cycling data in an open data community app: cyclists gain data literacy, cities are better adapted to cycling, and users are in control of their data.",
+    "logo": "/editions/2020/projects/bike-data.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/bikedataproject",
+    "website": "https://bikedataproject.info/",
+    "partners": ["brussels-mobility"]
+  },
+  {
+    "id": "bit-of-trust",
+    "name": "Bit of Trust",
+    "description": "Integrating human relationships and trust into the digital world through socially constructed identifiers.",
+    "logo": "/editions/2020/projects/bit-of-trust.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/oSoc20/bit-of-trust",
+    "website": "https://bitoftrust.io/",
+    "partners": ["bitoftrust", "ngi", "cognizone"]
+  },
+  {
+    "id": "wise-badges",
+    "name": "Wise Badges",
+    "description": "The Bridges project aims to improve gender equity in the STEM field by recognizing the skills of women. This to boost the amount of women in STEM education and careers.",
+    "logo": "/editions/2020/projects/wise-badges.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/wise-badges",
+    "website": "https://wise-badges.osoc.be",
+    "partners": ["erasmus+"]
+  },
+  {
+    "id": "better-bike-brussels",
+    "name": "BetterBikeBrussels",
+    "description": "BetterBikeBrussels is a free application that comes with basic needs for cyclists in Brussels.",
+    "logo": "/editions/2020/projects/better-bike-brussels.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/better-bike-brussels",
+    "website": null,
+    "partners": ["brussels-smart-city"]
+  },
+  {
+    "id": "walk-by-brussels",
+    "name": "Walk By Brussels",
+    "description": "Aggregating cycling data in an open data community app: cyclists gain data literacy, cities are better adapted to cycling, and users are in control of their data.",
+    "logo": "/editions/2020/projects/walk-by-brussels.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/WalkByBrussels",
+    "website": null,
+    "partners": ["brussels-smart-city"]
+  },
+  {
+    "id": "cyclofix",
+    "name": "Cyclofix",
+    "description": "A solution to map, present and integrate cycling infrastructure in Brussels.",
+    "logo": "/editions/2020/projects/cyclofix.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osmbe/cyclofix-website",
+    "website": null,
+    "partners": ["brussels-mobility"]
+  },
+  {
+    "id": "fast-and-slow",
+    "name": "Fast and Slow",
+    "description": "Provide a tool for intermediaries to configure the right fragmentation strategies for event streams. This will lead to better querying performance.",
+    "logo": "/editions/2020/projects/fast-and-slow.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/fast-and-slow",
+    "website": null,
+    "partners": ["aiv"]
+  },
+  {
+    "id": "fitigai",
+    "name": "Fitigai",
+    "description": "Fitigai brings people together who don't know where to start sports. Our application helps you to search for a suitable coach from the comfort of your home.",
+    "logo": "/editions/2020/projects/fitigai.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/fitigai",
+    "website": null,
+    "partners": ["hackyourfuture-belgium"]
+  },
+  {
+    "id": "fris",
+    "name": "FRIS",
+    "description": "Improvement of the search engine of the research portal FRIS by cleaning data and enriching keywords.",
+    "logo": "/editions/2020/projects/fris.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/FRISteam",
+    "website": null,
+    "partners": ["fris"]
+  },
+  {
+    "id": "infra-quest",
+    "name": "infraQuest",
+    "description": "To create awareness about Infrabel and to shed light on their technical jobs, we are developing a mobile game where the user can engage in an entertaining, interactive story.",
+    "logo": "/editions/2020/projects/infra-quest.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/infra-quest",
+    "website": null,
+    "partners": ["infrabel"]
+  },
+  {
+    "id": "destination-insight",
+    "name": "Destination Insight",
+    "description": "Consolidate NMBS route search data in a user friendly application.",
+    "logo": "/editions/2020/projects/destination-insight.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/destination-insight-fe",
+    "website": null,
+    "partners": ["nmbs"]
+  },
+  {
+    "id": "rmlio",
+    "name": "RML.io Dashboard",
+    "description": "Web application which allows you to use RML.io to generate high-quality knowledge graphs.",
+    "logo": "/editions/2020/projects/rml-io-dashboard.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/rml-workbench-front-end",
+    "website": null,
+    "partners": ["idlab"]
+  },
+  {
+    "id": "serendipity-engine",
+    "name": "Serendipity Engine",
+    "description": "Surprises people through an application with shows users a new point of view on their city.",
+    "logo": "/editions/2020/projects/serendipity-engine.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/SerendipityEngine",
+    "website": null,
+    "partners": ["idlab"]
+  },
+  {
+    "id": "shmdoc",
+    "name": "Shmdoc",
+    "description": "There is a lot of information about the sea thanks to VLIZ. Too much information, so our goal is to link it together.",
+    "logo": "/editions/2020/projects/shmdoc.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/shmdoc-main",
+    "website": null,
+    "partners": ["vliz"]
+  },
+  {
+    "id": "simplification-election-procedures",
+    "name": "Simplification of Election Procedures",
+    "description": "This project aims to decentralize electoral data and provide a simple interface for citizens to access that data.",
+    "logo": "/editions/2020/projects/sep.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/sep_frontend",
+    "website": null,
+    "partners": ["abb"]
+  },
+  {
+    "id": "urban-brussels",
+    "name": "Urban Brussels",
+    "description": "Together with \"Urban Brussels\", we want to build an open web application that will visualize and map more than 35k urban properties to preserve the cultural heritage and history of Brussels.",
+    "logo": "/editions/2020/projects/urban-brussels.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc20/urban-brussels",
+    "website": null,
+    "partners": ["urban-brussels"]
+  }
+]
