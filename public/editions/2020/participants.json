@@ -4,7 +4,7 @@
     "firstName": "Bert",
     "lastName": "Jehoul",
     "name": "Bert Jehoul",
-    "mugshot": "9c14908c-4186-420e-b598-e511f8ef33d4",
+    "mugshot": "/editions/2020/participants/9c14908c-4186-420e-b598-e511f8ef33d4.png",
     "socials": {
       "twitter": "http://twitter.com/jeborsel",
       "linkedin": "https://linkedin.com/in/bertjehoul",
@@ -15,10 +15,10 @@
   },
   {
     "id": "af22a4aa-b313-4892-be6f-be3587d61943",
-    "firstName": "Bevers",
-    "lastName": "Rutger",
-    "name": "Bevers Rutger",
-    "mugshot": "af22a4aa-b313-4892-be6f-be3587d61943",
+    "firstName": "Rutger",
+    "lastName": "Bevers",
+    "name": "Rutger Bevers",
+    "mugshot": "/editions/2020/participants/af22a4aa-b313-4892-be6f-be3587d61943.png",
     "socials": {
       "twitter": "https://twitter.com/RutgerBevers",
       "linkedin": "https://www.linkedin.com/in/rutgerbevers/",
@@ -32,7 +32,7 @@
     "firstName": "Bram",
     "lastName": "De Coninck",
     "name": "Bram De Coninck",
-    "mugshot": "da01bfd9-e0e5-4560-b390-ed88ee1552d5",
+    "mugshot": "/editions/2020/participants/da01bfd9-e0e5-4560-b390-ed88ee1552d5.png",
     "socials": {
       "twitter": "https://twitter.com/BramDC3",
       "linkedin": "https://www.linkedin.com/in/bramdc/",
@@ -46,7 +46,7 @@
     "firstName": "Dries",
     "lastName": "Van Ransbeeck",
     "name": "Dries Van Ransbeeck",
-    "mugshot": "4f521e2a-7816-4f03-b4a6-e260a75b65c3",
+    "mugshot": "/editions/2020/participants/4f521e2a-7816-4f03-b4a6-e260a75b65c3.png",
     "socials": {
       "twitter": "https://twitter.com/DVRansbeeck",
       "linkedin": "https://www.linkedin.com/in/driesvanransbeeck/",
@@ -60,7 +60,7 @@
     "firstName": "Dwight",
     "lastName": "Van Lancker",
     "name": "Dwight Van Lancker",
-    "mugshot": "513c6d62-b5d3-4678-8353-ee524d379483",
+    "mugshot": "/editions/2020/participants/513c6d62-b5d3-4678-8353-ee524d379483.png",
     "socials": {
       "twitter": "https://twitter.com/ddvlanck",
       "linkedin": "https://www.linkedin.com/in/dwightvanlancker/",
@@ -74,7 +74,7 @@
     "firstName": "Harm",
     "lastName": "Delva",
     "name": "Harm Delva",
-    "mugshot": "d114fd55-ff3c-47df-975e-e33896a557a0",
+    "mugshot": "/editions/2020/participants/d114fd55-ff3c-47df-975e-e33896a557a0.png",
     "socials": {
       "twitter": "https://twitter.com/DelvaHarm",
       "linkedin": "https://www.linkedin.com/in/harm-delva-193656145/",
@@ -88,7 +88,7 @@
     "firstName": "Jodi",
     "lastName": "De Loof",
     "name": "Jodi De Loof",
-    "mugshot": "7ce8c02f-f957-407d-ac15-50ff89acc522",
+    "mugshot": "/editions/2020/participants/7ce8c02f-f957-407d-ac15-50ff89acc522.png",
     "socials": {
       "twitter": "https://twitter.com/JodidLoof",
       "linkedin": "https://www.linkedin.com/in/jodideloof/",
@@ -102,7 +102,7 @@
     "firstName": "Michaël",
     "lastName": "Vanderpoorten",
     "name": "Michaël Vanderpoorten",
-    "mugshot": "94ae8c70-14db-4e8a-9010-a195214c17f7",
+    "mugshot": "/editions/2020/participants/94ae8c70-14db-4e8a-9010-a195214c17f7.png",
     "socials": {
       "twitter": "https://twitter.com/yungpanda_be",
       "linkedin": "https://www.linkedin.com/in/michaelvanderpoorten/",
@@ -116,7 +116,7 @@
     "firstName": "Michaël",
     "lastName": "Dierick",
     "name": "Michaël Dierick",
-    "mugshot": "8b777fbf-7562-4abb-a52a-7a0143ba70b7",
+    "mugshot": "/editions/2020/participants/8b777fbf-7562-4abb-a52a-7a0143ba70b7.png",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -130,7 +130,7 @@
     "firstName": "Milena",
     "lastName": "Sonneveld",
     "name": "Milena Sonneveld",
-    "mugshot": "7c5eb895-e6f1-42cf-98ab-161bd8b534d7",
+    "mugshot": "/editions/2020/participants/7c5eb895-e6f1-42cf-98ab-161bd8b534d7.png",
     "socials": {
       "twitter": "https://twitter.com/MilenaSonneveld",
       "linkedin": "https://www.linkedin.com/in/milena-sonneveld-b2093468/",
@@ -144,7 +144,7 @@
     "firstName": "Niels",
     "lastName": "Dewelde",
     "name": "Niels Dewelde",
-    "mugshot": "3c3aa3f6-09ef-44a0-88ae-7719911f0f48",
+    "mugshot": "/editions/2020/participants/3c3aa3f6-09ef-44a0-88ae-7719911f0f48.png",
     "socials": {
       "twitter": "https://twitter.com/NielsDewelde",
       "linkedin": "https://www.linkedin.com/in/nielsdewelde/",
@@ -158,7 +158,7 @@
     "firstName": "Pieter-Jan",
     "lastName": "Pauwels",
     "name": "Pieter-Jan Pauwels",
-    "mugshot": "867513c9-8759-4bf4-ace1-80b7b1ea6676",
+    "mugshot": "/editions/2020/participants/867513c9-8759-4bf4-ace1-80b7b1ea6676.png",
     "socials": {
       "twitter": "https://twitter.com/pjpauwels",
       "linkedin": "https://www.linkedin.com/in/pjpauwels/",
@@ -172,7 +172,7 @@
     "firstName": "Schouppe",
     "lastName": "Joost",
     "name": "Schouppe Joost",
-    "mugshot": "2b240db3-3580-4b52-ab8d-544774838ed0",
+    "mugshot": "/editions/2020/participants/2b240db3-3580-4b52-ab8d-544774838ed0.png",
     "socials": {
       "twitter": "https://twitter.com/joostjakob",
       "linkedin": "https://www.linkedin.com/in/joost-schouppe-60393948/",
@@ -186,7 +186,7 @@
     "firstName": "Toon",
     "lastName": "Nelissen",
     "name": "Toon Nelissen",
-    "mugshot": "27937ba7-5a3c-44f8-9755-07f3fa410cfe",
+    "mugshot": "/editions/2020/participants/27937ba7-5a3c-44f8-9755-07f3fa410cfe.png",
     "socials": {
       "twitter": "https://twitter.com/ToonNelissen",
       "linkedin": "https://www.linkedin.com/in/toonnelissen/",
@@ -200,7 +200,7 @@
     "firstName": "Pieter",
     "lastName": "Vander Vennet",
     "name": "Vander Vennet Pieter",
-    "mugshot": "3c9a0f97-ee07-483b-8d01-4c13cc794849",
+    "mugshot": "/editions/2020/participants/3c9a0f97-ee07-483b-8d01-4c13cc794849.png",
     "socials": {
       "twitter": "https://twitter.com/pietervdvn",
       "linkedin": null,
@@ -214,7 +214,7 @@
     "firstName": "Wouter",
     "lastName": "Wouters",
     "name": "Wouter Wouters",
-    "mugshot": "9236d79c-e3cc-492a-bd3c-e3fbd448d5fe",
+    "mugshot": "/editions/2020/participants/9236d79c-e3cc-492a-bd3c-e3fbd448d5fe.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/wouterswouter/",
@@ -228,7 +228,7 @@
     "firstName": "Hannes",
     "lastName": "D'Hulster",
     "name": "Hannes D'Hulster",
-    "mugshot": "bea06e8c-ff9e-468b-8726-8526f1ff7441",
+    "mugshot": "/editions/2020/participants/bea06e8c-ff9e-468b-8726-8526f1ff7441.png",
     "socials": {
       "twitter": "https://twitter.com/hannesdh",
       "linkedin": "https://www.linkedin.com/in/hannesdh/",
@@ -242,7 +242,7 @@
     "firstName": "Davy",
     "lastName": "Le Bruyn",
     "name": "Davy Le Bruyn",
-    "mugshot": "76f09fdc-ba1b-4c4b-93e4-01b74eb6d44c",
+    "mugshot": "/editions/2020/participants/76f09fdc-ba1b-4c4b-93e4-01b74eb6d44c.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/lebruyndavy/",
@@ -256,7 +256,7 @@
     "firstName": "Aïsha",
     "lastName": "Van Roy",
     "name": "Aïsha Van Roy",
-    "mugshot": "245c97c4-a169-408b-b7f0-7ca9d0f0090c",
+    "mugshot": "/editions/2020/participants/245c97c4-a169-408b-b7f0-7ca9d0f0090c.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/aïsha-van-roy-60793767/",
@@ -270,7 +270,7 @@
     "firstName": "Alexis",
     "lastName": "Dormal",
     "name": "Alexis Dormal",
-    "mugshot": "69b44d9b-3e85-460f-b572-5a75330fdb88",
+    "mugshot": "/editions/2020/participants/69b44d9b-3e85-460f-b572-5a75330fdb88.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/alexis-dormal/",
@@ -284,7 +284,7 @@
     "firstName": "Anastasia",
     "lastName": "Krouglova",
     "name": "Anastasia Krouglova",
-    "mugshot": "dd1a7264-af3b-47cb-abf2-38820431c7c8",
+    "mugshot": "/editions/2020/participants/dd1a7264-af3b-47cb-abf2-38820431c7c8.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/anastasia-krouglova-3a67b91a4/",
@@ -298,7 +298,7 @@
     "firstName": "Anastasia",
     "lastName": "Dvoryanchikova",
     "name": "Anastasia Dvoryanchikova",
-    "mugshot": "010b54c9-4465-48ba-b556-d626dc5fad47",
+    "mugshot": "/editions/2020/participants/010b54c9-4465-48ba-b556-d626dc5fad47.png",
     "socials": {
       "twitter": "https://twitter.com/AnadAnastasia",
       "linkedin": "https://www.linkedin.com/in/anastasia-d-47ba97150/",
@@ -312,7 +312,7 @@
     "firstName": "Andrews",
     "lastName": "Leruth",
     "name": "Andrews Leruth",
-    "mugshot": "34a7e51b-ee9a-4597-8d1d-6b7b1722fad9",
+    "mugshot": "/editions/2020/participants/34a7e51b-ee9a-4597-8d1d-6b7b1722fad9.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/andrews-leruth-7a2224169/",
@@ -326,7 +326,7 @@
     "firstName": "Antoine",
     "lastName": "Richez",
     "name": "Antoine Richez",
-    "mugshot": "000245ae-d5f2-4510-a773-e1c49e1345ec",
+    "mugshot": "/editions/2020/participants/000245ae-d5f2-4510-a773-e1c49e1345ec.png",
     "socials": {
       "twitter": "https://twitter.com/antoine_richez",
       "linkedin": "https://www.linkedin.com/in/antoine-richez-1864b8166/",
@@ -340,7 +340,7 @@
     "firstName": "Arno",
     "lastName": "Deceuninck",
     "name": "Arno Deceuninck",
-    "mugshot": "d92ed903-004f-4e83-abbc-258f74b3fe6c",
+    "mugshot": "/editions/2020/participants/d92ed903-004f-4e83-abbc-258f74b3fe6c.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/arnodece",
@@ -354,7 +354,7 @@
     "firstName": "Asja",
     "lastName": "Dabaut",
     "name": "Asja Dabaut",
-    "mugshot": "cdc3d654-bb45-428f-9b28-2c187a1fb561",
+    "mugshot": "/editions/2020/participants/cdc3d654-bb45-428f-9b28-2c187a1fb561.png",
     "socials": {
       "twitter": "https://twitter.com/asjaontheroad",
       "linkedin": "https://www.linkedin.com/in/asja-dabaut-b72b27179/",
@@ -368,7 +368,7 @@
     "firstName": "Bavo",
     "lastName": "Vanderghote",
     "name": "Bavo Vanderghote",
-    "mugshot": "cab5ecbe-73a8-4804-8ce0-040162e8e0cd",
+    "mugshot": "/editions/2020/participants/cab5ecbe-73a8-4804-8ce0-040162e8e0cd.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/vanderghotebavo/",
@@ -382,7 +382,7 @@
     "firstName": "Berihu",
     "lastName": "Gebremedhin",
     "name": "Berihu Gebremedhin",
-    "mugshot": "d2d936b4-410a-441c-b267-f5d512d2cef0",
+    "mugshot": "/editions/2020/participants/d2d936b4-410a-441c-b267-f5d512d2cef0.png",
     "socials": {
       "twitter": "https://twitter.com/Berihu74658089",
       "linkedin": "https://www.linkedin.com/in/berihu-gebre",
@@ -396,7 +396,7 @@
     "firstName": "Bram",
     "lastName": "Kreulen",
     "name": "Bram Kreulen",
-    "mugshot": "b5af8dec-7cb9-4049-8050-df0f4dbe4aa9",
+    "mugshot": "/editions/2020/participants/b5af8dec-7cb9-4049-8050-df0f4dbe4aa9.png",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -410,7 +410,7 @@
     "firstName": "Brent",
     "lastName": "Janssens",
     "name": "Brent Janssens",
-    "mugshot": "c321f8e5-6b66-494f-ac0d-50c25eec75d7",
+    "mugshot": "/editions/2020/participants/c321f8e5-6b66-494f-ac0d-50c25eec75d7.png",
     "socials": {
       "twitter": "https://twitter.com/Brent_0103",
       "linkedin": "https://www.linkedin.com/in/brent-janssens-064101176",
@@ -424,7 +424,7 @@
     "firstName": "Byloos",
     "lastName": "Ryan",
     "name": "Byloos Ryan",
-    "mugshot": "86e49864-19dc-4e87-aa4c-da211638d453",
+    "mugshot": "/editions/2020/participants/86e49864-19dc-4e87-aa4c-da211638d453.png",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -438,7 +438,7 @@
     "firstName": "Christopher",
     "lastName": "Denis",
     "name": "Christopher Denis",
-    "mugshot": "e102a2d4-0a92-43ea-95d1-70436b3566d6",
+    "mugshot": "/editions/2020/participants/e102a2d4-0a92-43ea-95d1-70436b3566d6.png",
     "socials": {
       "twitter": "https://twitter.com/G4mingEdition",
       "linkedin": "https://www.linkedin.com/in/christopher-denis-961131183/",
@@ -452,7 +452,7 @@
     "firstName": "Clément",
     "lastName": "Vandendaelen",
     "name": "Clément Vandendaelen",
-    "mugshot": "2563a1fc-739e-481f-8c01-6894057373e5",
+    "mugshot": "/editions/2020/participants/2563a1fc-739e-481f-8c01-6894057373e5.png",
     "socials": {
       "twitter": "https://twitter.com/VandendaelenC",
       "linkedin": "https://www.linkedin.com/in/cl%C3%A9ment-vandendaelen/",
@@ -466,7 +466,7 @@
     "firstName": "Damien",
     "lastName": "Brebion",
     "name": "Damien Brebion",
-    "mugshot": "db6e00e3-b26b-40e1-98c8-ec29b678b661",
+    "mugshot": "/editions/2020/participants/db6e00e3-b26b-40e1-98c8-ec29b678b661.png",
     "socials": {
       "twitter": "https://twitter.com/BrebionDamien",
       "linkedin": "https://www.linkedin.com/in/damien-brebion/",
@@ -480,7 +480,7 @@
     "firstName": "Dena",
     "lastName": "Cho",
     "name": "Dena Cho",
-    "mugshot": "f0dd7fc8-d5a2-4785-b19a-179b76be7d6a",
+    "mugshot": "/editions/2020/participants/f0dd7fc8-d5a2-4785-b19a-179b76be7d6a.png",
     "socials": {
       "twitter": "https://twitter.com/DenaCho1301",
       "linkedin": "https://www.linkedin.com/in/denacho1301",
@@ -494,7 +494,7 @@
     "firstName": "Dossche",
     "lastName": "Thor",
     "name": "Dossche Thor",
-    "mugshot": "fe25922c-1ee4-4512-a67e-b44ee213c681",
+    "mugshot": "/editions/2020/participants/fe25922c-1ee4-4512-a67e-b44ee213c681.png",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -508,7 +508,7 @@
     "firstName": "Ellen",
     "lastName": "Sierens",
     "name": "Ellen Sierens",
-    "mugshot": "2f9e6cde-086a-4b98-9147-dd7d19d23e9c",
+    "mugshot": "/editions/2020/participants/2f9e6cde-086a-4b98-9147-dd7d19d23e9c.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/ellen-sierens-bb922619a/",
@@ -522,7 +522,7 @@
     "firstName": "Emmy",
     "lastName": "Bruynseels",
     "name": "Emmy Bruynseels",
-    "mugshot": "5cc09298-d24e-4025-ba99-f869b62799a3",
+    "mugshot": "/editions/2020/participants/5cc09298-d24e-4025-ba99-f869b62799a3.png",
     "socials": {
       "twitter": "https://twitter.com/emmy_bruynseels",
       "linkedin": "https://www.linkedin.com/in/emmy-bruynseels/",
@@ -536,7 +536,7 @@
     "firstName": "Finlay",
     "lastName": "Degrauwe",
     "name": "Finlay Degrauwe",
-    "mugshot": "25e8db07-aeca-48b4-884c-413671bb4b43",
+    "mugshot": "/editions/2020/participants/25e8db07-aeca-48b4-884c-413671bb4b43.png",
     "socials": {
       "twitter": "https://twitter.com/FinlayDegrauwe",
       "linkedin": "https://www.linkedin.com/in/finlaydegrauwe/",
@@ -550,7 +550,7 @@
     "firstName": "Florent",
     "lastName": "Collin",
     "name": "Florent Collin",
-    "mugshot": "46b494b4-1da4-4a66-8d29-8335280f2a83",
+    "mugshot": "/editions/2020/participants/46b494b4-1da4-4a66-8d29-8335280f2a83.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/florent-collin-a67354185/",
@@ -564,7 +564,7 @@
     "firstName": "Freek",
     "lastName": "De Sagher",
     "name": "Freek De Sagher",
-    "mugshot": "e623f0f7-2eff-4da0-bf8c-3a3557c58bb7",
+    "mugshot": "/editions/2020/participants/e623f0f7-2eff-4da0-bf8c-3a3557c58bb7.png",
     "socials": {
       "twitter": "https://twitter.com/FreekDS21",
       "linkedin": "https://www.linkedin.com/in/freekds/",
@@ -578,7 +578,7 @@
     "firstName": "Freya",
     "lastName": "Van Speybroeck",
     "name": "Freya Van Speybroeck",
-    "mugshot": "95c9d72c-76e8-4583-b4f0-0943658d42ca",
+    "mugshot": "/editions/2020/participants/95c9d72c-76e8-4583-b4f0-0943658d42ca.png",
     "socials": {
       "twitter": "https://twitter.com/fvspeybr",
       "linkedin": "https://www.linkedin.com/in/freya-van-speybroeck-17ab001a7/",
@@ -592,7 +592,7 @@
     "firstName": "Gianluca",
     "lastName": "Angioni",
     "name": "Gianluca Angioni",
-    "mugshot": "456239d3-d0da-40be-b898-f5faaa7c294b",
+    "mugshot": "/editions/2020/participants/456239d3-d0da-40be-b898-f5faaa7c294b.png",
     "socials": {
       "twitter": "https://twitter.com/GianlucaAngioni",
       "linkedin": "https://www.linkedin.com/in/gianluca-angioni/",
@@ -606,7 +606,7 @@
     "firstName": "Gianni",
     "lastName": "Van Laere",
     "name": "Gianni Van Laere",
-    "mugshot": "830b18b5-4546-41fa-96ce-a3cc126eb7f2",
+    "mugshot": "/editions/2020/participants/830b18b5-4546-41fa-96ce-a3cc126eb7f2.png",
     "socials": {
       "twitter": "https://twitter.com/Gi_nni97",
       "linkedin": "https://www.linkedin.com/in/gianni-van-laere",
@@ -620,7 +620,7 @@
     "firstName": "Gitte",
     "lastName": "Vande Graveele",
     "name": "Gitte Vande Graveele",
-    "mugshot": "23bc259a-f5eb-459b-9e6b-602aab210df5",
+    "mugshot": "/editions/2020/participants/23bc259a-f5eb-459b-9e6b-602aab210df5.png",
     "socials": {
       "twitter": "https://twitter.com/GGraveele",
       "linkedin": "https://www.linkedin.com/in/gitte-vande-graveele-410975164/",
@@ -634,7 +634,7 @@
     "firstName": "Gracien",
     "lastName": "Lofandjola Danzima",
     "name": "Gracien Lofandjola Danzima",
-    "mugshot": "9963dd7a-0891-42bf-8300-ef96ffe1ded1",
+    "mugshot": "/editions/2020/participants/9963dd7a-0891-42bf-8300-ef96ffe1ded1.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://linkedin.com/in/gracien-lofandjola-danzima",
@@ -648,7 +648,7 @@
     "firstName": "Guillaume",
     "lastName": "Meurillon",
     "name": "Guillaume Meurillon",
-    "mugshot": "5d9a62f8-deda-4cd0-b96b-ad81d7a70caa",
+    "mugshot": "/editions/2020/participants/5d9a62f8-deda-4cd0-b96b-ad81d7a70caa.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/guillaume-meurillon/",
@@ -662,7 +662,7 @@
     "firstName": "Hamdan",
     "lastName": "Ramadan",
     "name": "Hamdan Ramadan",
-    "mugshot": "448c1e87-4aab-4a82-b305-360a0428217b",
+    "mugshot": "/editions/2020/participants/448c1e87-4aab-4a82-b305-360a0428217b.png",
     "socials": {
       "twitter": "https://twitter.com/Hamodi091",
       "linkedin": "https://www.linkedin.com/in/hamdan-ramadan-90617111a/",
@@ -676,7 +676,7 @@
     "firstName": "Hans",
     "lastName": "Vertriest",
     "name": "Hans Vertriest",
-    "mugshot": "01712f67-1ef1-4f8d-9fc4-f83f32eef879",
+    "mugshot": "/editions/2020/participants/01712f67-1ef1-4f8d-9fc4-f83f32eef879.png",
     "socials": {
       "twitter": "https://twitter.com/hans_vertriest",
       "linkedin": "https://be.linkedin.com/in/hans-vertriest-a57763174",
@@ -690,7 +690,7 @@
     "firstName": "Harun",
     "lastName": "Gök",
     "name": "Harun Gök",
-    "mugshot": "9e7a0cb5-1976-46a9-8866-6644d45ab816",
+    "mugshot": "/editions/2020/participants/9e7a0cb5-1976-46a9-8866-6644d45ab816.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/harungok/",
@@ -704,7 +704,7 @@
     "firstName": "Inés",
     "lastName": "Elvira",
     "name": "Inés Elvira",
-    "mugshot": "17d0c9ff-9fb9-4ab1-a81e-7131b20cb914",
+    "mugshot": "/editions/2020/participants/17d0c9ff-9fb9-4ab1-a81e-7131b20cb914.png",
     "socials": {
       "twitter": "@seniEP",
       "linkedin": "https://www.linkedin.com/in/in%C3%A9s-elvira-797326135/",
@@ -718,7 +718,7 @@
     "firstName": "Jan",
     "lastName": "Temmerman",
     "name": "Jan Temmerman",
-    "mugshot": "cd57fdab-f61c-4431-8b6a-a547e59f3232",
+    "mugshot": "/editions/2020/participants/cd57fdab-f61c-4431-8b6a-a547e59f3232.png",
     "socials": {
       "twitter": "https://twitter.com/jan_temmerman",
       "linkedin": "https://www.linkedin.com/in/jan-temmerman-896b07146/",
@@ -732,7 +732,7 @@
     "firstName": "Jesse",
     "lastName": "Vandenkerckhove",
     "name": "Jesse Vandenkerckhove",
-    "mugshot": "a48f00bd-d120-4b7a-afcc-6aaa224663b6",
+    "mugshot": "/editions/2020/participants/a48f00bd-d120-4b7a-afcc-6aaa224663b6.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/jvdk/",
@@ -746,7 +746,7 @@
     "firstName": "Jolan",
     "lastName": "Huyvaert",
     "name": "Jolan Huyvaert",
-    "mugshot": "a5d49574-042b-4297-aa1c-9c18c186a890",
+    "mugshot": "/editions/2020/participants/a5d49574-042b-4297-aa1c-9c18c186a890.png",
     "socials": {
       "twitter": "https://twitter.com/JolanHuyvaert",
       "linkedin": "https://www.linkedin.com/in/jolanhuyvaert/",
@@ -761,7 +761,7 @@
     "firstName": "Jonas",
     "lastName": "Vervloet",
     "name": "Jonas Vervloet",
-    "mugshot": "e2bc361e-a2e7-4eb3-abd5-e01ef6696b1e",
+    "mugshot": "/editions/2020/participants/e2bc361e-a2e7-4eb3-abd5-e01ef6696b1e.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/jonas-vervloet-93567a19b/",
@@ -775,7 +775,7 @@
     "firstName": "Kasper",
     "lastName": "Zutterman",
     "name": "Kasper Zutterman",
-    "mugshot": "e06d0b28-5c0b-4b55-b548-177ac02f984c",
+    "mugshot": "/editions/2020/participants/e06d0b28-5c0b-4b55-b548-177ac02f984c.png",
     "socials": {
       "twitter": "https://twitter.com/kasperzutterman",
       "linkedin": "https://www.linkedin.com/in/kasperzutterman/",
@@ -789,7 +789,7 @@
     "firstName": "Les",
     "lastName": "De Ridder",
     "name": "Les De Ridder",
-    "mugshot": "8ad46a14-eb29-43b6-962f-72d239bf83c7",
+    "mugshot": "/editions/2020/participants/8ad46a14-eb29-43b6-962f-72d239bf83c7.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://linkedin.com/in/lesderid",
@@ -803,7 +803,7 @@
     "firstName": "Lien",
     "lastName": "Cardoen",
     "name": "Lien Cardoen",
-    "mugshot": "06df3d5d-5169-449d-af8a-76f70cd648e8",
+    "mugshot": "/editions/2020/participants/06df3d5d-5169-449d-af8a-76f70cd648e8.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://linkedin.com/in/lien-cardoen-6b2563131",
@@ -817,7 +817,7 @@
     "firstName": "Lisa",
     "lastName": "Becker",
     "name": "Lisa Becker",
-    "mugshot": "678258d0-3980-4d50-9f33-be32389d586c",
+    "mugshot": "/editions/2020/participants/678258d0-3980-4d50-9f33-be32389d586c.png",
     "socials": {
       "twitter": "https://twitter.com/LisaGreenspecs",
       "linkedin": "https://www.linkedin.com/in/becker-lisa/",
@@ -831,7 +831,7 @@
     "firstName": "Lucas",
     "lastName": "Janssen",
     "name": "Lucas Janssen",
-    "mugshot": "212e951f-73f6-4f61-9da8-c5bd42ea9297",
+    "mugshot": "/editions/2020/participants/212e951f-73f6-4f61-9da8-c5bd42ea9297.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/soi-visuals-9892401b2/",
@@ -845,7 +845,7 @@
     "firstName": "Lukas",
     "lastName": "Carton",
     "name": "Lukas Carton",
-    "mugshot": "94f6b855-20b2-4463-8261-7f80f52fd848",
+    "mugshot": "/editions/2020/participants/94f6b855-20b2-4463-8261-7f80f52fd848.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://linkedin.com/in/lukas-carton-329506185",
@@ -859,7 +859,7 @@
     "firstName": "Martelée",
     "lastName": "Baudouin",
     "name": "Martelée Baudouin",
-    "mugshot": "78ee48f3-2f1e-45a8-a602-ad34417f7f61",
+    "mugshot": "/editions/2020/participants/78ee48f3-2f1e-45a8-a602-ad34417f7f61.png",
     "socials": { "twitter": null, "linkedin": null, "behance": null, "github": null },
     "coach": false
   },
@@ -868,7 +868,7 @@
     "firstName": "Mert",
     "lastName": "Demirok",
     "name": "Mert Demirok",
-    "mugshot": "10b2d8bc-bb3f-480b-9a98-14b788dca5e4",
+    "mugshot": "/editions/2020/participants/10b2d8bc-bb3f-480b-9a98-14b788dca5e4.png",
     "socials": {
       "twitter": "https://twitter.com/MertDemirok80",
       "linkedin": "https://www.linkedin.com/in/mertdemirok80/",
@@ -882,7 +882,7 @@
     "firstName": "Mustapha Mohammed Sheraf",
     "lastName": "Mustapha",
     "name": "Mustapha Mohammed Sheraf Mustapha",
-    "mugshot": "78280836-8879-4ecb-90ac-b6060d58e7da",
+    "mugshot": "/editions/2020/participants/78280836-8879-4ecb-90ac-b6060d58e7da.png",
     "socials": {
       "twitter": "https://twitter.com/Almaflooty",
       "linkedin": "https://www.linkedin.com/in/mustapha-mohammed-sheraf-00749419b/",
@@ -896,7 +896,7 @@
     "firstName": "Pérard",
     "lastName": "Amber",
     "name": "Pérard Amber",
-    "mugshot": "3942645c-5ae5-4d5e-8a38-1f493fe5ff3f",
+    "mugshot": "/editions/2020/participants/3942645c-5ae5-4d5e-8a38-1f493fe5ff3f.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/amber-pérard-88b3681b2",
@@ -910,7 +910,7 @@
     "firstName": "Pieter",
     "lastName": "Fiers",
     "name": "Pieter Fiers",
-    "mugshot": "bf27cec8-4648-4107-b005-c3b6b32b9cba",
+    "mugshot": "/editions/2020/participants/bf27cec8-4648-4107-b005-c3b6b32b9cba.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/pieter-fiers-00916b1a2/",
@@ -924,7 +924,7 @@
     "firstName": "Rahime",
     "lastName": "Yildiz",
     "name": "Rahime Yildiz",
-    "mugshot": "5656e8d1-f6d3-4561-9a28-c931239a58bb",
+    "mugshot": "/editions/2020/participants/5656e8d1-f6d3-4561-9a28-c931239a58bb.png",
     "socials": {
       "twitter": "https://twitter.com/RahimeYILDIZ15",
       "linkedin": "https://linkedin.com/in/rahime-yildiz",
@@ -938,7 +938,7 @@
     "firstName": "Rodrigo",
     "lastName": "Christiansen",
     "name": "Rodrigo Christiansen",
-    "mugshot": "bdb8a12c-e81a-431b-82ee-6542b2289345",
+    "mugshot": "/editions/2020/participants/bdb8a12c-e81a-431b-82ee-6542b2289345.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/christiansenrodrigo/",
@@ -952,7 +952,7 @@
     "firstName": "Saliha",
     "lastName": "Yaylaci",
     "name": "Saliha Yaylaci",
-    "mugshot": "d23eeca0-3fe3-4203-bfef-a6f375019397",
+    "mugshot": "/editions/2020/participants/d23eeca0-3fe3-4203-bfef-a6f375019397.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/saliha-yaylaci/",
@@ -966,7 +966,7 @@
     "firstName": "Sam",
     "lastName": "Van Der Kris",
     "name": "Sam Van Der Kris",
-    "mugshot": "da8f405d-2f7e-435c-86f7-8b5301a679f9",
+    "mugshot": "/editions/2020/participants/da8f405d-2f7e-435c-86f7-8b5301a679f9.png",
     "socials": {
       "twitter": "https://twitter.com/samvdkris",
       "linkedin": "https://www.linkedin.com/in/sam-van-der-kris-041226168/",
@@ -980,7 +980,7 @@
     "firstName": "Sarah",
     "lastName": "Van Den Berghe",
     "name": "Sarah Van Den Berghe",
-    "mugshot": "9758a57f-1d30-4619-996f-c45d57917c76",
+    "mugshot": "/editions/2020/participants/9758a57f-1d30-4619-996f-c45d57917c76.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/sarahvandenberghe/",
@@ -994,7 +994,7 @@
     "firstName": "Stanislas",
     "lastName": "Gueniffey",
     "name": "Stanislas Gueniffey",
-    "mugshot": "01351ba6-c4f5-4554-89e0-5441424b8e81",
+    "mugshot": "/editions/2020/participants/01351ba6-c4f5-4554-89e0-5441424b8e81.png",
     "socials": {
       "twitter": "https://twitter.com/realDonaldTrump",
       "linkedin": "https://www.linkedin.com/in/stanislas-gueniffey/",
@@ -1008,7 +1008,7 @@
     "firstName": "Stefan",
     "lastName": "Van Der Veeken",
     "name": "Stefan Van Der Veeken",
-    "mugshot": "1536aeaa-f7b3-4367-be89-aaa892567070",
+    "mugshot": "/editions/2020/participants/1536aeaa-f7b3-4367-be89-aaa892567070.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/stefan-van-der-veeken/",
@@ -1022,7 +1022,7 @@
     "firstName": "Stijn",
     "lastName": "Mets",
     "name": "Stijn Mets",
-    "mugshot": "daa8df4c-b65d-4e09-8da3-04c3a1bb5fbe",
+    "mugshot": "/editions/2020/participants/daa8df4c-b65d-4e09-8da3-04c3a1bb5fbe.png",
     "socials": {
       "twitter": "https://twitter.com/stijnmetss",
       "linkedin": "https://www.linkedin.com/in/stijn-mets/",
@@ -1036,7 +1036,7 @@
     "firstName": "Stijn",
     "lastName": "Rosaer",
     "name": "Stijn Rosaer",
-    "mugshot": "0d6525b5-d5a1-49ca-b170-ca81f4e52a1b",
+    "mugshot": "/editions/2020/participants/0d6525b5-d5a1-49ca-b170-ca81f4e52a1b.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/stijn-rosaer-407264145/",
@@ -1050,7 +1050,7 @@
     "firstName": "Thibault",
     "lastName": "Declercq",
     "name": "Thibault Declercq",
-    "mugshot": "b34e2d65-1252-49e2-b4fb-d39311040192",
+    "mugshot": "/editions/2020/participants/b34e2d65-1252-49e2-b4fb-d39311040192.png",
     "socials": {
       "twitter": "https://twitter.com/tbowdecl97",
       "linkedin": "https://www.linkedin.com/in/thibaultdeclercq/",
@@ -1064,7 +1064,7 @@
     "firstName": "Thomas",
     "lastName": "Lavend'Homme",
     "name": "Thomas Lavend'Homme",
-    "mugshot": "001d21a9-9999-4c7a-85c5-d228234ea154",
+    "mugshot": "/editions/2020/participants/001d21a9-9999-4c7a-85c5-d228234ea154.png",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1078,7 +1078,7 @@
     "firstName": "Tim",
     "lastName": "Pensart",
     "name": "Tim Pensart",
-    "mugshot": "35760998-fa55-446e-ab46-1d6fe7d1aa82",
+    "mugshot": "/editions/2020/participants/35760998-fa55-446e-ab46-1d6fe7d1aa82.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/tim-pensart-3819401aa/",
@@ -1092,7 +1092,7 @@
     "firstName": "Ufuk",
     "lastName": "Uysal",
     "name": "Ufuk Uysal",
-    "mugshot": "56e91cff-c4c6-410f-a620-ac5319ed153a",
+    "mugshot": "/editions/2020/participants/56e91cff-c4c6-410f-a620-ac5319ed153a.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/ufuk-uysal-7044111a6/",
@@ -1106,7 +1106,7 @@
     "firstName": "Ward",
     "lastName": "Beyens",
     "name": "Ward Beyens",
-    "mugshot": "5c458dac-8349-4df6-bf2d-ad250323158c",
+    "mugshot": "/editions/2020/participants/5c458dac-8349-4df6-bf2d-ad250323158c.png",
     "socials": {
       "twitter": "https://twitter.com/WardBeyens",
       "linkedin": "https://www.linkedin.com/in/wardbeyens/",
@@ -1120,7 +1120,7 @@
     "firstName": "Wout",
     "lastName": "Verbiest",
     "name": "Wout Verbiest",
-    "mugshot": "913994f8-079e-42ce-b942-46e9467a8461",
+    "mugshot": "/editions/2020/participants/913994f8-079e-42ce-b942-46e9467a8461.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/verbiestwout/",
@@ -1134,7 +1134,7 @@
     "firstName": "Yanaika",
     "lastName": "Van Den Abbeel",
     "name": "Yanaika Van Den Abbeel",
-    "mugshot": "479343d5-22a2-4a15-89c4-0db995ae67c8",
+    "mugshot": "/editions/2020/participants/479343d5-22a2-4a15-89c4-0db995ae67c8.png",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1148,7 +1148,7 @@
     "firstName": "Yanna",
     "lastName": "Allegro",
     "name": "Yanna Allegro",
-    "mugshot": "7084938b-fb61-4d4c-be22-96645ceca80c",
+    "mugshot": "/editions/2020/participants/7084938b-fb61-4d4c-be22-96645ceca80c.png",
     "socials": {
       "twitter": "https://twitter.com/Yanna95083987",
       "linkedin": "https://www.linkedin.com/in/yanna-allegro-a70053169/",
@@ -1162,7 +1162,7 @@
     "firstName": "Yavuz",
     "lastName": "Ugurtas",
     "name": "Yavuz Ugurtas",
-    "mugshot": "ff77429b-16a4-438f-9217-df96bc30d483",
+    "mugshot": "/editions/2020/participants/ff77429b-16a4-438f-9217-df96bc30d483.png",
     "socials": {
       "twitter": "https://twitter.com/yavuzugurtas",
       "linkedin": "https://www.linkedin.com/in/yavuzugurtas/",
@@ -1176,7 +1176,7 @@
     "firstName": "Aurélie",
     "lastName": "Ndala",
     "name": "Aurélie Ndala",
-    "mugshot": "428c05ee-b5f7-455e-9deb-1f878bea43c3",
+    "mugshot": "/editions/2020/participants/428c05ee-b5f7-455e-9deb-1f878bea43c3.png",
     "socials": {
       "twitter": null,
       "linkedin": null,
@@ -1190,7 +1190,7 @@
     "firstName": "Kate",
     "lastName": "Van Der Auwera",
     "name": "Kate Van Der Auwera",
-    "mugshot": "f17f817d-e543-43e1-acff-f040de31e660",
+    "mugshot": "/editions/2020/participants/f17f817d-e543-43e1-acff-f040de31e660.png",
     "socials": {
       "twitter": "https://twitter.com/katerzonderr",
       "linkedin": "https://www.linkedin.com/in/kate-van-der-auwera-951465149/",
@@ -1204,7 +1204,7 @@
     "firstName": "Akvile",
     "lastName": "Kovalcikaite",
     "name": "Akvile Kovalcikaite",
-    "mugshot": "ccfb1f18-1e23-46ab-8019-02c30558753c",
+    "mugshot": "/editions/2020/participants/ccfb1f18-1e23-46ab-8019-02c30558753c.png",
     "socials": {
       "twitter": "https://twitter.com/kovalcia",
       "linkedin": "https://linkedin.com/in/Kovalcikaite",
@@ -1219,7 +1219,7 @@
     "firstName": "Alexander",
     "lastName": "Vandoren",
     "name": "Alexander Vandoren",
-    "mugshot": "de3790b0-b151-4e52-98fb-31de0543ef3d",
+    "mugshot": "/editions/2020/participants/de3790b0-b151-4e52-98fb-31de0543ef3d.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/alexandervdr/",
@@ -1234,7 +1234,7 @@
     "firstName": "Bert",
     "lastName": "Schoovaerts",
     "name": "Bert Schoovaerts",
-    "mugshot": "9821a069-8e50-46cb-b398-059d3fd1f435",
+    "mugshot": "/editions/2020/participants/9821a069-8e50-46cb-b398-059d3fd1f435.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/bert-schoovaerts-06bb51161/",
@@ -1249,7 +1249,7 @@
     "firstName": "Chloë",
     "lastName": "Devriese",
     "name": "Chloë Devriese",
-    "mugshot": "6149ecba-5865-4da4-b06a-aab8cacabf54",
+    "mugshot": "/editions/2020/participants/6149ecba-5865-4da4-b06a-aab8cacabf54.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/chlo%C3%AB-devriese-739046151/",
@@ -1264,7 +1264,7 @@
     "firstName": "Inti",
     "lastName": "Valderas Caro",
     "name": "Inti Valderas Caro",
-    "mugshot": "cb03768b-3955-464d-a1db-7ef3f58d4b78",
+    "mugshot": "/editions/2020/participants/cb03768b-3955-464d-a1db-7ef3f58d4b78.png",
     "socials": {
       "twitter": "https://twitter.com/ValderasCaro",
       "linkedin": "https://www.linkedin.com/in/inti-valderas-caro/",
@@ -1279,7 +1279,7 @@
     "firstName": "Ismaila",
     "lastName": "Abdoulahi Adamou",
     "name": "Ismaila Abdoulahi Adamou",
-    "mugshot": "6cdd133a-396d-4d02-958b-561c685c803c",
+    "mugshot": "/editions/2020/participants/6cdd133a-396d-4d02-958b-561c685c803c.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/ismaila-abdoulahi-adamou-035928166/",
@@ -1294,7 +1294,7 @@
     "firstName": "Josse",
     "lastName": "Van Delm",
     "name": "Josse Van Delm",
-    "mugshot": "b08a3615-54d5-4ee3-b73a-d7dce80cc673",
+    "mugshot": "/editions/2020/participants/b08a3615-54d5-4ee3-b73a-d7dce80cc673.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/jossevandelm/",
@@ -1309,7 +1309,7 @@
     "firstName": "Louis",
     "lastName": "Heeren",
     "name": "Louis Heeren",
-    "mugshot": "5a969d90-37dc-4aea-b4ef-cedb519b35a2",
+    "mugshot": "/editions/2020/participants/5a969d90-37dc-4aea-b4ef-cedb519b35a2.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/louis-heeren/",
@@ -1324,7 +1324,7 @@
     "firstName": "Marie",
     "lastName": "Devos",
     "name": "Marie Devos",
-    "mugshot": "79bda737-f898-4291-9c42-2aff02fa627c",
+    "mugshot": "/editions/2020/participants/79bda737-f898-4291-9c42-2aff02fa627c.png",
     "socials": {
       "twitter": "https://twitter.com/marie_devos",
       "linkedin": "https://www.linkedin.com/in/marie-devos-521371168/",
@@ -1339,7 +1339,7 @@
     "firstName": "Nawang",
     "lastName": "Tendar",
     "name": "Nawang Tendar",
-    "mugshot": "fd888ebc-b42f-4063-ae83-19cad93f9abe",
+    "mugshot": "/editions/2020/participants/fd888ebc-b42f-4063-ae83-19cad93f9abe.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/nt23/",
@@ -1354,7 +1354,7 @@
     "firstName": "Terencio Agozzino",
     "lastName": "Rememberyou",
     "name": "Terencio Agozzino Rememberyou",
-    "mugshot": "28040522-37e2-4d6e-93a4-468672fcf908",
+    "mugshot": "/editions/2020/participants/28040522-37e2-4d6e-93a4-468672fcf908.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/terencioagozzino/",
@@ -1369,7 +1369,7 @@
     "firstName": "Tim",
     "lastName": "Baccaert",
     "name": "Tim Baccaert",
-    "mugshot": "cd01706b-1738-4a53-bab4-f75745f84bcf",
+    "mugshot": "/editions/2020/participants/cd01706b-1738-4a53-bab4-f75745f84bcf.png",
     "socials": {
       "twitter": "https://twitter.com/tbaccaer",
       "linkedin": "https://www.linkedin.com/in/timbaccaert/",
@@ -1384,7 +1384,7 @@
     "firstName": "Pieter",
     "lastName": "Colpaert",
     "name": "Pieter Colpaert",
-    "mugshot": "9baa42da-621d-4032-8cb2-a7acdcc956c8",
+    "mugshot": "/editions/2020/participants/9baa42da-621d-4032-8cb2-a7acdcc956c8.png",
     "socials": {
       "twitter": "http://twitter.com/pietercolpaert",
       "linkedin": "http://linkedin.com/in/pcolpaert/",
@@ -1398,7 +1398,7 @@
     "firstName": "Leenke",
     "lastName": "De Donder",
     "name": "Leenke De Donder",
-    "mugshot": "80d2abcc-df86-4d5c-913a-7e2dacdbddef",
+    "mugshot": "/editions/2020/participants/80d2abcc-df86-4d5c-913a-7e2dacdbddef.png",
     "socials": {
       "twitter": "https://twitter.com/LeenkeDeDrongo",
       "linkedin": "https://www.linkedin.com/in/leenkededonder/",
@@ -1412,7 +1412,7 @@
     "firstName": "Bao",
     "lastName": "Truong",
     "name": "Bao Truong",
-    "mugshot": "443bb59c-91ce-44ad-8a81-b726f1739970",
+    "mugshot": "/editions/2020/participants/443bb59c-91ce-44ad-8a81-b726f1739970.png",
     "socials": {
       "twitter": null,
       "linkedin": "https://www.linkedin.com/in/dbaotruong/",
@@ -1427,7 +1427,7 @@
     "firstName": "Ben",
     "lastName": "Abelshausen",
     "name": "Ben Abelshausen",
-    "mugshot": "3e689497-4ed6-4793-9544-f5ec66cec960",
+    "mugshot": "/editions/2020/participants/3e689497-4ed6-4793-9544-f5ec66cec960.png",
     "socials": {
       "twitter": "https://twitter.com/xivk",
       "linkedin": "https://be.linkedin.com/in/benabelshausen",
@@ -1441,7 +1441,7 @@
     "firstName": "Cyrille",
     "lastName": "Mathieu",
     "name": "Cyrille Mathieu",
-    "mugshot": "b11c0e79-983c-4530-822a-8341c6d3adff",
+    "mugshot": "/editions/2020/participants/b11c0e79-983c-4530-822a-8341c6d3adff.png",
     "socials": { "twitter": null, "linkedin": null, "behance": null, "github": null },
     "coach": false
   },
@@ -1450,7 +1450,7 @@
     "firstName": "Michiel",
     "lastName": "Leyman",
     "name": "Michiel Leyman",
-    "mugshot": "41204324-b01c-46ed-a062-f9884415d0fa",
+    "mugshot": "/editions/2020/participants/41204324-b01c-46ed-a062-f9884415d0fa.png",
     "socials": {
       "twitter": "https://twitter.com/michielleyman",
       "linkedin": "https://www.linkedin.com/in/michiel-leyman",
