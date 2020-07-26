@@ -89,6 +89,11 @@ const Navigation = () => {
                     Coaches
                   </Tab>
                 </li>
+                <li>
+                  <Tab onClick={handleToggle} href="/editions/2020">
+                    2020
+                  </Tab>
+                </li>
                 {/*
                   <li>
                   <ExternalLink
@@ -109,7 +114,7 @@ const Navigation = () => {
                     target="_blank"
                     className="button"
                   >
-                    Attend the online demo day! <span className="button__info">July 30th 2020</span>
+                    Join the online demo day! <span className="button__info">July 30th 2020</span>
                   </ExternalLink>
                 </li>
 
