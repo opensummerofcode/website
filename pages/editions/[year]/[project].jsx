@@ -26,7 +26,7 @@ const Project = () => {
   return (
     <>
       <Head>
-        <title>{project.name} | open Summer of Code</title>
+        <title>{project.name} | Open Summer of Code</title>
       </Head>
       <Header project={project} />
       <Team students={students} coaches={coaches} />

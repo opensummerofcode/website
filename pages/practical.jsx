@@ -13,7 +13,7 @@ import Tabs from '../components/Common/Tabs';
 const Practical = () => (
   <>
     <Head>
-      <title>Practical | open Summer of Code</title>
+      <title>Practical | Open Summer of Code</title>
     </Head>
     <PracticalHeader />
     {/* <PracticalTabs /> */}

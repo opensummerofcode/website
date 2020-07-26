@@ -44,7 +44,7 @@ const EditionOverview = ({ editions }) => {
   return (
     <>
       <Head>
-        <title>{year} projects | open Summer of Code</title>
+        <title>{year} projects | Open Summer of Code</title>
       </Head>
       <ProjectsHeader />
       <ProjectsGallery edition={year} projects={projects.sort(sortAlphabetically)} />
