@@ -6,7 +6,7 @@ const HeadShot = ({ data, socials, picture, roleShown }) => {
   const { twitter, linkedin, github, behance } = socials;
 
   return (
-    <article className="small-10 medium-4 large-2 cell headshot-detail">
+    <article className="small-10 medium-4 large-3 cell headshot-detail">
       <div className="headshot-detail__wrapper">
         <img src={picture} alt={name} />
       </div>

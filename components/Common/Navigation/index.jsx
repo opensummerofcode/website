@@ -101,15 +101,18 @@ const Navigation = () => {
                   </ExternalLink>
                 </li>
                   */}
-                {/*
-                  <li>                  <ExternalLink
+
+                <li>
+                  {' '}
+                  <ExternalLink
                     href="https://demodayosoc20.eventbrite.co.uk"
                     target="_blank"
                     className="button"
                   >
-                    Come to the demo day! <span className="button__info">25 July 2019</span>
-                  </ExternalLink></li>
-                */}
+                    Attend the online demo day! <span className="button__info">July 30th 2020</span>
+                  </ExternalLink>
+                </li>
+
                 {/*
                 <li>
                   <Link href="/editions/2019">
