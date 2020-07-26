@@ -22,9 +22,10 @@ const HomeContainer = () => {
       <OsocDescription />
       <Braggings />
       <Partners partners={partners} />
-      {infoNoticeShown && (
+
+      {/*
+      infoNoticeShown && (
         <div className="covid-notice">
-          {/* eslint-disable-next-line */}
           <i
             className="covid-notice__close fa fa-close"
             role="button"
@@ -39,7 +40,8 @@ const HomeContainer = () => {
             gatherings, but remote work will be the norm.
           </div>
         </div>
-      )}
+      )
+      */}
     </>
   );
 };
