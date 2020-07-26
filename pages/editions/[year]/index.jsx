@@ -30,6 +30,12 @@ const EditionOverview = ({ editions }) => {
     }
   }, []);
 
+  const sortAlphabetically = (a, b) => {
+    if (a.name.toLowerCase() < b.name.toLowerCase()) return -1;
+    if (a.name.toLowerCase() > b.name.toLowerCase()) return 1;
+    return 0;
+  };
+
   if (!editionExists || !projects || !participants || !partners) return <></>;
 
   const coaches = participants.filter(p => p.coach);
@@ -41,11 +47,11 @@ const EditionOverview = ({ editions }) => {
         <title>{year} projects | open Summer of Code</title>
       </Head>
       <ProjectsHeader />
-      <ProjectsGallery edition={year} projects={projects} />
+      <ProjectsGallery edition={year} projects={projects.sort(sortAlphabetically)} />
       <StudentsHeader />
-      <StudentsGallery students={students} />
+      <StudentsGallery students={students.sort(sortAlphabetically)} />
       <CoachesHeader />
-      <CoachesGallery coaches={coaches} />
+      <CoachesGallery coaches={coaches.sort(sortAlphabetically)} />
       <Partners partners={partners} />
     </>
   );
