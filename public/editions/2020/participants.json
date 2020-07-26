@@ -169,9 +169,9 @@
   },
   {
     "id": "2b240db3-3580-4b52-ab8d-544774838ed0",
-    "firstName": "Schouppe",
-    "lastName": "Joost",
-    "name": "Schouppe Joost",
+    "firstName": "Joost",
+    "lastName": "Schouppe",
+    "name": "Joost Schouppe",
     "mugshot": "/editions/2020/participants/2b240db3-3580-4b52-ab8d-544774838ed0.png",
     "socials": {
       "twitter": "https://twitter.com/joostjakob",
@@ -856,9 +856,9 @@
   },
   {
     "id": "78ee48f3-2f1e-45a8-a602-ad34417f7f61",
-    "firstName": "Martelée",
-    "lastName": "Baudouin",
-    "name": "Martelée Baudouin",
+    "firstName": "Baudouin",
+    "lastName": "Martelée",
+    "name": "Baudouin Martelée",
     "mugshot": "/editions/2020/participants/78ee48f3-2f1e-45a8-a602-ad34417f7f61.png",
     "socials": { "twitter": null, "linkedin": null, "behance": null, "github": null },
     "coach": false
@@ -893,8 +893,8 @@
   },
   {
     "id": "3942645c-5ae5-4d5e-8a38-1f493fe5ff3f",
-    "firstName": "Pérard",
-    "lastName": "Amber",
+    "firstName": "Amber",
+    "lastName": "Pérard",
     "name": "Pérard Amber",
     "mugshot": "/editions/2020/participants/3942645c-5ae5-4d5e-8a38-1f493fe5ff3f.png",
     "socials": {
