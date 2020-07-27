@@ -17,7 +17,7 @@ const Companies = () => {
   return (
     <>
       <Head>
-        <title>Companies | open Summer of Code</title>
+        <title>Companies | Open Summer of Code</title>
       </Head>
       <Header />
       <Info />

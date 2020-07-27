@@ -89,6 +89,11 @@ const Navigation = () => {
                     Coaches
                   </Tab>
                 </li>
+                <li>
+                  <Tab onClick={handleToggle} href="/editions/2020">
+                    2020
+                  </Tab>
+                </li>
                 {/*
                   <li>
                   <ExternalLink
@@ -101,15 +106,18 @@ const Navigation = () => {
                   </ExternalLink>
                 </li>
                   */}
-                {/*
-                  <li>                  <ExternalLink
+
+                <li>
+                  {' '}
+                  <ExternalLink
                     href="https://demodayosoc20.eventbrite.co.uk"
                     target="_blank"
                     className="button"
                   >
-                    Come to the demo day! <span className="button__info">25 July 2019</span>
-                  </ExternalLink></li>
-                */}
+                    Join the online demo day! <span className="button__info">July 30th 2020</span>
+                  </ExternalLink>
+                </li>
+
                 {/*
                 <li>
                   <Link href="/editions/2019">

@@ -7,7 +7,7 @@ import Partners from '../components/Projects/Partners';
 const Project = () => (
   <>
     <Head>
-      <title>Projects | open Summer of Code</title>
+      <title>Projects | Open Summer of Code</title>
     </Head>
     <Header />
     <Team />
