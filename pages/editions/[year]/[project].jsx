@@ -23,6 +23,8 @@ const Project = () => {
   );
   const coaches = project.team.coaches.map(coach => allParticipants.find(p => p.id === coach));
   const partners = project.partners.map(p => allPartners.find(partner => p === partner.id));
+
+  console.log(project, allPartners, partners);
   return (
     <>
       <Head>
