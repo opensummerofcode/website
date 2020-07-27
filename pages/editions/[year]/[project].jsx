@@ -17,16 +17,14 @@ const Project = ({ project, students, coaches, partners }) => (
 );
 
 export async function getStaticPaths() {
-  const res = await fetch(`${process.env.HOST_URL}/editions/index.json`);
-  const editions = await res.json();
+  const { default: editions } = await import(`../../../public/editions/index.json`);
 
   const pathsQueue = editions
     .filter(e => !e.external)
     .map(async edition => {
-      const projectsResponse = await fetch(
-        `${process.env.HOST_URL}/editions/${edition.year}/projects.json`
+      const { default: projects } = await import(
+        `../../../public/editions/${edition.year}/projects.json`
       );
-      const projects = await projectsResponse.json();
       const paths = projects.map(project => ({
         params: { year: edition.year.toString(), project: project.id }
       }));
@@ -41,17 +39,13 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const { year, project: projectId } = params;
-  const projectsData = await fetch(`${process.env.HOST_URL}/editions/${year}/projects.json`);
-  const projects = await projectsData.json();
+  const { default: projects } = await import(`../../../public/editions/${year}/projects.json`);
   const project = projects.find(p => p.id === projectId);
 
-  const participantsData = await fetch(
-    `${process.env.HOST_URL}/editions/${year}/participants.json`
+  const { default: participants } = await import(
+    `../../../public/editions/${year}/participants.json`
   );
-  const participants = await participantsData.json();
-
-  const partnerData = await fetch(`${process.env.HOST_URL}/editions/${year}/partners.json`);
-  const partners = await partnerData.json();
+  const { default: partners } = await import(`../../../public/editions/${year}/partners.json`);
 
   const students = project.team.students.map(student => participants.find(p => p.id === student));
   const coaches = project.team.coaches.map(coach => participants.find(p => p.id === coach));

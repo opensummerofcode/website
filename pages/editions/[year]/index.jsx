@@ -53,8 +53,7 @@ const EditionOverview = ({ editions, partners, participants, projects }) => {
 };
 
 export async function getStaticPaths() {
-  const res = await fetch(`${process.env.HOST_URL}/editions/index.json`);
-  const editions = await res.json();
+  const { default: editions } = await import(`../../../public/editions/index.json`);
   return {
     paths: editions.filter(e => !e.external).map(e => ({ params: { year: e.year.toString() } })),
     fallback: false
@@ -63,18 +62,17 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const { year } = params;
-  const BASE_URL = `${process.env.HOST_URL}/editions/${year}`;
   const queue = [
-    fetch(`${BASE_URL}/partners.json`).then(r => r.json()),
-    fetch(`${BASE_URL}/participants.json`).then(r => r.json()),
-    fetch(`${BASE_URL}/projects.json`).then(r => r.json())
+    import(`../../../public/editions/${year}/partners.json`),
+    import(`../../../public/editions/${year}/participants.json`),
+    import(`../../../public/editions/${year}/projects.json`)
   ];
   const [partners, participants, projects] = await Promise.all(queue);
   return {
     props: {
-      partners,
-      participants,
-      projects
+      partners: partners.default,
+      participants: participants.default,
+      projects: projects.default
     }
   };
 }
