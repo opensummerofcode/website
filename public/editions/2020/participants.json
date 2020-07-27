@@ -491,9 +491,9 @@
   },
   {
     "id": "fe25922c-1ee4-4512-a67e-b44ee213c681",
-    "firstName": "Dossche",
-    "lastName": "Thor",
-    "name": "Dossche Thor",
+    "firstName": "Thor",
+    "lastName": "Dossche",
+    "name": "Thor Dossche",
     "mugshot": "/editions/2020/participants/fe25922c-1ee4-4512-a67e-b44ee213c681.png",
     "socials": {
       "twitter": null,
@@ -706,7 +706,7 @@
     "name": "Inés Elvira",
     "mugshot": "/editions/2020/participants/17d0c9ff-9fb9-4ab1-a81e-7131b20cb914.png",
     "socials": {
-      "twitter": "@seniEP",
+      "twitter": "https://twitter.com/seniEP",
       "linkedin": "https://www.linkedin.com/in/in%C3%A9s-elvira-797326135/",
       "behance": null,
       "github": null
