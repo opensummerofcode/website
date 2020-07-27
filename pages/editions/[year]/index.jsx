@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import useSWR from 'swr';
-import fetch from '../../../util/fetch';
+import fetch from 'isomorphic-fetch';
 import ProjectsHeader from '../../../components/Editions/ProjectsHeader';
 import StudentsHeader from '../../../components/Editions/StudentsHeader';
 import CoachesHeader from '../../../components/Editions/CoachesHeader';
@@ -11,16 +10,12 @@ import StudentsGallery from '../../../components/Editions/StudentsGallery';
 import CoachesGallery from '../../../components/Editions/CoachesGallery';
 import Partners from '../../../components/Companies/Partners';
 
-const EditionOverview = ({ editions }) => {
+const EditionOverview = ({ editions, partners, participants, projects }) => {
   const router = useRouter();
   const year = parseInt(router.query.year, 0);
 
   const edition = editions.find(e => e.year === year);
   const editionExists = !!edition;
-
-  const { data: projects } = useSWR(() => `/editions/${year}/projects.json`, fetch);
-  const { data: participants } = useSWR(() => `/editions/${year}/participants.json`, fetch);
-  const { data: partners } = useSWR(() => `/editions/${year}/partners.json`, fetch);
 
   useEffect(() => {
     if (edition.external) {
@@ -56,5 +51,32 @@ const EditionOverview = ({ editions }) => {
     </>
   );
 };
+
+export async function getStaticPaths() {
+  const res = await fetch(`${process.env.HOST_URL}/editions/index.json`);
+  const editions = await res.json();
+  return {
+    paths: editions.filter(e => !e.external).map(e => ({ params: { year: e.year.toString() } })),
+    fallback: false
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const { year } = params;
+  const BASE_URL = `${process.env.HOST_URL}/editions/${year}`;
+  const queue = [
+    fetch(`${BASE_URL}/partners.json`).then(r => r.json()),
+    fetch(`${BASE_URL}/participants.json`).then(r => r.json()),
+    fetch(`${BASE_URL}/projects.json`).then(r => r.json())
+  ];
+  const [partners, participants, projects] = await Promise.all(queue);
+  return {
+    props: {
+      partners,
+      participants,
+      projects
+    }
+  };
+}
 
 export default EditionOverview;
