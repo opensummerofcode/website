@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import { useRouter } from 'next/router';
-import fetch from 'isomorphic-fetch';
 import Header from '../../../components/Projects/Header';
 import Team from '../../../components/Projects/Team';
 import Partners from '../../../components/Projects/Partners';

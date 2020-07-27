@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import fetch from 'isomorphic-fetch';
 import ProjectsHeader from '../../../components/Editions/ProjectsHeader';
 import StudentsHeader from '../../../components/Editions/StudentsHeader';
 import CoachesHeader from '../../../components/Editions/CoachesHeader';
