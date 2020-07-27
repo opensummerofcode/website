@@ -336,5 +336,23 @@
     "repository": "https://github.com/osoc20/urban-brussels",
     "website": null,
     "partners": ["urban-brussels"]
+  },
+  {
+    "id": "get-engaged",
+    "name": "Get Engaged",
+    "description": "Get Engaged is a platform that enables companies to screen HYF Alumni for their vacancies, while reducing the administrative burden over HYF coordinators and creating more jobs for skilled refugees & immigrants.",
+    "logo": "/editions/2020/projects/get-engaged.svg",
+    "team": {
+      "students": [
+        "d2d936b4-410a-441c-b267-f5d512d2cef0",
+        "10b2d8bc-bb3f-480b-9a98-14b788dca5e4",
+        "5656e8d1-f6d3-4561-9a28-c931239a58bb",
+        "ff77429b-16a4-438f-9217-df96bc30d483"
+      ],
+      "coaches": ["bea06e8c-ff9e-468b-8726-8526f1ff7441"]
+    },
+    "repository": "https://github.com/osoc20/hyf-alumni",
+    "website": null,
+    "partners": ["hackyourfuture-belgium"]
   }
 ]
