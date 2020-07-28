@@ -210,7 +210,7 @@
     "id": "infra-quest",
     "name": "infraQuest",
     "description": "To create awareness about Infrabel and to shed light on their technical jobs, we are developing a mobile game where the user can engage in an entertaining, interactive story.",
-    "logo": "/editions/2020/projects/infra-quest.svg",
+    "logo": "/editions/2020/projects/job-match.svg",
     "team": {
       "students": [
         "01712f67-1ef1-4f8d-9fc4-f83f32eef879",
@@ -351,7 +351,7 @@
       ],
       "coaches": ["bea06e8c-ff9e-468b-8726-8526f1ff7441"]
     },
-    "repository": "https://github.com/osoc20/hyf-alumni",
+    "repository": "https://github.com/oSoc20/hyf-alumni-frontend",
     "website": null,
     "partners": ["hackyourfuture-belgium"]
   }
