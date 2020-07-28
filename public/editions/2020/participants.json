@@ -860,7 +860,12 @@
     "lastName": "Martelée",
     "name": "Baudouin Martelée",
     "mugshot": "/editions/2020/participants/78ee48f3-2f1e-45a8-a602-ad34417f7f61.png",
-    "socials": { "twitter": null, "linkedin": null, "behance": null, "github": null },
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/baudouin-martel%C3%A9e-aa6a431b3/",
+      "behance": null,
+      "github": "https://github.com/baudouinMartelee"
+    },
     "coach": false
   },
   {
