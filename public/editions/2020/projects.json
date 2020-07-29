@@ -146,7 +146,7 @@
       "coaches": ["2b240db3-3580-4b52-ab8d-544774838ed0", "3c9a0f97-ee07-483b-8d01-4c13cc794849"]
     },
     "repository": "https://github.com/osmbe/cyclofix-website",
-    "website": null,
+    "website": "https://cyclofix.osm.be/",
     "partners": ["brussels-mobility"]
   },
   {
