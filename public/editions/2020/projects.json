@@ -181,7 +181,7 @@
       "coaches": ["2b240db3-3580-4b52-ab8d-544774838ed0", "3c9a0f97-ee07-483b-8d01-4c13cc794849"]
     },
     "repository": "https://github.com/osmbe/cyclofix-website",
-    "website": null,
+    "website": "https://cyclofix.osm.be/",
     "partners": ["brussels-mobility"],
     "breakout": {
       "startsAt": "July 30, 2020 15:00:00",
@@ -392,7 +392,7 @@
       ],
       "coaches": ["af22a4aa-b313-4892-be6f-be3587d61943", "7ce8c02f-f957-407d-ac15-50ff89acc522"]
     },
-    "repository": "https://github.com/osoc20/sep_frontend",
+    "repository": "https://osoc20.github.io/simplification-election-procedures/",
     "website": null,
     "partners": ["abb"],
     "breakout": {
