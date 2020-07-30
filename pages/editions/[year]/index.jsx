@@ -36,8 +36,9 @@ const EditionOverview = ({ editions, partners, participants, projects }) => {
   const students = participants.filter(p => !p.coach);
 
   const today = new Date();
-  const demoDayDate = new Date(edition.demoDayDate);
+  const demoDayDate = new Date(edition.demoDayDate) || null;
   const isDemoDay =
+    !!demoDayDate &&
     demoDayDate.getDate() === today.getDate() &&
     demoDayDate.getMonth() === today.getMonth() &&
     demoDayDate.getFullYear() === today.getFullYear();
@@ -46,8 +47,8 @@ const EditionOverview = ({ editions, partners, participants, projects }) => {
   if (isDemoDay) {
     // group by break-out time slot
     const groupedProjects = projects.reduce((group, p) => {
-      const exists = group[p.breakoutStartsAt];
-      group[p.breakoutStartsAt] = exists ? [...exists, p] : [p];
+      const exists = group[p.breakout.startsAt];
+      group[p.breakout.startsAt] = exists ? [...exists, p] : [p];
       return group;
     }, {});
 

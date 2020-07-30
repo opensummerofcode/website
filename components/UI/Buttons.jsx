@@ -10,8 +10,9 @@ ButtonGroup.propTypes = {
   children: PropTypes.node.isRequired
 };
 
-const ButtonLink = ({ className, children, isExternal, href, ...rest }) => {
-  const classNames = className ? ['button', className].join(' ') : 'button';
+const ButtonLink = ({ className, children, disabled, isExternal, href, ...rest }) => {
+  let classNames = className ? ['button', className].join(' ') : 'button';
+  if (disabled) classNames += ' disabled';
   return (
     <>
       {isExternal && (
