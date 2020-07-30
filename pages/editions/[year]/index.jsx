@@ -35,13 +35,40 @@ const EditionOverview = ({ editions, partners, participants, projects }) => {
   const coaches = participants.filter(p => p.coach);
   const students = participants.filter(p => !p.coach);
 
+  const today = new Date();
+  const demoDayDate = new Date(edition.demoDayDate) || null;
+  const isDemoDay =
+    !!demoDayDate &&
+    demoDayDate.getDate() === today.getDate() &&
+    demoDayDate.getMonth() === today.getMonth() &&
+    demoDayDate.getFullYear() === today.getFullYear();
+
+  let projectOrder = projects.sort(sortAlphabetically);
+  if (isDemoDay) {
+    // group by break-out time slot
+    const groupedProjects = projects.reduce((group, p) => {
+      const exists = group[p.breakout.startsAt];
+      group[p.breakout.startsAt] = exists ? [...exists, p] : [p];
+      return group;
+    }, {});
+
+    // sort time-slots ascending and projects alphabetically
+    projectOrder = Object.keys(groupedProjects)
+      .sort((slot1, slot2) => new Date(slot2) - new Date(slot1))
+      .reduce((group, groupSlot) => {
+        const p = groupedProjects[groupSlot];
+        return [p.sort(sortAlphabetically), ...group];
+      }, [])
+      .flat();
+  }
+
   return (
     <>
       <Head>
         <title>{year} projects | Open Summer of Code</title>
       </Head>
       <ProjectsHeader />
-      <ProjectsGallery edition={year} projects={projects.sort(sortAlphabetically)} />
+      <ProjectsGallery edition={year} isDemoDay={isDemoDay} projects={projectOrder} />
       <StudentsHeader />
       <StudentsGallery students={students.sort(sortAlphabetically)} />
       <CoachesHeader />
