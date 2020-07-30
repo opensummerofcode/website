@@ -3,7 +3,7 @@ import ExternalLink from '../UI/ExternalLink';
 
 const HeadShot = ({ data, socials, picture, roleShown }) => {
   const { name, isCoach } = data;
-  const { twitter, linkedin, github, behance } = socials;
+  const { twitter, linkedin, github, behance, website } = socials;
 
   return (
     <article className="small-10 medium-4 large-3 cell headshot-detail">
@@ -33,6 +33,11 @@ const HeadShot = ({ data, socials, picture, roleShown }) => {
             <i className="fa fa-behance" />
           </ExternalLink>
         )}
+        {website && (
+          <ExternalLink href={website}>
+            <i className="fa fa-globe" />
+          </ExternalLink>
+        )}
       </div>
     </article>
   );
@@ -52,7 +57,8 @@ HeadShot.propTypes = {
     twitter: PropTypes.string,
     linkedin: PropTypes.string,
     github: PropTypes.string,
-    behance: PropTypes.string
+    behance: PropTypes.string,
+    website: PropTypes.string
   }),
   picture: PropTypes.string.isRequired,
   roleShown: PropTypes.bool

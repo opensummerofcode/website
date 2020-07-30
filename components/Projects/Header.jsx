@@ -11,12 +11,23 @@ const Header = ({ project }) => (
 
       <div className="small-10 medium-7 medium-offset-1 large-5 cell large-offset-0 flex-text">
         <p>{project.description}</p>
-        {project.repository && (
-          <p>
-            <ButtonLink className="success" isExternal href={project.repository}>
-              Contribute on Github
-            </ButtonLink>
-          </p>
+        {(project.repository || project.website) && (
+          <div class="grid-x grid-padding-x">
+            {project.repository && (
+              <div class="cell medium-4">
+                <ButtonLink className="success" isExternal href={project.repository}>
+                  Contribute on Github
+                </ButtonLink>
+              </div>
+            )}
+            {project.website && (
+              <div class="cell medium-4">
+                <ButtonLink className="success" isExternal href={project.website}>
+                  Project website
+                </ButtonLink>
+              </div>
+            )}
+          </div>
         )}
       </div>
     </div>
@@ -28,7 +39,8 @@ Header.propTypes = {
     logo: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    repository: PropTypes.string
+    repository: PropTypes.string,
+    website: PropTypes.string
   }).isRequired
 };
 
