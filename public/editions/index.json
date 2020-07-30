@@ -66,6 +66,7 @@
     "nr": 10,
     "url": "/editions/2020",
     "img": "/img/previous-editions/2020W.svg",
-    "active": true
+    "active": true,
+    "demoDayDate": "July 30, 2020 13:00"
   }
 ]

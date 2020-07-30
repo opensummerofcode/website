@@ -19,7 +19,12 @@
     },
     "repository": "https://github.com/osoc20",
     "website": null,
-    "partners": ["openknowledgebe"]
+    "partners": ["openknowledgebe"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/8"
+    }
   },
   {
     "id": "artiffact-control",
@@ -37,7 +42,12 @@
     },
     "repository": "https://github.com/oSoc20/ArTIFFact-Control",
     "website": null,
-    "partners": ["meemoo"]
+    "partners": ["meemoo"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:30:00",
+      "endsAt": "July 30, 2020 14:45:00",
+      "room": "https://meet.openknowledge.be/2"
+    }
   },
   {
     "id": "bike-data",
@@ -58,7 +68,12 @@
     },
     "repository": "https://github.com/bikedataproject",
     "website": "https://bikedataproject.info/",
-    "partners": ["brussels-mobility"]
+    "partners": ["brussels-mobility"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/11"
+    }
   },
   {
     "id": "bit-of-trust",
@@ -77,7 +92,12 @@
     },
     "repository": "https://github.com/oSoc20/bit-of-trust",
     "website": "https://bitoftrust.io/",
-    "partners": ["bitoftrust", "ngi", "cognizone"]
+    "partners": ["bitoftrust", "ngi", "cognizone"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/19"
+    }
   },
   {
     "id": "wise-badges",
@@ -96,7 +116,12 @@
     },
     "repository": "https://github.com/wise-badges",
     "website": "https://wise-badges.osoc.be",
-    "partners": ["erasmus+"]
+    "partners": ["erasmus+"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:30:00",
+      "endsAt": "July 30, 2020 14:45:00",
+      "room": "https://meet.openknowledge.be/1"
+    }
   },
   {
     "id": "better-bike-brussels",
@@ -115,7 +140,12 @@
     },
     "repository": "https://github.com/osoc20/better-bike-brussels",
     "website": null,
-    "partners": ["brussels-smart-city"]
+    "partners": ["brussels-smart-city"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:30:00",
+      "endsAt": "July 30, 2020 14:45:00",
+      "room": "https://meet.openknowledge.be/4"
+    }
   },
   {
     "id": "walk-by-brussels",
@@ -134,7 +164,12 @@
     },
     "repository": "https://github.com/osoc20/WalkByBrussels",
     "website": null,
-    "partners": ["brussels-smart-city"]
+    "partners": ["brussels-smart-city"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/5"
+    }
   },
   {
     "id": "cyclofix",
@@ -147,7 +182,12 @@
     },
     "repository": "https://github.com/osmbe/cyclofix-website",
     "website": "https://cyclofix.osm.be/",
-    "partners": ["brussels-mobility"]
+    "partners": ["brussels-mobility"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/12"
+    }
   },
   {
     "id": "fast-and-slow",
@@ -168,7 +208,12 @@
     },
     "repository": "https://github.com/osoc20/fast-and-slow",
     "website": null,
-    "partners": ["aiv"]
+    "partners": ["aiv"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/13"
+    }
   },
   {
     "id": "fitigai",
@@ -186,7 +231,12 @@
     },
     "repository": "https://github.com/fitigai",
     "website": null,
-    "partners": ["hackyourfuture-belgium"]
+    "partners": ["hackyourfuture-belgium"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/7"
+    }
   },
   {
     "id": "fris",
@@ -205,7 +255,12 @@
     },
     "repository": "https://github.com/osoc20/FRISteam",
     "website": null,
-    "partners": ["fris"]
+    "partners": ["fris"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/14"
+    }
   },
   {
     "id": "job-match",
@@ -223,7 +278,12 @@
     },
     "repository": "https://github.com/osoc20/infra-quest",
     "website": null,
-    "partners": ["infrabel"]
+    "partners": ["infrabel"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/15"
+    }
   },
   {
     "id": "destination-insight",
@@ -240,7 +300,12 @@
     },
     "repository": "https://github.com/osoc20/destination-insight-fe",
     "website": null,
-    "partners": ["nmbs-sncb"]
+    "partners": ["nmbs-sncb"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/9"
+    }
   },
   {
     "id": "rmlio",
@@ -257,7 +322,12 @@
     },
     "repository": "https://github.com/osoc20/rml-workbench-front-end",
     "website": null,
-    "partners": ["idlab"]
+    "partners": ["idlab"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/17"
+    }
   },
   {
     "id": "serendipity-engine",
@@ -274,7 +344,12 @@
     },
     "repository": "https://github.com/osoc20/SerendipityEngine",
     "website": null,
-    "partners": ["idlab"]
+    "partners": ["idlab"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/10"
+    }
   },
   {
     "id": "shmdoc",
@@ -291,7 +366,12 @@
     },
     "repository": "https://github.com/osoc20/shmdoc-main",
     "website": null,
-    "partners": ["vliz"]
+    "partners": ["vliz"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/16"
+    }
   },
   {
     "id": "simplification-election-procedures",
@@ -314,7 +394,12 @@
     },
     "repository": "https://osoc20.github.io/simplification-election-procedures/",
     "website": null,
-    "partners": ["abb"]
+    "partners": ["abb"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:30:00",
+      "endsAt": "July 30, 2020 14:45:00",
+      "room": "https://meet.openknowledge.be/3"
+    }
   },
   {
     "id": "urban-brussels",
@@ -336,7 +421,12 @@
     },
     "repository": "https://github.com/osoc20/urban-brussels",
     "website": null,
-    "partners": ["urban-brussels"]
+    "partners": ["urban-brussels"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/6"
+    }
   },
   {
     "id": "get-engaged",
@@ -354,6 +444,11 @@
     },
     "repository": "https://github.com/oSoc20/hyf-alumni-frontend",
     "website": null,
-    "partners": ["hackyourfuture-belgium"]
+    "partners": ["hackyourfuture-belgium"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/18"
+    }
   }
 ]
