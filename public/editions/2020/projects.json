@@ -103,7 +103,7 @@
     "id": "wise-badges",
     "name": "Wise Badges",
     "description": "The Bridges project aims to improve gender equity in the STEM field by recognizing the skills of women. This to boost the amount of women in STEM education and careers.",
-    "logo": "/editions/2020/projects/wise-badges.svg",
+    "logo": "/editions/2020/projects/wise-badges.png",
     "team": {
       "students": [
         "dd1a7264-af3b-47cb-abf2-38820431c7c8",
@@ -115,7 +115,7 @@
       "coaches": ["9c14908c-4186-420e-b598-e511f8ef33d4", "41204324-b01c-46ed-a062-f9884415d0fa"]
     },
     "repository": "https://github.com/wise-badges",
-    "website": "https://wise-badges.osoc.be",
+    "website": "https://wisebadges.osoc.be/",
     "partners": ["erasmus+"],
     "breakout": {
       "startsAt": "July 30, 2020 14:30:00",
