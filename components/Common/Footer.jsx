@@ -102,7 +102,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/editions/2020">
+                  <Link href="/editions/[year]" as="/editions/2020">
                     <a>2020</a>
                   </Link>
                 </li>
