@@ -23,3 +23,4 @@ Start the project in development mode
 ```
 yarn run dev
 ```
+THANK YOU
