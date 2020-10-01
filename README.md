@@ -1,3 +1,8 @@
+<p align="center">
+  <img width="80" alt="The open summer of code Logo" src="https://avatars1.githubusercontent.com/u/49755015?s=200&v=4">
+</p>
+</br>
+
 # Open Summer of Code
 
 Next generation web app of #osoc.
