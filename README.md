@@ -11,7 +11,7 @@ This repository will be further developed and improved upon during #osoc20.
 - This project uses the [Yarn](https://yarnpkg.com/getting-started/install) package manager
 
 
-## Usage
+## How to Install  Dependencies
 From a terminal located at project root, install project dependencies:
 
 ```bash
