@@ -1,11 +1,11 @@
-# Open Summer of Code
+# About this website
 
 Next generation web app of #osoc.
 
 This repository will be further developed and improved upon during #osoc20.
 
 
-## Prerequisites
+## Requirements
 
 - [Node](https://nodejs.org/en/download/) version >=10 installed
 - This project uses the [Yarn](https://yarnpkg.com/getting-started/install) package manager
