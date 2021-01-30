@@ -11,8 +11,8 @@
     "lint-staged": "^10.5.3",
     "motion-ui": "^2.0.3",
     "next": "^9.3.2",
-    "next-images": "^1.1.2",
-    "node-sass": "^4.12.0",
+    "next-images": "^1.4.1",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.1",
     "react": "^16.8.6",
     "react-app-polyfill": "^0.2.0",
@@ -68,8 +68,8 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react": "^7.22.0",
     "prettier": "^2.2.1",
-    "react-test-renderer": "^16.8.2"
+    "react-test-renderer": "^16.13.0"
   }
 }
