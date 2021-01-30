@@ -12,7 +12,7 @@
     "motion-ui": "^2.0.3",
     "next": "^9.3.2",
     "next-images": "^1.1.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.1",
     "react": "^16.8.6",
     "react-app-polyfill": "^0.2.0",
