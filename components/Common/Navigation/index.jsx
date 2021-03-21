@@ -97,18 +97,17 @@ const Navigation = () => {
                 </li>
                 */}
 
-                {/*
-                  <li>
+                <li>
                   <ExternalLink
-                    href="https://osoc.typeform.com/to/UhvzI4"
+                    href="https://tally.so/r/npe0Bm"
                     target="_blank"
                     className="button"
                   >
                     Apply as a student
-                    <span className="button__info">before 22nd of May</span>
+                    {/* <span className="button__info">before 22nd of May</span> */}
                   </ExternalLink>
                 </li>
-                  */}
+
                 {/*
                         <li>
                   {' '}
