@@ -166,7 +166,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="small-2 medium-auto cell">
-              <Link href="/editions/2019">
+              <Link href="/editions/[year]" as="/editions/2019">
                 <a>
                   <img src={W2019} alt="2019 osoc logo" />
                 </a>
