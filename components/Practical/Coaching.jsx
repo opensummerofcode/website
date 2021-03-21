@@ -42,11 +42,7 @@ const Coaching = () => {
             <h4 className="c-faq__item__question">How can I apply?</h4>
             <div className="c-faq__item__answer">
               <p>
-                You can apply by{' '}
-                <ExternalLink href="https://osoc.typeform.com/to/br4N29">
-                  filling in the form
-                </ExternalLink>{' '}
-                or by sending an email with your motivation and CV to{' '}
+                You can apply by sending an email with your motivation and CV to{' '}
                 <a href="mailto:info@osoc.be">info@osoc.be</a>
               </p>
               {/*
