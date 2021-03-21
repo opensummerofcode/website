@@ -121,14 +121,14 @@ const Navigation = () => {
                 </li>
                 */}
 
-                <li>
+                {/* <li>
                   <Link href="/editions/[year]" as="/editions/2020">
                     <a className="button">
                       Discover all osoc20 projects
                       <span className="button__info" />
                     </a>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
