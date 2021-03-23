@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/2019", "destination": "/editions/2019" },
+    { "source": "/2020", "destination": "/editions/2020" }
+  ]
+}

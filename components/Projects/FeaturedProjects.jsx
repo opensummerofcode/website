@@ -39,9 +39,9 @@ const FeaturedProjects = ({ divider }) => {
         {$projects}
         <ButtonLink
           className="medium-7 large-4 c-projects-old__project align-center text-center u-margin-large--t"
-          href="/editions/2019"
+          href="/editions/2020"
         >
-          View this year&apos;s projects
+          View last year&apos;s projects
         </ButtonLink>
       </div>
     </div>

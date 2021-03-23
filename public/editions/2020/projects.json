@@ -1,1 +1,454 @@
-[]
+[
+  {
+    "id": "osoc-team",
+    "name": "Osoc team",
+    "description": "Making sure communication flows smoothly at #osoc20",
+    "logo": "/editions/2020/projects/osoc.svg",
+    "team": {
+      "students": [
+        "17d0c9ff-9fb9-4ab1-a81e-7131b20cb914",
+        "79bda737-f898-4291-9c42-2aff02fa627c",
+        "479343d5-22a2-4a15-89c4-0db995ae67c8",
+        "245c97c4-a169-408b-b7f0-7ca9d0f0090c"
+      ],
+      "coaches": [
+        "4f521e2a-7816-4f03-b4a6-e260a75b65c3",
+        "3c3aa3f6-09ef-44a0-88ae-7719911f0f48",
+        "41204324-b01c-46ed-a062-f9884415d0fa"
+      ]
+    },
+    "repository": "https://github.com/osoc20",
+    "website": null,
+    "partners": ["openknowledgebe"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/8"
+    }
+  },
+  {
+    "id": "artiffact-control",
+    "name": "ArTIFFact Control",
+    "description": "ArTIFFact Control is a desktop application in which you can validate TIFF image files with information about cultural heritage collections.",
+    "logo": "/editions/2020/projects/artiffact-control.svg",
+    "team": {
+      "students": [
+        "3942645c-5ae5-4d5e-8a38-1f493fe5ff3f",
+        "e102a2d4-0a92-43ea-95d1-70436b3566d6",
+        "e623f0f7-2eff-4da0-bf8c-3a3557c58bb7",
+        "35760998-fa55-446e-ab46-1d6fe7d1aa82"
+      ],
+      "coaches": ["da01bfd9-e0e5-4560-b390-ed88ee1552d5"]
+    },
+    "repository": "https://github.com/oSoc20/ArTIFFact-Control",
+    "website": null,
+    "partners": ["meemoo"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:30:00",
+      "endsAt": "July 30, 2020 14:45:00",
+      "room": "https://meet.openknowledge.be/2"
+    }
+  },
+  {
+    "id": "bike-data",
+    "name": "Bike Data",
+    "description": "Aggregating cycling data in an open data community platform: making cyclists more visible in their cities and have their cities adapted to them.",
+    "logo": "/editions/2020/projects/bike-data.svg",
+    "team": {
+      "students": [
+        "000245ae-d5f2-4510-a773-e1c49e1345ec",
+        "245c97c4-a169-408b-b7f0-7ca9d0f0090c",
+        "9821a069-8e50-46cb-b398-059d3fd1f435",
+        "5d9a62f8-deda-4cd0-b96b-ad81d7a70caa",
+        "cd57fdab-f61c-4431-8b6a-a547e59f3232",
+        "06df3d5d-5169-449d-af8a-76f70cd648e8",
+        "94f6b855-20b2-4463-8261-7f80f52fd848"
+      ],
+      "coaches": ["3e689497-4ed6-4793-9544-f5ec66cec960", "4f521e2a-7816-4f03-b4a6-e260a75b65c3"]
+    },
+    "repository": "https://github.com/bikedataproject",
+    "website": "https://bikedataproject.info/",
+    "partners": ["brussels-mobility"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/11"
+    }
+  },
+  {
+    "id": "bit-of-trust",
+    "name": "Bit of Trust",
+    "description": "Integrating human relationships and trust into the digital world through socially constructed identifiers.",
+    "logo": "/editions/2020/projects/bit-of-trust.svg",
+    "team": {
+      "students": [
+        "de3790b0-b151-4e52-98fb-31de0543ef3d",
+        "cdc3d654-bb45-428f-9b28-2c187a1fb561",
+        "25e8db07-aeca-48b4-884c-413671bb4b43",
+        "8ad46a14-eb29-43b6-962f-72d239bf83c7",
+        "cd01706b-1738-4a53-bab4-f75745f84bcf"
+      ],
+      "coaches": ["9c14908c-4186-420e-b598-e511f8ef33d4", "41204324-b01c-46ed-a062-f9884415d0fa"]
+    },
+    "repository": "https://github.com/oSoc20/bit-of-trust",
+    "website": "https://bitoftrust.io/",
+    "partners": ["bitoftrust", "ngi", "cognizone"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/19"
+    }
+  },
+  {
+    "id": "wise-badges",
+    "name": "Wise Badges",
+    "description": "The Bridges project aims to improve gender equity in the STEM field by recognizing the skills of women. This to boost the amount of women in STEM education and careers.",
+    "logo": "/editions/2020/projects/wise-badges.png",
+    "team": {
+      "students": [
+        "dd1a7264-af3b-47cb-abf2-38820431c7c8",
+        "cdc3d654-bb45-428f-9b28-2c187a1fb561",
+        "95c9d72c-76e8-4583-b4f0-0943658d42ca",
+        "9758a57f-1d30-4619-996f-c45d57917c76",
+        "5c458dac-8349-4df6-bf2d-ad250323158c"
+      ],
+      "coaches": ["9c14908c-4186-420e-b598-e511f8ef33d4", "41204324-b01c-46ed-a062-f9884415d0fa"]
+    },
+    "repository": "https://github.com/wise-badges",
+    "website": "https://wisebadges.osoc.be/",
+    "partners": ["erasmus+"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:30:00",
+      "endsAt": "July 30, 2020 14:45:00",
+      "room": "https://meet.openknowledge.be/1"
+    }
+  },
+  {
+    "id": "better-bike-brussels",
+    "name": "Better Bike Brussels",
+    "description": "Better Bike Brussels is a free application that comes with basic needs for cyclists in Brussels.",
+    "logo": "/editions/2020/projects/better-bike-brussels.svg",
+    "team": {
+      "students": [
+        "428c05ee-b5f7-455e-9deb-1f878bea43c3",
+        "2f9e6cde-086a-4b98-9147-dd7d19d23e9c",
+        "9963dd7a-0891-42bf-8300-ef96ffe1ded1",
+        "001d21a9-9999-4c7a-85c5-d228234ea154",
+        "913994f8-079e-42ce-b942-46e9467a8461"
+      ],
+      "coaches": ["867513c9-8759-4bf4-ace1-80b7b1ea6676", "9236d79c-e3cc-492a-bd3c-e3fbd448d5fe"]
+    },
+    "repository": "https://github.com/osoc20/better-bike-brussels",
+    "website": null,
+    "partners": ["brussels-smart-city"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:30:00",
+      "endsAt": "July 30, 2020 14:45:00",
+      "room": "https://meet.openknowledge.be/4"
+    }
+  },
+  {
+    "id": "walk-by-brussels",
+    "name": "Walk By Brussels",
+    "description": "WalkByBrusssels is a walking application for citizens in the Brussels region to (re)discover different routes in their city and share the spots they love.",
+    "logo": "/editions/2020/projects/walk-by-brussels.svg",
+    "team": {
+      "students": [
+        "cab5ecbe-73a8-4804-8ce0-040162e8e0cd",
+        "76f09fdc-ba1b-4c4b-93e4-01b74eb6d44c",
+        "23bc259a-f5eb-459b-9e6b-602aab210df5",
+        "6cdd133a-396d-4d02-958b-561c685c803c",
+        "01351ba6-c4f5-4554-89e0-5441424b8e81"
+      ],
+      "coaches": ["867513c9-8759-4bf4-ace1-80b7b1ea6676", "9236d79c-e3cc-492a-bd3c-e3fbd448d5fe"]
+    },
+    "repository": "https://github.com/osoc20/WalkByBrussels",
+    "website": null,
+    "partners": ["brussels-smart-city"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/5"
+    }
+  },
+  {
+    "id": "cyclofix",
+    "name": "Cyclofix",
+    "description": "A solution to map, present and integrate cycling infrastructure in Brussels.",
+    "logo": "/editions/2020/projects/cyclofix.svg",
+    "team": {
+      "students": ["bf27cec8-4648-4107-b005-c3b6b32b9cba", "b34e2d65-1252-49e2-b4fb-d39311040192"],
+      "coaches": ["2b240db3-3580-4b52-ab8d-544774838ed0", "3c9a0f97-ee07-483b-8d01-4c13cc794849"]
+    },
+    "repository": "https://github.com/osmbe/cyclofix-website",
+    "website": "https://cyclofix.osm.be/",
+    "partners": ["brussels-mobility"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/12"
+    }
+  },
+  {
+    "id": "fast-and-slow",
+    "name": "Fast and Slow",
+    "description": "Provide a tool for intermediaries to configure the right fragmentation strategies for event streams. This will lead to better querying performance.",
+    "logo": "/editions/2020/projects/fast-and-slow.svg",
+    "team": {
+      "students": [
+        "86e49864-19dc-4e87-aa4c-da211638d453",
+        "1536aeaa-f7b3-4367-be89-aaa892567070",
+        "0d6525b5-d5a1-49ca-b170-ca81f4e52a1b"
+      ],
+      "coaches": [
+        "d114fd55-ff3c-47df-975e-e33896a557a0",
+        "513c6d62-b5d3-4678-8353-ee524d379483",
+        "9baa42da-621d-4032-8cb2-a7acdcc956c8"
+      ]
+    },
+    "repository": "https://github.com/osoc20/fast-and-slow",
+    "website": null,
+    "partners": ["aiv"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/13"
+    }
+  },
+  {
+    "id": "fitigai",
+    "name": "Fitigai",
+    "description": "Fitigai brings people together who don't know where to start sports. Our application helps you to search for a suitable coach from the comfort of your home.",
+    "logo": "/editions/2020/projects/fitigai.svg",
+    "team": {
+      "students": [
+        "448c1e87-4aab-4a82-b305-360a0428217b",
+        "78280836-8879-4ecb-90ac-b6060d58e7da",
+        "d23eeca0-3fe3-4203-bfef-a6f375019397",
+        "56e91cff-c4c6-410f-a620-ac5319ed153a"
+      ],
+      "coaches": ["7c5eb895-e6f1-42cf-98ab-161bd8b534d7", "9236d79c-e3cc-492a-bd3c-e3fbd448d5fe"]
+    },
+    "repository": "https://github.com/fitigai",
+    "website": null,
+    "partners": ["hackyourfuture-belgium"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/7"
+    }
+  },
+  {
+    "id": "fris",
+    "name": "FRIS",
+    "description": "Improvement of the search engine of the research portal FRIS by cleaning data and enriching keywords.",
+    "logo": "/editions/2020/projects/fris.svg",
+    "team": {
+      "students": [
+        "78ee48f3-2f1e-45a8-a602-ad34417f7f61",
+        "5cc09298-d24e-4025-ba99-f869b62799a3",
+        "456239d3-d0da-40be-b898-f5faaa7c294b",
+        "a5d49574-042b-4297-aa1c-9c18c186a890",
+        "678258d0-3980-4d50-9f33-be32389d586c"
+      ],
+      "coaches": ["27937ba7-5a3c-44f8-9755-07f3fa410cfe"]
+    },
+    "repository": "https://github.com/osoc20/FRISteam",
+    "website": null,
+    "partners": ["fris"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/14"
+    }
+  },
+  {
+    "id": "job-match",
+    "name": "Job Match",
+    "description": "To create awareness about Infrabel and to shed light on their technical jobs, we are developing a mobile game where the user can engage in an entertaining, interactive story.",
+    "logo": "/editions/2020/projects/job-match.svg",
+    "team": {
+      "students": [
+        "01712f67-1ef1-4f8d-9fc4-f83f32eef879",
+        "a48f00bd-d120-4b7a-afcc-6aaa224663b6",
+        "212e951f-73f6-4f61-9da8-c5bd42ea9297",
+        "79bda737-f898-4291-9c42-2aff02fa627c"
+      ],
+      "coaches": ["3c3aa3f6-09ef-44a0-88ae-7719911f0f48"]
+    },
+    "repository": "https://github.com/osoc20/infra-quest",
+    "website": null,
+    "partners": ["infrabel"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/15"
+    }
+  },
+  {
+    "id": "destination-insight",
+    "name": "Destination Insight",
+    "description": "Consolidate NMBS route search data in a user friendly application.",
+    "logo": "/editions/2020/projects/destination-insight.svg",
+    "team": {
+      "students": [
+        "34a7e51b-ee9a-4597-8d1d-6b7b1722fad9",
+        "c321f8e5-6b66-494f-ac0d-50c25eec75d7",
+        "bdb8a12c-e81a-431b-82ee-6542b2289345"
+      ],
+      "coaches": ["7ce8c02f-f957-407d-ac15-50ff89acc522"]
+    },
+    "repository": "https://github.com/osoc20/destination-insight-fe",
+    "website": null,
+    "partners": ["nmbs-sncb"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/9"
+    }
+  },
+  {
+    "id": "rmlio",
+    "name": "RML.io Dashboard",
+    "description": "Web application which allows you to use RML.io to generate high-quality knowledge graphs.",
+    "logo": "/editions/2020/projects/rml-io-dashboard.svg",
+    "team": {
+      "students": [
+        "2563a1fc-739e-481f-8c01-6894057373e5",
+        "daa8df4c-b65d-4e09-8da3-04c3a1bb5fbe",
+        "28040522-37e2-4d6e-93a4-468672fcf908"
+      ],
+      "coaches": ["94ae8c70-14db-4e8a-9010-a195214c17f7"]
+    },
+    "repository": "https://github.com/osoc20/rml-workbench-front-end",
+    "website": null,
+    "partners": ["idlab"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/17"
+    }
+  },
+  {
+    "id": "serendipity-engine",
+    "name": "Serendipity Engine",
+    "description": "Surprises people through an application which shows users a new point of view on their city.",
+    "logo": "/editions/2020/projects/serendipity-engine.svg",
+    "team": {
+      "students": [
+        "69b44d9b-3e85-460f-b572-5a75330fdb88",
+        "e06d0b28-5c0b-4b55-b548-177ac02f984c",
+        "5a969d90-37dc-4aea-b4ef-cedb519b35a2"
+      ],
+      "coaches": ["9baa42da-621d-4032-8cb2-a7acdcc956c8", "d114fd55-ff3c-47df-975e-e33896a557a0"]
+    },
+    "repository": "https://github.com/osoc20/SerendipityEngine",
+    "website": null,
+    "partners": ["idlab"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:00:00",
+      "endsAt": "July 30, 2020 15:15:00",
+      "room": "https://meet.openknowledge.be/10"
+    }
+  },
+  {
+    "id": "shmdoc",
+    "name": "Shmdoc",
+    "description": "There is a lot of information about the sea thanks to VLIZ. Too much information, so our goal is to link it together.",
+    "logo": "/editions/2020/projects/shmdoc.svg",
+    "team": {
+      "students": [
+        "d92ed903-004f-4e83-abbc-258f74b3fe6c",
+        "b08a3615-54d5-4ee3-b73a-d7dce80cc673",
+        "fe25922c-1ee4-4512-a67e-b44ee213c681"
+      ],
+      "coaches": ["8b777fbf-7562-4abb-a52a-7a0143ba70b7"]
+    },
+    "repository": "https://github.com/osoc20/shmdoc-main",
+    "website": null,
+    "partners": ["vliz"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/16"
+    }
+  },
+  {
+    "id": "simplification-election-procedures",
+    "name": "Simplification of Election Procedures",
+    "description": "This project aims to decentralize electoral data and provide a simple interface for citizens to access that data.",
+    "logo": "/editions/2020/projects/sep.svg",
+    "team": {
+      "students": [
+        "ccfb1f18-1e23-46ab-8019-02c30558753c",
+        "b5af8dec-7cb9-4049-8050-df0f4dbe4aa9",
+        "db6e00e3-b26b-40e1-98c8-ec29b678b661",
+        "46b494b4-1da4-4a66-8d29-8335280f2a83",
+        "830b18b5-4546-41fa-96ce-a3cc126eb7f2",
+        "cb03768b-3955-464d-a1db-7ef3f58d4b78",
+        "e2bc361e-a2e7-4eb3-abd5-e01ef6696b1e",
+        "fd888ebc-b42f-4063-ae83-19cad93f9abe",
+        "da8f405d-2f7e-435c-86f7-8b5301a679f9"
+      ],
+      "coaches": ["af22a4aa-b313-4892-be6f-be3587d61943", "7ce8c02f-f957-407d-ac15-50ff89acc522"]
+    },
+    "repository": "https://osoc20.github.io/simplification-election-procedures/",
+    "website": null,
+    "partners": ["abb"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:30:00",
+      "endsAt": "July 30, 2020 14:45:00",
+      "room": "https://meet.openknowledge.be/3"
+    }
+  },
+  {
+    "id": "urban-brussels",
+    "name": "Urban Brussels",
+    "description": "Together with \"Urban Brussels\", we want to build an open web application that will visualize and map more than 35k urban properties to preserve the cultural heritage and history of Brussels.",
+    "logo": "/editions/2020/projects/urban-brussels.svg",
+    "team": {
+      "students": [
+        "010b54c9-4465-48ba-b556-d626dc5fad47",
+        "443bb59c-91ce-44ad-8a81-b726f1739970",
+        "6149ecba-5865-4da4-b06a-aab8cacabf54",
+        "b11c0e79-983c-4530-822a-8341c6d3adff",
+        "f0dd7fc8-d5a2-4785-b19a-179b76be7d6a",
+        "9e7a0cb5-1976-46a9-8866-6644d45ab816",
+        "f17f817d-e543-43e1-acff-f040de31e660",
+        "7084938b-fb61-4d4c-be22-96645ceca80c"
+      ],
+      "coaches": ["80d2abcc-df86-4d5c-913a-7e2dacdbddef", "eabdfd00-3350-4d24-be5e-7833065189ac"]
+    },
+    "repository": "https://github.com/osoc20/urban-brussels",
+    "website": null,
+    "partners": ["urban-brussels"],
+    "breakout": {
+      "startsAt": "July 30, 2020 14:45:00",
+      "endsAt": "July 30, 2020 15:00:00",
+      "room": "https://meet.openknowledge.be/6"
+    }
+  },
+  {
+    "id": "get-engaged",
+    "name": "Get Engaged",
+    "description": "Get Engaged is a platform that enables companies to screen HYF Alumni for their vacancies, while reducing the administrative burden over HYF coordinators and creating more jobs for skilled refugees & immigrants.",
+    "logo": "/editions/2020/projects/get-engaged.svg",
+    "team": {
+      "students": [
+        "d2d936b4-410a-441c-b267-f5d512d2cef0",
+        "10b2d8bc-bb3f-480b-9a98-14b788dca5e4",
+        "5656e8d1-f6d3-4561-9a28-c931239a58bb",
+        "ff77429b-16a4-438f-9217-df96bc30d483"
+      ],
+      "coaches": ["bea06e8c-ff9e-468b-8726-8526f1ff7441"]
+    },
+    "repository": "https://github.com/oSoc20/hyf-alumni-frontend",
+    "website": null,
+    "partners": ["hackyourfuture-belgium"],
+    "breakout": {
+      "startsAt": "July 30, 2020 15:15:00",
+      "endsAt": "July 30, 2020 15:30:00",
+      "room": "https://meet.openknowledge.be/18"
+    }
+  }
+]

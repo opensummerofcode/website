@@ -1,0 +1,42 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="200" cy="200" r="200" fill="#79D0D0"/>
+<g filter="url(#filter0_d)">
+<rect x="103" y="66" width="194" height="269" fill="#ECECEC"/>
+</g>
+<rect x="117" y="103" width="16" height="26" fill="#4071BA"/>
+<rect x="139" y="78" width="16" height="51" fill="#4071BA"/>
+<rect x="161" y="91" width="16" height="38" fill="#4071BA"/>
+<rect x="219" y="91" width="63" height="9" fill="#C4C4C4"/>
+<rect x="117" y="167" width="165" height="9" fill="#C4C4C4"/>
+<rect x="181" y="205" width="101" height="9" fill="#C4C4C4"/>
+<rect x="117" y="281" width="165" height="9" fill="#C4C4C4"/>
+<rect x="219" y="110" width="63" height="9" fill="#C4C4C4"/>
+<rect x="117" y="262" width="165" height="9" fill="#C4C4C4"/>
+<rect x="117" y="148" width="165" height="9" fill="#C4C4C4"/>
+<rect x="181" y="224" width="101" height="9" fill="#C4C4C4"/>
+<rect x="117" y="300" width="165" height="9" fill="#C4C4C4"/>
+<g style="mix-blend-mode:multiply" opacity="0.31">
+<ellipse cx="211.905" cy="174" rx="51.9048" ry="50" fill="#525252"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.35">
+<circle cx="212" cy="160" r="57" fill="#525252"/>
+</g>
+<circle cx="212" cy="160" r="51" stroke="#434343" stroke-width="12"/>
+<g style="mix-blend-mode:multiply" opacity="0.31">
+<rect x="244" y="213.543" width="20" height="121.092" rx="5" transform="rotate(-51 244 213.543)" fill="#525252"/>
+</g>
+<rect x="244" y="204.543" width="20" height="121.092" rx="5" transform="rotate(-51 244 204.543)" fill="#525252"/>
+<circle cx="144" cy="220" r="25" fill="#C4C4C4"/>
+<path d="M169 220C169 224.392 167.843 228.706 165.646 232.508C163.448 236.311 160.288 239.468 156.483 241.66C152.678 243.853 148.362 245.005 143.971 245C139.579 244.995 135.266 243.833 131.466 241.631L144 220H169Z" fill="#54A9A9"/>
+<path d="M126.322 202.322C129.819 198.826 134.273 196.445 139.123 195.48C143.972 194.516 148.999 195.011 153.567 196.903C158.135 198.795 162.04 202 164.787 206.111C167.534 210.222 169 215.055 169 220L144 220L126.322 202.322Z" fill="#4071BA"/>
+<defs>
+<filter id="filter0_d" x="103" y="66" width="201" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dx="7" dy="7"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

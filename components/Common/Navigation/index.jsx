@@ -90,36 +90,45 @@ const Navigation = () => {
                   </Tab>
                 </li>
                 {/*
-                  <li>
+                <li>
+                  <Tab onClick={handleToggle} href="/editions/2020">
+                    2020
+                  </Tab>
+                </li>
+                */}
+
+                <li>
                   <ExternalLink
-                    href="https://osoc.typeform.com/to/UhvzI4"
+                    href="https://tally.so/r/npe0Bm"
                     target="_blank"
                     className="button"
                   >
                     Apply as a student
-                    <span className="button__info">before 22nd of May</span>
+                    {/* <span className="button__info">before 22nd of May</span> */}
                   </ExternalLink>
                 </li>
-                  */}
+
                 {/*
-                  <li>                  <ExternalLink
+                        <li>
+                  {' '}
+                  <ExternalLink
                     href="https://demodayosoc20.eventbrite.co.uk"
                     target="_blank"
                     className="button"
                   >
-                    Come to the demo day! <span className="button__info">25 July 2019</span>
-                  </ExternalLink></li>
+                    Join the online demo day! <span className="button__info">July 30th 2020</span>
+                  </ExternalLink>
+                </li>
                 */}
-                {/*
-                <li>
-                  <Link href="/editions/2019">
+
+                {/* <li>
+                  <Link href="/editions/[year]" as="/editions/2020">
                     <a className="button">
-                      Discover all osoc19 projects
+                      Discover all osoc20 projects
                       <span className="button__info" />
                     </a>
                   </Link>
-                </li>
-                */}
+                </li> */}
               </ul>
             </div>
           </div>

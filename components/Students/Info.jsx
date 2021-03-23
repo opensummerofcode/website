@@ -10,7 +10,7 @@ const Info = () => {
             Open summer of code is for anyone who brings motivation, enthusiasm and talent to the
             table. Don&apos;t be shy,{' '}
             <ExternalLink
-              href="https://osoc.typeform.com/to/UhvzI4"
+              href="https://tally.so/r/npe0Bm"
               title="Apply as a student for open summer of code"
             >
               {/* className="link--strikethrough" */}

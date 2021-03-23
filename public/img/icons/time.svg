@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ico-time-grey</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="meet-us" transform="translate(-16.000000, -10.000000)" fill="#4A4A4A" fill-rule="nonzero">
+            <g id="Group" transform="translate(16.000000, 10.000000)">
+                <path d="M12.0547264,1 C18.1006219,1 23,5.90074627 23,11.9452736 C23,17.9911692 18.1006219,22.8905473 12.0547264,22.8905473 C6.010199,22.8905473 1.10945274,17.9911692 1.10945274,11.9452736 C1.10945274,5.90074627 6.010199,1 12.0547264,1 Z M12.5119282,4.87774441 L10.9077615,4.87774441 L10.7517558,13.2282299 L16.7215537,16.4381238 L17.5243608,15.0492928 L12.6673302,12 L12.5119282,4.87774441 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
