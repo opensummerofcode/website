@@ -9,7 +9,8 @@ const Leaflet = ({ longitude, latitude }) => {
         url="https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png"
         attribution='&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors, Tiles courtesy of <a target="_blank" href="https://geo6.be/">GEO-6</a>'
       />
-      <CircleMarker center={position} radius={3} />
+      {/* @todo Replace CircleMarker by Marker ; issue with the url of the marker icon. */}
+      <CircleMarker center={position} radius={10} />
     </LeafletMap>
   );
 };
