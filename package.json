@@ -61,7 +61,7 @@
     "enzyme-adapter-react-16": "^1.15.6",
     "eslint": "5.6.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.0.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-config-react-app": "^3.0.7",
     "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-import": "^2.22.1",
