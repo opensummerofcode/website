@@ -14,7 +14,7 @@
     "next-images": "^1.1.2",
     "prop-types": "^15.7.1",
     "react": "^16.14.0",
-    "react-app-polyfill": "^0.2.0",
+    "react-app-polyfill": "^2.0.0",
     "react-dom": "^16.8.6",
     "react-leaflet": "^2.7.0",
     "react-leaflet-universal": "^2.2.1",
