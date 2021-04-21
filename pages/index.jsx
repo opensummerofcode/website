@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import useSWR from 'swr';
 import MetaContext from '../context/meta';
 import fetch from '../util/fetch';
