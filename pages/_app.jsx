@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { withRouter } from 'next/router';
@@ -49,6 +50,11 @@ const MyApp = ({ Component, pageProps }) => {
       </div>
     </MetaContext.Provider>
   );
+};
+
+MyApp.propTypes = {
+  Component: PropTypes.element.isRequired,
+  pageProps: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };
 
 export default withRouter(MyApp);

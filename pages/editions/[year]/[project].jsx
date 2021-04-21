@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Header from '../../../components/Projects/Header';
 import Team from '../../../components/Projects/Team';
@@ -59,5 +60,17 @@ export async function getStaticProps({ params }) {
     },
   };
 }
+
+Project.propTypes = {
+  project: PropTypes.objectOf({
+    name: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
+    team: PropTypes.arrayOf(PropTypes.shape).isRequired,
+    partners: PropTypes.arrayOf(PropTypes.shape).isRequired,
+  }).isRequired,
+  students: PropTypes.arrayOf(PropTypes.shape).isRequired,
+  coaches: PropTypes.arrayOf(PropTypes.shape).isRequired,
+  partners: PropTypes.arrayOf(PropTypes.shape).isRequired,
+};
 
 export default Project;

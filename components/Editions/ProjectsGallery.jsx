@@ -9,6 +9,7 @@ const Projects = ({ edition, projects, isDemoDay }) => {
 };
 
 Projects.propTypes = {
+  edition: PropTypes.string.isRequired,
   projects: PropTypes.arrayOf(PropTypes.shape).isRequired,
   isDemoDay: PropTypes.bool.isRequired,
 };

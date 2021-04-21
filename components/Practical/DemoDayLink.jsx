@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import ExternalLink from '../UI/ExternalLink';
 
 const demoDayLink = null;
@@ -9,6 +10,10 @@ const DemoDayLink = ({ children: text }) => {
       {text}
     </ExternalLink>
   );
+};
+
+DemoDayLink.propTypes = {
+  children: PropTypes.element.isRequired,
 };
 
 export default DemoDayLink;

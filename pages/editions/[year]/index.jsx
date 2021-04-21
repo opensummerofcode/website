@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -104,5 +105,12 @@ export async function getStaticProps({ params }) {
     },
   };
 }
+
+EditionOverview.propTypes = {
+  editions: PropTypes.arrayOf(PropTypes.shape).isRequired,
+  partners: PropTypes.arrayOf(PropTypes.shape).isRequired,
+  participants: PropTypes.arrayOf(PropTypes.shape).isRequired,
+  projects: PropTypes.arrayOf(PropTypes.shape).isRequired,
+};
 
 export default EditionOverview;

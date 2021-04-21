@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Headshot from '../Editions/Headshot';
 
 const Team = ({ students, coaches }) => {
@@ -26,6 +27,11 @@ const Team = ({ students, coaches }) => {
       </div>
     </div>
   );
+};
+
+Team.propTypes = {
+  students: PropTypes.arrayOf(PropTypes.shape).isRequired,
+  coaches: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };
 
 export default Team;

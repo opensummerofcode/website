@@ -33,12 +33,14 @@ const ButtonLink = ({ className, children, disabled, isExternal, href, ...rest }
 
 ButtonLink.defaultProps = {
   className: '',
+  disabled: false,
   isExternal: false,
 };
 
 ButtonLink.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node.isRequired,
+  disabled: PropTypes.bool,
   isExternal: PropTypes.bool,
   href: PropTypes.string.isRequired,
 };
