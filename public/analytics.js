@@ -1,7 +1,8 @@
-(function(f, a, t, h, o, m) {
+/* eslint-disable */
+(function (f, a, t, h, o, m) {
   a[h] =
     a[h] ||
-    function() {
+    function () {
       (a[h].q = a[h].q || []).push(arguments);
     };
   (o = f.createElement('script')), (m = f.getElementsByTagName('script')[0]);

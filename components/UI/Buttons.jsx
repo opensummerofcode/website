@@ -7,7 +7,7 @@ const ButtonGroup = ({ children }) => {
 };
 
 ButtonGroup.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 const ButtonLink = ({ className, children, disabled, isExternal, href, ...rest }) => {
@@ -33,14 +33,16 @@ const ButtonLink = ({ className, children, disabled, isExternal, href, ...rest }
 
 ButtonLink.defaultProps = {
   className: '',
-  isExternal: false
+  disabled: false,
+  isExternal: false,
 };
 
 ButtonLink.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node.isRequired,
+  disabled: PropTypes.bool,
   isExternal: PropTypes.bool,
-  href: PropTypes.string.isRequired
+  href: PropTypes.string.isRequired,
 };
 
 export { ButtonLink, ButtonGroup };

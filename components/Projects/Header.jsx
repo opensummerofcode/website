@@ -28,8 +28,8 @@ Header.propTypes = {
     logo: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    repository: PropTypes.string
-  }).isRequired
+    repository: PropTypes.string,
+  }).isRequired,
 };
 
 export default Header;

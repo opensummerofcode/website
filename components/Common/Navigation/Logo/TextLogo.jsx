@@ -5,7 +5,7 @@ const TextLogo = ({ text }) => {
   const content = text.split(' ');
   return (
     <div className="logo logo--animated title-bar-title">
-      {content.map(word => (
+      {content.map((word) => (
         <TextItem key={word} word={word} />
       ))}
     </div>
@@ -13,7 +13,7 @@ const TextLogo = ({ text }) => {
 };
 
 TextLogo.propTypes = {
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
 };
 
 export default TextLogo;

@@ -4,7 +4,7 @@ const Meta = createContext({
   activeEdition: null,
   editions: null,
   showPreviousPartners: false,
-  previousEdition: null
+  previousEdition: null,
 });
 
 export default Meta;

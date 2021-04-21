@@ -3,7 +3,7 @@ import Gallery from './Gallery';
 import Headshot from './Headshot';
 
 const CoachesGallery = ({ coaches }) => {
-  const renderCoach = coach => (
+  const renderCoach = (coach) => (
     <Headshot
       key={coach.id}
       data={{ name: coach.name, isCoach: true }}
@@ -22,7 +22,7 @@ const CoachesGallery = ({ coaches }) => {
 };
 
 CoachesGallery.propTypes = {
-  coaches: PropTypes.arrayOf(PropTypes.shape).isRequired
+  coaches: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };
 
 export default CoachesGallery;

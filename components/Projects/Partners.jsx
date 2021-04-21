@@ -38,9 +38,9 @@ Partners.propTypes = {
       id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       url: PropTypes.string.isRequired,
-      logo: PropTypes.string.isRequired
+      logo: PropTypes.string.isRequired,
     })
-  ).isRequired
+  ).isRequired,
 };
 
 export default Partners;

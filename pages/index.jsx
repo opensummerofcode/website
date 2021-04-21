@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import useSWR from 'swr';
 import MetaContext from '../context/meta';
 import fetch from '../util/fetch';
@@ -6,11 +6,11 @@ import OsocDescription from '../components/Home/OsocDescription';
 import Braggings from '../components/Home/Braggings';
 import HomeHeader from '../components/Home/HomeHeader';
 import Partners from '../components/Companies/Partners';
-import ExternalLink from '../components/UI/ExternalLink';
+// import ExternalLink from '../components/UI/ExternalLink';
 
 const HomeContainer = () => {
   const { previousEdition, showPreviousPartners, activeEdition } = useContext(MetaContext);
-  const [infoNoticeShown, setInfoNoticeShown] = useState(true);
+  // const [infoNoticeShown, setInfoNoticeShown] = useState(true);
 
   const partners = showPreviousPartners
     ? useSWR(() => `/editions/${previousEdition.year}/partners.json`, fetch).data

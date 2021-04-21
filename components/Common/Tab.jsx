@@ -36,7 +36,7 @@ const Tab = ({ activeTab, label, onClick, style, className }) => {
 
 Tab.defaultProps = {
   style: {},
-  className: ''
+  className: '',
 };
 
 Tab.propTypes = {
@@ -44,7 +44,7 @@ Tab.propTypes = {
   label: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
   style: PropTypes.instanceOf(Object),
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 export default Tab;

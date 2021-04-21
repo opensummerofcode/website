@@ -6,16 +6,16 @@ const timeout = 300;
 const getTransitionStyles = {
   entering: {
     position: 'absolute',
-    opacity: 0
+    opacity: 0,
   },
   entered: {
     transition: `opacity ${timeout}ms ease-in-out`,
-    opacity: 1
+    opacity: 1,
   },
   exiting: {
     transition: `opacity ${timeout}ms ease-in-out`,
-    opacity: 0
-  }
+    opacity: 0,
+  },
 };
 
 const Transition = ({ children, location }) => (
@@ -24,17 +24,17 @@ const Transition = ({ children, location }) => (
       key={location}
       timeout={{
         enter: timeout,
-        exit: timeout
+        exit: timeout,
       }}
     >
-      {status => <div style={{ ...getTransitionStyles[status] }}>{children}</div>}
+      {(status) => <div style={{ ...getTransitionStyles[status] }}>{children}</div>}
     </ReactTransition>
   </TransitionGroup>
 );
 
 Transition.propTypes = {
   children: PropTypes.node.isRequired,
-  location: PropTypes.string.isRequired
+  location: PropTypes.string.isRequired,
 };
 
 export default Transition;

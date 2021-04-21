@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Leaflet from './Leaflet';
 
 const Location = ({ name, address, coordinates }) => {
@@ -18,6 +19,15 @@ const Location = ({ name, address, coordinates }) => {
       <hr />
     </>
   );
+};
+
+Location.propTypes = {
+  name: PropTypes.string.isRequired,
+  address: PropTypes.string.isRequired,
+  coordinates: PropTypes.objectOf({
+    lng: PropTypes.number.isRequired,
+    lat: PropTypes.number.isRequired,
+  }).isRequired,
 };
 
 export default Location;

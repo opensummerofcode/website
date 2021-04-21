@@ -3,7 +3,7 @@ import Headshot from './Headshot';
 import Gallery from './Gallery';
 
 const StudentsGallery = ({ students }) => {
-  const renderStudent = student => (
+  const renderStudent = (student) => (
     <Headshot
       key={student.id}
       data={{ name: student.name, isCoach: false }}
@@ -22,7 +22,7 @@ const StudentsGallery = ({ students }) => {
 };
 
 StudentsGallery.propTypes = {
-  students: PropTypes.arrayOf(PropTypes.shape).isRequired
+  students: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };
 
 export default StudentsGallery;

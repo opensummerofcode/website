@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import ExternalLink from '../UI/ExternalLink';
-import DemoDayLink from '../Practical/DemoDayLink';
 
 const Info = () => {
   return (

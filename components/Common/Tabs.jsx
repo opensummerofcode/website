@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import React from 'react';
 import Tab from './Tab';
 
 // src: https://alligator.io/react/tabs-component/
@@ -9,18 +10,18 @@ class Tabs extends React.Component {
     contentClass: PropTypes.string.isRequired,
     tabClass: PropTypes.string.isRequired,
     tabListClass: PropTypes.string.isRequired,
-    activeClass: PropTypes.string.isRequired
+    activeClass: PropTypes.string.isRequired,
   };
 
   constructor(props) {
     super(props);
 
     this.state = {
-      activeTab: this.props.children[0].props.label
+      activeTab: this.props.children[0].props.label,
     };
   }
 
-  onClickTabItem = tab => {
+  onClickTabItem = (tab) => {
     this.setState({ activeTab: tab });
   };
 
@@ -28,13 +29,13 @@ class Tabs extends React.Component {
     const {
       onClickTabItem,
       props: { children, contentClass, tabClass, tabListClass, activeClass },
-      state: { activeTab }
+      state: { activeTab },
     } = this;
 
     return (
       <div className="tabs">
         <ul className={tabListClass}>
-          {children.map(child => {
+          {children.map((child) => {
             const { label } = child.props;
 
             return (
@@ -50,7 +51,7 @@ class Tabs extends React.Component {
           })}
         </ul>
         <div className={contentClass}>
-          {children.map(child => {
+          {children.map((child) => {
             if (child.props.label !== activeTab) return undefined;
             return child;
           })}

@@ -15,7 +15,7 @@ const HeroLink = ({ href, name }) => {
 
 HeroLink.propTypes = {
   href: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
 };
 
 export default HeroLink;

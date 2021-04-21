@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Map as LeafletMap, TileLayer, CircleMarker } from 'react-leaflet-universal';
 
 const Leaflet = ({ longitude, latitude }) => {
@@ -13,6 +14,11 @@ const Leaflet = ({ longitude, latitude }) => {
       <CircleMarker center={position} radius={10} />
     </LeafletMap>
   );
+};
+
+Leaflet.propTypes = {
+  longitude: PropTypes.number.isRequired,
+  latitude: PropTypes.number.isRequired,
 };
 
 export default Leaflet;

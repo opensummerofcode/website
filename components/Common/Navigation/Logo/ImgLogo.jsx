@@ -13,11 +13,11 @@ const ImgLogo = ({ handleLoad }) => {
 };
 
 ImgLogo.defaultProps = {
-  handleLoad: null
+  handleLoad: null,
 };
 
 ImgLogo.propTypes = {
-  handleLoad: PropTypes.func
+  handleLoad: PropTypes.func,
 };
 
 export default ImgLogo;
