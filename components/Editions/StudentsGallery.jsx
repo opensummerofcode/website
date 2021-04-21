@@ -3,7 +3,7 @@ import Headshot from './Headshot';
 import Gallery from './Gallery';
 
 const StudentsGallery = ({ students }) => {
-  const renderStudent = student => (
+  const renderStudent = (student) => (
     <Headshot
       key={student.id}
       data={{ name: student.name, isCoach: false }}

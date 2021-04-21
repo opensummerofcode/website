@@ -32,7 +32,7 @@ const FeaturedProjects = ({ divider }) => {
 
   if (!projects || projects.length === 0) return <></>;
 
-  const $projects = projects.filter(p => p.featured).map(renderProject);
+  const $projects = projects.filter((p) => p.featured).map(renderProject);
   return (
     <div className={`u-padding-x-large--tb c-projects-old ${divider}`}>
       <div className="grid-x grid-padding-x align-center">

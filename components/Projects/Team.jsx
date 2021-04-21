@@ -9,8 +9,8 @@ const Team = ({ students, coaches }) => {
       picture={person.mugshot}
     />
   );
-  const $students = students.map(c => renderMugshot(c, false));
-  const $coaches = coaches.map(c => renderMugshot(c, true));
+  const $students = students.map((c) => renderMugshot(c, false));
+  const $coaches = coaches.map((c) => renderMugshot(c, true));
   return (
     <div className="grid-x grid-padding-x u-margin-large--tb headshot-gallery project-section">
       <div className="small-10 small-offset-1 medium-3 medium-offset-0 large-2 cell text-left">

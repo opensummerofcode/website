@@ -3,13 +3,13 @@ import fetch from '../../util/fetch';
 import Location from './Where/Location';
 
 const Where = () => {
-  const renderLocation = location => (
+  const renderLocation = (location) => (
     <Location name={location.name} address={location.address} coordinates={location.coordinates} />
   );
 
   const { data: locations } = useSWR(`/locations.json`, fetch);
   if (!locations) return <></>;
-  const $locations = locations.map(l => renderLocation(l));
+  const $locations = locations.map((l) => renderLocation(l));
 
   return (
     <div className="grid-x grid-padding-x u-margin-large--tb">

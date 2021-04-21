@@ -1,4 +1,3 @@
-
 const PracticalTabs = () => {
   return (
     <ul className="tabs tabs--custom c-faq-tabs" data-tabs id="example-tabs">

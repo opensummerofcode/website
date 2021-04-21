@@ -27,7 +27,7 @@ const Transition = ({ children, location }) => (
         exit: timeout
       }}
     >
-      {status => <div style={{ ...getTransitionStyles[status] }}>{children}</div>}
+      {(status) => <div style={{ ...getTransitionStyles[status] }}>{children}</div>}
     </ReactTransition>
   </TransitionGroup>
 );

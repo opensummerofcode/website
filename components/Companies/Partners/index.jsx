@@ -8,8 +8,8 @@ import Partner from './Partner';
 const Partners = ({ partners }) => {
   const { activeEdition } = useContext(MetaContext);
 
-  const renderPartnerSection = partners => {
-    const $cells = partners.map(partner => (
+  const renderPartnerSection = (partners) => {
+    const $cells = partners.map((partner) => (
       <div key={partner.id} className="small-4 medium-auto cell">
         <Partner partner={partner} />
       </div>

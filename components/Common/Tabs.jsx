@@ -20,7 +20,7 @@ class Tabs extends React.Component {
     };
   }
 
-  onClickTabItem = tab => {
+  onClickTabItem = (tab) => {
     this.setState({ activeTab: tab });
   };
 
@@ -34,7 +34,7 @@ class Tabs extends React.Component {
     return (
       <div className="tabs">
         <ul className={tabListClass}>
-          {children.map(child => {
+          {children.map((child) => {
             const { label } = child.props;
 
             return (
@@ -50,7 +50,7 @@ class Tabs extends React.Component {
           })}
         </ul>
         <div className={contentClass}>
-          {children.map(child => {
+          {children.map((child) => {
             if (child.props.label !== activeTab) return undefined;
             return child;
           })}

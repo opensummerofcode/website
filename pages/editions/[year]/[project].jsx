@@ -18,12 +18,12 @@ export async function getStaticPaths() {
   const { default: editions } = await import(`../../../public/editions/index.json`);
 
   const pathsQueue = editions
-    .filter(e => !e.external)
-    .map(async edition => {
+    .filter((e) => !e.external)
+    .map(async (edition) => {
       const { default: projects } = await import(
         `../../../public/editions/${edition.year}/projects.json`
       );
-      const paths = projects.map(project => ({
+      const paths = projects.map((project) => ({
         params: { year: edition.year.toString(), project: project.id }
       }));
       return paths;
@@ -38,22 +38,24 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { year, project: projectId } = params;
   const { default: projects } = await import(`../../../public/editions/${year}/projects.json`);
-  const project = projects.find(p => p.id === projectId);
+  const project = projects.find((p) => p.id === projectId);
 
   const { default: participants } = await import(
     `../../../public/editions/${year}/participants.json`
   );
   const { default: partners } = await import(`../../../public/editions/${year}/partners.json`);
 
-  const students = project.team.students.map(student => participants.find(p => p.id === student));
-  const coaches = project.team.coaches.map(coach => participants.find(p => p.id === coach));
+  const students = project.team.students.map((student) =>
+    participants.find((p) => p.id === student)
+  );
+  const coaches = project.team.coaches.map((coach) => participants.find((p) => p.id === coach));
 
   return {
     props: {
       project,
       coaches,
       students,
-      partners: project.partners.map(p => partners.find(partner => p === partner.id))
+      partners: project.partners.map((p) => partners.find((partner) => p === partner.id))
     }
   };
 }

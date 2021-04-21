@@ -67,10 +67,7 @@ const StudentApplication = () => {
           </h4>
           <div className="c-faq__item__answer">
             <p>
-              <a
-                href="https://tally.so/r/npe0Bm"
-                title="Click here to apply as a student"
-              >
+              <a href="https://tally.so/r/npe0Bm" title="Click here to apply as a student">
                 Apply here
               </a>
               .
