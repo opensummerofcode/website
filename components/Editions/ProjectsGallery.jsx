@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import Gallery from './Gallery';
 import Project from './Project';
 
 const Projects = ({ edition, projects, isDemoDay }) => {

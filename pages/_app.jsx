@@ -4,7 +4,7 @@ import { withRouter } from 'next/router';
 import useSWR from 'swr';
 import fetch from '../util/fetch';
 import MetaContext from '../context/meta';
-import PageTransition from '../components/UI/PageTransition';
+// import PageTransition from '../components/UI/PageTransition';
 import Navigation from '../components/Common/Navigation';
 import Footer from '../components/Common/Footer';
 

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import React from 'react';
 import Tab from './Tab';
 
 // src: https://alligator.io/react/tabs-component/

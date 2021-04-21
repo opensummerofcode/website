@@ -1,4 +1,4 @@
-import ExternalLink from '../UI/ExternalLink';
+// import ExternalLink from '../UI/ExternalLink';
 
 const Coaching = () => {
   return (

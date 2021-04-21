@@ -9,7 +9,7 @@ const Where = () => {
 
   const { data: locations } = useSWR(`/locations.json`, fetch);
   if (!locations) return <></>;
-  const $locations = locations.map((l) => renderLocation(l));
+  // const $locations = locations.map((l) => renderLocation(l));
 
   return (
     <div className="grid-x grid-padding-x u-margin-large--tb">
