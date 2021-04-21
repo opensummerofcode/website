@@ -9,14 +9,14 @@ class Tabs extends React.Component {
     contentClass: PropTypes.string.isRequired,
     tabClass: PropTypes.string.isRequired,
     tabListClass: PropTypes.string.isRequired,
-    activeClass: PropTypes.string.isRequired
+    activeClass: PropTypes.string.isRequired,
   };
 
   constructor(props) {
     super(props);
 
     this.state = {
-      activeTab: this.props.children[0].props.label
+      activeTab: this.props.children[0].props.label,
     };
   }
 
@@ -28,7 +28,7 @@ class Tabs extends React.Component {
     const {
       onClickTabItem,
       props: { children, contentClass, tabClass, tabListClass, activeClass },
-      state: { activeTab }
+      state: { activeTab },
     } = this;
 
     return (

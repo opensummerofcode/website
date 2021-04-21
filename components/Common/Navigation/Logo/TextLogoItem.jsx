@@ -6,7 +6,7 @@ const TextItem = ({ word }) => {
 };
 
 TextItem.propTypes = {
-  word: PropTypes.string.isRequired
+  word: PropTypes.string.isRequired,
 };
 
 export default TextItem;

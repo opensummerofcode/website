@@ -49,7 +49,7 @@ const FeaturedProjects = ({ divider }) => {
 };
 
 FeaturedProjects.propTypes = {
-  divider: PropTypes.string.isRequired
+  divider: PropTypes.string.isRequired,
 };
 
 export default FeaturedProjects;

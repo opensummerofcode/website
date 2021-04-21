@@ -14,7 +14,7 @@ const Partner = ({ partner, className }) => {
 };
 
 Partner.defaultProps = {
-  className: ''
+  className: '',
 };
 
 Partner.propTypes = {
@@ -22,9 +22,9 @@ Partner.propTypes = {
     id: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     logo: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired
+    url: PropTypes.string.isRequired,
   }).isRequired,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 export default Partner;

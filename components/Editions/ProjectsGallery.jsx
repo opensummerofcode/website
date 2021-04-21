@@ -11,7 +11,7 @@ const Projects = ({ edition, projects, isDemoDay }) => {
 
 Projects.propTypes = {
   projects: PropTypes.arrayOf(PropTypes.shape).isRequired,
-  isDemoDay: PropTypes.bool.isRequired
+  isDemoDay: PropTypes.bool.isRequired,
 };
 
 export default Projects;

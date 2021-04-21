@@ -96,11 +96,11 @@ Project.propTypes = {
     breakout: PropTypes.shape({
       startsAt: PropTypes.string,
       endsAt: PropTypes.string,
-      room: PropTypes.string
-    })
+      room: PropTypes.string,
+    }),
   }).isRequired,
   edition: PropTypes.number.isRequired,
-  isDemoDay: PropTypes.bool.isRequired
+  isDemoDay: PropTypes.bool.isRequired,
 };
 
 export default Project;

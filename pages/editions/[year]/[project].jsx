@@ -24,14 +24,14 @@ export async function getStaticPaths() {
         `../../../public/editions/${edition.year}/projects.json`
       );
       const paths = projects.map((project) => ({
-        params: { year: edition.year.toString(), project: project.id }
+        params: { year: edition.year.toString(), project: project.id },
       }));
       return paths;
     });
   const paths = await Promise.all(pathsQueue);
   return {
     paths: paths.flat(),
-    fallback: false
+    fallback: false,
   };
 }
 
@@ -55,8 +55,8 @@ export async function getStaticProps({ params }) {
       project,
       coaches,
       students,
-      partners: project.partners.map((p) => partners.find((partner) => p === partner.id))
-    }
+      partners: project.partners.map((p) => partners.find((partner) => p === partner.id)),
+    },
   };
 }
 

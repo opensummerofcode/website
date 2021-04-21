@@ -11,13 +11,13 @@ const Gallery = ({ className, children, modifier }) => {
 
 Gallery.defaultProps = {
   className: '',
-  modifier: ''
+  modifier: '',
 };
 
 Gallery.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node.isRequired,
-  modifier: PropTypes.string
+  modifier: PropTypes.string,
 };
 
 export default Gallery;

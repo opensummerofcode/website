@@ -22,7 +22,7 @@ const OsocDescription = () => {
               left: 0,
               right: 0,
               width: '100%',
-              height: '100%'
+              height: '100%',
             }}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

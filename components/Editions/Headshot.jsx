@@ -40,22 +40,22 @@ const HeadShot = ({ data, socials, picture, roleShown }) => {
 
 HeadShot.defaultProps = {
   socials: {},
-  roleShown: true
+  roleShown: true,
 };
 
 HeadShot.propTypes = {
   data: PropTypes.shape({
     name: PropTypes.string,
-    isCoach: PropTypes.bool
+    isCoach: PropTypes.bool,
   }).isRequired,
   socials: PropTypes.shape({
     twitter: PropTypes.string,
     linkedin: PropTypes.string,
     github: PropTypes.string,
-    behance: PropTypes.string
+    behance: PropTypes.string,
   }),
   picture: PropTypes.string.isRequired,
-  roleShown: PropTypes.bool
+  roleShown: PropTypes.bool,
 };
 
 export default HeadShot;

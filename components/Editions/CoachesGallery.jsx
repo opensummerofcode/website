@@ -22,7 +22,7 @@ const CoachesGallery = ({ coaches }) => {
 };
 
 CoachesGallery.propTypes = {
-  coaches: PropTypes.arrayOf(PropTypes.shape).isRequired
+  coaches: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };
 
 export default CoachesGallery;

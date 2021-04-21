@@ -22,7 +22,7 @@ const StudentsGallery = ({ students }) => {
 };
 
 StudentsGallery.propTypes = {
-  students: PropTypes.arrayOf(PropTypes.shape).isRequired
+  students: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };
 
 export default StudentsGallery;

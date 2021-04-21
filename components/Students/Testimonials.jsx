@@ -57,7 +57,7 @@ const Testimonials = () => {
                   marginTop: '40px',
                   padding: '29.49074074074074% 0',
                   textAlign: 'center',
-                  width: '100%'
+                  width: '100%',
                 }}
               >
                 {' '}
@@ -70,7 +70,7 @@ const Testimonials = () => {
                     margin: '0 auto -44px',
                     position: 'relative',
                     top: '-22px',
-                    width: '44px'
+                    width: '44px',
                   }}
                 />
               </div>{' '}
@@ -86,7 +86,7 @@ const Testimonials = () => {
                     fontWeight: 'normal',
                     lineHeight: '17px',
                     textDecoration: 'none',
-                    wordWrap: 'break-word'
+                    wordWrap: 'break-word',
                   }}
                 >
                   Our Digipolis #osoc17 students making final adjustments to their #iot installation
@@ -105,7 +105,7 @@ const Testimonials = () => {
                   padding: '8px 0 7px',
                   textAlign: 'center',
                   textOverflow: 'ellipsis',
-                  whiteSpace: 'nowrap'
+                  whiteSpace: 'nowrap',
                 }}
               >
                 A post shared by{' '}
@@ -117,7 +117,7 @@ const Testimonials = () => {
                     fontSize: '14px',
                     fontStyle: 'normal',
                     fontWeight: 'normal',
-                    lineHeight: '17px'
+                    lineHeight: '17px',
                   }}
                 >
                   {' '}

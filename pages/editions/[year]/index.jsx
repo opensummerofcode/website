@@ -84,7 +84,7 @@ export async function getStaticPaths() {
     paths: editions
       .filter((e) => !e.external)
       .map((e) => ({ params: { year: e.year.toString() } })),
-    fallback: false
+    fallback: false,
   };
 }
 
@@ -93,15 +93,15 @@ export async function getStaticProps({ params }) {
   const queue = [
     import(`../../../public/editions/${year}/partners.json`),
     import(`../../../public/editions/${year}/participants.json`),
-    import(`../../../public/editions/${year}/projects.json`)
+    import(`../../../public/editions/${year}/projects.json`),
   ];
   const [partners, participants, projects] = await Promise.all(queue);
   return {
     props: {
       partners: partners.default,
       participants: participants.default,
-      projects: projects.default
-    }
+      projects: projects.default,
+    },
   };
 }
 

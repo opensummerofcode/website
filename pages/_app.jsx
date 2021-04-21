@@ -34,7 +34,7 @@ const MyApp = ({ Component, pageProps }) => {
     editions: editionData,
     activeEdition: activeEdition.year,
     showPreviousPartners: false,
-    previousEdition: editionData.find((e) => e.nr === activeEdition.nr - 1)
+    previousEdition: editionData.find((e) => e.nr === activeEdition.nr - 1),
   };
   return (
     <MetaContext.Provider value={metaContext}>

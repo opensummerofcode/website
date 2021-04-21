@@ -13,7 +13,7 @@ const TextLogo = ({ text }) => {
 };
 
 TextLogo.propTypes = {
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
 };
 
 export default TextLogo;

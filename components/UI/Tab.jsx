@@ -13,13 +13,13 @@ const Tab = ({ href, className, children, ...rest }) => {
 };
 
 Tab.defaultProps = {
-  className: ''
+  className: '',
 };
 
 Tab.propTypes = {
   href: PropTypes.string.isRequired,
   className: PropTypes.string,
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Tab;
