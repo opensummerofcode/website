@@ -1,11 +1,11 @@
 import useSWR from 'swr';
 import fetch from '../../util/fetch';
-import Location from './Where/Location';
+// import Location from './Where/Location';
 
 const Where = () => {
-  const renderLocation = (location) => (
-    <Location name={location.name} address={location.address} coordinates={location.coordinates} />
-  );
+  // const renderLocation = (location) => (
+  //   <Location name={location.name} address={location.address} coordinates={location.coordinates} />
+  // );
 
   const { data: locations } = useSWR(`/locations.json`, fetch);
   if (!locations) return <></>;
