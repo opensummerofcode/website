@@ -51,7 +51,7 @@ const StudentApplication = () => {
               Over the last few years, students have got the opportunity to work on open innovation
               projects in different fields such as mobility, education, health, sports and
               biodiversity. Check out{' '}
-              <Link href="/editions/2019">
+              <Link href="/editions/[year]" as="/editions/2020">
                 <a target="_blank">last year&apos;s edition</a>
               </Link>{' '}
               to see what kind of projects have been built by osoc students at the latest edition.
@@ -128,7 +128,7 @@ const StudentApplication = () => {
               student under the Belgian regulation.
             </p>
             <p>
-              Students from an EEA member state 2or from Switzerland are entitled to work in Belgium
+              Students from an EEA member state or from Switzerland are entitled to work in Belgium
               throughout the year under the same terms as Belgian students. Countries in the EEA are
               Austria, Belgium, Bulgaria, Croatia, Cyprus, the Czech Republic, Denmark, Estonia,
               Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia,
