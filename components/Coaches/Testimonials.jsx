@@ -1,7 +1,7 @@
 const Testimonials = () => {
   return (
     <div className="grid-x grid-padding-x u-padding-large--tb align-center border-top-light-gray text-center">
-      <div className="medium-8 large-5 cell">
+      {/* <div className="medium-8 large-5 cell">
         <p>
           Need more convincing? Bert, the guy on the right, is a partner turned coach, because he
           loved it so much!
@@ -23,7 +23,7 @@ const Testimonials = () => {
             July 27, 2017
           </a>
         </blockquote>
-      </div>
+      </div> */}
     </div>
   );
 };
