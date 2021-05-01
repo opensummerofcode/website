@@ -8,7 +8,7 @@ import CoachesHeader from '../../../components/Editions/CoachesHeader';
 import ProjectsGallery from '../../../components/Editions/ProjectsGallery';
 import StudentsGallery from '../../../components/Editions/StudentsGallery';
 import CoachesGallery from '../../../components/Editions/CoachesGallery';
-import Partners from '../../../components/Companies/Partners';
+import Partners from '../../../components/Partners/Partners';
 
 const EditionOverview = ({ editions, partners, participants, projects }) => {
   const router = useRouter();

@@ -80,8 +80,8 @@ const Navigation = () => {
                   </Tab>
                 </li>
                 <li>
-                  <Tab onClick={handleToggle} href="/companies">
-                    Companies
+                  <Tab onClick={handleToggle} href="/partners">
+                    Partners
                   </Tab>
                 </li>
                 <li>

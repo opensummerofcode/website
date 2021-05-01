@@ -5,7 +5,7 @@ import fetch from '../util/fetch';
 import OsocDescription from '../components/Home/OsocDescription';
 import Braggings from '../components/Home/Braggings';
 import HomeHeader from '../components/Home/HomeHeader';
-import Partners from '../components/Companies/Partners';
+import Partners from '../components/Partners/Partners';
 // import ExternalLink from '../components/UI/ExternalLink';
 
 const HomeContainer = () => {

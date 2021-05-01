@@ -25,7 +25,7 @@ const HomeHeader = () => {
       <div className="hero-themes">
         <div className="grid-x grid-padding-x grid-x--equal-height">
           <HeroLink href="/students" name="students" />
-          <HeroLink href="/companies" name="companies" />
+          <HeroLink href="/partners" name="partners" />
           <HeroLink href="/coaches" name="coaches" />
         </div>
       </div>

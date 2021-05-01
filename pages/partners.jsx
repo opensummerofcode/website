@@ -3,10 +3,10 @@ import Head from 'next/head';
 import useSWR from 'swr';
 import MetaContext from '../context/meta';
 import fetch from '../util/fetch';
-import Header from '../components/Companies/Header';
-import Info from '../components/Companies/Info';
+import Header from '../components/Partners/Header';
+import Info from '../components/Partners/Info';
 import FeaturedProjects from '../components/Projects/FeaturedProjects';
-import Partners from '../components/Companies/Partners';
+import Partners from '../components/Partners/Partners';
 
 const Companies = () => {
   const { previousEdition, showPreviousPartners } = useContext(MetaContext);
@@ -17,7 +17,7 @@ const Companies = () => {
   return (
     <>
       <Head>
-        <title>Companies | Open Summer of Code</title>
+        <title>Partners | Open Summer of Code</title>
       </Head>
       <Header />
       <Info />

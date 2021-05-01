@@ -6,7 +6,7 @@ const Header = () => {
           <h1 className="hero-head">
             Osoc
             <br />
-            for companies
+            for partners
           </h1>
         </div>
 
@@ -22,7 +22,7 @@ const Header = () => {
             <br />
             services
             <br />
-            &amp; other companies
+            &amp; other partners
           </p>
           <div className="osoc-float-element-o" />
         </div>
