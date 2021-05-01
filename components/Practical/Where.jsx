@@ -17,7 +17,7 @@ const Where = () => {
         <div className="c-faq__item">
           <h4 className="c-faq__item__question">Online edition</h4>
           <div className="c-faq__item__answer">
-            <p>Due to the current situation, this year edition will be an online edition.</p>
+            <p>Due to the persistent coronacrisis, osoc21 will be an online edition.</p>
           </div>
         </div>
       </div>
