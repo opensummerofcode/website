@@ -4,7 +4,7 @@ const When = () => {
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="small-12 cell">
           <h3 className="h5">
-            {/* TODO: replace by dynamic date */}6 July &mdash; 30 July{' '}
+            {/* TODO: replace by dynamic date */}5 July &mdash; 29 July{' '}
             <span className="subheader">From Monday to Thursday, 9AM to 5PM</span>
           </h3>
           <p>You don&apos;t have to work on Fridays, holidays or weekends!</p>
