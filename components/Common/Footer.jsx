@@ -187,11 +187,11 @@ const Footer = () => {
             Powered by{' '}
             <ExternalLink href="https://www.openknowledge.be/">Open Knowledge Belgium</ExternalLink>{' '}
             |{' '}
-            <ExternalLink href="https://github.com/opensummerofcode/edition-webapp">
+            <ExternalLink href="https://github.com/opensummerofcode/website">
               Source code freely available on GitHub
             </ExternalLink>{' '}
             |{' '}
-            <ExternalLink href="https://github.com/opensummerofcode/edition-webapp/blob/master/CONTRIBUTORS.md">
+            <ExternalLink href="https://github.com/opensummerofcode/website/blob/master/CONTRIBUTORS.md">
               Contributors
             </ExternalLink>
           </p>
