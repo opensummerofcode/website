@@ -24,6 +24,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   const $head = (
     <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <title>Open Summer of Code 2020</title>
     </Head>
   );
