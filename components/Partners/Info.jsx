@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import ExternalLink from '../UI/ExternalLink';
+// import ExternalLink from '../UI/ExternalLink';
 
 const Info = () => {
   return (
@@ -32,13 +32,13 @@ const Info = () => {
             className="u-margin--b"
             alt="A coach and his students tackling a problem"
           />
-          <p>
+          {/* <p>
             <small>
               Open summer of code 2017 &mdash;{' '}
               <ExternalLink href="https://prisma.care">the project Prisma</ExternalLink> partner and
               students brainstorm&nbsp;session.
             </small>
-          </p>
+          </p> */}
         </div>
       </div>
 
@@ -50,12 +50,12 @@ const Info = () => {
             className="u-margin--b"
             alt="Students working out"
           />
-          <p>
+          {/* <p>
             <small>
               Open summer of code 2017 &mdash; making sure our students get some exercise to tackle
               their projects!
             </small>
-          </p>
+          </p> */}
         </div>
         {/* <!--<div class="medium-8 large-6 cell">
         <img src="img/pictures/osoc16-coaches-happy.jpg" class="u-margin--b" alt="Image of students working out">
