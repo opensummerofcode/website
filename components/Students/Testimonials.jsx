@@ -45,7 +45,7 @@ const Testimonials = () => {
               // eslint-disable-next-line
               width: '-webkit-calc(100% - 2px)',
               // eslint-disable-next-line
-              width: 'calc(100% - 2px)'
+              width: 'calc(100% - 2px)',
             }}
           >
             <div style={{ padding: '8px' }}>
@@ -165,7 +165,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="small-12 cell">
-          <ButtonLink className="u-margin-large--t" href="/editions/2019">
+          <ButtonLink className="u-margin-large--t" href="/editions/2020">
             View last year&apos;s edition
           </ButtonLink>
         </div>

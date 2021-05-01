@@ -37,9 +37,9 @@ const Info = () => {
             className="u-margin--b"
             alt="Students getting freaky with it"
           />
-          <p>
+          {/* <p>
             <small>Open summer of code 2017 &mdash; project B-badges</small>
-          </p>
+          </p> */}
         </div>
       </div>
 
