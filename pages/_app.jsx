@@ -54,8 +54,8 @@ const MyApp = ({ Component, pageProps }) => {
 };
 
 MyApp.propTypes = {
-  Component: PropTypes.element.isRequired,
-  pageProps: PropTypes.arrayOf(PropTypes.shape).isRequired,
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
 };
 
 export default withRouter(MyApp);
