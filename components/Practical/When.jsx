@@ -9,7 +9,7 @@ const When = () => {
           </h3>
           <p>You don&apos;t have to work on Fridays, holidays or weekends!</p>
 
-{/*          <p>
+          {/*<p>
             Note: this is last year&apos;s schedule for reference. This year&apos;s planning will be
             published in May.
           </p>*/}
