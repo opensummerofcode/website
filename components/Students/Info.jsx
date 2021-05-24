@@ -8,15 +8,17 @@ const Info = () => {
         <div className="medium-8 large-5 cell">
           <p className="hero-text u-margin-large--b">
             Open summer of code is for anyone who brings motivation, enthusiasm and talent to the
-            table. Don&apos;t be shy,{' '}
+            table. 
+            {/*
+            Don&apos;t be shy,{' '}
             <ExternalLink
               href="https://tally.so/r/npe0Bm"
               title="Apply as a student for open summer of code"
             >
-              {/* className="link--strikethrough" */}
               apply
             </ExternalLink>
             !
+            */}
           </p>
           {/*
           <p>
