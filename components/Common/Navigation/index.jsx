@@ -3,7 +3,7 @@ import Link from 'next/link';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
-import ExternalLink from '../../UI/ExternalLink';
+// import ExternalLink from '../../UI/ExternalLink';
 
 const Navigation = () => {
   const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);

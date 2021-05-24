@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import ExternalLink from '../UI/ExternalLink';
+// import ExternalLink from '../UI/ExternalLink';
 
 const Info = () => {
   return (
@@ -8,7 +8,7 @@ const Info = () => {
         <div className="medium-8 large-5 cell">
           <p className="hero-text u-margin-large--b">
             Open summer of code is for anyone who brings motivation, enthusiasm and talent to the
-            table. 
+            table.
             {/*
             Don&apos;t be shy,{' '}
             <ExternalLink
