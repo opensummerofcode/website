@@ -73,7 +73,8 @@
       "startsAt": "July 30, 2020 15:00:00",
       "endsAt": "July 30, 2020 15:15:00",
       "room": "https://meet.openknowledge.be/11"
-    }
+    },
+    "featured": true
   },
   {
     "id": "bit-of-trust",
@@ -121,7 +122,8 @@
       "startsAt": "July 30, 2020 14:30:00",
       "endsAt": "July 30, 2020 14:45:00",
       "room": "https://meet.openknowledge.be/1"
-    }
+    },
+    "featured": true
   },
   {
     "id": "better-bike-brussels",
@@ -283,7 +285,8 @@
       "startsAt": "July 30, 2020 15:15:00",
       "endsAt": "July 30, 2020 15:30:00",
       "room": "https://meet.openknowledge.be/15"
-    }
+    },
+    "featured": true
   },
   {
     "id": "destination-insight",
@@ -426,7 +429,8 @@
       "startsAt": "July 30, 2020 14:45:00",
       "endsAt": "July 30, 2020 15:00:00",
       "room": "https://meet.openknowledge.be/6"
-    }
+    },
+    "featured": true
   },
   {
     "id": "get-engaged",
