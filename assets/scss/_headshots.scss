@@ -14,15 +14,10 @@ i.fas {
   margin-bottom: 2.6rem;
 
   .headshot-detail__wrapper {
-    width: 100%;
     position: relative;
-    padding-bottom: 100%;
     margin-bottom: 1rem;
+    width: 100%;
     img {
-      object-fit: cover;
-      position: absolute;
-      top: 0;
-      left: 0;
       border-radius: 50%;
       height: 100%;
       width: 100%;
