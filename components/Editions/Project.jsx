@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
-import Image from 'next/image';
 import { ButtonLink } from '../UI/Buttons';
 
 const BREAKOUT_UNSTARTED = 1;
@@ -44,14 +43,14 @@ const Project = ({ edition, project, isDemoDay }) => {
       const minutes = start.getMinutes();
       $buttonContent = (
         <>
-          <Image layout="fill" className="c-icon" src="/img/icons/time.svg" alt="clock" />
+          <img className="c-icon" src="/img/icons/time.svg" alt="clock" />
           Meet us at {hours}:{minutes === 0 ? '00' : minutes}
         </>
       );
     } else if (breakoutStatus === BREAKOUT_IN_PROGRESS) {
       $buttonContent = (
         <>
-          <Image layout="fill" className="c-icon" src="/img/icons/video.svg" alt="video" />
+          <img className="c-icon" src="/img/icons/video.svg" alt="video" />
           Meet the team
         </>
       );
@@ -59,7 +58,7 @@ const Project = ({ edition, project, isDemoDay }) => {
     } else if (breakoutStatus === BREAKOUT_ENDED) {
       $buttonContent = (
         <>
-          <Image layout="fill" className="c-icon" src="/img/icons/time.svg" alt="clock" />
+          <img className="c-icon" src="/img/icons/time.svg" alt="clock" />
           Session has ended
         </>
       );
