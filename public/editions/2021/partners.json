@@ -114,6 +114,12 @@
     "logo": "/editions/2021/partners/ugent-logo.svg"
   },
   {
+    "id": "stad-gent",
+    "name": "Stad Gent",
+    "url": "",
+    "logo": "/editions/2021/partners/gent-logo.svg"
+  },
+  {
     "id": "vliz",
     "name": "VLIZ",
     "url": "",
