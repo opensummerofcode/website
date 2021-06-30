@@ -12,7 +12,7 @@
 
 [[redirects]]
   from = "/welcome"
-  to = "https://help.osoc.be/global/"
+  to = "https://help.osoc.be/osoc21"
   status = 301
 
 [[redirects]]
