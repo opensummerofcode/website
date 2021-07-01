@@ -11,7 +11,7 @@
     "lint-staged": "^11.0.0",
     "motion-ui": "^2.0.3",
     "next": "^10.2.3",
-    "next-images": "^1.1.2",
+    "next-images": "^1.8.1",
     "prop-types": "^15.7.1",
     "react": "^16.14.0",
     "react-app-polyfill": "^2.0.0",
