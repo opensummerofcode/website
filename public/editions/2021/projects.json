@@ -6,7 +6,7 @@
     "logo": "/editions/2021/projects/reclaim-your-data.svg",
     "team": {
       "students": ["abraham-kakooza", "cyrille-mathieu", "romain-perret", "lin-de-huybrecht"],
-      "coaches": []
+      "coaches": ["demian-dekoninck", "martin-van-aken", "xavier-bertels"]
     },
     "repository": "https://github.com/osoc21/Reclaim-your-data",
     "website": null,
@@ -19,7 +19,7 @@
     "logo": "/editions/2021/projects/crowdy.svg",
     "team": {
       "students": ["eben-ezeer-inganji", "elena-lefebvre", "kaj-de-muynck", "loeka-wyseure"],
-      "coaches": []
+      "coaches": ["hannes-d-hulster", "alex-vandoren", "christophe-leroy"]
     },
     "repository": "https://github.com/osoc21/Crowdy",
     "website": null,
@@ -32,7 +32,7 @@
     "logo": "/editions/2021/projects/open-talks.svg",
     "team": {
       "students": ["britt-vanzegbroeck", "yaiza-narganez-gomez"],
-      "coaches": []
+      "coaches": ["niels-dewelde", "astrid-steenackers", "miet-claes"]
     },
     "repository": "https://github.com/osoc21",
     "website": null,
@@ -51,7 +51,7 @@
         "erinn-van-der-sande",
         "jente-snoeck"
       ],
-      "coaches": []
+      "coaches": ["hannes-d-hulster", "alex-vandoren", "michiel-leyman"]
     },
     "repository": "https://github.com/osoc21/Future-of-Work",
     "website": null,
@@ -64,7 +64,7 @@
     "logo": "/editions/2021/projects/belbadges.svg",
     "team": {
       "students": ["lies-heylen", "marie-de-lange"],
-      "coaches": []
+      "coaches": ["emma-stoks", "bert-jehoul"]
     },
     "repository": "https://github.com/osoc21/Belbadges",
     "website": null,
@@ -83,7 +83,7 @@
     "logo": "/editions/2021/projects/selection-tool.svg",
     "team": {
       "students": ["tischa-nyanguile", "jeroen-dewelde", "merline-coppieters"],
-      "coaches": []
+      "coaches": ["michiel-leyman", "miet-claes"]
     },
     "repository": "https://github.com/osoc21/selection-tool",
     "website": null,
@@ -96,7 +96,7 @@
     "logo": "/editions/2021/projects/arvesta-s-digital-innovation-hackathon.svg",
     "team": {
       "students": ["stivi-imami", "bram-van-de-vyver", "laura-de-vos"],
-      "coaches": []
+      "coaches": ["jodi-de-loof", "niels-dewelde"]
     },
     "repository": "https://github.com/osoc21/Arvesta-s-Digital-Innovation-Hackathon",
     "website": null,
@@ -109,7 +109,7 @@
     "logo": "/editions/2021/projects/fish.svg",
     "team": {
       "students": ["felix-cammaerts", "cat-catry", "maarten-wens"],
-      "coaches": []
+      "coaches": ["christophe-leroy", "liesbeth-lyssens"]
     },
     "repository": "https://github.com/osoc21/Final-Improved-String-pHarser",
     "website": null,
@@ -122,7 +122,7 @@
     "logo": "/editions/2021/projects/nature-moves.svg",
     "team": {
       "students": ["liam-simons", "karelle-keters", "hannah-declerck", "ward-beyens"],
-      "coaches": []
+      "coaches": ["hannes-d-hulster", "alex-vandoren", "pol-labaut", "joost-schouppe"]
     },
     "repository": "https://github.com/osoc21/Nature-moves",
     "website": null,
@@ -135,7 +135,7 @@
     "logo": "/editions/2021/projects/safe-crossing.svg",
     "team": {
       "students": ["bolat-tleubayev", "mohammadreza-amini", "andrews-leruth"],
-      "coaches": []
+      "coaches": ["inti-valderas-caro", "christophe-leroy", "robin-julien"]
     },
     "repository": "https://github.com/osoc21/Safe-Crossing",
     "website": null,
@@ -158,7 +158,7 @@
         "lieselot-geirnaert",
         "ilya-plyusnin"
       ],
-      "coaches": []
+      "coaches": ["jodi-de-loof", "inti-valderas-caro"]
     },
     "repository": "https://github.com/osoc21/RoadBase",
     "website": null,
@@ -177,7 +177,7 @@
         "ryan-byloos",
         "carlos-ruiz-herrera"
       ],
-      "coaches": []
+      "coaches": ["demian-dekoninck", "martin-van-aken", "xavier-bertels"]
     },
     "repository": "https://github.com/osoc21/ldes2service",
     "website": null,
@@ -190,7 +190,7 @@
     "logo": "/editions/2021/projects/bikeinfrastructure.svg",
     "team": {
       "students": ["arno-deceuninck", "charlotte-delvaux", "robin-van-der-linde"],
-      "coaches": []
+      "coaches": ["hannes-d-hulster", "alex-vandoren", "pol-labaut", "joost-schouppe"]
     },
     "repository": "https://github.com/osoc21/BikeInfrastructure",
     "website": null,
