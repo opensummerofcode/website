@@ -1,5 +1,209 @@
 [
   {
+    "id": "jodi-de-loof",
+    "name": "Jodi De Loof",
+    "mugshot": "/editions/2021/participants/jodi-de-loof.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/jodiDL"
+    },
+    "coach": true
+  },
+  {
+    "id": "inti-valderas-caro",
+    "name": "Inti Valderas Caro",
+    "mugshot": "/editions/2021/participants/inti-valderas-caro.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/IntiValderas"
+    },
+    "coach": true
+  },
+  {
+    "id": "emma-stoks",
+    "name": "Emma Stoks",
+    "mugshot": "/editions/2021/participants/emma-stokso.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/emmastoks"
+    },
+    "coach": true
+  },
+  {
+    "id": "bert-jehoul",
+    "name": "Bert Jehoul",
+    "mugshot": "/editions/2021/participants/bert-jehoul.png",
+    "socials": {
+      "twitter": "https://twitter.com/jeborsel",
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/jeborsel"
+    },
+    "coach": true
+  },
+  {
+    "id": "niels-dewelde",
+    "name": "Niels Dewelde",
+    "mugshot": "/editions/2021/participants/niels-dewelde.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/nielsdewelde"
+    },
+    "coach": true
+  },
+  {
+    "id": "demian-dekoninck",
+    "name": "Demian Dekoninck",
+    "mugshot": "/editions/2021/participants/demian-dekoninck.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/DemianD"
+    },
+    "coach": true
+  },
+  {
+    "id": "martin-van-aken",
+    "name": "Martin Van Aken",
+    "mugshot": "/editions/2021/participants/martin-van-aken.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "http://github.com/vanakenm"
+    },
+    "coach": true
+  },
+  {
+    "id": "hannes-d-hulster",
+    "name": "Hannes D'Hulster",
+    "mugshot": "/editions/2021/participants/hannes-d-hulster.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "id": "alex-vandoren",
+    "name": "Alex Vandoren",
+    "mugshot": "/editions/2021/participants/alex-vandoren.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/zenigame2"
+    },
+    "coach": true
+  },
+  {
+    "id": "michiel-leyman",
+    "name": "Michiel Leyman",
+    "mugshot": "/editions/2021/participants/michiel-leyman.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/MichielLeyman"
+    },
+    "coach": true
+  },
+  {
+    "id": "christophe-leroy",
+    "name": "Christophe Leroy",
+    "mugshot": "/editions/2021/participants/christophe-leroy.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/elroyK"
+    },
+    "coach": true
+  },
+  {
+    "id": "robin-julien",
+    "name": "Robin Julien",
+    "mugshot": "/editions/2021/participants/robin-julien.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "id": "pol-labaut",
+    "name": "Pol Labaut",
+    "mugshot": "/editions/2021/participants/pol-labaut.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/labautpol"
+    },
+    "coach": true
+  },
+  {
+    "id": "joost-schouppe",
+    "name": "Joost Schouppe",
+    "mugshot": "/editions/2021/participants/joost-schouppe.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/joostschouppe"
+    },
+    "coach": true
+  },
+  {
+    "id": "astrid-steenackers",
+    "name": "Astrid Steenackers",
+    "mugshot": "/editions/2021/participants/astrid-steenackers.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/SteenackersAstrid"
+    },
+    "coach": true
+  },
+  {
+    "id": "miet-claes",
+    "name": "Miet Claes",
+    "mugshot": "/editions/2021/participants/miet-claes.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/mietcls"
+    },
+    "coach": true
+  },
+  {
+    "id": "liesbeth-lyssens",
+    "name": "Liesbeth Lyssens",
+    "mugshot": "/editions/2021/participants/liesbeth-lyssens.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/lieslys"
+    },
+    "coach": true
+  },
+  {
     "id": "clement-vandendaelen",
     "name": "Clément Vandendaelen",
     "mugshot": "/editions/2021/participants/clement-vandendaelen.png",
