@@ -1,1 +1,106 @@
-[]
+[
+  {
+    "id": "clement-vandendaelen",
+    "name": "Clément Vandendaelen",
+    "mugshot": "/editions/2021/participants/clement-vandendaelen.png",
+    "socials": {
+      "twitter": "https://twitter.com/VandendaelenC",
+      "linkedin": "https://www.linkedin.com/in/cl%C3%A9ment-vandendaelen/",
+      "behance": null,
+      "github": "https://github.com/LotuxPunk"
+    },
+    "coach": false,
+    "studentCoach": false
+  },
+  {
+    "id": "anastasia-dvoryanchikova",
+    "name": "Anastasia Dvoryanchikova",
+    "mugshot": "/editions/2021/participants/anastasia-dvoryanchikova.png",
+    "socials": {
+      "twitter": "https://twitter.com/AnadAnastasia",
+      "linkedin": "https://www.linkedin.com/in/anastasia-d-47ba97150/",
+      "behance": null,
+      "github": "https://github.com/AnastasiaDv491"
+    },
+    "coach": false,
+    "studentCoach": false
+  },
+  {
+    "id": "liam-simons",
+    "name": "Liam Simons",
+    "mugshot": "/editions/2021/participants/liam-simons.png",
+    "socials": {
+      "twitter": "https://twitter.com/superstier2",
+      "linkedin": "https://www.linkedin.com/in/liam-simons-419466204",
+      "behance": null,
+      "github": "https://github.com/LiamSimons"
+    },
+    "coach": false,
+    "studentCoach": false
+  },
+  {
+    "id": "julia-van-der-kris",
+    "name": "Julia van der Kris",
+    "mugshot": "/editions/2021/participants/julia-van-der-kris.png",
+    "socials": {
+      "twitter": "https://twitter.com/samvdkris",
+      "linkedin": "https://www.linkedin.com/in/sam-van-der-kris-041226168/",
+      "behance": null,
+      "github": "https://github.com/samvdkris/"
+    },
+    "coach": false,
+    "studentCoach": false
+  },
+  {
+    "id": "karelle-keters",
+    "name": "Karelle Keters",
+    "mugshot": "/editions/2021/participants/karelle-keters.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/karelle-keters-b576331b6/",
+      "behance": null,
+      "github": "https://github.com/karelleketers"
+    },
+    "coach": false,
+    "studentCoach": false
+  },
+  {
+    "id": "fien-goeman",
+    "name": "Fien Goeman",
+    "mugshot": "/editions/2021/participants/fien-goeman.png",
+    "socials": {
+      "twitter": "https://twitter.com/FienGoeman",
+      "linkedin": "https://www.linkedin.com/in/fien-goeman-9632a61b5/",
+      "behance": null,
+      "github": null
+    },
+    "coach": false,
+    "studentCoach": false
+  },
+  {
+    "id": "hannah-declerck",
+    "name": "Hannah Declerck",
+    "mugshot": "/editions/2021/participants/hannah-declerck.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/hannah-declerck-308518147/",
+      "behance": null,
+      "github": "https://github.com/hannah-devine"
+    },
+    "coach": false,
+    "studentCoach": false
+  },
+  {
+    "id": "arno-troch",
+    "name": "Arno Troch",
+    "mugshot": "/editions/2021/participants/arno-troch.png",
+    "socials": {
+      "twitter": "https://twitter.com/arno_troch",
+      "linkedin": "https://www.linkedin.com/in/arno-troch",
+      "behance": null,
+      "github": "https://github.com/ArnoTroch"
+    },
+    "coach": false,
+    "studentCoach": false
+  }
+]
