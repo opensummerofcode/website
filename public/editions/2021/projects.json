@@ -44,7 +44,7 @@
     "description": "Our goal is to create an application that analyzes the inflow and outflow of personnel and creates fancy, useful visualizations.",
     "logo": "/editions/2021/projects/future-of-work.svg",
     "team": {
-      "students": [],
+      "students": ["anastasia-dvoryanchikova"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Future-of-Work",
@@ -115,7 +115,7 @@
     "description": "Our goal is to build a map visualisation and editing tool to enrich and integrate the Natuurpunt’s nature reserves data into the OSM database, making it both accessible, maintainable, and mobile-friendly.",
     "logo": "/editions/2021/projects/nature-moves.svg",
     "team": {
-      "students": [],
+      "students": ["liam-simons", "karelle-keters", "hannah-declerck"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Nature-moves",
@@ -141,7 +141,7 @@
     "description": "Crowd-sourcing information about road marks in linked open data structure to enable (local) governments, companies & citizens to use and reuse this data,  build new applications and create new roads to safety.",
     "logo": "/editions/2021/projects/roadbase.svg",
     "team": {
-      "students": [],
+      "students": ["julia-van-der-kris", "fien-goeman"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/RoadBase",
@@ -154,7 +154,7 @@
     "description": "Our goal is to build an SDK to make it easier for Data Publisher/Developers to publish their datasets as Linked Data Event Streams (LDES) and showcase its potential by creating a use-case for public transport services",
     "logo": "/editions/2021/projects/ldes.svg",
     "team": {
-      "students": [],
+      "students": ["clement-vandendaelen", "arno-troch"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/ldes2service",
