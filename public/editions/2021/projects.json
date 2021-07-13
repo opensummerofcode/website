@@ -5,7 +5,7 @@
     "description": "Remember this nice picture your friend shared of you cliff jumping? So does your insurer - and he just raised your premium. WePod is creating a web application that allows you to get back control. Choose who gets to see which pictures and keep the ownership over your data.",
     "logo": "/editions/2021/projects/reclaim-your-data.svg",
     "team": {
-      "students": [],
+      "students": ["abraham-kakooza", "cyrille-mathieu", "romain-perret", "lin-de-huybrecht"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Reclaim-your-data",
@@ -18,7 +18,7 @@
     "description": "We will build a user-friendly web-app \"crowdedness meter\" to help students meet safely in Ghent hotspots. Our ultimate goal is to offer students the opportunity to reclaim the ownership of their reputation, by demonstrating that it is possible to have a social life while respecting government measures. For students, by students.",
     "logo": "/editions/2021/projects/crowdy.svg",
     "team": {
-      "students": [],
+      "students": ["eben-ezeer-inganji", "elena-lefebvre", "kaj-de-muynck", "loeka-wyseure"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Crowdy",
@@ -31,7 +31,7 @@
     "description": "Creating, organising and optimising the internal and external communication strategy for #osoc21. The goal is to document and share the experiences of all #osoc21 participants to the world and future students, coaches, sponsors and partners in a successful creative communication campaign on different media platforms.",
     "logo": "/editions/2021/projects/open-talks.svg",
     "team": {
-      "students": [],
+      "students": ["britt-vanzegbroeck", "yaiza-narganez-gomez"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21",
@@ -44,7 +44,13 @@
     "description": "Our goal is to create an application that analyzes the inflow and outflow of personnel and creates fancy, useful visualizations.",
     "logo": "/editions/2021/projects/future-of-work.svg",
     "team": {
-      "students": ["anastasia-dvoryanchikova"],
+      "students": [
+        "anastasia-dvoryanchikova",
+        "camille-collet",
+        "arthur-temmerman",
+        "erinn-van-der-sande",
+        "jente-snoeck"
+      ],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Future-of-Work",
@@ -57,7 +63,7 @@
     "description": "We will be creating a campaign to successfully bring Edubadges to the Belgian public in the future. The communication plan will inform the viewer about Edubadges and its advantages. ",
     "logo": "/editions/2021/projects/belbadges.svg",
     "team": {
-      "students": [],
+      "students": ["lies-heylen", "marie-de-lange"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Belbadges",
@@ -76,7 +82,7 @@
     "description": "Creating a selection tool for recruiters giving them the opportunity to collaborate in real time while having an overview of all the candidates, resulting in diverse, innovative teams for all orgranisations. Giving orgranisations the opportunity to find the best candidates and match them to the preferred team.",
     "logo": "/editions/2021/projects/selection-tool.svg",
     "team": {
-      "students": [],
+      "students": ["tischa-nyanguile", "jeroen-dewelde", "merline-coppieters"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/selection-tool",
@@ -89,7 +95,7 @@
     "description": "How to connect the different stakeholders of Arvesta, the largest full-service partner for Belgian farmers and market gardeners? Sharing their knowledge to become more aware, so they can improve their skills and attitudes.",
     "logo": "/editions/2021/projects/arvesta-s-digital-innovation-hackathon.svg",
     "team": {
-      "students": [],
+      "students": ["stivi-imami", "bram-van-de-vyver", "laura-de-vos"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Arvesta-s-Digital-Innovation-Hackathon",
@@ -102,7 +108,7 @@
     "description": "extract data from scientific references and store it in a usable format. We split strings, containing citations and references, into the correct author, year, journal and publication.",
     "logo": "/editions/2021/projects/fish.svg",
     "team": {
-      "students": [],
+      "students": ["felix-cammaerts", "cat-catry", "maarten-wens"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Final-Improved-String-pHarser",
@@ -115,7 +121,7 @@
     "description": "Our goal is to build a map visualisation and editing tool to enrich and integrate the Natuurpunt’s nature reserves data into the OSM database, making it both accessible, maintainable, and mobile-friendly.",
     "logo": "/editions/2021/projects/nature-moves.svg",
     "team": {
-      "students": ["liam-simons", "karelle-keters", "hannah-declerck"],
+      "students": ["liam-simons", "karelle-keters", "hannah-declerck", "ward-beyens"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Nature-moves",
@@ -128,7 +134,7 @@
     "description": "This project is about determining which crosswalk a pedestrian is about to cross with a mobile phone and optionally hardware devices installed on the intersection.  Pedestrians and specially blind people are the target audiance for this project. ",
     "logo": "/editions/2021/projects/safe-crossing.svg",
     "team": {
-      "students": [],
+      "students": ["bolat-tleubayev", "mohammadreza-amini", "andrews-leruth"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/Safe-Crossing",
@@ -141,7 +147,17 @@
     "description": "Crowd-sourcing information about road marks in linked open data structure to enable (local) governments, companies & citizens to use and reuse this data,  build new applications and create new roads to safety.",
     "logo": "/editions/2021/projects/roadbase.svg",
     "team": {
-      "students": ["julia-van-der-kris", "fien-goeman"],
+      "students": [
+        "julia-van-der-kris",
+        "fien-goeman",
+        "ines-elvira",
+        "bo-robbrecht",
+        "sybren-de-boever",
+        "hans-vertriest",
+        "xuan-hung-dinh",
+        "lieselot-geirnaert",
+        "ilya-plyusnin"
+      ],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/RoadBase",
@@ -154,7 +170,13 @@
     "description": "Our goal is to build an SDK to make it easier for Data Publisher/Developers to publish their datasets as Linked Data Event Streams (LDES) and showcase its potential by creating a use-case for public transport services",
     "logo": "/editions/2021/projects/ldes.svg",
     "team": {
-      "students": ["clement-vandendaelen", "arno-troch"],
+      "students": [
+        "clement-vandendaelen",
+        "arno-troch",
+        "wout-verbiest",
+        "ryan-byloos",
+        "carlos-ruiz-herrera"
+      ],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/ldes2service",
@@ -167,7 +189,7 @@
     "description": "We will build a user-friendly and visually attractive tool to visualize and promote the Open Street Maps data on cycling infrastructure in the province of East-Flanders.",
     "logo": "/editions/2021/projects/bikeinfrastructure.svg",
     "team": {
-      "students": [],
+      "students": ["arno-deceuninck", "charlotte-delvaux", "robin-van-der-linde"],
       "coaches": []
     },
     "repository": "https://github.com/osoc21/BikeInfrastructure",
