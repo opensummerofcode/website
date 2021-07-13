@@ -1,1 +1,177 @@
-[]
+[
+  {
+    "id": "reclaim-your-data",
+    "name": "Reclaim your data",
+    "description": "Remember this nice picture your friend shared of you cliff jumping? So does your insurer - and he just raised your premium. WePod is creating a web application that allows you to get back control. Choose who gets to see which pictures and keep the ownership over your data.",
+    "logo": "/editions/2020/projects/reclaim-your-data.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/Reclaim-your-data",
+    "website": null,
+    "partners": ["idlab"]
+  },
+  {
+    "id": "crowdy",
+    "name": "Crowdy",
+    "description": "We will build a user-friendly web-app \"crowdedness meter\" to help students meet safely in Ghent hotspots. Our ultimate goal is to offer students the opportunity to reclaim the ownership of their reputation, by demonstrating that it is possible to have a social life while respecting government measures. For students, by students.",
+    "logo": "/editions/2020/projects/crowdy.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/Crowdy",
+    "website": null,
+    "partners": ["stad-gent", "ugent"]
+  },
+  {
+    "id": "open-talks",
+    "name": "Open Talks",
+    "description": "Creating, organising and optimising the internal and external communication strategy for #osoc21. The goal is to document and share the experiences of all #osoc21 participants to the world and future students, coaches, sponsors and partners in a successful creative communication campaign on different media platforms.",
+    "logo": "/editions/2020/projects/open-talks.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21",
+    "website": null,
+    "partners": ["openknowledgebe", "fris"]
+  },
+  {
+    "id": "future-of-work",
+    "name": "Future of Work",
+    "description": "Our goal is to create an application that analyzes the inflow and outflow of personnel and creates fancy, useful visualizations.",
+    "logo": "/editions/2020/projects/future-of-work.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/Future-of-Work",
+    "website": null,
+    "partners": ["deloitte"]
+  },
+  {
+    "id": "belbadges",
+    "name": "Belbadges",
+    "description": "We will be creating a campaign to successfully bring Edubadges to the Belgian public in the future. The communication plan will inform the viewer about Edubadges and its advantages. ",
+    "logo": "/editions/2020/projects/belbadges.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/Belbadges",
+    "website": null,
+    "partners": [
+      "artevlede-hogeschool",
+      "belnet",
+      "hogent",
+      "karel-de-grote-hogeschool",
+      "kodeklub"
+    ]
+  },
+  {
+    "id": "selection-tool",
+    "name": "selection-tool",
+    "description": "Creating a selection tool for recruiters giving them the opportunity to collaborate in real time while having an overview of all the candidates, resulting in diverse, innovative teams for all orgranisations. Giving orgranisations the opportunity to find the best candidates and match them to the preferred team.",
+    "logo": "/editions/2020/projects/selection-tool.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/selection-tool",
+    "website": null,
+    "partners": ["openknowledgebe"]
+  },
+  {
+    "id": "arvesta-s-digital-innovation-hackathon",
+    "name": "Arvesta's Digital Innovation Hackathon",
+    "description": "How to connect the different stakeholders of Arvesta, the largest full-service partner for Belgian farmers and market gardeners? Sharing their knowledge to become more aware, so they can improve their skills and attitudes.",
+    "logo": "/editions/2020/projects/arvesta-s-digital-innovation-hackathon.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/Arvesta-s-Digital-Innovation-Hackathon",
+    "website": null,
+    "partners": ["arvesta"]
+  },
+  {
+    "id": "fish",
+    "name": "Final Improved String pHarser (FISH)",
+    "description": "extract data from scientific references and store it in a usable format. We split strings, containing citations and references, into the correct author, year, journal and publication.",
+    "logo": "/editions/2020/projects/fish.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/Final-Improved-String-pHarser",
+    "website": null,
+    "partners": ["vliz"]
+  },
+  {
+    "id": "nature-moves",
+    "name": "Nature moves",
+    "description": "Our goal is to build a map visualisation and editing tool to enrich and integrate the Natuurpunt’s nature reserves data into the OSM database, making it both accessible, maintainable, and mobile-friendly.",
+    "logo": "/editions/2020/projects/nature-moves.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/Nature-moves",
+    "website": null,
+    "partners": ["natuurpunt", "osmbe"]
+  },
+  {
+    "id": "safe-crossing",
+    "name": "Safe Crossing",
+    "description": "This project is about determining which crosswalk a pedestrian is about to cross with a mobile phone and optionally hardware devices installed on the intersection.  Pedestrians and specially blind people are the target audiance for this project. ",
+    "logo": "/editions/2020/projects/safe-crossing.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/Safe-Crossing",
+    "website": null,
+    "partners": ["imec"]
+  },
+  {
+    "id": "roadbase",
+    "name": "RoadBase",
+    "description": "Crowd-sourcing information about road marks in linked open data structure to enable (local) governments, companies & citizens to use and reuse this data,  build new applications and create new roads to safety.",
+    "logo": "/editions/2020/projects/roadbase.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/RoadBase",
+    "website": null,
+    "partners": ["abb", "mow", "awv"]
+  },
+  {
+    "id": "ldes",
+    "name": "Linked Data Event Streams",
+    "description": "Our goal is to build an SDK to make it easier for Data Publisher/Developers to publish their datasets as Linked Data Event Streams (LDES) and showcase its potential by creating a use-case for public transport services",
+    "logo": "/editions/2020/projects/ldes.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/ldes2service",
+    "website": null,
+    "partners": ["adv"]
+  },
+  {
+    "id": "bikeinfrastructure",
+    "name": "BikeInfrastructure",
+    "description": "We will build a user-friendly and visually attractive tool to visualize and promote the Open Street Maps data on cycling infrastructure in the province of East-Flanders.",
+    "logo": "/editions/2020/projects/bikeinfrastructure.svg",
+    "team": {
+      "students": [],
+      "coaches": []
+    },
+    "repository": "https://github.com/osoc21/BikeInfrastructure",
+    "website": null,
+    "partners": ["provincie-oostvlaanderen", "osmbe"]
+  }
+]
