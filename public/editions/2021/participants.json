@@ -10,7 +10,7 @@
       "github": "https://github.com/LotuxPunk"
     },
     "coach": false,
-    "studentCoach": false
+    "studentCoach": true
   },
   {
     "id": "anastasia-dvoryanchikova",
@@ -23,7 +23,7 @@
       "github": "https://github.com/AnastasiaDv491"
     },
     "coach": false,
-    "studentCoach": false
+    "studentCoach": true
   },
   {
     "id": "liam-simons",
@@ -114,7 +114,7 @@
       "github": "https://github.com/seniep"
     },
     "coach": false,
-    "studentCoach": false
+    "studentCoach": true
   },
   {
     "id": "lies-heylen",
@@ -231,7 +231,7 @@
       "github": "https://github.com/wardbeyens"
     },
     "coach": false,
-    "studentCoach": false
+    "studentCoach": true
   },
   {
     "id": "mohammadreza-amini",
@@ -296,7 +296,7 @@
       "github": "https://github.com/speedbuilder"
     },
     "coach": false,
-    "studentCoach": false
+    "studentCoach": true
   },
   {
     "id": "arno-deceuninck",
@@ -309,7 +309,7 @@
       "github": "https://github.com/arnodeceuninck"
     },
     "coach": false,
-    "studentCoach": false
+    "studentCoach": true
   },
   {
     "id": "sybren-de-boever",
