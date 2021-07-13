@@ -84,6 +84,18 @@
     "coach": true
   },
   {
+    "id": "xavier-bertels",
+    "name": "Xavier Bertels",
+    "mugshot": "/editions/2021/participants/xavier-bertels.png",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "http://github.com/xavez"
+    },
+    "coach": true
+  },
+  {
     "id": "hannes-d-hulster",
     "name": "Hannes D'Hulster",
     "mugshot": "/editions/2021/participants/hannes-d-hulster.png",
