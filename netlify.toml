@@ -26,6 +26,11 @@
   status = 301
 
 [[redirects]]
+  from = "/2021"
+  to = "/editions/2021"
+  status = 301
+
+[[redirects]]
   from = "/companies"
   to = "/partners"
   status = 301

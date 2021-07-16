@@ -89,13 +89,11 @@ const Navigation = () => {
                     Coaches
                   </Tab>
                 </li>
-                {/*
                 <li>
-                  <Tab onClick={handleToggle} href="/editions/2020">
-                    2020
+                  <Tab onClick={handleToggle} href="/editions/2021">
+                    2021
                   </Tab>
                 </li>
-                */}
 
                 {/*
                 <li>

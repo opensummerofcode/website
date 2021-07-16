@@ -1,0 +1,128 @@
+[
+  {
+    "id": "openknowledgebe",
+    "name": "Open Knowledge Belgium",
+    "url": "https://openknowledge.be/",
+    "logo": "/editions/2021/partners/okbe-logo.svg"
+  },
+  {
+    "id": "osmbe",
+    "name": "OpenStreetMap Belgium",
+    "url": "https://openstreetmap.be/",
+    "logo": "/editions/2021/partners/osmbe-logo.svg"
+  },
+  {
+    "id": "abb",
+    "name": "Agentschap Binnenlands Bestuur",
+    "url": "",
+    "logo": "/editions/2021/partners/agentschap-binnenlands-bestuur-logo.svg"
+  },
+  {
+    "id": "mow",
+    "name": "Mobiliteit & Openbare Werken",
+    "url": "",
+    "logo": "/editions/2021/partners/agentschap-mobiliteit-openbare-werken-logo.svg"
+  },
+  {
+    "id": "awv",
+    "name": "Agentschap Wegen & Verkeer",
+    "url": "",
+    "logo": "/editions/2021/partners/agentschap-wegen-verkeer-logo.svg"
+  },
+  {
+    "id": "artevlede-hogeschool",
+    "name": "Artevelde Hogeschool",
+    "url": "",
+    "logo": "/editions/2021/partners/artevelde-logo.svg"
+  },
+  {
+    "id": "belnet",
+    "name": "Belnet",
+    "url": "",
+    "logo": "/editions/2021/partners/belnet-logo.svg"
+  },
+  {
+    "id": "hogent",
+    "name": "HoGent",
+    "url": "",
+    "logo": "/editions/2021/partners/hogent-logo.svg"
+  },
+  {
+    "id": "karel-de-grote-hogeschool",
+    "name": "Karel de Grote Hogeschool",
+    "url": "",
+    "logo": "/editions/2021/partners/kdg-logo.svg"
+  },
+  {
+    "id": "kodeklub",
+    "name": "Kodeklub",
+    "url": "",
+    "logo": "/editions/2021/partners/kodeklub-logo.svg"
+  },
+  {
+    "id": "deloitte",
+    "name": "Deloitte",
+    "url": "",
+    "logo": "/editions/2021/partners/deloitte-logo.svg"
+  },
+  {
+    "id": "arvesta",
+    "name": "Arvesta",
+    "url": "",
+    "logo": "/editions/2021/partners/arvesta-logo.svg"
+  },
+  {
+    "id": "adv",
+    "name": "Agentschap Digitaal Vlaanderen",
+    "url": "",
+    "logo": "/editions/2021/partners/agentschap-digitaal-vlaanderen-logo.svg"
+  },
+  {
+    "id": "idlab",
+    "name": "IDLab",
+    "url": "",
+    "logo": "/editions/2021/partners/idlab-logo.svg"
+  },
+  {
+    "id": "imec",
+    "name": "imec",
+    "url": "",
+    "logo": "/editions/2021/partners/imec-logo.svg"
+  },
+  {
+    "id": "natuurpunt",
+    "name": "Natuurpunt",
+    "url": "",
+    "logo": "/editions/2021/partners/natuurpunt-logo.svg"
+  },
+  {
+    "id": "provincie-oostvlaanderen",
+    "name": "Provincie Oost-Vlaanderen",
+    "url": "",
+    "logo": "/editions/2021/partners/provincie-oostvlaanderen-logo.svg"
+  },
+  {
+    "id": "fris",
+    "name": "FRIS",
+    "url": "",
+    "logo": "/editions/2021/partners/fris-logo.svg"
+  },
+  {
+    "id": "ugent",
+    "name": "UGent",
+    "url": "",
+    "logo": "/editions/2021/partners/ugent-logo.svg"
+  },
+  {
+    "id": "stad-gent",
+    "name": "Stad Gent",
+    "url": "",
+    "logo": "/editions/2021/partners/gent-logo.svg"
+  },
+  {
+    "id": "vliz",
+    "name": "VLIZ",
+    "url": "",
+    "logo": "/editions/2021/partners/vliz-logo.svg"
+  }
+]

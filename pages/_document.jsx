@@ -29,7 +29,7 @@ class MyDocument extends Document {
           <meta name="author" content="osoc20 team, Open Knowledge Belgium" />
 
           {/* Socials */}
-          <meta property="og:title" content="open summer of code 2020" />
+          <meta property="og:title" content="open summer of code" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="http://osoc.be" />
           <meta
@@ -42,7 +42,7 @@ class MyDocument extends Document {
           />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@osocode" />
-          <meta name="twitter:title" content="open summer of code 2020" />
+          <meta name="twitter:title" content="open summer of code" />
           <meta
             name="twitter:description"
             content="Innovative open source projects, made by incredibly motivated students, coaches and organisations."

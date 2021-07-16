@@ -66,7 +66,14 @@
     "nr": 10,
     "url": "/editions/2020",
     "img": "/img/previous-editions/2020W.svg",
-    "active": true,
     "demoDayDate": "July 30, 2020 13:00"
+  },
+  {
+    "year": 2021,
+    "nr": 11,
+    "url": "/editions/2021",
+    "img": "/img/previous-editions/2021W.svg",
+    "active": true,
+    "demoDayDate": "July 29, 2021 13:00"
   }
 ]
