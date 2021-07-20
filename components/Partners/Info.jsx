@@ -1,5 +1,7 @@
 import Link from 'next/link';
-// import ExternalLink from '../UI/ExternalLink';
+import DemoDayLink from '../UI/DemoDayLink';
+import ExternalLink from '../UI/ExternalLink';
+import { ButtonLink } from '../UI/Buttons';
 
 const Info = () => {
   return (
@@ -17,14 +19,12 @@ const Info = () => {
               Mail us
             </a>
           </p>
-          {/*
           <p>
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
-            when applications open for 2019 &mdash; or{' '}
-            <DemoDayLink>join us on the Demo Day</DemoDayLink> on the 30th of July.
+            when applications open for 2022 &mdash; or{' '}
+            <DemoDayLink>join us on the Demo Day</DemoDayLink> on the 29th of July.
           </p>
-          */}
         </div>
         <div className="medium-8 large-6 cell large-offset-1">
           <img
@@ -86,10 +86,21 @@ const Info = () => {
             .
           </p>
 
-          {/* <!--<p class="u-margin-large--tb">
-          <a class="button" href="mailto:info@osoc.be?subject=Regarding osoc Partnership" title="Start a partnership with open summer of code">Mail us to apply</a>
-          <a href="https://demodayosoc20.eventbrite.co.uk/" target="_blank" class="button">Come to the Demo Day</a>
-          <a class="button link" href="2018.html">View this year's projects</a></p> --> */}
+          <p className="u-margin-large--tb">
+            {/* <a
+              className="button"
+              href="mailto:info@osoc.be?subject=Regarding osoc Partnership"
+              title="Start a partnership with open summer of code"
+            >
+              Mail us to apply
+            </a>
+            <br /> */}
+            <DemoDayLink className="button">Come to the Demo Day</DemoDayLink>
+            <br />
+            <ButtonLink className="button" href="/editions/2021">
+              View this year&apos;s projects
+            </ButtonLink>
+          </p>
         </div>
       </div>
     </>

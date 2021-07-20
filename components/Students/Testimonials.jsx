@@ -1,5 +1,5 @@
 import ExternalLink from '../UI/ExternalLink';
-import { ButtonLink } from '../UI/Buttons';
+// import { ButtonLink } from '../UI/Buttons';
 
 const Testimonials = () => {
   return (
@@ -164,11 +164,11 @@ const Testimonials = () => {
             </blockquote>{' '}
           </div>
         </div>
-        <div className="small-12 cell">
+        {/* <div className="small-12 cell">
           <ButtonLink className="u-margin-large--t" href="/editions/2020">
             View last year&apos;s edition
           </ButtonLink>
-        </div>
+        </div> */}
       </div>
     </>
   );

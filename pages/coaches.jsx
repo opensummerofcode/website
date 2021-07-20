@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Coaches/Header';
 import Info from '../components/Coaches/Info';
 import Testimonials from '../components/Coaches/Testimonials';
-import FeaturedProjects from '../components/Projects/FeaturedProjects';
+// import FeaturedProjects from '../components/Projects/FeaturedProjects';
 
 const Coaches = () => (
   <>
@@ -13,7 +13,7 @@ const Coaches = () => (
     <Header />
     <Info />
     <Testimonials />
-    <FeaturedProjects divider="bg-lighter-gray" />
+    {/* <FeaturedProjects divider="bg-lighter-gray" /> */}
   </>
 );
 

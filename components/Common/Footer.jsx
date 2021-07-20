@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ButtonGroup } from '../UI/Buttons';
 import ExternalLink from '../UI/ExternalLink';
+import DemoDayLink from '../UI/DemoDayLink';
 import W2011 from '../../assets/img/previous-editions/2011W.svg';
 import W2012 from '../../assets/img/previous-editions/2012W.svg';
 import W2013 from '../../assets/img/previous-editions/2013W.svg';
@@ -92,11 +93,9 @@ const Footer = () => {
             </div>
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
-                {/* <li>
-                  <ExternalLink href="https://demodayosoc20.eventbrite.co.uk/">
-                    Demo&nbsp;day
-                  </ExternalLink>
-                </li> */}
+                <li>
+                  <DemoDayLink>Demo&nbsp;day</DemoDayLink>
+                </li>
                 <li>
                   <Link href="/practical">
                     <a>Practical</a>

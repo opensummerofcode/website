@@ -3,7 +3,7 @@ import Link from 'next/link';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
-// import ExternalLink from '../../UI/ExternalLink';
+import DemoDayLink from '../../UI/DemoDayLink';
 
 const Navigation = () => {
   const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
@@ -104,18 +104,12 @@ const Navigation = () => {
                 </li>
                 */}
 
-                {/*
-                        <li>
+                <li>
                   {' '}
-                  <ExternalLink
-                    href="https://demodayosoc20.eventbrite.co.uk"
-                    target="_blank"
-                    className="button"
-                  >
-                    Join the online demo day! <span className="button__info">July 30th 2020</span>
-                  </ExternalLink>
+                  <DemoDayLink className="button">
+                    Join the online demo day! <span className="button__info">July 29th 2021</span>
+                  </DemoDayLink>
                 </li>
-                */}
 
                 {/* <li>
                   <Link href="/editions/[year]" as="/editions/2020">
