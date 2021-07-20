@@ -4,7 +4,7 @@ import Link from 'next/link';
 import useSWR from 'swr';
 import fetch from '../../util/fetch';
 import MetaContext from '../../context/meta';
-import { ButtonLink } from '../UI/Buttons';
+// import { ButtonLink } from '../UI/Buttons';
 
 const FeaturedProjects = ({ divider }) => {
   const { activeEdition } = useContext(MetaContext);
@@ -37,12 +37,12 @@ const FeaturedProjects = ({ divider }) => {
     <div className={`u-padding-x-large--tb c-projects-old ${divider}`}>
       <div className="grid-x grid-padding-x align-center">
         {$projects}
-        <ButtonLink
+        {/* <ButtonLink
           className="medium-7 large-4 c-projects-old__project align-center text-center u-margin-large--t"
           href="/editions/2020"
         >
           View last year&apos;s projects
-        </ButtonLink>
+        </ButtonLink> */}
       </div>
     </div>
   );
