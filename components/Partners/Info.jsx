@@ -94,9 +94,11 @@ const Info = () => {
               title="Start a partnership with open summer of code"
             >
               Mail us to apply
-            </a>{' '}
+            </a>
+            <br />
             <DemoDayLink className="button">Come to the Demo Day</DemoDayLink>
-            <ButtonLink className="button link" href="/editions/2021">
+            <br />
+            <ButtonLink className="button" href="/editions/2021">
               View this year&apos;s projects
             </ButtonLink>
           </p>
