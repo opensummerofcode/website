@@ -1,5 +1,6 @@
 import Link from 'next/link';
-// import ExternalLink from '../UI/ExternalLink';
+import DemoDayLink from '../Practical/DemoDayLink';
+import { ButtonLink } from '../UI/Buttons';
 
 const Info = () => {
   return (
@@ -86,10 +87,19 @@ const Info = () => {
             .
           </p>
 
-          {/* <!--<p class="u-margin-large--tb">
-          <a class="button" href="mailto:info@osoc.be?subject=Regarding osoc Partnership" title="Start a partnership with open summer of code">Mail us to apply</a>
-          <a href="https://demodayosoc20.eventbrite.co.uk/" target="_blank" class="button">Come to the Demo Day</a>
-          <a class="button link" href="2018.html">View this year's projects</a></p> --> */}
+          <p className="u-margin-large--tb">
+            <a
+              className="button"
+              href="mailto:info@osoc.be?subject=Regarding osoc Partnership"
+              title="Start a partnership with open summer of code"
+            >
+              Mail us to apply
+            </a>{' '}
+            <DemoDayLink className="button">Come to the Demo Day</DemoDayLink>
+            <ButtonLink className="button link" href="/editions/2021">
+              View this year&apos;s projects
+            </ButtonLink>
+          </p>
         </div>
       </div>
     </>

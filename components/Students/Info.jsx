@@ -25,9 +25,7 @@ const Info = () => {
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
             when applications open for 2019 &mdash; or{' '}
-            <ExternalLink href="https://demodayosoc20.eventbrite.co.uk/">
-              join us on the Demo Day
-            </ExternalLink>{' '}
+            <DemoDayLink>join us on the Demo Day</DemoDayLink>{' '}
             on the 25th of July.
           </p>
           */}
