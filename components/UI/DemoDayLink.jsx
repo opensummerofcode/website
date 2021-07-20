@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import ExternalLink from '../UI/ExternalLink';
+import ExternalLink from './ExternalLink';
 
 const DemoDayLink = ({ className, children: text }) => {
   return (
