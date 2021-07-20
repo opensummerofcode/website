@@ -5,7 +5,7 @@ import MetaContext from '../context/meta';
 import fetch from '../util/fetch';
 import Header from '../components/Partners/Header';
 import Info from '../components/Partners/Info';
-import FeaturedProjects from '../components/Projects/FeaturedProjects';
+// import FeaturedProjects from '../components/Projects/FeaturedProjects';
 import Partners from '../components/Partners/Partners';
 
 const Companies = () => {
@@ -21,7 +21,7 @@ const Companies = () => {
       </Head>
       <Header />
       <Info />
-      <FeaturedProjects divider="border-top-light-gray" />
+      {/* <FeaturedProjects divider="border-top-light-gray" /> */}
       <Partners partners={partners} />
     </>
   );
