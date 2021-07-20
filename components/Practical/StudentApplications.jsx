@@ -171,9 +171,7 @@ const StudentApplication = () => {
             <p>
               That&apos;s too bad! You can always apply again next year as a student &mdash; or even
               as a coach. You&apos;re also welcome to join us during the{' '}
-              {/* TODO: Make demo day date dynamic */}
-              <DemoDayLink>demo day</DemoDayLink>. &mdash; which will take place Thursday, July 30th
-              this year. And keep an eye on our{' '}
+              <DemoDayLink>demo day</DemoDayLink>. And keep an eye on our{' '}
               <ExternalLink href="https://twitter.com/osocode" target="_blank">
                 Twitter account
               </ExternalLink>{' '}
