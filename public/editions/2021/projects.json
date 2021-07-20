@@ -58,15 +58,15 @@
     "partners": ["deloitte"]
   },
   {
-    "id": "belbadges",
-    "name": "Belbadges",
+    "id": "edubadges-be",
+    "name": "Edubadges (Belgium)",
     "description": "We will be creating a campaign to successfully bring Edubadges to the Belgian public in the future. The communication plan will inform the viewer about Edubadges and its advantages. ",
-    "logo": "/editions/2021/projects/belbadges.svg",
+    "logo": "/editions/2021/projects/edubadges-be.svg",
     "team": {
       "students": ["lies-heylen", "marie-de-lange"],
       "coaches": ["emma-stoks", "bert-jehoul"]
     },
-    "repository": "https://github.com/osoc21/Belbadges",
+    "repository": "https://github.com/osoc21/edubadges-be",
     "website": null,
     "partners": [
       "artevlede-hogeschool",
