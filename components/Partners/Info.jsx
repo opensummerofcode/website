@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import DemoDayLink from '../Practical/DemoDayLink';
+import DemoDayLink from '../UI/DemoDayLink';
 import { ButtonLink } from '../UI/Buttons';
 
 const Info = () => {

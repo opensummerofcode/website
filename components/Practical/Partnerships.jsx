@@ -1,5 +1,5 @@
 import ExternalLink from '../UI/ExternalLink';
-import DemoDayLink from './DemoDayLink';
+import DemoDayLink from '../UI/DemoDayLink';
 
 const Partnerships = () => {
   return (
