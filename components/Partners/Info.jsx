@@ -87,14 +87,14 @@ const Info = () => {
           </p>
 
           <p className="u-margin-large--tb">
-            <a
+            {/* <a
               className="button"
               href="mailto:info@osoc.be?subject=Regarding osoc Partnership"
               title="Start a partnership with open summer of code"
             >
               Mail us to apply
             </a>
-            <br />
+            <br /> */}
             <DemoDayLink className="button">Come to the Demo Day</DemoDayLink>
             <br />
             <ButtonLink className="button" href="/editions/2021">
