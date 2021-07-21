@@ -124,5 +124,17 @@
     "name": "VLIZ",
     "url": "",
     "logo": "/editions/2021/partners/vliz-logo.svg"
+  },
+  {
+    "id": "openrecognitionalliance",
+    "name": "Open Recognition Alliance",
+    "url": "",
+    "logo": "/editions/2021/partners/openrecognitionalliance-logo.svg"
+  },
+  {
+    "id": "thomasmore",
+    "name": "Thomas More",
+    "url": "",
+    "logo": "/editions/2021/partners/thomasmore-logo.svg"
   }
 ]
