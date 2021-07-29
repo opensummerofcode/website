@@ -11,7 +11,8 @@ const Project = ({ edition, project, isDemoDay }) => {
   const { name, description, logo, id } = project;
 
   const determineBreakoutState = () => {
-    if (!isDemoDay) return null;
+    // if (!isDemoDay) return null;
+    if (true) return null;
     const now = Date.now();
     const start = new Date(project.breakout.startsAt);
     const end = new Date(project.breakout.endsAt);
@@ -25,7 +26,8 @@ const Project = ({ edition, project, isDemoDay }) => {
 
   useEffect(() => {
     let interval = () => {};
-    if (isDemoDay) {
+    if (false) {
+      // if (isDemoDay) {
       interval = setInterval(() => {
         const b = determineBreakoutState();
         if (b !== breakoutStatus) setBreakoutStatus(b);
@@ -36,7 +38,8 @@ const Project = ({ edition, project, isDemoDay }) => {
 
   let $buttonContent;
   let buttonDisabled = true;
-  if (isDemoDay) {
+  if (false) {
+    // if (isDemoDay) {
     if (breakoutStatus === BREAKOUT_UNSTARTED) {
       const start = new Date(project.breakout.startsAt);
       const hours = start.getHours();
@@ -66,7 +69,8 @@ const Project = ({ edition, project, isDemoDay }) => {
   }
 
   return (
-    <div className={`c-projects-project ${isDemoDay ? 'on-demo-day' : ''}`}>
+    // ${isDemoDay ? 'on-demo-day' : ''}
+    <div className="c-projects-project">
       <Link href="/editions/[year]/[project]" as={`/editions/${edition}/${id}`}>
         <a className="c-projects-image">
           <img src={logo} alt={`Crest of the ${name} project`} />
@@ -78,7 +82,8 @@ const Project = ({ edition, project, isDemoDay }) => {
         </Link>
       </h2>
       <p>{description}</p>
-      {isDemoDay && (
+      {/* // isDemoDay && ( */}
+      {false && (
         <ButtonLink disabled={buttonDisabled} isExternal href={project.breakout.room}>
           {$buttonContent}
         </ButtonLink>

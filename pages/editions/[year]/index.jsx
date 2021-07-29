@@ -45,7 +45,8 @@ const EditionOverview = ({ editions, partners, participants, projects }) => {
     demoDayDate.getFullYear() === today.getFullYear();
 
   let projectOrder = projects.sort(sortAlphabetically);
-  if (isDemoDay) {
+  // if (isDemoDay) {
+  if (false) {
     // group by break-out time slot
     const groupedProjects = projects.reduce((group, p) => {
       const exists = group[p.breakout.startsAt];
