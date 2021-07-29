@@ -3,7 +3,8 @@ import ExternalLink from './ExternalLink';
 
 const DemoDayLink = ({ className, children: text }) => {
   return (
-    <ExternalLink href="https://demodayosoc21.eventbrite.be/" className={className} target="_blank">
+    // href="https://demodayosoc21.eventbrite.be/"
+    <ExternalLink href="https://youtu.be/mDbn9Iz0zPI" className={className} target="_blank">
       {text}
     </ExternalLink>
   );
