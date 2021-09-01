@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "express": "^4.17.1",
-    "foundation-sites": "^6.5.3",
+    "foundation-sites": "^6.7.0",
     "husky": "^6.0.0",
     "isomorphic-fetch": "^3.0.0",
     "leaflet": "^1.6.0",
