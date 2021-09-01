@@ -20,7 +20,7 @@
     "react-leaflet-universal": "^2.2.1",
     "react-transition-group": "^4.4.2",
     "sass": "^1.37.0",
-    "swr": "^0.5.6",
+    "swr": "^1.0.0",
     "unfetch": "^4.1.0"
   },
   "scripts": {
