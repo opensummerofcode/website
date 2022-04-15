@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import DemoDayLink from '../UI/DemoDayLink';
-import ExternalLink from '../UI/ExternalLink';
+// import DemoDayLink from '../UI/DemoDayLink';
+// import ExternalLink from '../UI/ExternalLink';
 import { ButtonLink } from '../UI/Buttons';
 
 const Info = () => {
@@ -19,12 +19,12 @@ const Info = () => {
               Mail us
             </a>
           </p>
-          <p>
+          {/* <p>
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
             when applications open for 2022 &mdash; or{' '}
             <DemoDayLink>join us on the Demo Day</DemoDayLink> on the 29th of July.
-          </p>
+          </p> */}
         </div>
         <div className="medium-8 large-6 cell large-offset-1">
           <img
@@ -32,13 +32,12 @@ const Info = () => {
             className="u-margin--b"
             alt="A coach and his students tackling a problem"
           />
-          {/* <p>
+          <p>
             <small>
-              Open summer of code 2017 &mdash;{' '}
-              <ExternalLink href="https://prisma.care">the project Prisma</ExternalLink> partner and
-              students brainstorm&nbsp;session.
+              Open summer of code 2017 &mdash; the project Prisma. Partner and students
+              brainstorm&nbsp;session.
             </small>
-          </p> */}
+          </p>
         </div>
       </div>
 
@@ -50,12 +49,12 @@ const Info = () => {
             className="u-margin--b"
             alt="Students working out"
           />
-          {/* <p>
+          <p>
             <small>
               Open summer of code 2017 &mdash; making sure our students get some exercise to tackle
               their projects!
             </small>
-          </p> */}
+          </p>
         </div>
         {/* <!--<div class="medium-8 large-6 cell">
         <img src="img/pictures/osoc16-coaches-happy.jpg" class="u-margin--b" alt="Image of students working out">
@@ -95,10 +94,10 @@ const Info = () => {
               Mail us to apply
             </a>
             <br /> */}
-            <DemoDayLink className="button">Come to the Demo Day</DemoDayLink>
-            <br />
+            {/* <DemoDayLink className="button">Come to the Demo Day</DemoDayLink> */}
+            {/* <br /> */}
             <ButtonLink className="button" href="/editions/2021">
-              View this year&apos;s projects
+              View last year&apos;s projects
             </ButtonLink>
           </p>
         </div>

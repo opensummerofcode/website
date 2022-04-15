@@ -7,7 +7,8 @@ const BREAKOUT_UNSTARTED = 1;
 const BREAKOUT_IN_PROGRESS = 2;
 const BREAKOUT_ENDED = 3;
 
-const Project = ({ edition, project, isDemoDay }) => {
+const Project = ({ edition, project }) => {
+  // isDemoDay
   const { name, description, logo, id } = project;
 
   const determineBreakoutState = () => {
@@ -105,7 +106,7 @@ Project.propTypes = {
     }),
   }).isRequired,
   edition: PropTypes.number.isRequired,
-  isDemoDay: PropTypes.bool.isRequired,
+  // isDemoDay: PropTypes.bool.isRequired,
 };
 
 export default Project;
