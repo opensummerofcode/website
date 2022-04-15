@@ -6,7 +6,7 @@ import OsocDescription from '../components/Home/OsocDescription';
 import Braggings from '../components/Home/Braggings';
 import HomeHeader from '../components/Home/HomeHeader';
 import Partners from '../components/Partners/Partners';
-// import ExternalLink from '../components/UI/ExternalLink';
+import ExternalLink from '../components/UI/ExternalLink';
 
 const HomeContainer = () => {
   const { previousEdition, showPreviousPartners, activeEdition } = useContext(MetaContext);
@@ -22,26 +22,25 @@ const HomeContainer = () => {
       <OsocDescription />
       <Braggings />
       <Partners partners={partners} />
-
-      {/*
       infoNoticeShown && (
-        <div className="covid-notice">
-          <i
-            className="covid-notice__close fa fa-close"
-            role="button"
-            onClick={() => setInfoNoticeShown(false)}
-          />
-          <div className="covid-notice__info-icon">
-            <i className="fa fa-info" />
-          </div>
-          <div>
-            <ExternalLink href="https://twitter.com/osocode">#osoc20</ExternalLink> will be a fully
-            remote edition. If governmental measures allow, we might organise smaller team
-            gatherings, but remote work will be the norm.
-          </div>
+      <div className="covid-notice">
+        <i
+          className="covid-notice__close fa fa-close"
+          role="button"
+          onClick={() => setInfoNoticeShown(false)}
+        />
+        <div className="covid-notice__info-icon">
+          <i className="fa fa-info" />
         </div>
+        <div>
+          <p>
+            #osoc22 will be hosted in Belgium this year, live!
+            <br />
+            We will follow government measures and make sure it's a safe edition.
+          </p>
+        </div>
+      </div>
       )
-      */}
     </>
   );
 };
