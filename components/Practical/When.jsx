@@ -8,6 +8,7 @@ const When = () => {
             <span className="subheader">From Monday to Thursday, 9AM to 5PM</span>
           </h3>
           <p>You don&apos;t have to work on Fridays, holidays or weekends!</p>
+          <p>Example calendar, the real one is coming up.</p>
 
           {/* <p>
             Note: this is last year&apos;s schedule for reference. This year&apos;s planning will be

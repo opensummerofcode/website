@@ -9,24 +9,21 @@ const Info = () => {
         <div className="medium-8 large-5 cell">
           <p className="hero-text u-margin-large--b">
             Open summer of code is for anyone who brings motivation, enthusiasm and talent to the
-            table.
-            {/*
-            Don&apos;t be shy,{' '}
+            table. Don&apos;t be shy,{' '}
             <ExternalLink
-              href="https://tally.so/r/npe0Bm"
+              href="https://tally.so/r/wL8Rvw"
               title="Apply as a student for open summer of code"
             >
               apply
             </ExternalLink>
             !
-            */}
           </p>
-          <p>
+          {/*<p>
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
             when applications open for 2022 &mdash; or{' '}
             <DemoDayLink>join us on the Demo Day</DemoDayLink> on the 29th of July.
-          </p>
+          </p>*/}
         </div>
 
         <div className="medium-8 large-6 cell large-offset-1">

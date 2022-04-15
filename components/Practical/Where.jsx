@@ -15,9 +15,9 @@ const Where = () => {
     <div className="grid-x grid-padding-x u-margin-large--tb">
       <div className="cell small-11 medium-8 large-6">
         <div className="c-faq__item">
-          <h4 className="c-faq__item__question">Online edition</h4>
+          <h4 className="c-faq__item__question">Live edition</h4>
           <div className="c-faq__item__answer">
-            <p>Due to the persistent coronacrisis, osoc21 will be an online edition.</p>
+            <p>Locations to be announced soon, this year in Brussels, Belgium!</p>
           </div>
         </div>
       </div>
