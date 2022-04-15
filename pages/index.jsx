@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import useSWR from 'swr';
 import MetaContext from '../context/meta';
 import fetch from '../util/fetch';
@@ -6,12 +6,12 @@ import OsocDescription from '../components/Home/OsocDescription';
 import Braggings from '../components/Home/Braggings';
 import HomeHeader from '../components/Home/HomeHeader';
 import Partners from '../components/Partners/Partners';
-import { ButtonLink } from '../components/UI/Buttons';
+// import { ButtonLink } from '../components/UI/Buttons';
 // import ExternalLink from '../components/UI/ExternalLink';
 
 const HomeContainer = () => {
   const { previousEdition, showPreviousPartners, activeEdition } = useContext(MetaContext);
-  const [infoNoticeShown, setInfoNoticeShown] = useState(true);
+  // const [infoNoticeShown, setInfoNoticeShown] = useState(true);
 
   const partners = showPreviousPartners
     ? useSWR(() => `/editions/${previousEdition.year}/partners.json`, fetch).data
@@ -23,13 +23,10 @@ const HomeContainer = () => {
       <OsocDescription />
       <Braggings />
       <Partners partners={partners} />
-      {infoNoticeShown && (
+      {/* {infoNoticeShown && (
         <div className="covid-notice">
-          {/*          <ButtonLink className="covid-notice__close">
-            <i className="fa fa-close" onClick={() => setInfoNoticeShown(false)} />
-          </ButtonLink>*/}
           <ButtonLink className="covid-notice__close" href="/">
-            <i className="fa fa-close" onClick={() => setInfoNoticeShown(false)} />
+            <i className="fa fa-close" role="button" onClick={() => setInfoNoticeShown(false)} />
           </ButtonLink>
           <div className="covid-notice__info-icon">
             <i className="fa fa-info" />
@@ -43,7 +40,7 @@ const HomeContainer = () => {
             </p>
           </div>
         </div>
-      )}
+      )} */}
     </>
   );
 };

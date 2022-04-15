@@ -99,7 +99,7 @@ const Navigation = () => {
                 <li>
                   <ExternalLink href="https://tally.so/r/wL8Rvw" target="_blank" className="button">
                     Apply as a student
-                    <span className="button__info">before 23 May</span>
+                    <span className="button__info">Live in Belgium!</span>
                   </ExternalLink>
                 </li>
 
