@@ -2,6 +2,13 @@
   overflow-x: hidden;
 }
 
+.visibility-hidden {
+  visibility: hidden;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+}
+
 /*
 ** Padding */
 

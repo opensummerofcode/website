@@ -1,4 +1,4 @@
-import { useContext, useState, useEffect } from 'react';
+import { useContext, useState } from 'react';
 import useSWR from 'swr';
 import MetaContext from '../context/meta';
 import fetch from '../util/fetch';
@@ -6,7 +6,7 @@ import OsocDescription from '../components/Home/OsocDescription';
 import Braggings from '../components/Home/Braggings';
 import HomeHeader from '../components/Home/HomeHeader';
 import Partners from '../components/Partners/Partners';
-import ExternalLink from '../components/UI/ExternalLink';
+// import ExternalLink from '../components/UI/ExternalLink';
 
 const HomeContainer = () => {
   const { previousEdition, showPreviousPartners, activeEdition } = useContext(MetaContext);
@@ -24,13 +24,12 @@ const HomeContainer = () => {
       <Partners partners={partners} />
       {infoNoticeShown && (
         <div className="covid-notice">
-          <i
-            className="covid-notice__close fa fa-close"
-            role="button"
-            onClick={() => setInfoNoticeShown(false)}
-          />
+          <button className="covid-notice__close">
+            <i className="fa fa-close" onClick={() => setInfoNoticeShown(false)} />
+          </button>
           <div className="covid-notice__info-icon">
             <i className="fa fa-info" />
+            <span className="visibility-hidden">Information</span>
           </div>
           <div>
             <p>

@@ -4,7 +4,7 @@ import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
 // import DemoDayLink from '../../UI/DemoDayLink';
-import ExternalLink from '../../../components/UI/ExternalLink';
+import ExternalLink from '../../UI/ExternalLink';
 
 const Navigation = () => {
   const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
@@ -103,12 +103,12 @@ const Navigation = () => {
                   </ExternalLink>
                 </li>
 
-                {/*<li>
+                {/* <li>
                   {' '}
                   <DemoDayLink className="button">
                     Join the online demo day! <span className="button__info">July 29th 2021</span>
                   </DemoDayLink>
-                </li>*/}
+                </li> */}
 
                 {/* <li>
                   <Link href="/editions/[year]" as="/editions/2020">

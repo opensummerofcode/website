@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import DemoDayLink from '../UI/DemoDayLink';
+// import DemoDayLink from '../UI/DemoDayLink';
 import ExternalLink from '../UI/ExternalLink';
 
 const Info = () => {
@@ -18,12 +18,12 @@ const Info = () => {
             </ExternalLink>
             !
           </p>
-          {/*<p>
+          {/* <p>
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
             when applications open for 2022 &mdash; or{' '}
             <DemoDayLink>join us on the Demo Day</DemoDayLink> on the 29th of July.
-          </p>*/}
+          </p> */}
         </div>
 
         <div className="medium-8 large-6 cell large-offset-1">

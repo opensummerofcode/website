@@ -16,12 +16,12 @@ const Info = () => {
               Mail&nbsp;us
             </a>
           </p>
-          {/*<p>
+          {/* <p>
             *Applications are closed! Keep an eye on our{' '}
             <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
             when applications open for 2022 &mdash; or{' '}
             <DemoDayLink>join us on the Demo Day</DemoDayLink> on the 29th of July.
-          </p>*/}
+          </p> */}
         </div>
         <div className="medium-8 large-6 cell large-offset-1">
           <img
@@ -76,9 +76,9 @@ const Info = () => {
             .
           </p>
 
-          <p class="u-margin-large--tb">
+          <p className="u-margin-large--tb">
             <a
-              class="button"
+              className="button"
               href="mailto:info@osoc.be?subject=Regarding osoc Coaching"
               title="Coach at open summer of code"
             >

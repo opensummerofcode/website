@@ -66,7 +66,9 @@ const StudentApplication = () => {
             How do I apply for osoc? When will I know whether I can participate?{' '}
           </h4>
           <div className="c-faq__item__answer">
-            <p>If we're open for applications, you'll find the link in the topbar on the right!</p>
+            <p>
+              If we are open for applications, you will find the link in the topbar on the right!
+            </p>
             <p>
               We will send you periodic updates on the status of your application. In May we go over
               all the applications and match the right students with the right projects. You will
@@ -117,11 +119,11 @@ const StudentApplication = () => {
             Can I participate if I am not a Belgian citizen?
           </h4>
           <div className="c-faq__item__answer">
-            {/*            <p>
+            {/* <p>
               Since osoc is remote this year, you don&apos;t necessarily have to be staying in
               Belgium to apply for Open Summer of Code 2020, but you have to be allowed to work as a
               student under the Belgian regulation.
-            </p>*/}
+            </p> */}
             <p>
               Students from an EEA member state or from Switzerland are entitled to work in Belgium
               throughout the year under the same terms as Belgian students. Countries in the EEA are
