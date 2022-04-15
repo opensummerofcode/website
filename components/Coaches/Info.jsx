@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import DemoDayLink from '../UI/DemoDayLink';
+// import DemoDayLink from '../UI/DemoDayLink';
 import ExternalLink from '../UI/ExternalLink';
 
 const Info = () => {
