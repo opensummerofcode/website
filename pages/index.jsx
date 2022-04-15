@@ -23,24 +23,6 @@ const HomeContainer = () => {
       <OsocDescription />
       <Braggings />
       <Partners partners={partners} />
-      {/* {infoNoticeShown && (
-        <div className="covid-notice">
-          <ButtonLink className="covid-notice__close" href="/">
-            <i className="fa fa-close" role="button" onClick={() => setInfoNoticeShown(false)} />
-          </ButtonLink>
-          <div className="covid-notice__info-icon">
-            <i className="fa fa-info" />
-            <span className="visibility-hidden">Information</span>
-          </div>
-          <div>
-            <p>
-              #osoc22 will be hosted live in Belgium!
-              <br />
-              We follow government and safety measures.
-            </p>
-          </div>
-        </div>
-      )} */}
     </>
   );
 };
