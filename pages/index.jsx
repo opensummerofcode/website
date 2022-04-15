@@ -6,6 +6,7 @@ import OsocDescription from '../components/Home/OsocDescription';
 import Braggings from '../components/Home/Braggings';
 import HomeHeader from '../components/Home/HomeHeader';
 import Partners from '../components/Partners/Partners';
+import { ButtonLink } from '../components/UI/Buttons';
 // import ExternalLink from '../components/UI/ExternalLink';
 
 const HomeContainer = () => {
@@ -24,9 +25,12 @@ const HomeContainer = () => {
       <Partners partners={partners} />
       {infoNoticeShown && (
         <div className="covid-notice">
-          <button className="covid-notice__close">
+          {/*          <ButtonLink className="covid-notice__close">
             <i className="fa fa-close" onClick={() => setInfoNoticeShown(false)} />
-          </button>
+          </ButtonLink>*/}
+          <ButtonLink className="covid-notice__close" href="/">
+            <i className="fa fa-close" onClick={() => setInfoNoticeShown(false)} />
+          </ButtonLink>
           <div className="covid-notice__info-icon">
             <i className="fa fa-info" />
             <span className="visibility-hidden">Information</span>

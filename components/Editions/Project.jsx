@@ -8,7 +8,7 @@ const BREAKOUT_IN_PROGRESS = 2;
 const BREAKOUT_ENDED = 3;
 
 const Project = ({ edition, project }) => {
-  //isDemoDay
+  // isDemoDay
   const { name, description, logo, id } = project;
 
   const determineBreakoutState = () => {
