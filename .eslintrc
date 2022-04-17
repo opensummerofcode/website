@@ -1,20 +1,13 @@
 {
-  "extends": [
-    "airbnb",
-    "prettier"
-  ],
-  "plugins": [
-    "prettier"
-  ],
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
   "parser": "babel-eslint",
   "env": {
     "browser": true,
     "jest": true
   },
   "rules": {
-    "prettier/prettier": [
-      "error"
-    ],
+    "prettier/prettier": ["error"],
     "no-underscore-dangle": 0,
     "no-console": "warn",
     "no-unused-expressions": [
@@ -23,10 +16,7 @@
         "allowTernary": true
       }
     ],
-    "no-return-assign": [
-      2,
-      "except-parens"
-    ],
+    "no-return-assign": [2, "except-parens"],
     "no-param-reassign": [
       "error",
       {
@@ -40,10 +30,7 @@
       "error",
       {
         "required": {
-          "some": [
-            "nesting",
-            "id"
-          ]
+          "some": ["nesting", "id"]
         }
       }
     ],
@@ -51,27 +38,16 @@
       "error",
       {
         "required": {
-          "some": [
-            "nesting",
-            "id"
-          ]
+          "some": ["nesting", "id"]
         }
       }
     ],
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
-        "components": [
-          "Link"
-        ],
-        "specialLink": [
-          "hrefLeft",
-          "hrefRight"
-        ],
-        "aspects": [
-          "invalidHref",
-          "preferButton"
-        ]
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
       }
     ],
     "react/react-in-jsx-scope": 0
