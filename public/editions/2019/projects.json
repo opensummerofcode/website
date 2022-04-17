@@ -306,11 +306,7 @@
     "description": "A visual editor for data constraints.",
     "logo": "/editions/2019/projects/unshacled.png",
     "team": {
-      "students": [
-        "femke_bruckmann",
-        "pieter-jan_vandenberghe",
-        "david_adegnon"
-      ],
+      "students": ["femke_bruckmann", "pieter-jan_vandenberghe", "david_adegnon"],
       "coaches": ["bart_lens", "felix_ruiz_de_arcaute"]
     },
     "repository": "https://github.com/oSoc19/unshacled",
