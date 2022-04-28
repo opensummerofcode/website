@@ -193,7 +193,7 @@ const Info = () => {
                 </td>
               </tr>
               <tr className="c-package__price__extra">
-                <td colspan="4">
+                <td colSpan="4">
                   <p className="u-text-align-center">
                     <Link href="#benefits">
                       <strong>
@@ -225,7 +225,7 @@ const Info = () => {
           <table className="c-pricing">
             <thead>
               <tr>
-                <th className="c-package__name" width="10%"></th>
+                <th className="c-package__name" width="10%" />
                 <th className="c-package" width="27%">
                   <span className="c-package__name">
                     <img
@@ -307,7 +307,7 @@ const Info = () => {
                 <td className="c-package__checkmark">-</td>
               </tr>
               <tr className="c-package__price__extra">
-                <td colspan="4">
+                <td colSpan="4">
                   <p className="u-text-align-center">
                     <Link href="#benefits">
                       <strong>
@@ -330,7 +330,7 @@ const Info = () => {
           <table className="c-pricing c-pricing--small">
             <thead>
               <tr>
-                <th className="c-package__name" width="10%"></th>
+                <th className="c-package__name" width="10%" />
                 <th className="c-package u-text-align-center" width="25%">
                   <span className="c-package__name">
                     All team
