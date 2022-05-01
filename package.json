@@ -7,7 +7,7 @@
     "foundation-sites": "^6.5.3",
     "husky": "^7.0.4",
     "isomorphic-fetch": "^3.0.0",
-    "leaflet": "^1.6.0",
+    "leaflet": "^1.8.0",
     "lint-staged": "^12.4.1",
     "motion-ui": "^2.0.3",
     "next": "^12.1.0",
