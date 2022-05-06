@@ -1,0 +1,173 @@
+/*
+** Pricing */
+
+.c-pricing {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  margin-top: 2rem;
+}
+
+.c-pricing article {
+  margin-bottom: 2rem;
+
+  &:first-child {
+    margin-top: 2rem;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+table.c-pricing--small p,
+table.c-pricing--small td,
+table.c-pricing--small th {
+  font-size: 0.8rem;
+}
+
+.c-pricing thead,
+.c-pricing tbody {
+  border: none;
+}
+
+.c-pricing tbody td {
+  vertical-align: top;
+}
+
+.c-pricing thead tr,
+.c-pricing td,
+.c-pricing tbody th {
+  border-bottom: 1px solid $light-gray;
+}
+
+.c-pricing thead {
+  font-weight: 600;
+}
+
+.c-pricing thead,
+.c-pricing tr:nth-child(2n) {
+  background-color: transparent;
+  // vertical-align: top;
+}
+
+.c-pricing tr:first-child td {
+  padding-top: 1rem;
+}
+
+th.c-package__condition,
+tbody th {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 1rem;
+}
+
+.c-pricing tr .c-package__condition,
+.c-pricing tr .c-package__name {
+  padding-left: 0;
+}
+
+.c-pricing tr.c-package__price__extra td {
+  font-size: 1rem;
+  border-top: 1px solid $light-gray;
+  padding-top: 1rem;
+}
+
+.c-pricing th,
+.c-pricing td {
+  // vertical-align: top;
+  background-color: transparent;
+  padding-left: 0;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.c-pricing td {
+  font-size: 1.2rem;
+}
+
+.c-package__info {
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+.c-package__info--small {
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.c-package__price {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  vertical-align: top;
+  font-weight: 400;
+}
+
+.c-package__name {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  display: block;
+  position: relative;
+  font-weight: 800;
+}
+
+.c-pricing--small .c-package__name {
+  font-size: 1.2rem;
+}
+
+.c-pricing--small .c-package__info {
+  font-size: 0.8rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.c-pricing img {
+  width: 1.5rem;
+}
+
+.c-pricing td.c-package__checkmark {
+  // vertical-align: middle;
+  text-align: center;
+}
+
+img.c-package__fruit--strawberry,
+img.c-package__fruit--lemon,
+img.c-package__fruit--melon,
+img.c-package__fruit--snake {
+  width: 3rem;
+  position: absolute;
+  z-index: -1;
+}
+
+img.c-package__fruit--strawberry {
+  left: -0.75rem;
+  top: -0.5rem;
+  width: 1rem;
+}
+
+img.c-package__fruit--lemon {
+  top: -0.75rem;
+  left: -1.25rem;
+  width: 2rem;
+}
+
+img.c-package__fruit--melon {
+  top: -1.5rem;
+  left: -2.5rem;
+  width: 3rem;
+}
+
+img.c-package__fruit--snake {
+  top: -1.75rem;
+  left: -1.25rem;
+  width: 1.5rem;
+}

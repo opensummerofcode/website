@@ -22,3 +22,15 @@
   overflow: hidden;
   display: block;
 }
+
+@media screen and (max-width: 50rem) {
+  .u-hide-for-medium-down {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .u-hide-for-medium-up {
+    display: none;
+  }
+}
