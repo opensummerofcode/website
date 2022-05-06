@@ -309,6 +309,7 @@ const Info = () => {
             </article>
           </section>
         </div>
+
       </div>
 
       <div className="grid-x grid-padding-x u-margin-large--tb" id="support-partners">
