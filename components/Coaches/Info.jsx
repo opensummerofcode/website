@@ -125,7 +125,7 @@ const Info = () => {
                   Excluding VAT.
                 </td>
                 <td>
-                  <p className="c-package__price">Let's talk!</p>
+                  <p className="c-package__price">Let&apos;s talk!</p>
                   Let&apos;s see what we can mean to each other.
                 </td>
                 <td>
@@ -168,7 +168,7 @@ const Info = () => {
                 <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
                 Volunteer or councillor
                 <br />
-                <span className="c-package__price">Let's talk!</span>
+                <span className="c-package__price">Let&apos;s talk!</span>
               </h2>
               <p className="c-package__info">
                 You&apos;re awesome and you just want to contribute, in your way!
