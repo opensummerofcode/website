@@ -7,14 +7,12 @@ const Info = () => {
   return (
     <>
       <div className="grid-x grid-padding-x u-margin-large--tb">
-        <div className="medium-8 large-6 cell">
-          <h1>
-            Innovate with your own team of motivated students &mdash; or become a community partner.
-          </h1>
+        <div className="medium-8 large-5 cell">
+          <h2>Tap into the next generation's talent.</h2>
           <p className="hero-text u-margin-large--b">
-            #osoc mobilises the next generation to build your open source project. Experiment, get
-            access to external innovation, find fresh talent, expand your network and give students
-            the opportunity to get relevant work experience.{' '}
+            #osoc mobilises the next generation to <strong>bring your ideas to life</strong>.
+            Experiment, get access to external innovation, find <strong>fresh talent</strong>,
+            expand your network and give students the opportunity to get relevant work experience.{' '}
             <a
               href="mailto:info@osoc.be?subject=Regarding osoc Partnership"
               title="Start a partnership with open summer of code"
@@ -26,7 +24,7 @@ const Info = () => {
           </p>
           <p className="hero-text">Discover our new Open Summer Packages.</p>
         </div>
-        <div className="medium-8 large-6 cell">
+        <div className="medium-8 large-6 large-offset-1 cell">
           <img
             src="/img/pictures/osoc17-2.jpg"
             className="u-margin--b"
@@ -50,11 +48,14 @@ const Info = () => {
           </p> */}
         </div>
         <div className="medium-12 large-10 large-offset-1 cell">
-          <h1 className="u-margin-large--tb u-text-align-center">
+          <h1 className="u-margin-large--tb u-text-align-center u-hide-for-medium-down">
             Innovate with your own team <br />
             of motivated students
           </h1>
-          <table className="c-pricing">
+          <h1 className="u-margin-large--tb u-hide-for-medium-up">
+            Innovate with your own team of motivated students
+          </h1>
+          <table className="c-pricing u-hide-for-medium-down">
             <thead>
               <tr>
                 <th className="c-package__name">
@@ -216,13 +217,107 @@ const Info = () => {
               </tr>
             </tbody>
           </table>
+
+          <section class="c-pricing u-padding--rl u-hide-for-medium-up">
+            <article>
+              <h2 className="c-package__name">
+                <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
+                Melon Team
+                <br />
+                <span className="c-package__price">€&thinsp;17&thinsp;500</span>
+              </h2>
+              <p className="c-package__info">
+                Tailor your team with specific profiles to fit your idea.
+              </p>
+              <ul>
+                <li>3 students</li>
+                <li>1 student coach</li>
+                <li>1 extra specific topic student</li>
+                <li>1 half-time project coach</li>
+                <li>On-demand design &amp; development coaches</li>
+              </ul>
+              <p className="c-package__info--small">
+                *Provide your own project management coach: €&thinsp;15&thinsp;750
+              </p>
+            </article>
+            <article>
+              <h2 className="c-package__name">
+                <img src="../img/logo/logo-osoc-o.svg" alt="" className="c-package__fruit--lemon" />
+                Lemon Team
+                <br />
+                <span className="c-package__price">€&thinsp;14&thinsp;000</span>
+              </h2>
+              <p className="c-package__info">Innovate & hack together with a well-rounded team.</p>
+              <ul>
+                <li>3 students</li>
+                <li>1 student coach</li>
+                <li>1 half-time project coach</li>
+                <li>On-demand design &amp; development coaches</li>
+              </ul>
+              <p className="c-package__info--small">
+                *Provide your own project management coach: €&thinsp;12&thinsp;600
+              </p>
+            </article>
+            <article>
+              <h2 className="c-package__name">
+                <img
+                  src="../img/logo/logo-osoc-o-small.svg"
+                  alt=""
+                  className="c-package__fruit--strawberry"
+                />
+                Strawberry Team
+                <br />
+                <span className="c-package__price">€&thinsp;14&thinsp;000</span>
+              </h2>
+              <p className="c-package__info">
+                Bring a new idea to life with a small but motivated team.
+              </p>
+              <ul>
+                <li>3 students</li>
+                <li>1 half-time project coach</li>
+                <li>On-demand design &amp; development coaches</li>
+              </ul>
+              <p className="c-package__info--small">
+                *Provide your own project management coach: €&thinsp;10&thinsp;800
+              </p>
+            </article>
+            <article>
+              <h3 className="u-margin--t">
+                <strong>More benefits for each project partner:</strong>
+              </h3>
+
+              <ul>
+                <li>Online visibility</li>
+                <li>Dedicated online project highlight</li>
+                <li>Access to a network of young potentials and our #osoc alumni channels</li>
+                <li>Project booth during the demo day</li>
+                <li>
+                  Co-create an open, innovative project with our students and their fresh
+                  perspectives.
+                </li>
+              </ul>
+
+              <p className="c-package__info--small">
+                Not ready to partner up with a team? Check out our other{' '}
+                <Link href="#support-partners">
+                  <strong>
+                    <a>partner deals</a>
+                  </strong>
+                </Link>{' '}
+                .
+              </p>
+            </article>
+          </section>
         </div>
       </div>
 
       <div className="grid-x grid-padding-x u-margin-large--tb" id="support-partners">
         <div className="medium-12 large-10 large-offset-1 cell">
-          <h1 className="u-margin-large--tb u-text-align-center">Become a community partner</h1>
-          <table className="c-pricing">
+          <h1 className="u-margin-large--tb u-text-align-center u-hide-for-medium-down">
+            Become a community partner
+          </h1>
+          <h1 className="u-margin-large--tb u-hide-for-medium-up">Become a community partner</h1>
+          <table className="c-pricing u-hide-for-medium-down">
             <thead>
               <tr>
                 <th className="c-package__name" width="10%" />
@@ -321,11 +416,64 @@ const Info = () => {
               </tr>
             </tbody>
           </table>
+
+          <section class="c-pricing u-padding--rl u-hide-for-medium-up">
+            <article>
+              <h2 className="c-package__name">
+                <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
+                Opportunity partner
+                <br />
+                <span className="c-package__price">€&thinsp;3&thinsp;000</span>
+              </h2>
+              <p className="c-package__info">
+                Give students an opportunity, get access to the community.
+              </p>
+              <ul>
+                <li>Eternal grattitude from our community</li>
+                <li>Online visiblity</li>
+                <li>A partner highlight of your organisation</li>
+                <li>Access a network of young potentials</li>
+                <li>Share job opportunities during osoc</li>
+              </ul>
+            </article>
+            <article>
+              <h2 className="c-package__name">
+                <img src="../img/logo/logo-osoc-o.svg" alt="" className="c-package__fruit--lemon" />
+                Logistics partner
+                <br />
+                <span className="c-package__price">Gift in kind</span>
+              </h2>
+              <p className="c-package__info">
+                Support our community with location or transport means.
+              </p>
+              <ul>
+                <li>Eternal grattitude from our community</li>
+                <li>Online visiblity</li>
+              </ul>
+            </article>
+            <article>
+              <h2 className="c-package__name">
+                <img
+                  src="../img/logo/logo-osoc-o-small.svg"
+                  alt=""
+                  className="c-package__fruit--strawberry"
+                />
+                Support partner
+                <br />
+                <span className="c-package__price">€&thinsp;1&thinsp;500</span>
+              </h2>
+              <p className="c-package__info">Show your support and appreciation by donating.</p>
+              <ul>
+                <li>Eternal grattitude from our community</li>
+                <li>Online visiblity</li>
+              </ul>
+            </article>
+          </section>
         </div>
       </div>
 
       <div className="grid-x grid-padding-x u-margin-large--tb" id="benefits">
-        <div className="medium-12 large-10 large-offset-1 cell">
+        <div className="medium-12 large-10 large-offset-1 cell u-hide-for-medium-down">
           <h1 className="u-margin-large--tb u-text-align-center">More benefits</h1>
           <table className="c-pricing c-pricing--small">
             <thead>
