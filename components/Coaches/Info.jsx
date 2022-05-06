@@ -21,15 +21,15 @@ const Info = () => {
               community.
             </li>
             <li>
-              In the meantime you'll grow your own abilities to <strong>lead a diverse team</strong>
-              .
+              In the meantime you will grow your own abilities to{' '}
+              <strong>lead a diverse team</strong>.
             </li>
             <li>
               #osoc has a powerful network you can benefit from for{' '}
               <strong>future opportunities</strong>.
             </li>
             <li>
-              Don't underestimate what these students can teach you either; their{' '}
+              Do not underestimate what these students can teach you either; their{' '}
               <strong>fresh perspectives and energy</strong> are addictive.
             </li>
           </ul>
@@ -96,7 +96,7 @@ const Info = () => {
                     Volunteer or councillor
                   </span>
                   <p className="c-package__info">
-                    You're awesome and you just want to contribute, in your way!
+                    You&apos;re awesome and you just want to contribute, in your way!
                   </p>
                 </th>
                 <th className="c-package" width="25%">
@@ -109,7 +109,7 @@ const Info = () => {
                     Partner <br /> coach
                   </span>
                   <p className="c-package__info">
-                    Get a discount as a partner if you're coaching your own team.
+                    Get a discount as a partner if you&apos;re coaching your own team.
                   </p>
                 </th>
               </tr>
@@ -126,7 +126,7 @@ const Info = () => {
                 </td>
                 <td>
                   <p className="c-package__price">Let's talk!</p>
-                  Let's see what we can mean to each other.
+                  Let&apos;s see what we can mean to each other.
                 </td>
                 <td>
                   <p className="c-package__price">
@@ -140,7 +140,7 @@ const Info = () => {
             </tbody>
           </table>
 
-          <section class="c-pricing u-padding--rl u-hide-for-medium-up">
+          <section className="c-pricing u-padding--rl u-hide-for-medium-up">
             <article>
               <h2 className="c-package__name">
                 <img src="../img/logo/logo-osoc-o.svg" alt="" className="c-package__fruit--lemon" />
@@ -171,7 +171,7 @@ const Info = () => {
                 <span className="c-package__price">Let's talk!</span>
               </h2>
               <p className="c-package__info">
-                You're awesome and you just want to contribute, in your way!
+                You&apos;re awesome and you just want to contribute, in your way!
               </p>
             </article>
             <article className="u-margin-large--b">
@@ -188,7 +188,7 @@ const Info = () => {
                 </span>
               </h2>
               <p className="c-package__info">
-                Get a discount as a partner if you're coaching your own team.
+                Get a discount as a partner if you&apos;re coaching your own team.
               </p>
             </article>
           </section>

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 // import DemoDayLink from '../UI/DemoDayLink';
-import ExternalLink from '../UI/ExternalLink';
+// import ExternalLink from '../UI/ExternalLink';
 
 const Info = () => {
   return (
@@ -13,13 +13,13 @@ const Info = () => {
           </h1>
           <ul className="hero-text u-margin">
             <li>
-              You'll work in <strong>cross-functional</strong> teams to bring an idea to life.{' '}
+              You&apos;ll work in <strong>cross-functional</strong> teams to bring an idea to life.{' '}
               <strong>Experts</strong> in the field guide you to do so with valuable{' '}
               <strong>techniques</strong> and <strong>tools</strong>.
             </li>
             <li>
-              You'll become more <strong>independent and professional</strong> by managing a real
-              project for a real client.
+              You&apos;ll become more <strong>independent and professional</strong> by managing a
+              real project for a real client.
             </li>
             <li>
               What you make is <strong>open source</strong>: <strong>spread knowledge</strong> and
@@ -62,7 +62,8 @@ const Info = () => {
                     Student
                   </span>
                   <p className="c-package__info">
-                    Show us what you're good at! Design, development, marketing, communication, ...
+                    Show us what you&apos;re good at! Design, development, marketing, communication,
+                    ...
                   </p>
                 </th>
                 <th className="c-package" width="27%">
@@ -89,8 +90,8 @@ const Info = () => {
                     Volunteer
                   </span>
                   <p className="c-package__info">
-                    You're not a student anymore, but you want to be part of the experience. Let's
-                    talk!
+                    You&apos;re not a student anymore, but you want to be part of the experience.
+                    Let&apos;s talk!
                   </p>
                 </th>
               </tr>
@@ -113,14 +114,14 @@ const Info = () => {
                   €&thinsp;12,50&thinsp; per hour
                 </td>
                 <td>
-                  <p className="c-package__price">Let's talk!</p>
+                  <p className="c-package__price">Let&apos;s talk!</p>
                   Eternal gratitude per hour
                 </td>
               </tr>
             </tbody>
           </table>
 
-          <section class="c-pricing u-padding--rl u-hide-for-medium-up">
+          <section className="c-pricing u-padding--rl u-hide-for-medium-up">
             <article>
               <h2 className="c-package__name">
                 <img src="../img/logo/logo-osoc-o.svg" alt="" className="c-package__fruit--lemon" />
@@ -131,8 +132,8 @@ const Info = () => {
                 </span>
               </h2>
               <p className="c-package__info">
-                Show us what you're good at! Design, development, marketing, communication, ... you
-                name it.
+                Show us what you&apos;re good at! Design, development, marketing, communication, ...
+                you name it.
               </p>
             </article>
             <article>
@@ -158,10 +159,10 @@ const Info = () => {
                 <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
                 Volunteer
                 <br />
-                <span className="c-package__price">Let's talk!</span>
+                <span className="c-package__price">Let&apos;s talk!</span>
               </h2>
               <p className="c-package__info">
-                You're not a student anymore, but you want to be part of the experience.
+                You&apos;re not a student anymore, but you want to be part of the experience.
               </p>
             </article>
           </section>
@@ -170,8 +171,8 @@ const Info = () => {
           <section className="u-margin--t">
             <article>
               <p>
-                Officially you'll work 4 days a week, 7,6 hours a day for 16 days. You're off during
-                holidays, but still paid!
+                Officially you&apos;ll work 4 days a week, 7,6 hours a day for 16 days. You&apos;re
+                off during holidays, but still paid!
               </p>
             </article>
           </section>

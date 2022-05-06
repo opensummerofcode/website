@@ -8,7 +8,7 @@ const Info = () => {
     <>
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="medium-8 large-5 cell">
-          <h2>Tap into the next generation's talent.</h2>
+          <h2>Tap into the next generation&apos;s talent.</h2>
           <p className="hero-text u-margin-large--b">
             #osoc mobilises the next generation to <strong>bring your ideas to life</strong>.
             Experiment, get access to external innovation, find <strong>fresh talent</strong>,
@@ -218,7 +218,7 @@ const Info = () => {
             </tbody>
           </table>
 
-          <section class="c-pricing u-padding--rl u-hide-for-medium-up">
+          <section className="c-pricing u-padding--rl u-hide-for-medium-up">
             <article>
               <h2 className="c-package__name">
                 <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
@@ -309,7 +309,6 @@ const Info = () => {
             </article>
           </section>
         </div>
-
       </div>
 
       <div className="grid-x grid-padding-x u-margin-large--tb" id="support-partners">
@@ -418,7 +417,7 @@ const Info = () => {
             </tbody>
           </table>
 
-          <section class="c-pricing u-padding--rl u-hide-for-medium-up">
+          <section className="c-pricing u-padding--rl u-hide-for-medium-up">
             <article>
               <h2 className="c-package__name">
                 <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
