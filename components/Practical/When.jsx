@@ -7,7 +7,10 @@ const When = () => {
             {/* TODO: replace by dynamic date */}4 July &mdash; 28 July{' '}
             <span className="subheader">From Monday to Thursday, 9AM to 5PM.</span>
           </h3>
-          <p>On Mondays and Thursdays we work in Brussels, on Tuesdays and Wednesdays. You don&apos;t have to work on Fridays, holidays or weekends!</p>
+          <p>
+            On Mondays and Thursdays we work in Brussels, on Tuesdays and Wednesdays. You don&apos;t
+            have to work on Fridays, holidays or weekends!
+          </p>
 
           {/* <p>
             Note: this is last year&apos;s schedule for reference. This year&apos;s planning will be
