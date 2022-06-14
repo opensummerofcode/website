@@ -21,7 +21,7 @@ const NonEUWarning = () => {
         <div className="cell">
           <Head>
             <title>Warning | Open Summer of Code</title>
-            {/* TODO: exclude from robots */}
+            <meta name="robots" content="noindex" />
           </Head>
           <h1>
             Warning: oSoc does <span style={{ color: 'red' }}>not support visas </span>
