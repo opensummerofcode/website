@@ -79,6 +79,9 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+// Needs access to Foundation SCSS
+@import '_non-eu-warning.scss';
+
 html,
 body,
 body > div:first-child,

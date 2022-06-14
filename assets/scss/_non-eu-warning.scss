@@ -1,0 +1,22 @@
+.non-eu-container {
+  // Create a container with centered page content
+  // https://get.foundation/sites/docs/xy-grid.html#xy-grid-container
+  @include xy-grid-container(700px, 30px);
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .go-back-container {
+    text-align: center;
+  }
+
+  .link {
+    display: block;
+    text-align: center;
+
+    &--continue {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #333;
+    }
+  }
+}
