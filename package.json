@@ -68,5 +68,6 @@
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "react-test-renderer": "^16.14.0"
-  }
+  },
+  "packageManager": "yarn@3.2.1"
 }
