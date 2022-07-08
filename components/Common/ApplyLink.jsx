@@ -8,7 +8,7 @@ const geoJsonFetcher = () => fetcher('http://www.geoplugin.net/json.gp');
 export const applicationTallyURL = 'https://tally.so/r/wL8Rvw';
 
 // Generates an "Apply" link based on the location of the visitor.
-// This geolocation info is requested client-side
+// This geolocation info is requested client-side.
 //
 // If the visitor is in a EEA/Switzerland country, this link redirects them to
 // the Tally application form.
@@ -18,7 +18,8 @@ export const applicationTallyURL = 'https://tally.so/r/wL8Rvw';
 //
 // Reason: non-EEA/Swiss students can not work with a "student job contract" in Belgium:
 //
-// https://werk.belgie.be/nl/themas/arbeidsovereenkomsten/bijzondere-arbeidsovereenkomsten/overeenkomst-voor-tewerkstelling-van
+// NL: https://werk.belgie.be/nl/themas/arbeidsovereenkomsten/bijzondere-arbeidsovereenkomsten/overeenkomst-voor-tewerkstelling-van
+// FR: https://emploi.belgique.be/fr/themes/contrats-de-travail/contrats-de-travail-particuliers/contrat-doccupation-detudiants
 // > "De buitenlandse studenten afkomstig uit een land van de Europese Economische Ruimte
 // >  of uit Zwitserland hebben dezelfde rechten en verplichtingen als de Belgische studenten,
 // >  zelfs als ze geen onderwijs volgen in België of hier niet verblijven."
@@ -47,7 +48,7 @@ const ApplyLink = () => {
 
   // If there is an error, or if the location data is still loading,
   // then never redirect to the warning page.
-  if (error || !data) {
+  if (error != null || data == null) {
     return validCountryButton;
   }
 
