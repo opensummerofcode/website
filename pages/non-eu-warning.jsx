@@ -54,39 +54,51 @@ const NonEUWarning = () => {
               in <strong>Belgium.</strong>
             </li>
             <li>
-              You <strong>currently</strong> have a <strong>valid Belgian residence permit</strong>
+              You <strong>currently</strong> have a <strong>valid Belgian residence permit.</strong>
             </li>
-            <li> You are able to work on-location in Brussels, Belgium in July 2022.</li>
+            <li>You are able to work on-location in Brussels, Belgium in July 2022.</li>
           </ul>
-
-          <div className="go-back-container">
-            <p>
-              <Link href="/">
-                <a className="link link--go-back">I understand, back to home.</a>
-              </Link>
-              <small>
-                <span role="img" aria-label="A tip:">
-                  💡
-                </span>{' '}
-                Follow us on{' '}
-                <ExternalLink className="link--twitter" href="https://twitter.com/osocode">
-                  Twitter
-                </ExternalLink>{' '}
-                to learn when oSoc comes to {visitorCountry || 'your country'}!
-              </small>
-            </p>
+          <div className="actions">
+            <div className="go-back-container">
+              <p>
+                <Link href="/">
+                  <a className="link link--go-back">I understand, back to home.</a>
+                </Link>
+                <small>
+                  <span role="img" aria-label="A tip:">
+                    💡
+                  </span>{' '}
+                  Follow us on{' '}
+                  <ExternalLink className="link--twitter" href="https://twitter.com/osocode">
+                    Twitter
+                  </ExternalLink>{' '}
+                  to learn when oSoc comes to {visitorCountry || 'your country'}!
+                </small>
+              </p>
+            </div>
+            <hr />
+            <ExternalLink>
+              <a
+                className="link link--continue"
+                href={applicationTallyURL}
+                target="_blank"
+                rel="noreferrer"
+              >
+                I have the required documents, continue.
+              </a>
+            </ExternalLink>
           </div>
-
-          <ExternalLink>
-            <a
-              className="link link--continue"
-              href={applicationTallyURL}
-              target="_blank"
-              rel="noreferrer"
-            >
-              I have the required documents, continue.
-            </a>
-          </ExternalLink>
+          <small className="legal-basis">
+            Read about the legal basis for these requirements on the website of the Belgian
+            government:{' '}
+            <ExternalLink href="https://werk.belgie.be/nl/themas/arbeidsovereenkomsten/bijzondere-arbeidsovereenkomsten/overeenkomst-voor-tewerkstelling-van">
+              NL
+            </ExternalLink>{' '}
+            /{' '}
+            <ExternalLink href="https://emploi.belgique.be/fr/themes/contrats-de-travail/contrats-de-travail-particuliers/contrat-doccupation-detudiants">
+              FR
+            </ExternalLink>
+          </small>
         </div>
       </div>
     </div>
