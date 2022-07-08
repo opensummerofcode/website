@@ -57,7 +57,7 @@ const ApplyLink = () => {
     !(
       // EEA are the EU countries + Iceland, Liechtenstein & Norway.
       (
-        data.geoplugin_continentCode === 'EU' ||
+        data.geoplugin_inEU === 1 ||
         /Iceland|Liechtenstein|Norway|Switzerland/.test(data.geoplugin_countryName)
       )
     )
