@@ -1,0 +1,549 @@
+[
+  {
+    "name": "Jodi Deloof",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Robin Julien",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Christophe Leroy",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Inti Valderas Caro",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Thor Galle",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Jonathan Beliën",
+    "socials": {
+      "twitter": "https://twitter.com/jbelien/",
+      "linkedin": "https://www.linkedin.com/in/jbelien/",
+      "behance": null,
+      "github": "https://github.com/jbelien"
+    },
+    "coach": true
+  },
+  {
+    "name": "Niels Dewelde",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Miet Claes",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Meg Vandezande",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Pieter Vandervennet",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Bavo Lodewyckx",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Miel Van Opstal",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Demian Dekoninck",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Lotte Goyens",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Pieterjan Dendauw",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Peter Bertels",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    },
+    "coach": true
+  },
+  {
+    "name": "Carlos Emiliano Ruiz Herrera",
+    "socials": {
+      "twitter": "https://twitter.com/D34DPlayer_",
+      "linkedin": "https://www.linkedin.com/in/carlos-ruiz-herrera",
+      "behance": null,
+      "github": "https://github.com/D34DPlayer"
+    }
+  },
+  {
+    "name": "Griet Beyens",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/griet-beyens-795406233/",
+      "behance": "https://www.behance.net/grietbeyens1",
+      "github": "https://github.com/grietbeyens"
+    }
+  },
+  {
+    "name": "Julia van der Kris",
+    "socials": {
+      "twitter": "https://twitter.com/juliavdkris",
+      "linkedin": "https://www.linkedin.com/in/julia-van-der-kris/",
+      "behance": null,
+      "github": "https://github.com/juliavdkris"
+    }
+  },
+  {
+    "name": "Niamh Byl",
+    "socials": {
+      "twitter": "https://twitter.com/juliavdkris",
+      "linkedin": "https://www.linkedin.com/in/niamh-byl-/",
+      "behance": null,
+      "github": "https://github.com/NiamhByl"
+    }
+  },
+  {
+    "name": "Senne Bels",
+    "socials": {
+      "twitter": "https://twitter.com/snenenenene",
+      "linkedin": "https://www.linkedin.com/in/sennebels",
+      "behance": null,
+      "github": "https://github.com/snenenenenenene"
+    }
+  },
+  {
+    "name": "Lenny Bontenakel",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/lenny-bontenakel-125370211",
+      "behance": null,
+      "github": "https://github.com/LBONTEN"
+    }
+  },
+  {
+    "name": "Thu Pham",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/thuphamha/",
+      "behance": null,
+      "github": "https://github.com/2fam"
+    }
+  },
+  {
+    "name": "Lin de Huybrecht",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/lin-de-huybrecht/",
+      "behance": null,
+      "github": "https://github.com/LndH"
+    }
+  },
+  {
+    "name": "Ilya Plyusnin",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/iljeee"
+    }
+  },
+  {
+    "name": "Emmeline Martens",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/emmeline-martens-b94651174/",
+      "behance": null,
+      "github": "https://github.com/EMMELINEMARTENS"
+    }
+  },
+  {
+    "name": "Jorik Devreese",
+    "socials": {
+      "twitter": "https://twitter.com/RETIREglitch",
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/DevreeseJorik"
+    }
+  },
+  {
+    "name": "Brent Van Camp",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/brentvc",
+      "behance": null,
+      "github": "https://github.com/bvc1"
+    }
+  },
+  {
+    "name": "Britt Vanzegbroeck",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/Redraven124"
+    }
+  },
+  {
+    "name": "Guilherme Cunha da Silva",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/guilhermecscunha/",
+      "behance": null,
+      "github": "https://github.com/guilhermecscunha"
+    }
+  },
+  {
+    "name": "Cyrille Mathieu",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/cyrille-mathieu/",
+      "behance": null,
+      "github": "https://github.com/speedbuilder"
+    }
+  },
+  {
+    "name": "Joanna Kalisz",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/jane-00"
+    }
+  },
+  {
+    "name": "Aglim Benli",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/aglim-benli-2ba71a233/",
+      "behance": null,
+      "github": "https://github.com/Arechii"
+    }
+  },
+  {
+    "name": "Nicolay Camacho",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    }
+  },
+  {
+    "name": "Fien Goeman",
+    "socials": {
+      "twitter": "https://twitter.com/FienGoeman",
+      "linkedin": null,
+      "behance": null,
+      "github": null
+    }
+  },
+  {
+    "name": "Raman Talwar",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/raman-talwar",
+      "behance": null,
+      "github": "https://github.com/rtalwar2"
+    }
+  },
+  {
+    "name": "Lyka Cabatay",
+    "socials": {
+      "twitter": "https://twitter.com/lykacab",
+      "linkedin": "https://www.linkedin.com/in/lykacabatay/",
+      "behance": null,
+      "github": "https://github.com/LykaCabatay"
+    }
+  },
+  {
+    "name": "Chanel Frederix",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/chanelnr3"
+    }
+  },
+  {
+    "name": "Alba López",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/alba-lopez-gonzalez",
+      "behance": null,
+      "github": "https://github.com/alba-lopez"
+    }
+  },
+  {
+    "name": "Beatrice Postelnicu",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/beatricepostelnicu",
+      "behance": null,
+      "github": "https://github.com/beatricepostelnicu"
+    }
+  },
+  {
+    "name": "Erinn Van der Sande",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/erinn-van-der-sande/",
+      "behance": null,
+      "github": "https://github.com/ErinnVdSande"
+    }
+  },
+  {
+    "name": "Ana Gagua",
+    "socials": {
+      "twitter": "https://twitter.com/Anakkkoo",
+      "linkedin": "https://linkedin.com/in/ana-gagua/",
+      "behance": null,
+      "github": "https://github.com/aanako"
+    }
+  },
+  {
+    "name": "Frederik Stroobandt",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/frederikstroobandt/",
+      "behance": null,
+      "github": "https://github.com/fstroobandt"
+    }
+  },
+  {
+    "name": "Aurore Van Hoorebeke",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/aurorevanhoorebeke/",
+      "behance": null,
+      "github": "https://github.com/Bluerory"
+    }
+  },
+  {
+    "name": "Cat (Stijn) Catry",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/Denperidge"
+    }
+  },
+  {
+    "name": "Abel de Bruijn",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/abel-de-bruijn-089ba3155/",
+      "behance": null,
+      "github": "https://github.com/yustarandomname"
+    }
+  },
+  {
+    "name": "Matei Penca",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/matei-penca/",
+      "behance": null,
+      "github": "https://github.com/Matei9721"
+    }
+  },
+  {
+    "name": "Tischa Nyanguile",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/0xtini"
+    }
+  },
+  {
+    "name": "Arthur Coenen",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/arthurco"
+    }
+  },
+  {
+    "name": "Camilla Frison",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/camilla-frison-a80381192/",
+      "behance": null,
+      "github": "https://github.com/camifrs"
+    }
+  },
+  {
+    "name": "Victor Vansteenkiste",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/victor-vansteenkiste-07b7791b9/",
+      "behance": null,
+      "github": "https://github.com/Victor-Vansteenkiste"
+    }
+  },
+  {
+    "name": "Bo Robbrecht",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/borobbrecht",
+      "behance": null,
+      "github": "https://github.com/BT-Creator"
+    }
+  },
+  {
+    "name": "Joshua Moelans",
+    "socials": {
+      "twitter": "https://twitter.com/joshuamoelans",
+      "linkedin": "https://www.linkedin.com/in/joshua-moelans-743977222/",
+      "behance": null,
+      "github": "https://github.com/JoshuaMoelans"
+    }
+  },
+  {
+    "name": "Ben Stoffels",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/ben-stoffels-80726423b/",
+      "behance": null,
+      "github": "https://github.com/BenJStoffels"
+    }
+  },
+  {
+    "name": "Florian Mazzeo",
+    "socials": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/in/florian-mazzeo-b4a817201",
+      "behance": null,
+      "github": "https://github.com/Scryper"
+    }
+  },
+  {
+    "name": "Andrews Leruth",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/HispanicMojitos"
+    }
+  },
+  {
+    "name": "Robin van der Linde",
+    "socials": {
+      "twitter": "https://twitter.com/linde_robin",
+      "linkedin": "https://www.linkedin.com/in/rlineu/",
+      "behance": null,
+      "github": "https://github.com/RobinLinde"
+    }
+  },
+  {
+    "name": "Muhammad Rezaul Hasan",
+    "socials": {
+      "twitter": "https://twitter.com/roconmachine",
+      "linkedin": "https://www.linkedin.com/in/rezaul-hasan/",
+      "behance": null,
+      "github": "https://github.com/roconmachine"
+    }
+  },
+  {
+    "name": "Alexander Rebai",
+    "socials": {
+      "twitter": null,
+      "linkedin": null,
+      "behance": null,
+      "github": "https://github.com/AlexanderRebai"
+    }
+  }
+]
