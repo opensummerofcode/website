@@ -1,15 +1,19 @@
 import PropTypes from 'prop-types';
+import slugify from 'slugify';
 import Headshot from '../Editions/Headshot';
 
-const Team = ({ students, coaches }) => {
-  const renderMugshot = (person, isCoach) => (
-    <Headshot
-      key={person.id}
-      data={{ name: person.name, isCoach }}
-      socials={person.socials}
-      picture={person.mugshot}
-    />
-  );
+const Team = ({ edition, students, coaches }) => {
+  const renderMugshot = (person, isCoach) => {
+    const slug = slugify(person.name, { lower: true });
+    return (
+      <Headshot
+        key={person.id ?? slug}
+        data={{ name: person.name, isCoach }}
+        socials={person.socials}
+        picture={person.mugshot ?? `/editions/${edition}/participants/${slug}.jpg`}
+      />
+    );
+  };
   const $students = students.map((c) => renderMugshot(c, false));
   const $coaches = coaches.map((c) => renderMugshot(c, true));
   return (
@@ -30,6 +34,7 @@ const Team = ({ students, coaches }) => {
 };
 
 Team.propTypes = {
+  edition: PropTypes.number.isRequired,
   students: PropTypes.arrayOf(PropTypes.shape).isRequired,
   coaches: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };
