@@ -1,17 +1,21 @@
 import PropTypes from 'prop-types';
+import slugify from 'slugify';
 import Headshot from './Headshot';
 import Gallery from './Gallery';
 
-const StudentsGallery = ({ students }) => {
-  const renderStudent = (student) => (
-    <Headshot
-      key={student.id}
-      data={{ name: student.name, isCoach: false }}
-      socials={student.socials}
-      picture={student.mugshot}
-      roleShown={false}
-    />
-  );
+const StudentsGallery = ({ edition, students }) => {
+  const renderStudent = (student) => {
+    const slug = slugify(student.name, { lower: true });
+    return (
+      <Headshot
+        key={student.id ?? slug}
+        data={{ name: student.name, isCoach: false }}
+        socials={student.socials}
+        picture={student.mugshot ?? `/editions/${edition}/participants/${slug}.jpg`}
+        roleShown={false}
+      />
+    );
+  };
 
   const $students = students.map(renderStudent);
   return (
@@ -22,6 +26,7 @@ const StudentsGallery = ({ students }) => {
 };
 
 StudentsGallery.propTypes = {
+  edition: PropTypes.number.isRequired,
   students: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };
 
