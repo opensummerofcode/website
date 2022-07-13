@@ -10,7 +10,7 @@ const Project = ({ edition, project, students, coaches, partners }) => (
     <Head>
       <title>{project.name} | Open Summer of Code</title>
     </Head>
-    <Header project={project} />
+    <Header edition={edition} project={project} />
     <Team edition={edition} students={students} coaches={coaches} />
     <Partners partners={partners} />
   </>
@@ -26,7 +26,10 @@ export async function getStaticPaths() {
         `../../../public/editions/${edition.year}/projects.json`
       );
       const paths = projects.map((project) => ({
-        params: { year: edition.year.toString(), project: project.id },
+        params: {
+          year: edition.year.toString(),
+          project: project.id ?? slugify(project.name, { lower: true }),
+        },
       }));
       return paths;
     });
@@ -40,7 +43,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { year, project: projectId } = params;
   const { default: projects } = await import(`../../../public/editions/${year}/projects.json`);
-  const project = projects.find((p) => p.id === projectId);
+  const project = projects.find((p) => (p.id ?? slugify(p.name, { lower: true })) === projectId);
 
   const { default: participants } = await import(
     `../../../public/editions/${year}/participants.json`
@@ -48,10 +51,10 @@ export async function getStaticProps({ params }) {
   const { default: partners } = await import(`../../../public/editions/${year}/partners.json`);
 
   const students = project.team.students.map((student) =>
-    participants.find((p) => (p.id ?? slugify(p.name)) === student)
+    participants.find((p) => (p.id ?? slugify(p.name, { lower: true })) === student)
   );
   const coaches = project.team.coaches.map((coach) =>
-    participants.find((p) => (p.id ?? slugify(p.name)) === coach)
+    participants.find((p) => (p.id ?? slugify(p.name, { lower: true })) === coach)
   );
 
   return {
