@@ -59,6 +59,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
+      edition: year,
       project,
       coaches,
       students,
@@ -71,7 +72,7 @@ Project.propTypes = {
   edition: PropTypes.number.isRequired,
   project: PropTypes.objectOf({
     name: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired,
+    id: PropTypes.string,
     team: PropTypes.arrayOf(PropTypes.shape).isRequired,
     partners: PropTypes.arrayOf(PropTypes.shape).isRequired,
   }).isRequired,
