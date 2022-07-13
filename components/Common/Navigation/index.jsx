@@ -91,8 +91,8 @@ const Navigation = () => {
                   </Tab>
                 </li>
                 <li>
-                  <Tab onClick={handleToggle} href="/editions/2021">
-                    2021
+                  <Tab onClick={handleToggle} href="/editions/2022">
+                    2022
                   </Tab>
                 </li>
 
