@@ -1,0 +1,86 @@
+[
+  {
+    "id": "openknowledgebe",
+    "name": "Open Knowledge Belgium",
+    "url": "https://openknowledge.be/",
+    "logo": "/editions/2022/partners/logo-okbe.svg"
+  },
+  {
+    "id": "osmbe",
+    "name": "OpenStreetMap Belgium",
+    "url": "https://openstreetmap.be/",
+    "logo": "/editions/2022/partners/logo-osmbe.svg"
+  },
+  {
+    "id": "abb",
+    "name": "Agentschap Binnenlands Bestuur",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-abb.svg"
+  },
+  {
+    "id": "bosa",
+    "name": "BOSA",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-bosa.svg"
+  },
+  {
+    "id": "bosa-dto",
+    "name": "BOSA Digital Transformation Office",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-bosa.svg"
+  },
+  {
+    "id": "circl",
+    "name": "CIRCL",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-circl-compact.svg"
+  },
+  {
+    "id": "fris",
+    "name": "FRIS Research Portal",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-fris.svg"
+  },
+  {
+    "id": "idlab",
+    "name": "IDLab",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-idlab.svg"
+  },
+  {
+    "id": "imec",
+    "name": "imec",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-imec.svg"
+  },
+  {
+    "id": "io-digital",
+    "name": "iO Digital",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-iO.svg"
+  },
+  {
+    "id": "nccn",
+    "name": "Nationaal Crisis Centrum - Centre de Crise National (NCCN)",
+    "url": "https://crisiscenter.be/",
+    "logo": "/editions/2022/partners/logo-nccn.png"
+  },
+  {
+    "id": "onwheels",
+    "name": "OnWheels",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-onwheels.svg"
+  },
+  {
+    "id": "boekentoren-ugent",
+    "name": "University Library Ghent Boekentoren",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-boekentoren-ugent.svg"
+  },
+  {
+    "id": "vanhout",
+    "name": "Vanhout",
+    "url": "",
+    "logo": "/editions/2022/partners/logo-vanhout.svg"
+  }
+]
