@@ -1,0 +1,212 @@
+<svg
+  width="400"
+  height="400"
+  viewBox="0 0 400 400"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <style>
+    .connected_path {
+      animation-name: strokeDash;
+      animation-duration: 2s;
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+      stroke-dasharray: 20;
+    }
+
+    .lock {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation-name: openCloseLock;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
+
+    .dark_path {
+      stroke-dasharray: 50;
+    }
+
+    @keyframes strokeDash {
+      0%   {stroke-dashoffset: 0;}
+      50%  {stroke-dashoffset: 100}
+      100% {stroke-dashoffset: 0;}
+    }
+
+    @keyframes openCloseLock {
+      0%   {stroke-dashoffset: 1000;}
+      50%  {stroke-dashoffset: 0;}
+      100% {stroke-dashoffset: 1000;}
+    }
+  </style>
+
+  <rect width="400" height="400" fill="white" />
+  <path
+    
+    d="M400 200C400 310.457 310.457 400 200 400C89.5431 400 0 310.457 0 200C0 89.5431 89.5431 0 200 0C310.457 0 400 89.5431 400 200Z"
+    fill="url(#paint0_linear_661_20)"
+  />
+  <path
+    class="connected_path dark_path"
+    d="M47 151L207.5 351M47 151L351.5 283.5M47 151L254.5 46M207.5 351L339 100.5M207.5 351L109.5 85.5M339 100.5L200.5 129.5L351.5 283.5M339 100.5L351.5 283.5"
+    stroke="#9A189C"
+    stroke-opacity="0.7"
+    stroke-width="3"
+  />
+  <path
+    class="connected_path"
+    d="M49 149.5L109.5 84L200 131L254.5 45.5L207 352L351 282L55.5 266L339 102.5"
+    stroke="#DB38DE"
+    stroke-opacity="0.7"
+    stroke-width="3"
+  />
+  <circle cx="338" cy="101" r="6" fill="#AA9FE1" fill-opacity="0.8" />
+  <circle cx="49.5" cy="149.5" r="7.5" fill="#AA9FE1" fill-opacity="0.8" />
+  <circle cx="109" cy="85" r="5" fill="#AA9FE1" fill-opacity="0.8" />
+  <circle cx="201" cy="129" r="10" fill="#AA9FE1" fill-opacity="0.8" />
+  <circle cx="208.5" cy="350.5" r="8.5" fill="#AA9FE1" fill-opacity="0.8" />
+  <circle cx="254.5" cy="46.5" r="7.5" fill="#AA9FE1" fill-opacity="0.8" />
+  <circle cx="55" cy="266" r="6" fill="#AA9FE1" fill-opacity="0.8" />
+  <circle cx="350.5" cy="281.5" r="6.5" fill="#AA9FE1" fill-opacity="0.8" />
+  <g filter="url(#filter0_d_661_20)">
+    <path
+      class="lock"
+      d="M272 180C272 113.726 239.988 60 200.5 60C161.012 60 129 113.726 129 180"
+      stroke="#4E4566"
+      stroke-width="15"
+    />
+  </g>
+  <g filter="url(#filter1_d_661_20)">
+    <rect x="93" y="175" width="215" height="154" rx="20" fill="#B033B3" />
+    <rect
+      x="94.5"
+      y="176.5"
+      width="212"
+      height="151"
+      rx="18.5"
+      stroke="#E706EC"
+      stroke-width="3"
+    />
+  </g>
+  <g filter="url(#filter2_i_661_20)">
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M211 255.471C217.552 251.916 222 244.978 222 237C222 225.402 212.598 216 201 216C189.402 216 180 225.402 180 237C180 244.978 184.448 251.916 191 255.471V284C191 286.761 193.239 289 196 289H206C208.761 289 211 286.761 211 284V255.471Z"
+      fill="#E340F2"
+    />
+  </g>
+  <defs>
+    <filter
+      id="filter0_d_661_20"
+      x="117.5"
+      y="52.5"
+      width="166"
+      height="135.5"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix
+        in="SourceAlpha"
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+        result="hardAlpha"
+      />
+      <feOffset dy="4" />
+      <feGaussianBlur stdDeviation="2" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+      />
+      <feBlend
+        mode="normal"
+        in2="BackgroundImageFix"
+        result="effect1_dropShadow_661_20"
+      />
+      <feBlend
+        mode="normal"
+        in="SourceGraphic"
+        in2="effect1_dropShadow_661_20"
+        result="shape"
+      />
+    </filter>
+    <filter
+      id="filter1_d_661_20"
+      x="89"
+      y="175"
+      width="223"
+      height="162"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix
+        in="SourceAlpha"
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+        result="hardAlpha"
+      />
+      <feOffset dy="4" />
+      <feGaussianBlur stdDeviation="2" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix
+        type="matrix"
+        values="0 0 0 0 0.298894 0 0 0 0 0.0405556 0 0 0 0 0.304167 0 0 0 0.37 0"
+      />
+      <feBlend
+        mode="normal"
+        in2="BackgroundImageFix"
+        result="effect1_dropShadow_661_20"
+      />
+      <feBlend
+        mode="normal"
+        in="SourceGraphic"
+        in2="effect1_dropShadow_661_20"
+        result="shape"
+      />
+    </filter>
+    <filter
+      id="filter2_i_661_20"
+      x="180"
+      y="216"
+      width="42"
+      height="77"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend
+        mode="normal"
+        in="SourceGraphic"
+        in2="BackgroundImageFix"
+        result="shape"
+      />
+      <feColorMatrix
+        in="SourceAlpha"
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+        result="hardAlpha"
+      />
+      <feOffset dy="4" />
+      <feGaussianBlur stdDeviation="2" />
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+      <feColorMatrix
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+      />
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_661_20" />
+    </filter>
+    <linearGradient
+      id="paint0_linear_661_20"
+      x1="200"
+      y1="0"
+      x2="200"
+      y2="400"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#7C4DFF" stop-opacity="0.09" />
+      <stop offset="1" stop-color="#7C4DFF" stop-opacity="0.61" />
+    </linearGradient>
+  </defs>
+</svg>
