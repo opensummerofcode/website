@@ -1,16 +1,17 @@
 import PropTypes from 'prop-types';
 import Head from 'next/head';
+import slugify from 'slugify';
 import Header from '../../../components/Projects/Header';
 import Team from '../../../components/Projects/Team';
 import Partners from '../../../components/Projects/Partners';
 
-const Project = ({ project, students, coaches, partners }) => (
+const Project = ({ edition, project, students, coaches, partners }) => (
   <>
     <Head>
       <title>{project.name} | Open Summer of Code</title>
     </Head>
     <Header project={project} />
-    <Team students={students} coaches={coaches} />
+    <Team edition={edition} students={students} coaches={coaches} />
     <Partners partners={partners} />
   </>
 );
@@ -47,9 +48,11 @@ export async function getStaticProps({ params }) {
   const { default: partners } = await import(`../../../public/editions/${year}/partners.json`);
 
   const students = project.team.students.map((student) =>
-    participants.find((p) => p.id === student)
+    participants.find((p) => (p.id ?? slugify(p.name)) === student)
   );
-  const coaches = project.team.coaches.map((coach) => participants.find((p) => p.id === coach));
+  const coaches = project.team.coaches.map((coach) =>
+    participants.find((p) => (p.id ?? slugify(p.name)) === coach)
+  );
 
   return {
     props: {
@@ -62,6 +65,7 @@ export async function getStaticProps({ params }) {
 }
 
 Project.propTypes = {
+  edition: PropTypes.number.isRequired,
   project: PropTypes.objectOf({
     name: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
