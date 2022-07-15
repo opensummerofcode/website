@@ -45,7 +45,7 @@
   },
   {
     "name": "Paradar",
-    "description": "Developing a POC for a tracking app based on physical trackers and smartphones to allow NCCN to track useful resources (VIP, assets, ...) in their internal tools (crisis management, emergency planning, ...)",
+    "description": "Developing a proof of concept for a tracking app based on physical trackers and smartphones to allow NCCN to track useful resources (VIP, assets, ...) in their internal tools (crisis management, emergency planning, ...)",
     "team": {
       "students": [],
       "coaches": []
