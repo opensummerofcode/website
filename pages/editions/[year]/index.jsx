@@ -72,9 +72,9 @@ const EditionOverview = ({ editions, partners, participants, projects }) => {
       <ProjectsHeader />
       <ProjectsGallery edition={year} isDemoDay={isDemoDay} projects={projectOrder} />
       <StudentsHeader />
-      <StudentsGallery students={students.sort(sortAlphabetically)} />
+      <StudentsGallery edition={year} students={students.sort(sortAlphabetically)} />
       <CoachesHeader />
-      <CoachesGallery coaches={coaches.sort(sortAlphabetically)} />
+      <CoachesGallery edition={year} coaches={coaches.sort(sortAlphabetically)} />
       <Partners partners={partners} />
     </>
   );

@@ -1,16 +1,17 @@
 import PropTypes from 'prop-types';
 import Head from 'next/head';
+import slugify from 'slugify';
 import Header from '../../../components/Projects/Header';
 import Team from '../../../components/Projects/Team';
 import Partners from '../../../components/Projects/Partners';
 
-const Project = ({ project, students, coaches, partners }) => (
+const Project = ({ edition, project, students, coaches, partners }) => (
   <>
     <Head>
       <title>{project.name} | Open Summer of Code</title>
     </Head>
-    <Header project={project} />
-    <Team students={students} coaches={coaches} />
+    <Header edition={edition} project={project} />
+    <Team edition={edition} students={students} coaches={coaches} />
     <Partners partners={partners} />
   </>
 );
@@ -25,7 +26,10 @@ export async function getStaticPaths() {
         `../../../public/editions/${edition.year}/projects.json`
       );
       const paths = projects.map((project) => ({
-        params: { year: edition.year.toString(), project: project.id },
+        params: {
+          year: edition.year.toString(),
+          project: project.id ?? slugify(project.name, { lower: true }),
+        },
       }));
       return paths;
     });
@@ -39,7 +43,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { year, project: projectId } = params;
   const { default: projects } = await import(`../../../public/editions/${year}/projects.json`);
-  const project = projects.find((p) => p.id === projectId);
+  const project = projects.find((p) => (p.id ?? slugify(p.name, { lower: true })) === projectId);
 
   const { default: participants } = await import(
     `../../../public/editions/${year}/participants.json`
@@ -47,12 +51,15 @@ export async function getStaticProps({ params }) {
   const { default: partners } = await import(`../../../public/editions/${year}/partners.json`);
 
   const students = project.team.students.map((student) =>
-    participants.find((p) => p.id === student)
+    participants.find((p) => (p.id ?? slugify(p.name, { lower: true })) === student)
   );
-  const coaches = project.team.coaches.map((coach) => participants.find((p) => p.id === coach));
+  const coaches = project.team.coaches.map((coach) =>
+    participants.find((p) => (p.id ?? slugify(p.name, { lower: true })) === coach)
+  );
 
   return {
     props: {
+      edition: year,
       project,
       coaches,
       students,
@@ -62,9 +69,10 @@ export async function getStaticProps({ params }) {
 }
 
 Project.propTypes = {
+  edition: PropTypes.number.isRequired,
   project: PropTypes.objectOf({
     name: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired,
+    id: PropTypes.string,
     team: PropTypes.arrayOf(PropTypes.shape).isRequired,
     partners: PropTypes.arrayOf(PropTypes.shape).isRequired,
   }).isRequired,

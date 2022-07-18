@@ -16,6 +16,11 @@
   status = 301
 
 [[redirects]]
+  from = "/companies"
+  to = "/partners"
+  status = 301
+
+[[redirects]]
   from = "/2019"
   to = "/editions/2019"
   status = 301
@@ -31,6 +36,11 @@
   status = 301
 
 [[redirects]]
-  from = "/companies"
-  to = "/partners"
+  from = "/2022"
+  to = "/editions/2022"
   status = 301
+
+[[redirects]]
+  from = "/projects"
+  to = "/editions/2022"
+  status = 302

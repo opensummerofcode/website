@@ -1,11 +1,19 @@
 import PropTypes from 'prop-types';
+import slugify from 'slugify';
 import { ButtonLink } from '../UI/Buttons';
 
-const Header = ({ project }) => (
+const Header = ({ edition, project }) => (
   <header className="hero-detail u-padding-x-large--tb">
     <div className="grid-x grid-padding-x small-offset-1 medium-offset-0">
       <div className="small-10 medium-3 medium-offset-0 large-4 cell u-margin-medium--b">
-        <img className="crest" src={project.logo} alt={`Crest of the ${project.name} project`} />
+        <img
+          className="crest"
+          src={
+            project.logo ??
+            `/editions/${edition}/projects/${slugify(project.name, { lower: true })}.svg`
+          }
+          alt={`Crest of the ${project.name} project`}
+        />
         <h1 className="hero-head project-title">{project.name}</h1>
       </div>
 
@@ -24,6 +32,7 @@ const Header = ({ project }) => (
 );
 
 Header.propTypes = {
+  edition: PropTypes.number.isRequired,
   project: PropTypes.shape({
     logo: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,

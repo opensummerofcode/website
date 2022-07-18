@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="97px" viewBox="0 0 139 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iOlogowhite</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iOlogowhite" transform="translate(0.260000, 0.880000)" fill="#000000" fill-rule="nonzero">
+            <path d="M92.16,26.72 C104.77,26.72 115.02,36.98 115.02,49.58 C115.02,62.18 104.76,72.44 92.16,72.44 C79.56,72.44 69.3,62.18 69.3,49.58 C69.3,36.98 79.56,26.72 92.16,26.72 M92.16,3.86 C66.91,3.86 46.44,24.33 46.44,49.58 C46.44,74.83 66.91,95.3 92.16,95.3 C117.41,95.3 137.880004,74.83 137.880004,49.58 C137.89,24.33 117.42,3.86 92.16,3.86 L92.16,3.86 Z" id="Shape"></path>
+            <g id="Group" transform="translate(0.000000, 0.000000)">
+                <path d="M21.54,35.06 L21.54,35.06 L7.10542736e-15,83.44 L24.26,94.24 L35,70.11 C40.96,56.72 34.93,41.02 21.54,35.06 Z" id="Path"></path>
+                <path d="M8.08,7.10542736e-15 C2.12,13.4 8.14,29.09 21.54,35.06 L32.34,10.8 L8.08,7.10542736e-15 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

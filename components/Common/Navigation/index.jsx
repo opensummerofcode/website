@@ -3,8 +3,8 @@ import Link from 'next/link';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
-// import DemoDayLink from '../../UI/DemoDayLink';
-import ExternalLink from '../../UI/ExternalLink';
+import DemoDayLink from '../../UI/DemoDayLink';
+// import ExternalLink from '../../UI/ExternalLink';
 
 const Navigation = () => {
   const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
@@ -91,24 +91,24 @@ const Navigation = () => {
                   </Tab>
                 </li>
                 <li>
-                  <Tab onClick={handleToggle} href="/editions/2021">
-                    2021
+                  <Tab onClick={handleToggle} href="/editions/2022">
+                    2022
                   </Tab>
                 </li>
 
-                <li>
+                {/* <li>
                   <ExternalLink href="https://tally.so/r/wL8Rvw" target="_blank" className="button">
                     Apply as a student
                     <span className="button__info">Live in Belgium!</span>
                   </ExternalLink>
-                </li>
+                </li> */}
 
-                {/* <li>
+                <li>
                   {' '}
                   <DemoDayLink className="button">
-                    Join the online demo day! <span className="button__info">July 29th 2021</span>
+                    Join the demo day! <span className="button__info">July 28th 2022</span>
                   </DemoDayLink>
-                </li> */}
+                </li>
 
                 {/* <li>
                   <Link href="/editions/[year]" as="/editions/2020">
