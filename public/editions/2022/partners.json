@@ -14,73 +14,91 @@
   {
     "id": "abb",
     "name": "Agentschap Binnenlands Bestuur",
-    "url": "",
+    "url": "https://www.vlaanderen.be/agentschap-binnenlands-bestuur",
     "logo": "/editions/2022/partners/logo-abb.svg"
-  },
-  {
-    "id": "bosa",
-    "name": "BOSA",
-    "url": "",
-    "logo": "/editions/2022/partners/logo-bosa.svg"
   },
   {
     "id": "bosa-dto",
     "name": "BOSA Digital Transformation Office",
-    "url": "",
+    "url": "https://bosa.be/",
     "logo": "/editions/2022/partners/logo-bosa.svg"
   },
   {
     "id": "circl",
     "name": "CIRCL",
-    "url": "",
+    "url": "https://circl.be/",
     "logo": "/editions/2022/partners/logo-circl-compact.svg"
+  },
+  {
+    "id": "ewi",
+    "name": "EWI",
+    "url": "https://www.ewi-vlaanderen.be/",
+    "logo": "/editions/2022/partners/logo-ewi.svg"
   },
   {
     "id": "fris",
     "name": "FRIS Research Portal",
-    "url": "",
+    "url": "https://researchportal.be/",
     "logo": "/editions/2022/partners/logo-fris.svg"
   },
   {
     "id": "idlab",
     "name": "IDLab",
-    "url": "",
+    "url": "https://idlab.technology/",
     "logo": "/editions/2022/partners/logo-idlab.svg"
   },
   {
     "id": "imec",
     "name": "imec",
-    "url": "",
+    "url": "https://www.imec.be/",
     "logo": "/editions/2022/partners/logo-imec.svg"
   },
   {
     "id": "io-digital",
     "name": "iO Digital",
-    "url": "",
+    "url": "https://www.iodigital.com/",
     "logo": "/editions/2022/partners/logo-iO.svg"
   },
   {
     "id": "nccn",
     "name": "Nationaal Crisis Centrum - Centre de Crise National (NCCN)",
     "url": "https://crisiscenter.be/",
-    "logo": "/editions/2022/partners/logo-nccn.png"
+    "logo": "/editions/2022/partners/logo-nccn.svg"
   },
   {
     "id": "onwheels",
     "name": "OnWheels",
-    "url": "",
+    "url": "https://onwheelsapp.com/",
     "logo": "/editions/2022/partners/logo-onwheels.svg"
+  },
+  {
+    "id": "redpencil",
+    "name": "Redpencil",
+    "url": "https://redpencil.io",
+    "logo": "/editions/2022/partners/logo-redpencil.svg"
+  },
+  {
+    "id": "smooth-sailing",
+    "name": "Smooth Sailing",
+    "url": "https://smoothsailing.be/",
+    "logo": "/editions/2022/partners/logo-smoothsailing.svg"
   },
   {
     "id": "boekentoren-ugent",
     "name": "University Library Ghent Boekentoren",
-    "url": "",
+    "url": "https://boekentoren.gent/",
     "logo": "/editions/2022/partners/logo-boekentoren-ugent.svg"
   },
   {
     "id": "vanhout",
     "name": "Vanhout",
-    "url": "",
+    "url": "https://www.vanhout.be/",
     "logo": "/editions/2022/partners/logo-vanhout.svg"
+  },
+  {
+    "id": "vlaanderen",
+    "name": "Vlaanderen",
+    "url": "https://www.vlaanderen.be/",
+    "logo": "/editions/2022/partners/logo-vlaanderen.svg"
   }
 ]

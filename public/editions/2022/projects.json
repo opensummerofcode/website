@@ -13,7 +13,7 @@
     },
     "repository": "https://github.com/osoc22/project-on-wheels",
     "website": null,
-    "partners": ["bosa", "onwheels", "osmbe", "io-digital"]
+    "partners": ["bosa-dto", "onwheels", "osmbe", "io-digital"]
   },
   {
     "name": "The Impact of Sharing Knowledge",
@@ -80,7 +80,7 @@
     },
     "repository": "https://github.com/osoc22/project-hey-bosa",
     "website": null,
-    "partners": ["bosa", "io-digital"]
+    "partners": ["bosa-dto", "io-digital"]
   },
   {
     "name": "LYNX - Local Linked Taxes",
@@ -110,7 +110,7 @@
     },
     "repository": "https://github.com/osoc22/project-digital-wallet",
     "website": null,
-    "partners": ["bosa", "io-digital"]
+    "partners": ["bosa-dto", "io-digital"]
   },
   {
     "name": "Inspector Widget",
@@ -121,7 +121,7 @@
     },
     "repository": "https://github.com/osoc22/project-inspector-widget",
     "website": null,
-    "partners": ["bosa", "io-digital"]
+    "partners": ["bosa-dto", "io-digital"]
   },
   {
     "name": "Sphere",
