@@ -1,53 +1,30 @@
 [
   {
     "name": "Jodi Deloof",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Robin Julien",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/robin-julien-9b03531a4/",
-      "behance": null,
-      "github": null,
       "instagram": "https://www.instagram.com/ctsteward"
     },
     "coach": true
   },
   {
     "name": "Christophe Leroy",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Inti Valderas Caro",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Thor Galle",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
@@ -55,109 +32,58 @@
     "socials": {
       "twitter": "https://twitter.com/jbelien/",
       "linkedin": "https://www.linkedin.com/in/jbelien/",
-      "behance": null,
       "github": "https://github.com/jbelien"
     },
     "coach": true
   },
   {
     "name": "Niels Dewelde",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Miet Claes",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Meg Vandezande",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Pieter Vandervennet",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Bavo Lodewyckx",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Miel Van Opstal",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Demian Dekoninck",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Lotte Goyens",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Pieterjan Dendauw",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
     "name": "Peter Bertels",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    },
+    "socials": {},
     "coach": true
   },
   {
@@ -165,14 +91,12 @@
     "socials": {
       "twitter": "https://twitter.com/D34DPlayer_",
       "linkedin": "https://www.linkedin.com/in/carlos-ruiz-herrera",
-      "behance": null,
       "github": "https://github.com/D34DPlayer"
     }
   },
   {
     "name": "Griet Beyens",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/griet-beyens-795406233/",
       "behance": "https://www.behance.net/grietbeyens1",
       "github": "https://github.com/grietbeyens",
@@ -184,7 +108,6 @@
     "socials": {
       "twitter": "https://twitter.com/juliavdkris",
       "linkedin": "https://www.linkedin.com/in/julia-van-der-kris/",
-      "behance": null,
       "github": "https://github.com/juliavdkris"
     }
   },
@@ -193,7 +116,6 @@
     "socials": {
       "twitter": "https://twitter.com/juliavdkris",
       "linkedin": "https://www.linkedin.com/in/niamh-byl-/",
-      "behance": null,
       "github": "https://github.com/NiamhByl",
       "instagram": "https://www.instagram.com/niamhbyl/"
     }
@@ -203,52 +125,40 @@
     "socials": {
       "twitter": "https://twitter.com/snenenenene",
       "linkedin": "https://www.linkedin.com/in/sennebels",
-      "behance": null,
       "github": "https://github.com/snenenenenenene"
     }
   },
   {
     "name": "Lenny Bontenakel",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/lenny-bontenakel-125370211",
-      "behance": null,
       "github": "https://github.com/LBONTEN"
     }
   },
   {
     "name": "Thu Pham",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/thuphamha/",
-      "behance": null,
       "github": "https://github.com/2fam"
     }
   },
   {
     "name": "Lin de Huybrecht",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/lin-de-huybrecht/",
-      "behance": null,
       "github": "https://github.com/LndH"
     }
   },
   {
     "name": "Ilya Plyusnin",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/iljeee"
     }
   },
   {
     "name": "Emmeline Martens",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/emmeline-martens-b94651174/",
-      "behance": null,
       "github": "https://github.com/EMMELINEMARTENS",
       "instagram": "https://www.instagram.com/eeemmmmme/"
     }
@@ -257,35 +167,26 @@
     "name": "Jorik Devreese",
     "socials": {
       "twitter": "https://twitter.com/RETIREglitch",
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/DevreeseJorik"
     }
   },
   {
     "name": "Brent Van Camp",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/brentvc",
-      "behance": null,
       "github": "https://github.com/bvc1"
     }
   },
   {
     "name": "Britt Vanzegbroeck",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/Redraven124"
     }
   },
   {
     "name": "Guilherme Cunha da Silva",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/guilhermecscunha/",
-      "behance": null,
       "github": "https://github.com/guilhermecscunha",
       "instagram": "https://www.instagram.com/guigacunhas/"
     }
@@ -293,54 +194,37 @@
   {
     "name": "Cyrille Mathieu",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/cyrille-mathieu/",
-      "behance": null,
       "github": "https://github.com/speedbuilder"
     }
   },
   {
     "name": "Joanna Kalisz",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/jane-00"
     }
   },
   {
     "name": "Aglim Benli",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/aglim-benli-2ba71a233/",
-      "behance": null,
       "github": "https://github.com/Arechii"
     }
   },
   {
     "name": "Nicolay Camacho",
-    "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
-      "github": null
-    }
+    "socials": {}
   },
   {
     "name": "Fien Goeman",
     "socials": {
-      "twitter": "https://twitter.com/FienGoeman",
-      "linkedin": null,
-      "behance": null,
-      "github": null
+      "twitter": "https://twitter.com/FienGoeman"
     }
   },
   {
     "name": "Raman Talwar",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/raman-talwar",
-      "behance": null,
       "github": "https://github.com/rtalwar2"
     }
   },
@@ -349,34 +233,26 @@
     "socials": {
       "twitter": "https://twitter.com/lykacab",
       "linkedin": "https://www.linkedin.com/in/lykacabatay/",
-      "behance": null,
       "github": "https://github.com/LykaCabatay"
     }
   },
   {
     "name": "Chanel Frederix",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/chanelnr3"
     }
   },
   {
     "name": "Alba López",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/alba-lopez-gonzalez",
-      "behance": null,
       "github": "https://github.com/alba-lopez"
     }
   },
   {
     "name": "Beatrice Postelnicu",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/beatricepostelnicu",
-      "behance": null,
       "github": "https://github.com/beatricepostelnicu",
       "instagram": "https://instagram.com/quvvniv/"
     }
@@ -384,9 +260,7 @@
   {
     "name": "Erinn Van der Sande",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/erinn-van-der-sande/",
-      "behance": null,
       "github": "https://github.com/ErinnVdSande"
     }
   },
@@ -395,7 +269,6 @@
     "socials": {
       "twitter": "https://twitter.com/Anakkkoo",
       "linkedin": "https://linkedin.com/in/ana-gagua/",
-      "behance": null,
       "github": "https://github.com/aanako",
       "instagram": "https://instagram.com/aanako/"
     }
@@ -403,18 +276,14 @@
   {
     "name": "Frederik Stroobandt",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/frederikstroobandt/",
-      "behance": null,
       "github": "https://github.com/fstroobandt"
     }
   },
   {
     "name": "Aurore Van Hoorebeke",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/aurorevanhoorebeke/",
-      "behance": null,
       "github": "https://github.com/Bluerory",
       "instagram": "https://www.instagram.com/aurvh98/"
     }
@@ -422,9 +291,6 @@
   {
     "name": "Cat (Stijn) Catry",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/Denperidge",
       "instagram": "https://www.instagram.com/cat.cattze/"
     }
@@ -432,9 +298,7 @@
   {
     "name": "Abel de Bruijn",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/abel-de-bruijn-089ba3155/",
-      "behance": null,
       "github": "https://github.com/yustarandomname",
       "instagram": "https://www.instagram.com/abeldebruijn/"
     }
@@ -442,9 +306,7 @@
   {
     "name": "Matei Penca",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/matei-penca/",
-      "behance": null,
       "github": "https://github.com/Matei9721",
       "instagram": "https://www.instagram.com/mateipenca9721/"
     }
@@ -452,9 +314,6 @@
   {
     "name": "Tischa Nyanguile",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/0xtini",
       "instagram": "https://www.instagram.com/tischa_ny"
     }
@@ -462,27 +321,20 @@
   {
     "name": "Arthur Coenen",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/arthurco"
     }
   },
   {
     "name": "Camilla Frison",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/camilla-frison-a80381192/",
-      "behance": null,
       "github": "https://github.com/camifrs"
     }
   },
   {
     "name": "Victor Vansteenkiste",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/victor-vansteenkiste-07b7791b9/",
-      "behance": null,
       "github": "https://github.com/Victor-Vansteenkiste",
       "instagram": "https://www.instagram.com/vansteenkistevictor/"
     }
@@ -490,9 +342,7 @@
   {
     "name": "Bo Robbrecht",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/borobbrecht",
-      "behance": null,
       "github": "https://github.com/BT-Creator"
     }
   },
@@ -501,7 +351,6 @@
     "socials": {
       "twitter": "https://twitter.com/joshuamoelans",
       "linkedin": "https://www.linkedin.com/in/joshua-moelans-743977222/",
-      "behance": null,
       "github": "https://github.com/JoshuaMoelans",
       "instagram": "https://www.instagram.com/joshuamoelans/"
     }
@@ -509,27 +358,20 @@
   {
     "name": "Ben Stoffels",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/ben-stoffels-80726423b/",
-      "behance": null,
       "github": "https://github.com/BenJStoffels"
     }
   },
   {
     "name": "Florian Mazzeo",
     "socials": {
-      "twitter": null,
       "linkedin": "https://www.linkedin.com/in/florian-mazzeo-b4a817201",
-      "behance": null,
       "github": "https://github.com/Scryper"
     }
   },
   {
     "name": "Andrews Leruth",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/HispanicMojitos"
     }
   },
@@ -538,7 +380,6 @@
     "socials": {
       "twitter": "https://twitter.com/linde_robin",
       "linkedin": "https://www.linkedin.com/in/rlineu/",
-      "behance": null,
       "github": "https://github.com/RobinLinde"
     }
   },
@@ -547,16 +388,12 @@
     "socials": {
       "twitter": "https://twitter.com/roconmachine",
       "linkedin": "https://www.linkedin.com/in/rezaul-hasan/",
-      "behance": null,
       "github": "https://github.com/roconmachine"
     }
   },
   {
     "name": "Alexander Rebai",
     "socials": {
-      "twitter": null,
-      "linkedin": null,
-      "behance": null,
       "github": "https://github.com/AlexanderRebai"
     }
   }
