@@ -30,7 +30,7 @@
       "coaches": ["miet-claes", "pieterjan-dendauw"]
     },
     "repository": "https://github.com/osoc22/project-the-power-of-sharing-knowledge",
-    "website": null,
+    "website": "https://the-impact-of-sharing-knowledge.osoc.be/",
     "partners": ["fris", "boekentoren-ugent"]
   },
   {
@@ -52,7 +52,7 @@
       "coaches": ["thor-galle", "demian-dekoninck"]
     },
     "repository": "https://github.com/osoc22/project-idlab",
-    "website": null,
+    "website": "https://osoc22.github.io/project-idlab/",
     "partners": ["idlab"]
   },
   {
@@ -109,7 +109,7 @@
       "coaches": ["thor-galle", "inti-valderas-caro"]
     },
     "repository": "https://github.com/osoc22/project-digital-wallet",
-    "website": null,
+    "website": "https://pleasant-procedures.osoc.be/",
     "partners": ["bosa-dto", "io-digital"]
   },
   {
