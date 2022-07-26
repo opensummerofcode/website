@@ -112,5 +112,11 @@
     "name": "Digitaal Vlaanderen",
     "url": "https://www.vlaanderen.be/digitaal-vlaanderen",
     "logo": "/editions/2022/partners/logo-digitaal-vlaanderen.svg"
+  },
+  {
+    "id": "fps-economie",
+    "name": "FPS Economie",
+    "url": "https://economie.fgov.be/",
+    "logo": "/editions/2022/partners/logo-fps-economie.svg"
   }
 ]
