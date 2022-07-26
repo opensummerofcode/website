@@ -19,13 +19,18 @@ const Header = ({ edition, project }) => (
 
       <div className="small-10 medium-7 medium-offset-1 large-5 cell large-offset-0 flex-text">
         <p>{project.description}</p>
-        {project.repository && (
-          <p>
+        <p>
+          {project.website && (
+            <ButtonLink className="success" isExternal href={project.website}>
+              Website
+            </ButtonLink>
+          )}{' '}
+          {project.repository && (
             <ButtonLink className="success" isExternal href={project.repository}>
               Contribute on Github
             </ButtonLink>
-          </p>
-        )}
+          )}
+        </p>
       </div>
     </div>
   </header>
@@ -37,6 +42,7 @@ Header.propTypes = {
     logo: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    website: PropTypes.string,
     repository: PropTypes.string,
   }).isRequired,
 };

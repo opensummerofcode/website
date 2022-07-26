@@ -12,7 +12,7 @@
       "coaches": ["robin-julien", "pieter-vandervennet"]
     },
     "repository": "https://github.com/osoc22/project-on-wheels",
-    "website": null,
+    "website": "https://osoc22.github.io/project-on-wheels/",
     "partners": ["bosa-dto", "onwheels", "osmbe", "io-digital"]
   },
   {
@@ -30,7 +30,7 @@
       "coaches": ["miet-claes", "pieterjan-dendauw"]
     },
     "repository": "https://github.com/osoc22/project-the-power-of-sharing-knowledge",
-    "website": null,
+    "website": "https://osoc22.github.io/project-knowledge-impact/",
     "partners": ["fris", "boekentoren-ugent"]
   },
   {
@@ -52,7 +52,7 @@
       "coaches": ["thor-galle", "demian-dekoninck"]
     },
     "repository": "https://github.com/osoc22/project-idlab",
-    "website": null,
+    "website": "https://osoc22.github.io/project-idlab/",
     "partners": ["idlab"]
   },
   {
@@ -63,7 +63,7 @@
       "coaches": ["jonathan-belien", "meg-vandezande"]
     },
     "repository": "https://github.com/osoc22/project-track-trace",
-    "website": "https://paradar.osoc.be/",
+    "website": "https://osoc22.github.io/project-track-trace/",
     "partners": ["nccn"]
   },
   {
@@ -79,7 +79,7 @@
       "coaches": ["inti-valderas-caro", "bavo-lodewyckx", "miel-van-opstal"]
     },
     "repository": "https://github.com/osoc22/project-hey-bosa",
-    "website": null,
+    "website": "https://osoc22.github.io/project-hey-bosa/",
     "partners": ["bosa-dto", "io-digital", "dalberg-data-insights"]
   },
   {
@@ -98,7 +98,7 @@
       "coaches": ["jodi-deloof", "meg-vandezande", "niels-dewelde"]
     },
     "repository": "https://github.com/osoc22/project-abb",
-    "website": null,
+    "website": "https://osoc22.github.io/project-abb/",
     "partners": ["abb"]
   },
   {
@@ -109,7 +109,7 @@
       "coaches": ["thor-galle", "inti-valderas-caro"]
     },
     "repository": "https://github.com/osoc22/project-digital-wallet",
-    "website": null,
+    "website": "https://osoc22.github.io/project-digital-wallet/",
     "partners": ["bosa-dto", "io-digital"]
   },
   {
@@ -120,7 +120,7 @@
       "coaches": ["christophe-leroy", "bavo-lodewyckx", "miel-van-opstal"]
     },
     "repository": "https://github.com/osoc22/project-inspector-widget",
-    "website": null,
+    "website": "https://osoc22.github.io/project-inspector-widget/",
     "partners": ["bosa-dto", "io-digital", "fps-economie"]
   },
   {
@@ -137,7 +137,7 @@
       "coaches": ["robin-julien", "jodi-deloof"]
     },
     "repository": "https://github.com/osoc22/project-vanhout",
-    "website": null,
+    "website": "https://osoc22.github.io/project-vanhout/",
     "partners": ["circl", "vanhout"]
   }
 ]
