@@ -80,7 +80,7 @@
     },
     "repository": "https://github.com/osoc22/project-hey-bosa",
     "website": null,
-    "partners": ["bosa-dto", "io-digital"]
+    "partners": ["bosa-dto", "io-digital", "dalberg-data-insights"]
   },
   {
     "name": "LYNX - Local Linked Taxes",

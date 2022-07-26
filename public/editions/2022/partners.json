@@ -118,5 +118,11 @@
     "name": "FPS Economie",
     "url": "https://economie.fgov.be/",
     "logo": "/editions/2022/partners/logo-fps-economie.svg"
+  },
+  {
+    "id": "dalberg-data-insights",
+    "name": "Dalberg Data Insights",
+    "url": "https://dalberg.com/what-we-do/dalberg-data-insights/",
+    "logo": "/editions/2022/partners/logo-dalberg-data-insights.svg"
   }
 ]
