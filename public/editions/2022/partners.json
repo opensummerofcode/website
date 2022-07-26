@@ -100,5 +100,17 @@
     "name": "Vlaanderen",
     "url": "https://www.vlaanderen.be/",
     "logo": "/editions/2022/partners/logo-vlaanderen.svg"
+  },
+  {
+    "id": "poolstok",
+    "name": "Poolstok",
+    "url": "https://www.poolstok.be/",
+    "logo": "/editions/2022/partners/logo-poolstok.svg"
+  },
+  {
+    "id": "digitaal-vlaanderen",
+    "name": "Digitaal Vlaanderen",
+    "url": "https://www.vlaanderen.be/digitaal-vlaanderen",
+    "logo": "/editions/2022/partners/logo-digitaal-vlaanderen.svg"
   }
 ]
