@@ -12,7 +12,7 @@
       "coaches": ["robin-julien", "pieter-vandervennet"]
     },
     "repository": "https://github.com/osoc22/project-on-wheels",
-    "website": null,
+    "website": "https://mapcomplete.osm.be/onwheels",
     "partners": ["bosa-dto", "onwheels", "osmbe", "io-digital"]
   },
   {
@@ -30,7 +30,7 @@
       "coaches": ["miet-claes", "pieterjan-dendauw"]
     },
     "repository": "https://github.com/osoc22/project-the-power-of-sharing-knowledge",
-    "website": "https://the-impact-of-sharing-knowledge.osoc.be/",
+    "website": "https://the-impact-of-sharing-knowledge.netlify.app/",
     "partners": ["fris", "boekentoren-ugent"]
   },
   {
@@ -120,7 +120,7 @@
       "coaches": ["christophe-leroy", "bavo-lodewyckx", "miel-van-opstal"]
     },
     "repository": "https://github.com/osoc22/project-inspector-widget",
-    "website": null,
+    "website": "https://inspector-widget.netlify.app/",
     "partners": ["bosa-dto", "io-digital"]
   },
   {
@@ -137,7 +137,7 @@
       "coaches": ["robin-julien", "jodi-deloof"]
     },
     "repository": "https://github.com/osoc22/project-vanhout",
-    "website": null,
+    "website": "https://osoc22.github.io/project-vanhout/",
     "partners": ["circl", "vanhout"]
   }
 ]
