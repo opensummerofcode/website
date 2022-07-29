@@ -23,7 +23,7 @@
         "fien-goeman",
         "chanel-frederix",
         "lyka-cabatay",
-        "beatrice-postelnicu",
+        "ava-blanche",
         "alba-lopez",
         "raman-talwar"
       ],
@@ -48,7 +48,7 @@
     "name": "Powerful Personal Data",
     "description": "We're a team researching and coding to demonstrate how \"taking back control of your personal data\" can really empower everyone in their daily lives.",
     "team": {
-      "students": ["cat-(stijn)-catry", "abel-de-bruijn", "matei-penca"],
+      "students": ["cat-catry", "abel-de-bruijn", "matei-penca"],
       "coaches": ["thor-galle", "demian-dekoninck"]
     },
     "repository": "https://github.com/osoc22/project-idlab",
