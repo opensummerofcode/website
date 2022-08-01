@@ -168,7 +168,7 @@
     "description": "Helping people catch their train by predicting delays.",
     "logo": "/editions/2019/projects/reliability-score.png",
     "team": {
-      "students": ["clément_janssens", "dylan_van_assche", "sam_van_der_kris"],
+      "students": ["clément_janssens", "dylan_van_assche", "julia_van_der_kris"],
       "coaches": ["rutger_bevers", "pieter_colpaert"]
     },
     "repository": "https://github.com/oSoc19/reliability-score-frontend",
