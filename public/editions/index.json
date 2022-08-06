@@ -65,15 +65,22 @@
     "year": 2020,
     "nr": 10,
     "url": "/editions/2020",
-    "img": "/img/previous-editions/2020W.svg",
+    "img": "/img/previous-editions/logo-osoc-black-2020.svg",
     "demoDayDate": "July 30, 2020 13:00"
   },
   {
     "year": 2021,
     "nr": 11,
     "url": "/editions/2021",
-    "img": "/img/previous-editions/2021W.svg",
-    "active": true,
+    "img": "/img/previous-editions/logo-osoc-black-2021.svg",
     "demoDayDate": "July 29, 2021 13:00"
+  },
+  {
+    "year": 2022,
+    "nr": 12,
+    "url": "/editions/2022",
+    "img": "/img/previous-editions/logo-osoc-black-2022.svg",
+    "active": true,
+    "demoDayDate": "July 28, 2022 13:00"
   }
 ]

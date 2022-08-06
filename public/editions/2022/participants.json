@@ -1,0 +1,401 @@
+[
+  {
+    "name": "Jodi Deloof",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Robin Julien",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/robin-julien-9b03531a4/",
+      "instagram": "https://www.instagram.com/ctsteward"
+    },
+    "coach": true
+  },
+  {
+    "name": "Christophe Leroy",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Inti Valderas Caro",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Thor Galle",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Jonathan Beliën",
+    "socials": {
+      "twitter": "https://twitter.com/jbelien/",
+      "linkedin": "https://www.linkedin.com/in/jbelien/",
+      "github": "https://github.com/jbelien"
+    },
+    "coach": true
+  },
+  {
+    "name": "Niels Dewelde",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Miet Claes",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Meg Vandezande",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Pieter Vandervennet",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Bavo Lodewyckx",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Miel Van Opstal",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Demian Dekoninck",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Lotte Goyens",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Pieterjan Dendauw",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Peter Bertels",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Carlos Emiliano Ruiz Herrera",
+    "socials": {
+      "twitter": "https://twitter.com/D34DPlayer_",
+      "linkedin": "https://www.linkedin.com/in/carlos-ruiz-herrera",
+      "github": "https://github.com/D34DPlayer"
+    }
+  },
+  {
+    "name": "Griet Beyens",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/griet-beyens-795406233/",
+      "behance": "https://www.behance.net/grietbeyens1",
+      "github": "https://github.com/grietbeyens",
+      "instagram": "https://www.instagram.com/griet.beyens/"
+    }
+  },
+  {
+    "name": "Julia van der Kris",
+    "socials": {
+      "twitter": "https://twitter.com/juliavdkris",
+      "linkedin": "https://www.linkedin.com/in/julia-van-der-kris/",
+      "github": "https://github.com/juliavdkris"
+    }
+  },
+  {
+    "name": "Niamh Byl",
+    "socials": {
+      "twitter": "https://twitter.com/juliavdkris",
+      "linkedin": "https://www.linkedin.com/in/niamh-byl-/",
+      "github": "https://github.com/NiamhByl",
+      "instagram": "https://www.instagram.com/niamhbyl/"
+    }
+  },
+  {
+    "name": "Senne Bels",
+    "socials": {
+      "twitter": "https://twitter.com/snenenenene",
+      "linkedin": "https://www.linkedin.com/in/sennebels",
+      "github": "https://github.com/snenenenenenene"
+    }
+  },
+  {
+    "name": "Lenny Bontenakel",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/lenny-bontenakel-125370211",
+      "github": "https://github.com/LBONTEN"
+    }
+  },
+  {
+    "name": "Thu Pham",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/thuphamha/",
+      "github": "https://github.com/2fam"
+    }
+  },
+  {
+    "name": "Lin de Huybrecht",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/lin-de-huybrecht/",
+      "github": "https://github.com/LndH"
+    }
+  },
+  {
+    "name": "Ilya Plyusnin",
+    "socials": {
+      "github": "https://github.com/iljeee"
+    }
+  },
+  {
+    "name": "Emmeline Martens",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/emmeline-martens-b94651174/",
+      "github": "https://github.com/EMMELINEMARTENS",
+      "instagram": "https://www.instagram.com/eeemmmmme/"
+    }
+  },
+  {
+    "name": "Jorik Devreese",
+    "socials": {
+      "twitter": "https://twitter.com/RETIREglitch",
+      "github": "https://github.com/DevreeseJorik"
+    }
+  },
+  {
+    "name": "Brent Van Camp",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/brentvc",
+      "github": "https://github.com/bvc1"
+    }
+  },
+  {
+    "name": "Britt Vanzegbroeck",
+    "socials": {
+      "github": "https://github.com/Redraven124"
+    }
+  },
+  {
+    "name": "Guilherme Cunha da Silva",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/guilhermecscunha/",
+      "github": "https://github.com/guilhermecscunha",
+      "instagram": "https://www.instagram.com/guigacunhas/"
+    }
+  },
+  {
+    "name": "Cyrille Mathieu",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/cyrille-mathieu/",
+      "github": "https://github.com/speedbuilder"
+    }
+  },
+  {
+    "name": "Joanna Kalisz",
+    "socials": {
+      "github": "https://github.com/jane-00"
+    }
+  },
+  {
+    "name": "Aglim Benli",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/aglim-benli-2ba71a233/",
+      "github": "https://github.com/Arechii"
+    }
+  },
+  {
+    "name": "Nicolay Camacho",
+    "socials": {}
+  },
+  {
+    "name": "Fien Goeman",
+    "socials": {
+      "twitter": "https://twitter.com/FienGoeman"
+    }
+  },
+  {
+    "name": "Raman Talwar",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/raman-talwar",
+      "github": "https://github.com/rtalwar2"
+    }
+  },
+  {
+    "name": "Lyka Cabatay",
+    "socials": {
+      "twitter": "https://twitter.com/lykacab",
+      "linkedin": "https://www.linkedin.com/in/lykacabatay/",
+      "github": "https://github.com/LykaCabatay"
+    }
+  },
+  {
+    "name": "Chanel Frederix",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/chanel-frederix-0397b3221/",
+      "github": "https://github.com/chanelnr3"
+    }
+  },
+  {
+    "name": "Alba López",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/alba-lopez-gonzalez",
+      "github": "https://github.com/alba-lopez"
+    }
+  },
+  {
+    "name": "Ava Blanche",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/beatricepostelnicu",
+      "github": "https://github.com/beatricepostelnicu",
+      "instagram": "https://instagram.com/quvvniv/"
+    }
+  },
+  {
+    "name": "Erinn Van der Sande",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/erinn-van-der-sande/",
+      "github": "https://github.com/ErinnVdSande"
+    }
+  },
+  {
+    "name": "Ana Gagua",
+    "socials": {
+      "twitter": "https://twitter.com/Anakkkoo",
+      "linkedin": "https://linkedin.com/in/ana-gagua/",
+      "github": "https://github.com/aanako",
+      "instagram": "https://instagram.com/aanako/"
+    }
+  },
+  {
+    "name": "Frederik Stroobandt",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/frederikstroobandt/",
+      "github": "https://github.com/fstroobandt"
+    }
+  },
+  {
+    "name": "Aurore Van Hoorebeke",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/aurorevanhoorebeke/",
+      "github": "https://github.com/Bluerory",
+      "instagram": "https://www.instagram.com/aurvh98/"
+    }
+  },
+  {
+    "name": "Cat Catry",
+    "socials": {
+      "github": "https://github.com/Denperidge",
+      "instagram": "https://www.instagram.com/cat.cattze/"
+    }
+  },
+  {
+    "name": "Abel de Bruijn",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/abel-de-bruijn-089ba3155/",
+      "github": "https://github.com/yustarandomname",
+      "instagram": "https://www.instagram.com/abeldebruijn/"
+    }
+  },
+  {
+    "name": "Matei Penca",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/matei-penca/",
+      "github": "https://github.com/Matei9721",
+      "instagram": "https://www.instagram.com/mateipenca9721/"
+    }
+  },
+  {
+    "name": "Tischa Nyanguile",
+    "socials": {
+      "github": "https://github.com/0xtini",
+      "instagram": "https://www.instagram.com/tischa_ny"
+    }
+  },
+  {
+    "name": "Arthur Coenen",
+    "socials": {
+      "github": "https://github.com/arthurco"
+    }
+  },
+  {
+    "name": "Camilla Frison",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/camilla-frison-a80381192/",
+      "github": "https://github.com/camifrs"
+    }
+  },
+  {
+    "name": "Victor Vansteenkiste",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/victor-vansteenkiste-07b7791b9/",
+      "github": "https://github.com/Victor-Vansteenkiste",
+      "instagram": "https://www.instagram.com/vansteenkistevictor/"
+    }
+  },
+  {
+    "name": "Bo Robbrecht",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/borobbrecht",
+      "github": "https://github.com/BT-Creator"
+    }
+  },
+  {
+    "name": "Joshua Moelans",
+    "socials": {
+      "twitter": "https://twitter.com/joshuamoelans",
+      "linkedin": "https://www.linkedin.com/in/joshua-moelans-743977222/",
+      "github": "https://github.com/JoshuaMoelans",
+      "instagram": "https://www.instagram.com/joshuamoelans/"
+    }
+  },
+  {
+    "name": "Ben Stoffels",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/ben-stoffels-80726423b/",
+      "github": "https://github.com/BenJStoffels"
+    }
+  },
+  {
+    "name": "Florian Mazzeo",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/florian-mazzeo-b4a817201",
+      "github": "https://github.com/Scryper"
+    }
+  },
+  {
+    "name": "Andrews Leruth",
+    "socials": {
+      "github": "https://github.com/HispanicMojitos"
+    }
+  },
+  {
+    "name": "Robin van der Linde",
+    "socials": {
+      "twitter": "https://twitter.com/linde_robin",
+      "linkedin": "https://www.linkedin.com/in/rlineu/",
+      "github": "https://github.com/RobinLinde"
+    }
+  },
+  {
+    "name": "Muhammad Rezaul Hasan",
+    "socials": {
+      "twitter": "https://twitter.com/roconmachine",
+      "linkedin": "https://www.linkedin.com/in/rezaul-hasan/",
+      "github": "https://github.com/roconmachine"
+    }
+  },
+  {
+    "name": "Alexander Rebai",
+    "socials": {
+      "github": "https://github.com/AlexanderRebai"
+    }
+  }
+]

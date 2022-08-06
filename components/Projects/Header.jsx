@@ -1,33 +1,48 @@
 import PropTypes from 'prop-types';
+import slugify from 'slugify';
 import { ButtonLink } from '../UI/Buttons';
 
-const Header = ({ project }) => (
+const Header = ({ edition, project }) => (
   <header className="hero-detail u-padding-x-large--tb">
     <div className="grid-x grid-padding-x small-offset-1 medium-offset-0">
       <div className="small-10 medium-3 medium-offset-0 large-4 cell u-margin-medium--b">
-        <img className="crest" src={project.logo} alt={`Crest of the ${project.name} project`} />
+        <img
+          className="crest"
+          src={
+            project.logo ??
+            `/editions/${edition}/projects/${slugify(project.name, { lower: true })}.svg`
+          }
+          alt={`Crest of the ${project.name} project`}
+        />
         <h1 className="hero-head project-title">{project.name}</h1>
       </div>
 
       <div className="small-10 medium-7 medium-offset-1 large-5 cell large-offset-0 flex-text">
         <p>{project.description}</p>
-        {project.repository && (
-          <p>
+        <p>
+          {project.website && (
+            <ButtonLink className="success" isExternal href={project.website}>
+              Website
+            </ButtonLink>
+          )}{' '}
+          {project.repository && (
             <ButtonLink className="success" isExternal href={project.repository}>
               Contribute on Github
             </ButtonLink>
-          </p>
-        )}
+          )}
+        </p>
       </div>
     </div>
   </header>
 );
 
 Header.propTypes = {
+  edition: PropTypes.number.isRequired,
   project: PropTypes.shape({
     logo: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    website: PropTypes.string,
     repository: PropTypes.string,
   }).isRequired,
 };

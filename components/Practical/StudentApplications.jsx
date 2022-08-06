@@ -75,16 +75,16 @@ const StudentApplication = () => {
               have a final answer by the end of May, but it can be sooner if you were selected in an
               earlier round.
             </p>
-            {/* <p>
+            <p>
               Sorry, applications are closed as of now. Thank you for your massive interest! You can
               always apply again next year as a student &mdash; or even as a coach. You&apos;re also
               welcome to join us during the <DemoDayLink>demo day</DemoDayLink>. &mdash; which will
-              take place Thursday, 25 July this year. And keep an eye on our{' '}
+              take place Thursday, July 28th 2022. And keep an eye on our{' '}
               <ExternalLink href="https://twitter.com/osocode" target="_blank">
                 Twitter account
               </ExternalLink>{' '}
               to see what we&apos;re up to!
-            </p> */}
+            </p>
           </div>
         </div>
       </div>

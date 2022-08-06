@@ -12,6 +12,7 @@ import W2017 from '../../assets/img/previous-editions/2017W.svg';
 import W2018 from '../../assets/img/previous-editions/2018W.svg';
 import W2019 from '../../assets/img/previous-editions/2019W.svg';
 import W2020 from '../../assets/img/previous-editions/logo-osoc-black-2020.svg';
+import W2021 from '../../assets/img/previous-editions/logo-osoc-black-2021.svg';
 
 const Footer = () => {
   return (
@@ -102,8 +103,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/editions/[year]" as="/editions/2021">
-                    <a>2021</a>
+                  <Link href="/editions/[year]" as="/editions/2022">
+                    <a>2022</a>
                   </Link>
                 </li>
               </ul>
@@ -176,6 +177,13 @@ const Footer = () => {
               <Link href="/editions/[year]" as="/editions/2020">
                 <a>
                   <img src={W2020} alt="2020 osoc logo" />
+                </a>
+              </Link>
+            </div>
+            <div className="small-2 medium-auto cell">
+              <Link href="/editions/[year]" as="/editions/2021">
+                <a>
+                  <img src={W2021} alt="2021 osoc logo" />
                 </a>
               </Link>
             </div>

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "openknowledgebe",
+    "name": "Open Knowledge Belgium",
+    "url": "https://openknowledge.be/",
+    "logo": "/editions/2022/partners/logo-okbe.svg"
+  },
+  {
+    "id": "osmbe",
+    "name": "OpenStreetMap Belgium",
+    "url": "https://openstreetmap.be/",
+    "logo": "/editions/2022/partners/logo-osmbe.svg"
+  },
+  {
+    "id": "abb",
+    "name": "Agentschap Binnenlands Bestuur",
+    "url": "https://www.vlaanderen.be/agentschap-binnenlands-bestuur",
+    "logo": "/editions/2022/partners/logo-abb.svg"
+  },
+  {
+    "id": "bosa-dto",
+    "name": "BOSA Digital Transformation Office",
+    "url": "https://bosa.be/",
+    "logo": "/editions/2022/partners/logo-bosa.svg"
+  },
+  {
+    "id": "circl",
+    "name": "CIRCL",
+    "url": "https://circl.be/",
+    "logo": "/editions/2022/partners/logo-circl-compact.svg"
+  },
+  {
+    "id": "ewi",
+    "name": "EWI",
+    "url": "https://www.ewi-vlaanderen.be/",
+    "logo": "/editions/2022/partners/logo-ewi.svg"
+  },
+  {
+    "id": "fris",
+    "name": "FRIS Research Portal",
+    "url": "https://researchportal.be/",
+    "logo": "/editions/2022/partners/logo-fris.svg"
+  },
+  {
+    "id": "idlab",
+    "name": "IDLab",
+    "url": "https://idlab.technology/",
+    "logo": "/editions/2022/partners/logo-idlab.svg"
+  },
+  {
+    "id": "imec",
+    "name": "imec",
+    "url": "https://www.imec.be/",
+    "logo": "/editions/2022/partners/logo-imec.svg"
+  },
+  {
+    "id": "io-digital",
+    "name": "iO Digital",
+    "url": "https://www.iodigital.com/",
+    "logo": "/editions/2022/partners/logo-iO.svg"
+  },
+  {
+    "id": "nccn",
+    "name": "Nationaal Crisis Centrum - Centre de Crise National (NCCN)",
+    "url": "https://crisiscenter.be/",
+    "logo": "/editions/2022/partners/logo-nccn.svg"
+  },
+  {
+    "id": "onwheels",
+    "name": "OnWheels",
+    "url": "https://onwheelsapp.com/",
+    "logo": "/editions/2022/partners/logo-onwheels.svg"
+  },
+  {
+    "id": "redpencil",
+    "name": "Redpencil",
+    "url": "https://redpencil.io",
+    "logo": "/editions/2022/partners/logo-redpencil.svg"
+  },
+  {
+    "id": "smooth-sailing",
+    "name": "Smooth Sailing",
+    "url": "https://smoothsailing.be/",
+    "logo": "/editions/2022/partners/logo-smoothsailing.svg"
+  },
+  {
+    "id": "boekentoren-ugent",
+    "name": "University Library Ghent Boekentoren",
+    "url": "https://boekentoren.gent/",
+    "logo": "/editions/2022/partners/logo-boekentoren-ugent.svg"
+  },
+  {
+    "id": "vanhout",
+    "name": "Vanhout",
+    "url": "https://www.vanhout.be/",
+    "logo": "/editions/2022/partners/logo-vanhout.svg"
+  },
+  {
+    "id": "vlaanderen",
+    "name": "Vlaanderen",
+    "url": "https://www.vlaanderen.be/",
+    "logo": "/editions/2022/partners/logo-vlaanderen.svg"
+  },
+  {
+    "id": "poolstok",
+    "name": "Poolstok",
+    "url": "https://www.poolstok.be/",
+    "logo": "/editions/2022/partners/logo-poolstok.svg"
+  },
+  {
+    "id": "digitaal-vlaanderen",
+    "name": "Digitaal Vlaanderen",
+    "url": "https://www.vlaanderen.be/digitaal-vlaanderen",
+    "logo": "/editions/2022/partners/logo-digitaal-vlaanderen.svg"
+  },
+  {
+    "id": "fps-economie",
+    "name": "FPS Economie",
+    "url": "https://economie.fgov.be/",
+    "logo": "/editions/2022/partners/logo-fps-economie.svg"
+  },
+  {
+    "id": "dalberg-data-insights",
+    "name": "Dalberg Data Insights",
+    "url": "https://dalberg.com/what-we-do/dalberg-data-insights/",
+    "logo": "/editions/2022/partners/logo-dalberg-data-insights.svg"
+  }
+]
