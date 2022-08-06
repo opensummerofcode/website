@@ -4,7 +4,7 @@ import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
 import DemoDayLink from '../../UI/DemoDayLink';
-// import ExternalLink from '../../UI/ExternalLink';
+// import ApplyLink from '../ApplyLink';
 
 const Navigation = () => {
   const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
@@ -97,10 +97,7 @@ const Navigation = () => {
                 </li>
 
                 {/* <li>
-                  <ExternalLink href="https://tally.so/r/wL8Rvw" target="_blank" className="button">
-                    Apply as a student
-                    <span className="button__info">Live in Belgium!</span>
-                  </ExternalLink>
+                  <ApplyLink />
                 </li> */}
 
                 <li>
