@@ -7,7 +7,7 @@ const Students = () => (
   <>
     <Head>
       <title>Students | Open Summer of Code</title>
-      <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />
+      <script async src="https://platform.twitter.com/widgets.js" />
       <script async defer src="https://www.instagram.com/embed.js" />
     </Head>
     <Header />
