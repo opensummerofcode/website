@@ -3578,10 +3578,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"leaflet@npm:^1.8.0":
-  version: 1.8.0
-  resolution: "leaflet@npm:1.8.0"
-  checksum: 4a27895d4253844f2f13f94cbc52a2030b10833cdf553085d931b834745236a8d2a38844a01eb968cc109eb43268bfadb97aad85b51deffb17b6ccd106542e00
+"leaflet@npm:^1.9.2":
+  version: 1.9.2
+  resolution: "leaflet@npm:1.9.2"
+  checksum: ab6edb278c6bbd05db9a9395694fc517557433bedbcb233941ea42327ee90650f2d61dd3f9caf861040c8b25abfd8e1f79018f6ae899181e280287c7481ba4bf
   languageName: node
   linkType: hard
 
@@ -4575,7 +4575,7 @@ __metadata:
     foundation-sites: ^6.5.3
     husky: ^8.0.1
     isomorphic-fetch: ^3.0.0
-    leaflet: ^1.8.0
+    leaflet: ^1.9.2
     lint-staged: ^13.0.3
     motion-ui: ^2.0.4
     next: ^12.2.0
