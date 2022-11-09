@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "foundation-sites": "^6.5.3",
     "husky": "^8.0.1",
     "isomorphic-fetch": "^3.0.0",
