@@ -209,12 +209,214 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/functions@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@netlify/functions@npm:1.0.0"
+"@netlify/esbuild-android-64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-android-64@npm:0.14.39"
+  conditions: os=android & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-android-arm64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-android-arm64@npm:0.14.39"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-darwin-64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-darwin-64@npm:0.14.39"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-darwin-arm64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-darwin-arm64@npm:0.14.39"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-freebsd-64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-freebsd-64@npm:0.14.39"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-freebsd-arm64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-freebsd-arm64@npm:0.14.39"
+  conditions: os=freebsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-linux-32@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-linux-32@npm:0.14.39"
+  conditions: os=linux & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-linux-64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-linux-64@npm:0.14.39"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-linux-arm64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-linux-arm64@npm:0.14.39"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-linux-arm@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-linux-arm@npm:0.14.39"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-linux-mips64le@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-linux-mips64le@npm:0.14.39"
+  conditions: os=linux & cpu=mips64el
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-linux-ppc64le@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-linux-ppc64le@npm:0.14.39"
+  conditions: os=linux & cpu=ppc64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-linux-riscv64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-linux-riscv64@npm:0.14.39"
+  conditions: os=linux & cpu=riscv64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-linux-s390x@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-linux-s390x@npm:0.14.39"
+  conditions: os=linux & cpu=s390x
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-netbsd-64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-netbsd-64@npm:0.14.39"
+  conditions: os=netbsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-openbsd-64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-openbsd-64@npm:0.14.39"
+  conditions: os=openbsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-sunos-64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-sunos-64@npm:0.14.39"
+  conditions: os=sunos & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-windows-32@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-windows-32@npm:0.14.39"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-windows-64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-windows-64@npm:0.14.39"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild-windows-arm64@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild-windows-arm64@npm:0.14.39"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@netlify/esbuild@npm:0.14.39":
+  version: 0.14.39
+  resolution: "@netlify/esbuild@npm:0.14.39"
   dependencies:
-    is-promise: ^4.0.0
-  checksum: 1e3c234f14fd2fe8f46cae9336679054bf067b60217ee1c424adec1b1d1e4208eeaacb3401c48b625fe057df56f5dc553b961d4758f53bb0eae6f5b78d6385ad
+    "@netlify/esbuild-android-64": 0.14.39
+    "@netlify/esbuild-android-arm64": 0.14.39
+    "@netlify/esbuild-darwin-64": 0.14.39
+    "@netlify/esbuild-darwin-arm64": 0.14.39
+    "@netlify/esbuild-freebsd-64": 0.14.39
+    "@netlify/esbuild-freebsd-arm64": 0.14.39
+    "@netlify/esbuild-linux-32": 0.14.39
+    "@netlify/esbuild-linux-64": 0.14.39
+    "@netlify/esbuild-linux-arm": 0.14.39
+    "@netlify/esbuild-linux-arm64": 0.14.39
+    "@netlify/esbuild-linux-mips64le": 0.14.39
+    "@netlify/esbuild-linux-ppc64le": 0.14.39
+    "@netlify/esbuild-linux-riscv64": 0.14.39
+    "@netlify/esbuild-linux-s390x": 0.14.39
+    "@netlify/esbuild-netbsd-64": 0.14.39
+    "@netlify/esbuild-openbsd-64": 0.14.39
+    "@netlify/esbuild-sunos-64": 0.14.39
+    "@netlify/esbuild-windows-32": 0.14.39
+    "@netlify/esbuild-windows-64": 0.14.39
+    "@netlify/esbuild-windows-arm64": 0.14.39
+  dependenciesMeta:
+    "@netlify/esbuild-android-64":
+      optional: true
+    "@netlify/esbuild-android-arm64":
+      optional: true
+    "@netlify/esbuild-darwin-64":
+      optional: true
+    "@netlify/esbuild-darwin-arm64":
+      optional: true
+    "@netlify/esbuild-freebsd-64":
+      optional: true
+    "@netlify/esbuild-freebsd-arm64":
+      optional: true
+    "@netlify/esbuild-linux-32":
+      optional: true
+    "@netlify/esbuild-linux-64":
+      optional: true
+    "@netlify/esbuild-linux-arm":
+      optional: true
+    "@netlify/esbuild-linux-arm64":
+      optional: true
+    "@netlify/esbuild-linux-mips64le":
+      optional: true
+    "@netlify/esbuild-linux-ppc64le":
+      optional: true
+    "@netlify/esbuild-linux-riscv64":
+      optional: true
+    "@netlify/esbuild-linux-s390x":
+      optional: true
+    "@netlify/esbuild-netbsd-64":
+      optional: true
+    "@netlify/esbuild-openbsd-64":
+      optional: true
+    "@netlify/esbuild-sunos-64":
+      optional: true
+    "@netlify/esbuild-windows-32":
+      optional: true
+    "@netlify/esbuild-windows-64":
+      optional: true
+    "@netlify/esbuild-windows-arm64":
+      optional: true
+  bin:
+    esbuild: bin/esbuild
+  checksum: 2152ba7256181c3e87ab7a15495f0aacb93114d284c60ab8616cb88e957eb04fdb1e5e921e453e7fa9da2a30b3d4f4740226b547b9c9477db3de7b41e7d79ddc
   languageName: node
   linkType: hard
 
@@ -227,7 +429,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/ipx@npm:^1.1.3":
+"@netlify/ipx@npm:^1.3.1":
   version: 1.3.1
   resolution: "@netlify/ipx@npm:1.3.1"
   dependencies:
@@ -245,16 +447,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/plugin-nextjs@npm:^4.13.1":
-  version: 4.14.1
-  resolution: "@netlify/plugin-nextjs@npm:4.14.1"
+"@netlify/plugin-nextjs@npm:^4.28.6":
+  version: 4.28.6
+  resolution: "@netlify/plugin-nextjs@npm:4.28.6"
   dependencies:
-    "@netlify/functions": ^1.0.0
-    "@netlify/ipx": ^1.1.3
+    "@netlify/esbuild": 0.14.39
+    "@netlify/functions": ^1.3.0
+    "@netlify/ipx": ^1.3.1
     "@vercel/node-bridge": ^2.1.0
     chalk: ^4.1.2
+    destr: ^1.1.1
+    execa: ^5.1.1
+    follow-redirects: ^1.15.2
     fs-extra: ^10.0.0
     globby: ^11.0.4
+    merge-stream: ^2.0.0
     moize: ^6.1.0
     node-fetch: ^2.6.6
     node-stream-zip: ^1.15.0
@@ -262,12 +469,11 @@ __metadata:
     p-limit: ^3.1.0
     pathe: ^0.2.0
     pretty-bytes: ^5.6.0
+    regexp-tree: ^0.1.24
     semver: ^7.3.5
     slash: ^3.0.0
     tiny-glob: ^0.2.9
-  peerDependencies:
-    next: "*"
-  checksum: 4cc5a1e1e2bde9aff42ffca6fbd4baacae9c3dc13431297363fff00349de8f083eb466319d783ec4a9ef6baa4866d44ed1b991b3095e3deaec2d1fa83870d7d4
+  checksum: e835941ed782e8ec44c129cf13a86ae9d40515b62620fc742af9da508444c23ddec956053d3156dc336bbd50352251aa127a2235535efbefa4a06c24fd0a2c7f
   languageName: node
   linkType: hard
 
@@ -2378,6 +2584,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"follow-redirects@npm:^1.15.2":
+  version: 1.15.2
+  resolution: "follow-redirects@npm:1.15.2"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: faa66059b66358ba65c234c2f2a37fcec029dc22775f35d9ad6abac56003268baf41e55f9ee645957b32c7d9f62baf1f0b906e68267276f54ec4b4c597c2b190
+  languageName: node
+  linkType: hard
+
 "forwarded@npm:0.2.0":
   version: 0.2.0
   resolution: "forwarded@npm:0.2.0"
@@ -4341,7 +4557,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "osoc-webapp@workspace:."
   dependencies:
-    "@netlify/plugin-nextjs": ^4.13.1
+    "@netlify/plugin-nextjs": ^4.28.6
     babel-eslint: ^10.1.0
     cross-env: ^7.0.3
     enzyme: ^3.9.0
@@ -4951,6 +5167,15 @@ __metadata:
   version: 0.13.9
   resolution: "regenerator-runtime@npm:0.13.9"
   checksum: 65ed455fe5afd799e2897baf691ca21c2772e1a969d19bb0c4695757c2d96249eb74ee3553ea34a91062b2a676beedf630b4c1551cc6299afb937be1426ec55e
+  languageName: node
+  linkType: hard
+
+"regexp-tree@npm:^0.1.24":
+  version: 0.1.24
+  resolution: "regexp-tree@npm:0.1.24"
+  bin:
+    regexp-tree: bin/regexp-tree
+  checksum: 5807013289d9205288d665e0f8d8cff94843dfd55fdedd1833eb9d9bbd07188a37dfa02942ec5cdc671180037f715148fac1ba6f18fd6be4268e5a8feb49d340
   languageName: node
   linkType: hard
 
