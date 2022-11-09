@@ -4373,7 +4373,7 @@ __metadata:
     react-leaflet-universal: ^2.2.1
     react-test-renderer: ^16.14.0
     react-transition-group: ^4.4.2
-    sass: ^1.53.0
+    sass: ^1.56.1
     slugify: ^1.6.5
     swr: ^1.3.0
     unfetch: ^4.1.0
@@ -5159,16 +5159,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.53.0":
-  version: 1.54.3
-  resolution: "sass@npm:1.54.3"
+"sass@npm:^1.56.1":
+  version: 1.56.1
+  resolution: "sass@npm:1.56.1"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 9b405f602c0dcdad85e7f216cfa5ca9dfe3f7ded7b3928817cfe8dbfde0cd27b70f4cff724e229b233b3f51a06e71d3fcbbd7d3a0ff92b3e40ac57bc05b90b48
+  checksum: 78e693e5992b149574c95d5adfe39ca3e5b97d80befa11191a20d1daa41fe201a98ac099beab726cd3095e2d2e7991a2c408ba0fcc3fa9f525879de7eee18dad
   languageName: node
   linkType: hard
 
