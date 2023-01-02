@@ -1821,9 +1821,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/ipx@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "@netlify/ipx@npm:1.3.1"
+"@netlify/ipx@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "@netlify/ipx@npm:1.3.2"
   dependencies:
     "@netlify/functions": ^1.3.0
     etag: ^1.8.1
@@ -1833,19 +1833,19 @@ __metadata:
     mkdirp: ^1.0.4
     murmurhash: ^2.0.0
     node-fetch: ^2.0.0
-    ufo: ^0.8.0
+    ufo: ^1.0.0
     unstorage: ^0.6.0
-  checksum: a1c7291317874133462c69680cc4a1b63c846644ccf115e0f19fefae0d18e00151ffe429fe947117b4d66ffcf1246e7873bf1fa4d68b527353cb2bc62ccd93c2
+  checksum: ec719ac80977f87ed24d1eb2874628e3bb618643c4d4f978539b4abe9854b110ff6be77c387fdbc447b856bf208160a61279416cd14aff0ffdbf2007b89e0075
   languageName: node
   linkType: hard
 
-"@netlify/plugin-nextjs@npm:^4.29.2":
-  version: 4.29.2
-  resolution: "@netlify/plugin-nextjs@npm:4.29.2"
+"@netlify/plugin-nextjs@npm:^4.29.4":
+  version: 4.29.4
+  resolution: "@netlify/plugin-nextjs@npm:4.29.4"
   dependencies:
     "@netlify/esbuild": 0.14.39
     "@netlify/functions": ^1.3.0
-    "@netlify/ipx": ^1.3.1
+    "@netlify/ipx": ^1.3.2
     "@vercel/node-bridge": ^2.1.0
     chalk: ^4.1.2
     destr: ^1.1.1
@@ -1865,7 +1865,7 @@ __metadata:
     semver: ^7.3.5
     slash: ^3.0.0
     tiny-glob: ^0.2.9
-  checksum: cc1dc557f23418d305d118d083f88184ad6a8325ef06f5346f2101f8d4a8a02e1ec4a371222da6157ee583fb442052d85d71d134e84a65e904e1c4976801385c
+  checksum: 58e11d2c240ce1bcf28d5a95871322d7201d8467df12ec24bcafdc509367af3b99ec2eb0de690b818a244d4e28ba042ebaec6504685f1e5d476cb89c5c249ada
   languageName: node
   linkType: hard
 
@@ -6545,7 +6545,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "osoc-webapp@workspace:."
   dependencies:
-    "@netlify/plugin-nextjs": ^4.29.2
+    "@netlify/plugin-nextjs": ^4.29.4
     babel-eslint: ^10.1.0
     cross-env: ^7.0.3
     enzyme: ^3.9.0
@@ -8221,7 +8221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^0.8.0, ufo@npm:^0.8.4, ufo@npm:^0.8.5":
+"ufo@npm:^0.8.4, ufo@npm:^0.8.5":
   version: 0.8.5
   resolution: "ufo@npm:0.8.5"
   checksum: 4dcf657a906550112ab1eb045110ebb768a914fb653373a2c363776a1f6ba25ea9d20bd5ed7f4bb44fb72bd4421b37d62991cd5ce4e3a2aef7e3eae450bb9508
@@ -8232,6 +8232,13 @@ __metadata:
   version: 0.8.6
   resolution: "ufo@npm:0.8.6"
   checksum: 5d483576230c7bfa2c9c9e5d864995e18d6c08ee3955c2237cc1a0d4b35a52991a0f5d26fe8cbf11952109a925a88dc14d973e0d14159b5b96b0fe7393a52899
+  languageName: node
+  linkType: hard
+
+"ufo@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "ufo@npm:1.0.1"
+  checksum: 63024876f21b7cc44267255a8043062046d3215e09212bd682787a13ccf1e0c5d23f7686a7f1bc7ac9f34c7e8a88100af234f42b509db50f17ce638af6ac87cc
   languageName: node
   linkType: hard
 
