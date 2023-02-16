@@ -68,7 +68,7 @@ const Info = () => {
                       alt=""
                       className="c-package__fruit--melon"
                     />
-                    Melon <br />
+                    Watermelon <br />
                     Team
                   </p>
                   <p className="c-package__info">
@@ -113,21 +113,21 @@ const Info = () => {
               <tr>
                 <th className="c-package__condition">Pricing</th>
                 <td>
-                  <p className="c-package__price">€&thinsp;17&thinsp;500</p>
+                  <p className="c-package__price">€&thinsp;19&thinsp;250</p>
                   <p className="c-package__info--small">
-                    *Provide your own project management coach: €&thinsp;15&thinsp;750
+                    *Provide your own project management coach: €&thinsp;17&thinsp;500
                   </p>
                 </td>
                 <td>
-                  <p className="c-package__price">€&thinsp;14&thinsp;000</p>
+                  <p className="c-package__price">€&thinsp;15&thinsp;500</p>
                   <p className="c-package__info--small">
-                    *Provide your own project management coach: €&thinsp;12&thinsp;600
+                    *Provide your own project management coach: €&thinsp;13&thinsp;750
                   </p>
                 </td>
                 <td>
-                  <p className="c-package__price">€&thinsp;12&thinsp;000</p>
+                  <p className="c-package__price">€&thinsp;13&thinsp;200</p>
                   <p className="c-package__info--small">
-                    *Provide your own project management coach: €&thinsp;10&thinsp;800
+                    *Provide your own project management coach: €&thinsp;11&thinsp;450
                   </p>
                 </td>
               </tr>
@@ -222,9 +222,9 @@ const Info = () => {
             <article>
               <h2 className="c-package__name">
                 <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
-                Melon Team
+                Watermelon Team
                 <br />
-                <span className="c-package__price">€&thinsp;17&thinsp;500</span>
+                <span className="c-package__price">€&thinsp;19&thinsp;250</span>
               </h2>
               <p className="c-package__info">
                 Tailor your team with specific profiles to fit your idea.
@@ -237,7 +237,7 @@ const Info = () => {
                 <li>On-demand design &amp; development coaches</li>
               </ul>
               <p className="c-package__info--small">
-                *Provide your own project management coach: €&thinsp;15&thinsp;750
+                *Provide your own project management coach: €&thinsp;17&thinsp;500
               </p>
             </article>
             <article>
@@ -245,7 +245,7 @@ const Info = () => {
                 <img src="../img/logo/logo-osoc-o.svg" alt="" className="c-package__fruit--lemon" />
                 Lemon Team
                 <br />
-                <span className="c-package__price">€&thinsp;14&thinsp;000</span>
+                <span className="c-package__price">€&thinsp;15&thinsp;500</span>
               </h2>
               <p className="c-package__info">Innovate & hack together with a well-rounded team.</p>
               <ul>
@@ -255,7 +255,7 @@ const Info = () => {
                 <li>On-demand design &amp; development coaches</li>
               </ul>
               <p className="c-package__info--small">
-                *Provide your own project management coach: €&thinsp;12&thinsp;600
+                *Provide your own project management coach: €&thinsp;13&thinsp;750
               </p>
             </article>
             <article>
@@ -267,7 +267,7 @@ const Info = () => {
                 />
                 Strawberry Team
                 <br />
-                <span className="c-package__price">€&thinsp;14&thinsp;000</span>
+                <span className="c-package__price">€&thinsp;13&thinsp;200</span>
               </h2>
               <p className="c-package__info">
                 Bring a new idea to life with a small but motivated team.
@@ -278,7 +278,7 @@ const Info = () => {
                 <li>On-demand design &amp; development coaches</li>
               </ul>
               <p className="c-package__info--small">
-                *Provide your own project management coach: €&thinsp;10&thinsp;800
+                *Provide your own project management coach: €&thinsp;11&thinsp;450
               </p>
             </article>
             <article>
@@ -364,13 +364,13 @@ const Info = () => {
               <tr>
                 <th className="c-package__condition">Pricing</th>
                 <td>
-                  <p className="c-package__price">€&thinsp;3&thinsp;000</p>
+                  <p className="c-package__price">€&thinsp;3&thinsp;300</p>
                 </td>
                 <td>
                   <p className="c-package__price">Gift in kind</p>
                 </td>
                 <td>
-                  <p className="c-package__price">€&thinsp;1&thinsp;500</p>
+                  <p className="c-package__price">€&thinsp;1&thinsp;650</p>
                 </td>
               </tr>
               <tr>
@@ -423,7 +423,7 @@ const Info = () => {
                 <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
                 Opportunity partner
                 <br />
-                <span className="c-package__price">€&thinsp;3&thinsp;000</span>
+                <span className="c-package__price">€&thinsp;3&thinsp;300</span>
               </h2>
               <p className="c-package__info">
                 Give students an opportunity, get access to the community.
@@ -460,7 +460,7 @@ const Info = () => {
                 />
                 Support partner
                 <br />
-                <span className="c-package__price">€&thinsp;1&thinsp;500</span>
+                <span className="c-package__price">€&thinsp;1&thinsp;650</span>
               </h2>
               <p className="c-package__info">Show your support and appreciation by donating.</p>
               <ul>
