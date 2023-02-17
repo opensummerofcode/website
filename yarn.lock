@@ -3900,14 +3900,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-flowtype@npm:^2.50.3":
-  version: 2.50.3
-  resolution: "eslint-plugin-flowtype@npm:2.50.3"
+"eslint-plugin-flowtype@npm:^3.13.0":
+  version: 3.13.0
+  resolution: "eslint-plugin-flowtype@npm:3.13.0"
   dependencies:
-    lodash: ^4.17.10
+    lodash: ^4.17.15
   peerDependencies:
-    eslint: ">=2.0.0"
-  checksum: 8c64cf0ba7684063d8ac8c55f46de6f4fa6b450f0dc7e4e91c392b819caf5f3ba8bc470cd764ea1b082d21150d941f984b06a923ca51affe8c5755bb8761b852
+    eslint: ">=5.0.0"
+  checksum: 7f4cff69574c917aa6623c4879461edb5f12e9904ffc973096a9cf62dbbdcdc7201f9b3e3b998c16b28eb3138ab64a246bd4c342ee4d00ea975fb1a256ae8a8f
   languageName: node
   linkType: hard
 
@@ -5662,7 +5662,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.10, lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.21":
+"lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -6554,7 +6554,7 @@ __metadata:
     eslint-config-airbnb: ^17.1.0
     eslint-config-prettier: ^6.15.0
     eslint-config-react-app: ^7.0.1
-    eslint-plugin-flowtype: ^2.50.3
+    eslint-plugin-flowtype: ^3.13.0
     eslint-plugin-import: ^2.26.0
     eslint-plugin-jsx-a11y: ^6.6.0
     eslint-plugin-prettier: ^3.4.1
