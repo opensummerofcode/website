@@ -1451,20 +1451,6 @@
     "coach": false
   },
   {
-    "id": "41204324-b01c-46ed-a062-f9884415d0fa",
-    "firstName": "Michiel",
-    "lastName": "Leyman",
-    "name": "Michiel Leyman",
-    "mugshot": "/editions/2020/participants/41204324-b01c-46ed-a062-f9884415d0fa.png",
-    "socials": {
-      "twitter": "https://twitter.com/michielleyman",
-      "linkedin": "https://www.linkedin.com/in/michiel-leyman",
-      "behance": null,
-      "github": "https://github.com/michielleyman"
-    },
-    "coach": true
-  },
-  {
     "id": "eabdfd00-3350-4d24-be5e-7833065189ac",
     "firstName": "Jonathan",
     "lastName": "Beliën",

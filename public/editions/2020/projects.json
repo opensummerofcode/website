@@ -11,11 +11,7 @@
         "479343d5-22a2-4a15-89c4-0db995ae67c8",
         "245c97c4-a169-408b-b7f0-7ca9d0f0090c"
       ],
-      "coaches": [
-        "4f521e2a-7816-4f03-b4a6-e260a75b65c3",
-        "3c3aa3f6-09ef-44a0-88ae-7719911f0f48",
-        "41204324-b01c-46ed-a062-f9884415d0fa"
-      ]
+      "coaches": ["4f521e2a-7816-4f03-b4a6-e260a75b65c3", "3c3aa3f6-09ef-44a0-88ae-7719911f0f48"]
     },
     "repository": "https://github.com/osoc20",
     "website": null,
@@ -88,7 +84,7 @@
         "8ad46a14-eb29-43b6-962f-72d239bf83c7",
         "cd01706b-1738-4a53-bab4-f75745f84bcf"
       ],
-      "coaches": ["9c14908c-4186-420e-b598-e511f8ef33d4", "41204324-b01c-46ed-a062-f9884415d0fa"]
+      "coaches": ["9c14908c-4186-420e-b598-e511f8ef33d4"]
     },
     "repository": "https://github.com/oSoc20/bit-of-trust",
     "website": "https://bitoftrust.io/",
@@ -112,7 +108,7 @@
         "9758a57f-1d30-4619-996f-c45d57917c76",
         "5c458dac-8349-4df6-bf2d-ad250323158c"
       ],
-      "coaches": ["9c14908c-4186-420e-b598-e511f8ef33d4", "41204324-b01c-46ed-a062-f9884415d0fa"]
+      "coaches": ["9c14908c-4186-420e-b598-e511f8ef33d4"]
     },
     "repository": "https://github.com/wise-badges",
     "website": "https://wisebadges.osoc.be/",

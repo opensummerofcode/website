@@ -51,7 +51,7 @@
         "erinn-van-der-sande",
         "jente-snoeck"
       ],
-      "coaches": ["hannes-d-hulster", "alex-vandoren", "michiel-leyman"]
+      "coaches": ["hannes-d-hulster", "alex-vandoren"]
     },
     "repository": "https://github.com/osoc21/Future-of-Work",
     "website": null,
@@ -85,7 +85,7 @@
     "logo": "/editions/2021/projects/selection-tool.svg",
     "team": {
       "students": ["tischa-nyanguile", "jeroen-dewelde", "merline-coppieters"],
-      "coaches": ["michiel-leyman", "miet-claes"]
+      "coaches": ["miet-claes"]
     },
     "repository": "https://github.com/osoc21/selection-tool",
     "website": null,
