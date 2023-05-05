@@ -73,6 +73,17 @@ a.logo {
   > nav {
     width: 100%;
   }
+
+  &.has-ribbon {
+    flex-direction: column;
+
+    .canceled-ribbon {
+      width: 100%;
+      padding: 1.5rem;
+      text-align: center;
+      background-color: $yellow;
+    }
+  }
 }
 
 .nav-menu-wrapper--shown {
