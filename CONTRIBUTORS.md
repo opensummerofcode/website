@@ -15,4 +15,3 @@ Here is a list of people that have helped with the development of this website.
 - Miet Claes (Open Knowledge Belgium, Development and Design)
 - Jonathan Beliën (Open Knowledge Belgium, Development)
 - Ismaila Abdoulahi Adamou (Open Knowledge Belgium, Development)
-- Michiel Leyman (Open Knowledge Belgium, Development)
