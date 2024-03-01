@@ -31,14 +31,6 @@ const Navigation = () => {
   const navModifier = `${mobileNavIsVisible ? 'top-bar--visible' : 'top-bar--hidden'}`;
   return (
     <header className="app-header has-ribbon">
-      <div className="canceled-ribbon">
-        Unfortunately, we will{' '}
-        <b>
-          <u>not be able to host the event in 2023</u>
-        </b>{' '}
-        due to a lack of organizational power. We are working hard to make the 2024 edition possible
-        and a success. 💪
-      </div>
       <nav>
         <div
           className="title-bar hide-for-large"
@@ -100,7 +92,7 @@ const Navigation = () => {
                 </li>
                 <li>
                   <Tab onClick={handleToggle} href="/editions/2022">
-                    2022
+                    Previous
                   </Tab>
                 </li>
 
@@ -111,7 +103,7 @@ const Navigation = () => {
                 <li>
                   {' '}
                   <DemoDayLink className="button">
-                    Join the demo day! <span className="button__info">July 28th 2022</span>
+                    Apply now <span className="button__info">application date</span>
                   </DemoDayLink>
                 </li>
 
