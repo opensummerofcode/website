@@ -24,16 +24,11 @@ const Partnerships = () => {
           <div className="c-faq__item">
             <h4 className="c-faq__item__question">How do I apply?</h4>
             <div className="c-faq__item__answer">
-              <p>
-                Unfortunately, applications are closed right now. But you&apos;re welcome to join us
-                during the <DemoDayLink>Demo Day</DemoDayLink> so keep an eye on our{' '}
-                <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to
-                see what we&apos;re up to.
-              </p>
-              <p>
+              <p>Register via the registration form and become a partner of osoc 2024</p>
+              {/* <p>
                 To arrange a meeting and discuss the collaboration in detail, send an email to{' '}
                 <a href="mailto:info@osoc.be">info@osoc.be</a>.{' '}
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

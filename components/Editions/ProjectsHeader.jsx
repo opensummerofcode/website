@@ -3,7 +3,7 @@ const ProjectsHeader = () => {
     <header className="hero-detail u-padding-x-large--tb">
       <div className="grid-x grid-padding-x">
         <div className="medium-12 medium-offset-0 large-4 cell">
-          <h1 className="hero-head">This year&apos;s projects</h1>
+          <h1 className="hero-head">Previous Editions</h1>
         </div>
 
         <div className="small-6 medium-offset-0 large-3 cell large-offset-1">

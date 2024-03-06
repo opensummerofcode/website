@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import DemoDayLink from '../UI/DemoDayLink';
-import ExternalLink from '../UI/ExternalLink';
+import { applicationTallyURL } from '../Common/ApplyLink';
 
 const Info = () => {
   return (
@@ -27,10 +26,7 @@ const Info = () => {
             </li>
           </ul>
           <p>
-            *Applications are closed! Keep an eye on our{' '}
-            <ExternalLink href="https://twitter.com/osocode">Twitter account</ExternalLink> to see
-            when applications open for 2023 &mdash; or{' '}
-            <DemoDayLink>join us on the Demo Day</DemoDayLink> on the 28th of July.
+            Apply now for osoc 2024 via the <a href={{ applicationTallyURL }}>following link</a>
           </p>
         </div>
 
