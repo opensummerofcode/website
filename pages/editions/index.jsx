@@ -25,7 +25,8 @@ const EditionOverview = ({ editions }) => {
       {editions
         .sort((a, b) => b.year - a.year)
         .map((edition) => (
-          <div key={edition.year}>
+          // if editions#year it should scroll down to the specific year
+          <div id={edition.year} key={edition.year}>
             <h2 className="u-padding-x-large-tl">{edition.year}</h2>
             <ProjectsGallery edition={edition.year} isDemoDay={false} projects={edition.projects} />
             <Partners partners={edition.partners} />

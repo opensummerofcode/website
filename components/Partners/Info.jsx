@@ -68,7 +68,7 @@ const Info = () => {
                       alt=""
                       className="c-package__fruit--melon"
                     />
-                    Watermelon <br />
+                    Large <br />
                     Team
                   </p>
                   <p className="c-package__info">
@@ -82,7 +82,7 @@ const Info = () => {
                       alt=""
                       className="c-package__fruit--lemon"
                     />
-                    Lemon <br />
+                    Medium <br />
                     Team
                   </p>
                   <p className="c-package__info">
@@ -96,7 +96,7 @@ const Info = () => {
                       alt=""
                       className="c-package__fruit--strawberry"
                     />
-                    Strawberry <br />
+                    Small <br />
                     Team
                   </p>
                   <p className="c-package__info">
@@ -113,22 +113,13 @@ const Info = () => {
               <tr>
                 <th className="c-package__condition">Pricing</th>
                 <td>
-                  <p className="c-package__price">€&thinsp;19&thinsp;250</p>
-                  <p className="c-package__info--small">
-                    *Provide your own project management coach: €&thinsp;17&thinsp;500
-                  </p>
+                  <p className="c-package__price">€&thinsp;21&thinsp;000</p>
                 </td>
                 <td>
-                  <p className="c-package__price">€&thinsp;15&thinsp;500</p>
-                  <p className="c-package__info--small">
-                    *Provide your own project management coach: €&thinsp;13&thinsp;750
-                  </p>
+                  <p className="c-package__price">€&thinsp;17&thinsp;500</p>
                 </td>
                 <td>
-                  <p className="c-package__price">€&thinsp;13&thinsp;200</p>
-                  <p className="c-package__info--small">
-                    *Provide your own project management coach: €&thinsp;11&thinsp;450
-                  </p>
+                  <p className="c-package__price">€&thinsp;14&thinsp;000</p>
                 </td>
               </tr>
               <tr>
@@ -222,9 +213,9 @@ const Info = () => {
             <article>
               <h2 className="c-package__name">
                 <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
-                Watermelon Team
+                Large Team
                 <br />
-                <span className="c-package__price">€&thinsp;19&thinsp;250</span>
+                <span className="c-package__price">€&thinsp;21&thinsp;000</span>
               </h2>
               <p className="c-package__info">
                 Tailor your team with specific profiles to fit your idea.
@@ -236,16 +227,13 @@ const Info = () => {
                 <li>1 half-time project coach</li>
                 <li>On-demand design &amp; development coaches</li>
               </ul>
-              <p className="c-package__info--small">
-                *Provide your own project management coach: €&thinsp;17&thinsp;500
-              </p>
             </article>
             <article>
               <h2 className="c-package__name">
                 <img src="../img/logo/logo-osoc-o.svg" alt="" className="c-package__fruit--lemon" />
-                Lemon Team
+                Medium Team
                 <br />
-                <span className="c-package__price">€&thinsp;15&thinsp;500</span>
+                <span className="c-package__price">€&thinsp;17&thinsp;500</span>
               </h2>
               <p className="c-package__info">Innovate & hack together with a well-rounded team.</p>
               <ul>
@@ -254,9 +242,6 @@ const Info = () => {
                 <li>1 half-time project coach</li>
                 <li>On-demand design &amp; development coaches</li>
               </ul>
-              <p className="c-package__info--small">
-                *Provide your own project management coach: €&thinsp;13&thinsp;750
-              </p>
             </article>
             <article>
               <h2 className="c-package__name">
@@ -265,9 +250,9 @@ const Info = () => {
                   alt=""
                   className="c-package__fruit--strawberry"
                 />
-                Strawberry Team
+                Small Team
                 <br />
-                <span className="c-package__price">€&thinsp;13&thinsp;200</span>
+                <span className="c-package__price">€&thinsp;14&thinsp;000</span>
               </h2>
               <p className="c-package__info">
                 Bring a new idea to life with a small but motivated team.
@@ -277,9 +262,6 @@ const Info = () => {
                 <li>1 half-time project coach</li>
                 <li>On-demand design &amp; development coaches</li>
               </ul>
-              <p className="c-package__info--small">
-                *Provide your own project management coach: €&thinsp;11&thinsp;450
-              </p>
             </article>
             <article>
               <h3 className="u-margin--t">
@@ -696,8 +678,8 @@ const Info = () => {
             <br /> */}
             {/* <Demo DayLink className="button">Come to the Demo Day</Demo DayLink> */}
             {/* <br /> */}
-            <ButtonLink className="button" href="/editions/2021">
-              View last year&apos;s projects
+            <ButtonLink className="button" href="/editions">
+              View last edition&apos;s projects
             </ButtonLink>
           </p>
         </div>
