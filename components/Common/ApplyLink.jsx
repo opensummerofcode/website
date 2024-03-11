@@ -5,7 +5,7 @@ import ExternalLink from '../UI/ExternalLink';
 
 const geoJsonFetcher = () => fetcher('http://www.geoplugin.net/json.gp');
 
-export const applicationTallyURL = 'https://tally.so/r/wL8Rvw';
+export const applicationTallyURL = 'https://tally.so/r/wQ5Xv7';
 
 // Generates an "Apply" link based on the location of the visitor.
 // This geolocation info is requested client-side.
