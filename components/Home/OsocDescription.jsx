@@ -15,7 +15,7 @@ const OsocDescription = () => {
         <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
           <iframe
             title="OSOC presentation"
-            src="https://www.youtube-nocookie.com/embed/wQh6e2w1kX0"
+            src="https://www.youtube-nocookie.com/embed/USL2jly1e_Y"
             style={{
               position: 'absolute',
               top: 0,

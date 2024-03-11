@@ -4,12 +4,13 @@ const When = () => {
       <div className="grid-x grid-padding-x u-margin-large--tb">
         <div className="small-12 cell">
           <h3 className="h5">
-            {/* TODO: replace by dynamic date */}1 July &mdash; 26 July{' '}
+            {/* TODO: replace by dynamic date */}1 July &mdash; 25 July{' '}
             <span className="subheader">From Monday to Thursday, 9AM to 5PM.</span>
           </h3>
           <p>
-            On Mondays and Thursdays we work in Brussels, on Tuesdays and Wednesdays. You don&apos;t
-            have to work on Fridays, holidays or weekends!
+            On Mondays and Thursdays, we work in Brussels, on Tuesdays and Wednesdays we work
+            remotely. You don&apos;t have to work on Fridays and weekends! You&apos;re off during
+            holidays, but still paid!
           </p>
 
           {/* <p>

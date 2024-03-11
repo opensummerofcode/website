@@ -75,11 +75,11 @@ const Navigation = () => {
                     Practical
                   </Tab>
                 </li>
-                <li>
+                {/* <li>
                   <Tab onClick={handleToggle} href="/students">
                     Students
                   </Tab>
-                </li>
+                </li> */}
                 <li>
                   <Tab onClick={handleToggle} href="/partners">
                     Partners
@@ -103,7 +103,7 @@ const Navigation = () => {
                 <li>
                   {' '}
                   <DemoDayLink className="button">
-                    Apply now <span className="button__info">application date</span>
+                    Apply now <span className="button__info">April 29th 2024</span>
                   </DemoDayLink>
                 </li>
 

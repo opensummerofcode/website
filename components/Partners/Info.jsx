@@ -156,7 +156,6 @@ const Info = () => {
                 <th className="c-package__condition">
                   Project coach
                   <br />
-                  <span className="c-package__info">Part-time</span>
                 </th>
                 <td className="c-package__checkmark">
                   <img src="../img/logo/logo-osoc-c.svg" alt="Checkmark" />
@@ -172,7 +171,6 @@ const Info = () => {
                 <th className="c-package__condition">
                   Development &amp; design coaching
                   <br />
-                  <span className="c-package__info">On-demand</span>
                 </th>
                 <td className="c-package__checkmark">
                   <img src="../img/logo/logo-osoc-c.svg" alt="Checkmark" />
@@ -463,7 +461,7 @@ const Info = () => {
                 <th className="c-package__name" width="10%" />
                 <th className="c-package u-text-align-center" width="25%">
                   <span className="c-package__name">
-                    All team
+                    Project
                     <br /> partners
                   </span>
                 </th>

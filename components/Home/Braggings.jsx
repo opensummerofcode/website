@@ -4,14 +4,14 @@ const Braggings = () => {
       <div className="small-6 medium-4 large-auto cell">
         <div className="grid-x c-brag__component">
           <div className="small-12 medium-12 cell c-brag__component__label">For over</div>
-          <div className="small-12 medium-12 cell c-brag__component__number">10</div>
+          <div className="small-12 medium-12 cell c-brag__component__number">12</div>
           <div className="small-12 medium-12 cell c-brag__component__counter">editions</div>
         </div>
       </div>
       <div className="small-6 medium-4 large-auto cell">
         <div className="grid-x c-brag__component">
           <div className="small-12 medium-12 cell c-brag__component__label">more than</div>
-          <div className="small-12 medium-12 cell c-brag__component__number">405</div>
+          <div className="small-12 medium-12 cell c-brag__component__number">498</div>
           <div className="small-12 medium-12 cell c-brag__component__counter">students</div>
         </div>
       </div>
@@ -25,7 +25,7 @@ const Braggings = () => {
       <div className="small-6 medium-4 large-auto cell">
         <div className="grid-x c-brag__component">
           <div className="small-12 medium-12 cell c-brag__component__label">with</div>
-          <div className="small-12 medium-12 cell c-brag__component__number">139</div>
+          <div className="small-12 medium-12 cell c-brag__component__number">159</div>
           <div className="small-12 medium-12 cell c-brag__component__counter">partners</div>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Braggings = () => {
       <div className="small-6 medium-4 large-auto cell">
         <div className="grid-x c-brag__component">
           <div className="small-12 medium-12 cell c-brag__component__label">coached by</div>
-          <div className="small-12 medium-12 cell c-brag__component__number">89</div>
+          <div className="small-12 medium-12 cell c-brag__component__number">112</div>
           <div className="small-12 medium-12 cell c-brag__component__counter">experts</div>
         </div>
       </div>
