@@ -75,11 +75,11 @@ const Navigation = () => {
                     Practical
                   </Tab>
                 </li>
-                {/* <li>
+                <li>
                   <Tab onClick={handleToggle} href="/students">
                     Students
                   </Tab>
-                </li> */}
+                </li>
                 <li>
                   <Tab onClick={handleToggle} href="/partners">
                     Partners
