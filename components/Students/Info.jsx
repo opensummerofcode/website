@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { applicationTallyURL } from '../Common/ApplyLink';
+import ExternalLink from '../UI/ExternalLink';
 
 const Info = () => {
   return (
@@ -26,7 +27,8 @@ const Info = () => {
             </li>
           </ul>
           <p>
-            Apply now for osoc 2024 via the <a href={{ applicationTallyURL }}>following link</a>
+            Apply now for osoc 2024 via the{' '}
+            <ExternalLink href={applicationTallyURL}>following link</ExternalLink>
           </p>
         </div>
 
@@ -43,126 +45,6 @@ const Info = () => {
       </div>
 
       <div className="grid-x grid-padding-x u-margin-large--tb" id="support-partners">
-        <div className="medium-12 large-10 large-offset-1 cell">
-          <table className="c-pricing u-hide-for-medium-down">
-            <thead>
-              <tr>
-                <th className="c-package__name" width="10%" />
-                <th className="c-package" width="27%">
-                  <span className="c-package__name">
-                    <img
-                      src="../img/logo/logo-osoc-o.svg"
-                      alt=""
-                      className="c-package__fruit--lemon"
-                    />{' '}
-                    Student
-                  </span>
-                  <p className="c-package__info">
-                    Show us what you&apos;re good at! Design, development, marketing, communication,
-                    ...
-                  </p>
-                </th>
-                <th className="c-package" width="27%">
-                  <span className="c-package__name">
-                    <img
-                      src="../img/logo/logo-osoc-o-small.svg"
-                      alt=""
-                      className="c-package__fruit--lemon"
-                    />{' '}
-                    Student coach
-                  </span>
-                  <p className="c-package__info">
-                    For experienced students that will be the link between their colleagues, coaches
-                    &amp; partners.
-                  </p>
-                </th>
-                <th className="c-package" width="27%">
-                  <span className="c-package__name">
-                    <img
-                      src="../img/logo/logo-osoc-c.svg"
-                      alt=""
-                      className="c-package__fruit--melon"
-                    />{' '}
-                    Volunteer
-                  </span>
-                  <p className="c-package__info">
-                    You&apos;re not a student anymore, but you want to be part of the experience.
-                    Let&apos;s talk!
-                  </p>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th className="c-package__condition">
-                  Your wage
-                  <br />
-                  <span className="c-package__info">
-                    {/* 7,6 hours per day during */} For 16 days
-                  </span>
-                </th>
-                <td>
-                  <p className="c-package__price">€&thinsp;1&thinsp;300</p>
-                  €&thinsp;11,00 per hour
-                </td>
-                <td>
-                  <p className="c-package__price">€&thinsp;1&thinsp;475</p>
-                  €&thinsp;12,50&thinsp; per hour
-                </td>
-                <td>
-                  <p className="c-package__price">Let&apos;s talk!</p>
-                  Eternal gratitude per hour
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-          <section className="c-pricing u-padding--rl u-hide-for-medium-up">
-            <article>
-              <h2 className="c-package__name">
-                <img src="../img/logo/logo-osoc-o.svg" alt="" className="c-package__fruit--lemon" />
-                Student
-                <br />
-                <span className="c-package__price">
-                  Earn €&thinsp;1&thinsp;300 &mdash; €11 an hour
-                </span>
-              </h2>
-              <p className="c-package__info">
-                Show us what you&apos;re good at! Design, development, marketing, communication, ...
-                you name it.
-              </p>
-            </article>
-            <article>
-              <h2 className="c-package__name">
-                <img
-                  src="../img/logo/logo-osoc-o-small.svg"
-                  alt=""
-                  className="c-package__fruit--lemon"
-                />
-                Student coach
-                <br />
-                <span className="c-package__price">
-                  Earn €&thinsp;1&thinsp;475 &mdash; €12,5 an hour
-                </span>
-              </h2>
-              <p className="c-package__info">
-                For experienced students that will be the link between their colleagues, coaches &
-                partners.
-              </p>
-            </article>
-            <article className="u-margin-large--b">
-              <h2 className="c-package__name">
-                <img src="../img/logo/logo-osoc-c.svg" alt="" className="c-package__fruit--melon" />
-                Volunteer
-                <br />
-                <span className="c-package__price">Let&apos;s talk!</span>
-              </h2>
-              <p className="c-package__info">
-                You&apos;re not a student anymore, but you want to be part of the experience.
-              </p>
-            </article>
-          </section>
-        </div>
         <div className="medium-12 large-5 large-offset-1 cell">
           <section className="u-margin--t">
             <article>

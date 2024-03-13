@@ -35,9 +35,9 @@ const Info = () => {
           </ul>
           <p>
             Apply now for osoc 2024 via the{' '}
-            <a href={{ applicationTallyURL }} title="osoc 2024 application">
+            <ExternalLink href={applicationTallyURL} title="osoc 2024 application">
               following link
-            </a>
+            </ExternalLink>
           </p>
         </div>
         <div className="medium-8 large-6 cell">

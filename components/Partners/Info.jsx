@@ -185,13 +185,11 @@ const Info = () => {
               <tr className="c-package__price__extra">
                 <td colSpan="4">
                   <p className="u-text-align-center">
-                    <Link href="#benefits">
-                      <strong>
-                        <a>Discover all benefits &darr;</a>
-                      </strong>
-                    </Link>{' '}
+                    * A customized team tailored to your needs is possible, with pricing calculated
+                    on a pro-rata basis.
                     <br />
-                    Get in touch for your custom team size and pricing.
+                    ** When providing your own part-time coach, will also be reflected in the
+                    pricing.
                   </p>
                   <p className="c-package__info--small u-text-align-center">
                     Not ready to partner up with a team? Check out our other{' '}
@@ -551,7 +549,9 @@ const Info = () => {
                     your job opportunities on our communication channels for our students.
                   </span>
                 </th>
-                <td className="c-package__checkmark">-</td>
+                <td className="c-package__checkmark">
+                  <img src="../img/logo/logo-osoc-s.svg" alt="Checkmark" />
+                </td>
                 <td className="c-package__checkmark">
                   <img src="../img/logo/logo-osoc-s.svg" alt="Checkmark" />
                 </td>

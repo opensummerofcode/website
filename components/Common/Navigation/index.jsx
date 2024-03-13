@@ -4,7 +4,7 @@ import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
 import DemoDayLink from '../../UI/DemoDayLink';
-// import ApplyLink from '../ApplyLink';
+import ApplyLink from '../ApplyLink';
 
 const Navigation = () => {
   const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
@@ -102,9 +102,9 @@ const Navigation = () => {
 
                 <li>
                   {' '}
-                  <DemoDayLink className="button">
+                  <ApplyLink className="button">
                     Apply now <span className="button__info">April 29th 2024</span>
-                  </DemoDayLink>
+                  </ApplyLink>
                 </li>
 
                 {/* <li>

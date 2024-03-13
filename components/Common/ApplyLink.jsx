@@ -30,7 +30,7 @@ const ApplyLink = () => {
   const buttonContent = (
     <>
       Apply as a student
-      <span className="button__info">Live in Belgium!</span>
+      <span className="button__info">Before April 29th 2024</span>
     </>
   );
 
