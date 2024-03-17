@@ -4,7 +4,7 @@ const StudentsHeader = () => {
       <div className="grid-x grid-padding-x">
         <div className="medium-12 medium-offset-0 large-4 cell">
           <h1 className="hero-head">
-            This year&apos;s students
+            Previous edition&apos;s students
             <div className="osoc-float-element-c" />
           </h1>
         </div>

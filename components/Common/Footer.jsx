@@ -13,6 +13,7 @@ import W2018 from '../../assets/img/previous-editions/2018W.svg';
 import W2019 from '../../assets/img/previous-editions/2019W.svg';
 import W2020 from '../../assets/img/previous-editions/logo-osoc-black-2020.svg';
 import W2021 from '../../assets/img/previous-editions/logo-osoc-black-2021.svg';
+import W2022 from '../../assets/img/previous-editions/logo-osoc-black-2022.svg';
 
 const Footer = () => {
   return (
@@ -103,7 +104,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/editions/[year]" as="/editions/2022">
+                  <Link href="/editions#2022">
                     <a>2022</a>
                   </Link>
                 </li>
@@ -167,23 +168,30 @@ const Footer = () => {
               </a>
             </div>
             <div className="small-2 medium-auto cell">
-              <Link href="/editions/[year]" as="/editions/2019">
+              <Link href="/editions#2019">
                 <a>
                   <img src={W2019} alt="2019 osoc logo" />
                 </a>
               </Link>
             </div>
             <div className="small-2 medium-auto cell">
-              <Link href="/editions/[year]" as="/editions/2020">
+              <Link href="/editions#2020">
                 <a>
                   <img src={W2020} alt="2020 osoc logo" />
                 </a>
               </Link>
             </div>
             <div className="small-2 medium-auto cell">
-              <Link href="/editions/[year]" as="/editions/2021">
+              <Link href="/editions#2021">
                 <a>
                   <img src={W2021} alt="2021 osoc logo" />
+                </a>
+              </Link>
+            </div>{' '}
+            <div className="small-2 medium-auto cell">
+              <Link href="/editions#2022">
+                <a>
+                  <img src={W2022} alt="2022 osoc logo" />
                 </a>
               </Link>
             </div>

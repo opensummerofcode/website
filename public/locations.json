@@ -1,18 +1,10 @@
 [
   {
-    "name": "WTC III building",
-    "address": "Boulevard Simon Bolivar 30, 1000 Brussels",
+    "name": "Brussels and partly remote",
+    "address": "1000 Brussels",
     "coordinates": {
       "lng": 4.356158,
       "lat": 50.860782
-    }
-  },
-  {
-    "name": "Flemish Government's Herman Teirlinck building",
-    "address": "Avenue du Port 88, 1000 Bruxelles",
-    "coordinates": {
-      "lng": 4.350135,
-      "lat": 50.866194
     }
   }
 ]

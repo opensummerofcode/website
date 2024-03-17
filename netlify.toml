@@ -22,25 +22,25 @@
 
 [[redirects]]
   from = "/2019"
-  to = "/editions/2019"
+  to = "/editions#2019"
   status = 301
 
 [[redirects]]
   from = "/2020"
-  to = "/editions/2020"
+  to = "/editions#2020"
   status = 301
 
 [[redirects]]
   from = "/2021"
-  to = "/editions/2021"
+  to = "/editions#2021"
   status = 301
 
 [[redirects]]
   from = "/2022"
-  to = "/editions/2022"
+  to = "/editions#2022"
   status = 301
 
 [[redirects]]
   from = "/projects"
-  to = "/editions/2022"
+  to = "/editions#2022"
   status = 302

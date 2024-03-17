@@ -51,8 +51,8 @@ const StudentApplication = () => {
               Over the last few years, students have got the opportunity to work on open innovation
               projects in different fields such as mobility, education, health, sports and
               biodiversity. Check out{' '}
-              <Link href="/editions/[year]" as="/editions/2021">
-                <a target="_blank">last year&apos;s edition</a>
+              <Link href="/editions/[year]" as="/editions/2022">
+                <a target="_blank">last edition</a>
               </Link>{' '}
               to see what kind of projects have been built by osoc students at the latest edition.
             </p>
@@ -66,24 +66,12 @@ const StudentApplication = () => {
             How do I apply for osoc? When will I know whether I can participate?{' '}
           </h4>
           <div className="c-faq__item__answer">
-            <p>
-              If we are open for applications, you will find the link in the topbar on the right!
-            </p>
+            <p>Apply for osoc 2024 via the link in the top bar on the right. </p>
             <p>
               We will send you periodic updates on the status of your application. In May we go over
               all the applications and match the right students with the right projects. You will
               have a final answer by the end of May, but it can be sooner if you were selected in an
               earlier round.
-            </p>
-            <p>
-              Sorry, applications are closed as of now. Thank you for your massive interest! You can
-              always apply again next year as a student &mdash; or even as a coach. You&apos;re also
-              welcome to join us during the <DemoDayLink>demo day</DemoDayLink>. &mdash; which will
-              take place Thursday, July 28th 2022. And keep an eye on our{' '}
-              <ExternalLink href="https://twitter.com/osocode" target="_blank">
-                Twitter account
-              </ExternalLink>{' '}
-              to see what we&apos;re up to!
             </p>
           </div>
         </div>
@@ -126,11 +114,8 @@ const StudentApplication = () => {
             </p> */}
             <p>
               Students from an EEA member state or from Switzerland are entitled to work in Belgium
-              throughout the year under the same terms as Belgian students. Countries in the EEA are
-              Austria, Belgium, Bulgaria, Croatia, Cyprus, the Czech Republic, Denmark, Estonia,
-              Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia,
-              Liechtenstein, Lithuania, Luxembourg, Malta, the Netherlands, Norway, Poland,
-              Portugal, Romania, Slovak Republic, Slovenia, Spain, Sweden and the United Kingdom.
+              throughout the year under the same terms as Belgian students. EAA member state means
+              any of the member states of the European Union, Iceland, Liechtenstein, and Norway.
             </p>
             <p>
               Are you from a country that is not included in the above list? Then you may work in
