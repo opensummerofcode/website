@@ -456,18 +456,6 @@
     "studentCoach": false
   },
   {
-    "id": "eben-ezeer-inganji",
-    "name": "Eben Ezeer Inganji",
-    "mugshot": "/editions/2021/participants/eben-ezeer-inganji.jpg",
-    "socials": {
-      "twitter": "https://twitter.com/nireeze",
-      "linkedin": "https://www.linkedin.com/in/eben-ezeer-inganji-aa3665127",
-      "behance": null,
-      "github": "https://gitlab.com/ezer.in"
-    },
-    "studentCoach": false
-  },
-  {
     "id": "cyrille-mathieu",
     "name": "Cyrille Mathieu",
     "mugshot": "/editions/2021/participants/cyrille-mathieu.png",
