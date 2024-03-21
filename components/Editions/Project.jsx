@@ -17,60 +17,17 @@ const Project = ({ edition, project }) => {
   const determineBreakoutState = () => {
     // if (!isDemoDay) return null;
     if (true) return null;
-    const now = Date.now();
-    const start = new Date(project.breakout.startsAt);
-    const end = new Date(project.breakout.endsAt);
-    if (now <= start) return BREAKOUT_UNSTARTED;
-    if (now < end && now > start) return BREAKOUT_IN_PROGRESS;
-    if (now >= end) return BREAKOUT_ENDED;
-    return null;
   };
 
   const [breakoutStatus, setBreakoutStatus] = useState(determineBreakoutState());
 
   useEffect(() => {
     let interval = () => {};
-    if (false) {
-      // if (isDemoDay) {
-      interval = setInterval(() => {
-        const b = determineBreakoutState();
-        if (b !== breakoutStatus) setBreakoutStatus(b);
-      }, 10000);
-    }
     return () => clearInterval(interval);
   }, []);
 
   let $buttonContent;
   let buttonDisabled = true;
-  if (false) {
-    // if (isDemoDay) {
-    if (breakoutStatus === BREAKOUT_UNSTARTED) {
-      const start = new Date(project.breakout.startsAt);
-      const hours = start.getHours();
-      const minutes = start.getMinutes();
-      $buttonContent = (
-        <>
-          <img className="c-icon" src="/img/icons/time.svg" alt="clock" />
-          Meet us at {hours}:{minutes === 0 ? '00' : minutes}
-        </>
-      );
-    } else if (breakoutStatus === BREAKOUT_IN_PROGRESS) {
-      $buttonContent = (
-        <>
-          <img className="c-icon" src="/img/icons/video.svg" alt="video" />
-          Meet the team
-        </>
-      );
-      buttonDisabled = false;
-    } else if (breakoutStatus === BREAKOUT_ENDED) {
-      $buttonContent = (
-        <>
-          <img className="c-icon" src="/img/icons/time.svg" alt="clock" />
-          Session has ended
-        </>
-      );
-    }
-  }
 
   return (
     // ${isDemoDay ? 'on-demo-day' : ''}

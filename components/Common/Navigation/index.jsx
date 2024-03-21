@@ -3,7 +3,7 @@ import Link from 'next/link';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
-import DemoDayLink from '../../UI/DemoDayLink';
+// import DemoDayLink from '../../UI/DemoDayLink';
 import ApplyLink from '../ApplyLink';
 
 const Navigation = () => {
