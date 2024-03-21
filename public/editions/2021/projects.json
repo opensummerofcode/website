@@ -18,7 +18,7 @@
     "description": "We will build a user-friendly web-app \"crowdedness meter\" to help students meet safely in Ghent hotspots. Our ultimate goal is to offer students the opportunity to reclaim the ownership of their reputation, by demonstrating that it is possible to have a social life while respecting government measures. For students, by students.",
     "logo": "/editions/2021/projects/crowdy.svg",
     "team": {
-      "students": ["eben-ezeer-inganji", "elena-lefebvre", "kaj-de-muynck", "loeka-wyseure"],
+      "students": ["elena-lefebvre", "kaj-de-muynck", "loeka-wyseure"],
       "coaches": ["hannes-d-hulster", "alex-vandoren", "christophe-leroy"]
     },
     "repository": "https://github.com/osoc21/Crowdy",
