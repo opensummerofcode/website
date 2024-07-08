@@ -27,6 +27,7 @@
   {
     "name": "Joanna Kalisz",
     "socials": {
+      "linkedin": "https://www.linkedin.com/in/joanna-j-kalisz/",
       "github": "https://github.com/jane-00"
     }
   },
@@ -49,7 +50,49 @@
     "socials": {
       "twitter": "https://twitter.com/linde_robin",
       "linkedin": "https://www.linkedin.com/in/rlineu/",
-      "github": "https://github.com/RobinLinde"
+      "github": "https://github.com/RobinLinde",
+      "mastodon": "https://en.osm.town/@RLin"
+    }
+  },
+  {
+    "name": "Dina Boshnaq",
+    "socials": {
+      "photos": "https://www.pexels.com/@dina-boshnaq-123876169",
+      "linkedin": "https://www.linkedin.com/in/dina-boshnaq",
+      "github": "https://github.com/16dina"
+    }
+  },
+  {
+    "name": "Victor Barra",
+    "socials": {
+      "twitter": "https://twitter.com/VictorBarraa",
+      "linkedin": "http://linkedin.com/in/victor-barra",
+      "instagram": "https://www.instagram.com/victor.barra.33/",
+      "github": "https://github.com/Vicba"
+    }
+  },
+  {
+    "name": "Friedrich Vandenberghe",
+    "socials": {
+      "mastodon": "https://computerclub.social/@zelzahn",
+      "linkedin": "https://www.linkedin.com/in/friedrich-vandenberghe-97093a228/",
+      "github": "https://github.com/Zelzahn"
+    }
+  },
+  {
+    "name": "Jordy Callens",
+    "socials": {
+      "mastodon": "https://computerclub.social/@zelzahn",
+      "linkedin": "https://www.linkedin.com/in/jordy-callens/",
+      "github": "https://github.com/jordycallens"
+    }
+  },
+  {
+    "name": "Evi De Rudder",
+    "socials": {
+      "instagram": "https://www.instagram.com/eviw817/",
+      "linkedin": "https://www.linkedin.com/in/evelien-de-rudder-a35b4b209/",
+      "github": "hhttps://github.com/eviw817"
     }
   }
 ]
