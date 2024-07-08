@@ -1,0 +1,29 @@
+[
+  {
+    "name": "ChatGent",
+    "description": "Contributing to District09, the digital agency of the city of Ghent, we aim to make the local government decisions, initiatives and updates easily searchable for the residents of Ghent, while implementing a chatbot-like approach.",
+    "team": {
+      "students": ["joanna-kalisz", "robin-van-der-linde", "dina-boshnaq"],
+      "coaches": ["christophe-leroy"]
+    },
+    "partners": ["stad-gent", "district09"]
+  },
+  {
+    "name": "Loama",
+    "description": "Provide a centralized platform to easily digest and manage the connections between your personal SOLID data vault and the applications that you use.",
+    "team": {
+      "students": ["bo-robbrecht", "victor-barra", "friedrich-vandenberghe"],
+      "coaches": ["christophe-leroy"]
+    },
+    "partners": ["imec", "idlab"]
+  },
+  {
+    "name": "SHIFT",
+    "description": "A futuristic urban mobility hub seamlessly integrating all modes of human transportation, catering to both passenger and parcel needs.",
+    "team": {
+      "students": ["raman-talwar", "evi-de-rudder", "jordy-callens"],
+      "coaches": ["walter-vandervelde"]
+    },
+    "partners": ["epf", "ertico"]
+  }
+]
