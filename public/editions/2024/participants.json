@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Jodi Deloof",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Christophe Leroy",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Inti Valderas Caro",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Laura Geeroms",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Walter Vandervelde",
+    "socials": {},
+    "coach": true
+  },
+  {
+    "name": "Joanna Kalisz",
+    "socials": {
+      "github": "https://github.com/jane-00"
+    }
+  },
+  {
+    "name": "Raman Talwar",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/raman-talwar",
+      "github": "https://github.com/rtalwar2"
+    }
+  },
+  {
+    "name": "Bo Robbrecht",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/borobbrecht",
+      "github": "https://github.com/BT-Creator"
+    }
+  },
+  {
+    "name": "Robin van der Linde",
+    "socials": {
+      "twitter": "https://twitter.com/linde_robin",
+      "linkedin": "https://www.linkedin.com/in/rlineu/",
+      "github": "https://github.com/RobinLinde"
+    }
+  }
+]

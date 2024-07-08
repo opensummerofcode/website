@@ -1,0 +1,68 @@
+[
+  {
+    "id": "openknowledgebe",
+    "name": "Open Knowledge Belgium",
+    "url": "https://openknowledge.be/",
+    "logo": "/editions/2024/partners/logo-okbe.svg"
+  },
+  {
+    "id": "imec",
+    "name": "imec",
+    "url": "https://www.imec.be/",
+    "logo": "/editions/2024/partners/logo-imec.svg"
+  },
+  {
+    "id": "idlab",
+    "name": "IDLab",
+    "url": "https://idlab.technology/",
+    "logo": "/editions/2024/partners/logo-idlab.svg"
+  },
+  {
+    "id": "stad-gent",
+    "name": "City of Ghent",
+    "url": "https://stad.gent/",
+    "logo": "/editions/2024/partners/logo-gent.svg"
+  },
+  {
+    "id": "district09",
+    "name": "District09",
+    "url": "https://district09.gent/",
+    "logo": "/editions/2024/partners/logo-district09.svg"
+  },
+  {
+    "id": "epf",
+    "name": "EPF",
+    "url": "https://www.epf.eu/",
+    "logo": "/editions/2024/partners/logo-epf.svg"
+  },
+  {
+    "id": "ertico",
+    "name": "ERTICO",
+    "url": "https://ertico.com/",
+    "logo": "/editions/2024/partners/logo-ertico.png"
+  },
+  {
+    "id": "redhat",
+    "name": "Red Hat",
+    "url": "https://www.redhat.com/en",
+    "logo": "/editions/2024/partners/logo-red-hat.svg"
+  },
+  {
+    "id": "fris",
+    "name": "FRIS Research Portal",
+    "url": "https://researchportal.be/",
+    "logo": "/editions/2024/partners/logo-fris.svg"
+  },
+  {
+    "id": "codifly",
+    "name": "Codifly",
+    "url": "https://codifly.be/",
+    "logo": "/editions/2024/partners/logo-codifly.svg"
+  },
+  {
+    "id": "vlaanderen",
+    "name": "Vlaanderen",
+    "url": "https://www.vlaanderen.be/",
+    "logo": "/editions/2024/partners/logo-vlaanderen.svg"
+  }
+]
