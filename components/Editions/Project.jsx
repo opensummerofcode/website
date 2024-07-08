@@ -16,18 +16,18 @@ const Project = ({ edition, project }) => {
 
   const determineBreakoutState = () => {
     // if (!isDemoDay) return null;
-    if (true) return null;
+    return null;
   };
 
   const [breakoutStatus, setBreakoutStatus] = useState(determineBreakoutState());
 
   useEffect(() => {
-    let interval = () => {};
+    const interval = () => {};
     return () => clearInterval(interval);
   }, []);
 
   let $buttonContent;
-  let buttonDisabled = true;
+  const buttonDisabled = true;
 
   return (
     // ${isDemoDay ? 'on-demo-day' : ''}

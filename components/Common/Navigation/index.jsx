@@ -100,11 +100,21 @@ const Navigation = () => {
                   <ApplyLink />
                 </li> */}
 
-                <li>
+                {/* <li>
                   {' '}
                   <ApplyLink className="button">
                     Apply now <span className="button__info">April 29th 2024</span>
                   </ApplyLink>
+                </li> */}
+
+                <li>
+                  <Link
+                    href="https://www.eventbrite.com/e/demoday-osoc-2024-tickets-933379492187"
+                    className="button"
+                  >
+                    Register now for Demo Day
+                    <span className="button__info">On July 25th 2024</span>
+                  </Link>
                 </li>
 
                 {/* <li>
