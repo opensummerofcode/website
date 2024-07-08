@@ -4,7 +4,7 @@ import ExternalLink from '../UI/ExternalLink';
 
 const HeadShot = ({ data, socials, picture, roleShown }) => {
   const { name, isCoach } = data;
-  const { twitter, linkedin, github, behance, instagram } = socials;
+  const { twitter, linkedin, github, behance, instagram, mastodon } = socials;
 
   return (
     <article className="small-10 medium-4 large-3 cell headshot-detail">
@@ -16,27 +16,32 @@ const HeadShot = ({ data, socials, picture, roleShown }) => {
       <div className="student-social">
         {twitter && (
           <ExternalLink href={twitter}>
-            <i className="fa fa-twitter" />
+            <i className="fab fa-twitter" />
           </ExternalLink>
         )}
         {instagram && (
           <ExternalLink href={instagram}>
-            <i className="fa fa-instagram" />
+            <i className="fab fa-instagram" />
           </ExternalLink>
         )}
         {linkedin && (
           <ExternalLink href={linkedin}>
-            <i className="fa fa-linkedin" />
+            <i className="fab fa-linkedin" />
           </ExternalLink>
         )}
         {github && (
           <ExternalLink href={github}>
-            <i className="fa fa-github" />
+            <i className="fab fa-github" />
           </ExternalLink>
         )}
         {behance && (
           <ExternalLink href={behance}>
-            <i className="fa fa-behance" />
+            <i className="fab fa-behance" />
+          </ExternalLink>
+        )}
+        {mastodon && (
+          <ExternalLink href={mastodon}>
+            <i className="fab fa-mastodon" />
           </ExternalLink>
         )}
       </div>

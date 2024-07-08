@@ -16,10 +16,6 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?font-display=swap&amp;family=Montserrat:400,500,600,700|Open+Sans:300,400"
             rel="stylesheet"
           />
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
-          />
           <link rel="manifest" href="public/manifest.json" />
           <meta
             name="description"

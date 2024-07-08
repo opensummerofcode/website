@@ -14,25 +14,25 @@
   {
     "id": "abb",
     "name": "Agentschap Binnenlands Bestuur",
-    "url": "",
+    "url": "https://www.vlaanderen.be/agentschap-binnenlands-bestuur",
     "logo": "/editions/2021/partners/agentschap-binnenlands-bestuur-logo.svg"
   },
   {
     "id": "mow",
     "name": "Mobiliteit & Openbare Werken",
-    "url": "",
+    "url": "https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken",
     "logo": "/editions/2021/partners/agentschap-mobiliteit-openbare-werken-logo.svg"
   },
   {
     "id": "awv",
     "name": "Agentschap Wegen & Verkeer",
-    "url": "",
+    "url": "https://wegenenverkeer.be/",
     "logo": "/editions/2021/partners/agentschap-wegen-verkeer-logo.svg"
   },
   {
     "id": "artevlede-hogeschool",
     "name": "Artevelde Hogeschool",
-    "url": "",
+    "url": "https://www.arteveldehogeschool.be/en",
     "logo": "/editions/2021/partners/artevelde-logo.svg"
   },
   {
@@ -44,97 +44,97 @@
   {
     "id": "hogent",
     "name": "HoGent",
-    "url": "",
+    "url": "https://www.hogent.be/en/",
     "logo": "/editions/2021/partners/hogent-logo.svg"
   },
   {
     "id": "karel-de-grote-hogeschool",
     "name": "Karel de Grote Hogeschool",
-    "url": "",
+    "url": "https://www.kdg.be/en",
     "logo": "/editions/2021/partners/kdg-logo.svg"
   },
   {
     "id": "kodeklub",
     "name": "Kodeklub",
-    "url": "",
+    "url": "https://kodeklub.nl/",
     "logo": "/editions/2021/partners/kodeklub-logo.svg"
   },
   {
     "id": "deloitte",
     "name": "Deloitte",
-    "url": "",
+    "url": "https://www.deloitte.com/be/en.html",
     "logo": "/editions/2021/partners/deloitte-logo.svg"
   },
   {
     "id": "arvesta",
     "name": "Arvesta",
-    "url": "",
+    "url": "https://arvesta.eu/en/",
     "logo": "/editions/2021/partners/arvesta-logo.svg"
   },
   {
     "id": "adv",
     "name": "Agentschap Digitaal Vlaanderen",
-    "url": "",
+    "url": "https://www.vlaanderen.be/digitaal-vlaanderen",
     "logo": "/editions/2021/partners/agentschap-digitaal-vlaanderen-logo.svg"
   },
   {
     "id": "idlab",
     "name": "IDLab",
-    "url": "",
+    "url": "http://idlab.technology/",
     "logo": "/editions/2021/partners/idlab-logo.svg"
   },
   {
     "id": "imec",
     "name": "imec",
-    "url": "",
+    "url": "https://www.imec.be/",
     "logo": "/editions/2021/partners/imec-logo.svg"
   },
   {
     "id": "natuurpunt",
     "name": "Natuurpunt",
-    "url": "",
+    "url": "https://www.natuurpunt.be/",
     "logo": "/editions/2021/partners/natuurpunt-logo.svg"
   },
   {
     "id": "provincie-oostvlaanderen",
     "name": "Provincie Oost-Vlaanderen",
-    "url": "",
+    "url": "https://oost-vlaanderen.be/",
     "logo": "/editions/2021/partners/provincie-oostvlaanderen-logo.svg"
   },
   {
     "id": "fris",
     "name": "FRIS",
-    "url": "",
+    "url": "https://researchportal.be/en",
     "logo": "/editions/2021/partners/fris-logo.svg"
   },
   {
     "id": "ugent",
     "name": "UGent",
-    "url": "",
+    "url": "https://www.ugent.be/en",
     "logo": "/editions/2021/partners/ugent-logo.svg"
   },
   {
     "id": "stad-gent",
     "name": "Stad Gent",
-    "url": "",
+    "url": "https://stad.gent/en",
     "logo": "/editions/2021/partners/gent-logo.svg"
   },
   {
     "id": "vliz",
     "name": "VLIZ",
-    "url": "",
+    "url": "https://www.vliz.be/en",
     "logo": "/editions/2021/partners/vliz-logo.svg"
   },
   {
     "id": "openrecognitionalliance",
     "name": "Open Recognition Alliance",
-    "url": "",
+    "url": "https://openrecognition.org/",
     "logo": "/editions/2021/partners/openrecognitionalliance-logo.svg"
   },
   {
     "id": "thomasmore",
     "name": "Thomas More",
-    "url": "",
+    "url": "https://thomasmore.be/en",
     "logo": "/editions/2021/partners/thomasmore-logo.svg"
   }
 ]
