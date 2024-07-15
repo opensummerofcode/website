@@ -10,12 +10,6 @@ import Partners from '../../components/Partners/Partners';
 const EditionOverview = ({ editions }) => {
   useEffect(() => {}, []);
 
-  const sortAlphabetically = (a, b) => {
-    if (a.name.toLowerCase() < b.name.toLowerCase()) return -1;
-    if (a.name.toLowerCase() > b.name.toLowerCase()) return 1;
-    return 0;
-  };
-
   return (
     <>
       <Head>
@@ -37,7 +31,7 @@ const EditionOverview = ({ editions }) => {
 };
 
 export async function getStaticProps() {
-  const editions = [2019, 2020, 2021, 2022];
+  const editions = [2019, 2020, 2021, 2022, 2024];
   const data = await Promise.all(
     editions.map(async (year) => {
       const [partners, participants, projects] = await Promise.all([

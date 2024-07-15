@@ -14,6 +14,7 @@ import W2019 from '../../assets/img/previous-editions/2019W.svg';
 import W2020 from '../../assets/img/previous-editions/logo-osoc-black-2020.svg';
 import W2021 from '../../assets/img/previous-editions/logo-osoc-black-2021.svg';
 import W2022 from '../../assets/img/previous-editions/logo-osoc-black-2022.svg';
+import W2024 from '../../assets/img/previous-editions/logo-osoc-black-2024.svg';
 
 const Footer = () => {
   return (
@@ -96,7 +97,9 @@ const Footer = () => {
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
                 <li>
-                  <DemoDayLink>Demo&nbsp;day</DemoDayLink>
+                  <DemoDayLink>
+                    <>Demo&nbsp;day</>
+                  </DemoDayLink>
                 </li>
                 <li>
                   <Link href="/practical">
@@ -104,8 +107,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/editions#2022">
-                    <a>2022</a>
+                  <Link href="/editions#2024">
+                    <a>2024</a>
                   </Link>
                 </li>
               </ul>
@@ -192,6 +195,13 @@ const Footer = () => {
               <Link href="/editions#2022">
                 <a>
                   <img src={W2022} alt="2022 osoc logo" />
+                </a>
+              </Link>
+            </div>{' '}
+            <div className="small-2 medium-auto cell">
+              <Link href="/editions#2024">
+                <a>
+                  <img src={W2024} alt="2024 osoc logo" />
                 </a>
               </Link>
             </div>

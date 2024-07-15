@@ -3,8 +3,8 @@ import Link from 'next/link';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
-// import DemoDayLink from '../../UI/DemoDayLink';
-import ApplyLink from '../ApplyLink';
+import DemoDayLink from '../../UI/DemoDayLink';
+// import ApplyLink from '../ApplyLink';
 
 const Navigation = () => {
   const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
@@ -100,11 +100,20 @@ const Navigation = () => {
                   <ApplyLink />
                 </li> */}
 
-                <li>
+                {/* <li>
                   {' '}
                   <ApplyLink className="button">
                     Apply now <span className="button__info">April 29th 2024</span>
                   </ApplyLink>
+                </li> */}
+
+                <li>
+                  <DemoDayLink className="button">
+                    <>
+                      Register now for Demo Day
+                      <span className="button__info">On July 25th 2024</span>
+                    </>
+                  </DemoDayLink>
                 </li>
 
                 {/* <li>
