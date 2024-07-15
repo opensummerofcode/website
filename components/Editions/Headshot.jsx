@@ -46,7 +46,7 @@ const HeadShot = ({ data, socials, picture, roleShown }) => {
         )}
         {photos && (
           <ExternalLink href={photos}>
-            <i className="fab fa-camera-retro" />
+            <i className="fa fa-camera" />
           </ExternalLink>
         )}
       </div>
