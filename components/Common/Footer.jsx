@@ -97,7 +97,9 @@ const Footer = () => {
             <div className="small-4 medium-4 cell">
               <ul className="inline-list">
                 <li>
-                  <DemoDayLink>Demo&nbsp;day</DemoDayLink>
+                  <DemoDayLink>
+                    <>Demo&nbsp;day</>
+                  </DemoDayLink>
                 </li>
                 <li>
                   <Link href="/practical">

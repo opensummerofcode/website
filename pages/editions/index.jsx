@@ -37,7 +37,7 @@ const EditionOverview = ({ editions }) => {
 };
 
 export async function getStaticProps() {
-  const editions = [2019, 2020, 2021, 2022];
+  const editions = [2019, 2020, 2021, 2022, 2024];
   const data = await Promise.all(
     editions.map(async (year) => {
       const [partners, participants, projects] = await Promise.all([

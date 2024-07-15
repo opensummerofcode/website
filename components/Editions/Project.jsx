@@ -1,12 +1,13 @@
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import slugify from 'slugify';
 import { ButtonLink } from '../UI/Buttons';
 
-const BREAKOUT_UNSTARTED = 1;
-const BREAKOUT_IN_PROGRESS = 2;
-const BREAKOUT_ENDED = 3;
+// const BREAKOUT_UNSTARTED = 1;
+// const BREAKOUT_IN_PROGRESS = 2;
+// const BREAKOUT_ENDED = 3;
 
 const Project = ({ edition, project }) => {
   // isDemoDay
@@ -14,12 +15,12 @@ const Project = ({ edition, project }) => {
 
   const slug = slugify(name, { lower: true });
 
-  const determineBreakoutState = () => {
-    // if (!isDemoDay) return null;
-    return null;
-  };
+  // const determineBreakoutState = () => {
+  //   // if (!isDemoDay) return null;
+  //   return null;
+  // };
 
-  const [breakoutStatus, setBreakoutStatus] = useState(determineBreakoutState());
+  // const [breakoutStatus, setBreakoutStatus] = useState(determineBreakoutState());
 
   useEffect(() => {
     const interval = () => {};

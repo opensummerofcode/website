@@ -80,7 +80,14 @@
     "nr": 12,
     "url": "/editions/2022",
     "img": "/img/previous-editions/logo-osoc-black-2022.svg",
-    "active": true,
     "demoDayDate": "July 28, 2022 13:00"
+  },
+  {
+    "year": 2024,
+    "nr": 13,
+    "url": "/editions/2024",
+    "img": "/img/previous-editions/logo-osoc-black-2024.svg",
+    "active": true,
+    "demoDayDate": "July 25, 2024 13:00"
   }
 ]

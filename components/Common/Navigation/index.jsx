@@ -3,8 +3,8 @@ import Link from 'next/link';
 import TextLogo from './Logo/TextLogo';
 import ImgLogo from './Logo/ImgLogo';
 import Tab from '../../UI/Tab';
-// import DemoDayLink from '../../UI/DemoDayLink';
-import ApplyLink from '../ApplyLink';
+import DemoDayLink from '../../UI/DemoDayLink';
+// import ApplyLink from '../ApplyLink';
 
 const Navigation = () => {
   const [mobileNavIsVisible, setMobileNavVisibility] = useState(false);
@@ -108,13 +108,12 @@ const Navigation = () => {
                 </li> */}
 
                 <li>
-                  <Link
-                    href="https://www.eventbrite.com/e/demoday-osoc-2024-tickets-933379492187"
-                    className="button"
-                  >
-                    Register now for Demo Day
-                    <span className="button__info">On July 25th 2024</span>
-                  </Link>
+                  <DemoDayLink className="button">
+                    <>
+                      Register now for Demo Day
+                      <span className="button__info">On July 25th 2024</span>
+                    </>
+                  </DemoDayLink>
                 </li>
 
                 {/* <li>

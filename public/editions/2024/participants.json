@@ -1,27 +1,28 @@
 [
   {
     "name": "Jodi Deloof",
-    "socials": {},
-    "coach": true
+    "socials": {}
   },
   {
     "name": "Christophe Leroy",
-    "socials": {},
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/kyngstudio/"
+    },
     "coach": true
   },
   {
     "name": "Inti Valderas Caro",
-    "socials": {},
-    "coach": true
+    "socials": {}
   },
   {
     "name": "Laura Geeroms",
-    "socials": {},
-    "coach": true
+    "socials": {}
   },
   {
     "name": "Walter Vandervelde",
-    "socials": {},
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/wvandervelde/"
+    },
     "coach": true
   },
   {
