@@ -1963,7 +1963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/plugin-nextjs@npm:^4.29.2":
+"@netlify/plugin-nextjs@npm:4.41.3":
   version: 4.41.3
   resolution: "@netlify/plugin-nextjs@npm:4.41.3"
   dependencies:
@@ -7410,7 +7410,7 @@ __metadata:
   resolution: "osoc-webapp@workspace:."
   dependencies:
     "@fortawesome/fontawesome-free": ^6.5.2
-    "@netlify/plugin-nextjs": ^4.29.2
+    "@netlify/plugin-nextjs": 4.41.3
     babel-eslint: ^10.1.0
     cross-env: ^7.0.3
     enzyme: ^3.9.0
