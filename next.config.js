@@ -5,5 +5,4 @@ module.exports = withImages({
     ENV: process.env.NODE_ENV,
     HOST_URL: process.env.HOST_URL || `http://localhost:${process.env.PORT}`,
   },
-  target: 'serverless',
 });

@@ -14,9 +14,11 @@ const HomeContainer = () => {
   // const [infoNoticeShown, setInfoNoticeShown] = useState(true);
 
   const partners = showPreviousPartners
-    ? useSWR(() => `/editions/${previousEdition.year}/partners.json`, fetch).data
-    : useSWR(() => `/editions/${activeEdition.year}/partners.json`, fetch).data;
-
+  ? useSWR(() => `/editions/${previousEdition.year}/partners.json`, fetch).data
+  : useSWR(() => `/editions/${activeEdition.year}/partners.json`, fetch).data;
+  
+  console.log({showPreviousPartners, partners})
+  
   return (
     <>
       <HomeHeader />

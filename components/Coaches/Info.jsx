@@ -132,7 +132,7 @@ const Info = () => {
                   <p className="c-package__price">
                     Discover our <br />
                     <Link href="/partners">
-                      <a>partner deals</a>
+                      partner deals
                     </Link>{' '}
                   </p>
                 </td>
@@ -182,7 +182,7 @@ const Info = () => {
                 <span className="c-package__price">
                   Discover our{' '}
                   <Link href="/partners">
-                    <a>partner deals</a>
+                    partner deals
                   </Link>{' '}
                   .
                 </span>
@@ -206,13 +206,13 @@ const Info = () => {
           <p>
             Want to discover more about what the coaching job entails? Visit our{' '}
             <Link href="https://help.osoc.be/global/coaches/the-coaching-job/soft-skills-and-expectations">
-              <a>wiki</a>
+              wiki
             </Link>{' '}
             .
           </p>
           <p>
             <Link href="/practical">
-              <a>Visit our FAQ</a>
+              Visit our FAQ
             </Link>{' '}
             to learn more, or send us{' '}
             <a href="mailto:info@osoc.be?subject=Regarding osoc Coaching" title="Coach at osoc">

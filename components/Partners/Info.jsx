@@ -195,7 +195,7 @@ const Info = () => {
                     Not ready to partner up with a team? Check out our other{' '}
                     <Link href="#support-partners">
                       <strong>
-                        <a>partner deals</a>
+                        partner deals
                       </strong>
                     </Link>{' '}
                     .
@@ -279,7 +279,7 @@ const Info = () => {
                 Not ready to partner up with a team? Check out our other{' '}
                 <Link href="#support-partners">
                   <strong>
-                    <a>partner deals</a>
+                    partner deals
                   </strong>
                 </Link>{' '}
                 .
@@ -384,7 +384,7 @@ const Info = () => {
                   <p className="u-text-align-center">
                     <Link href="#benefits">
                       <strong>
-                        <a>Discover all benefits &darr;</a>
+                        Discover all benefits &darr;
                       </strong>
                     </Link>{' '}
                     <br />
@@ -653,7 +653,7 @@ const Info = () => {
         <div className="medium-8 large-5 large-offset-1 cell">
           <p>
             <Link href="/practical">
-              <a>Visit our FAQ</a>
+              Visit our FAQ
             </Link>{' '}
             if you have any questions, or send us{' '}
             <a
