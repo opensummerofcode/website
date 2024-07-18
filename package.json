@@ -24,7 +24,7 @@
     "sass": "^1.77.8",
     "slugify": "^1.6.6",
     "swr": "^2.2.5",
-    "unfetch": "^5.0.0"
+    "unfetch": "latest"
   },
   "scripts": {
     "dev": "next dev",
