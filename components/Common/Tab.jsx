@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Tab = ({ activeTab, label, onClick, style = {}, className = ''}) => {
+const Tab = ({ activeTab, label, onClick, style = {}, className = '' }) => {
   function handleClick() {
     onClick(label);
   }

@@ -5,7 +5,7 @@ const Tab = ({ href, className = '', children, ...rest }) => {
   const classNames = ['button link lowercase u-margin--right', className].join(' ');
   return (
     <Link href={href} {...rest} className={classNames}>
-        {children}
+      {children}
     </Link>
   );
 };

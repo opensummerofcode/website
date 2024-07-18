@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Img from '../../../UI/Img';
 
-const ImgLogo = ({ handleLoad = null}) => {
+const ImgLogo = ({ handleLoad = null }) => {
   return (
     <Img
       onLoad={handleLoad}

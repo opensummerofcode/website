@@ -58,7 +58,7 @@ const Navigation = () => {
           >
             <div className="top-bar-left show-for-large">
               <Link href="/" className="logo" data-hide-for="medium">
-                  <ImgLogo />
+                <ImgLogo />
               </Link>
             </div>
             <div className="top-bar-right">

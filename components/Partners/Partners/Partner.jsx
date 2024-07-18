@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import ExternalLink from '../../UI/ExternalLink';
 
-const Partner = ({ partner, className = ''}) => {
+const Partner = ({ partner, className = '' }) => {
   const { logo, name, url } = partner;
   const classNames = ['small-3 medium-2 cell', className].join(' ');
   return (

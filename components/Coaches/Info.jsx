@@ -131,9 +131,7 @@ const Info = () => {
                 <td>
                   <p className="c-package__price">
                     Discover our <br />
-                    <Link href="/partners">
-                      partner deals
-                    </Link>{' '}
+                    <Link href="/partners">partner deals</Link>{' '}
                   </p>
                 </td>
               </tr>
@@ -180,11 +178,7 @@ const Info = () => {
                 Partner coach
                 <br />
                 <span className="c-package__price">
-                  Discover our{' '}
-                  <Link href="/partners">
-                    partner deals
-                  </Link>{' '}
-                  .
+                  Discover our <Link href="/partners">partner deals</Link> .
                 </span>
               </h2>
               <p className="c-package__info">
@@ -211,10 +205,7 @@ const Info = () => {
             .
           </p>
           <p>
-            <Link href="/practical">
-              Visit our FAQ
-            </Link>{' '}
-            to learn more, or send us{' '}
+            <Link href="/practical">Visit our FAQ</Link> to learn more, or send us{' '}
             <a href="mailto:info@osoc.be?subject=Regarding osoc Coaching" title="Coach at osoc">
               a message
             </a>
