@@ -36,7 +36,7 @@ const Navigation = () => {
         <b>
           <u>not be able to host the event in 2025</u>
         </b>{' '}
-        due to a lack of organizational power. We are working hard to make the 2024 edition possible
+        due to a lack of organizational power. We are working hard to make the 2026 edition possible
         and a success. 💪
       </div>
       <nav>
