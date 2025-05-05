@@ -1,6 +1,6 @@
 # Open Summer of Code
 
-Next generation web app of #osoc. Built with:
+Next generation website of #osoc. Built with:
 
 - [Next.js](https://nextjs.org/) with static-site generation.
 - [Foundation for sites (SCSS)](https://get.foundation/sites/docs/index.html)
